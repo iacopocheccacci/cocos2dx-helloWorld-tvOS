@@ -66,7 +66,7 @@
 			<key>nodeType</key>
 			<string>LHNode</string>
 			<key>parentUUID</key>
-			<string>E61B1A01-0841-4151-8A92-B85F6B19E8A3</string>
+			<string>1CF593BF-8FEE-4CF2-B6C0-2CE2453FD61D</string>
 			<key>rotation</key>
 			<real>0.0</real>
 			<key>scale</key>
@@ -100,7 +100,7 @@
 			<key>nodeType</key>
 			<string>LHSprite</string>
 			<key>parentUUID</key>
-			<string>E61B1A01-0841-4151-8A92-B85F6B19E8A3</string>
+			<string>1CF593BF-8FEE-4CF2-B6C0-2CE2453FD61D</string>
 			<key>relativeImagePath</key>
 			<string>publishedResources/</string>
 			<key>rotation</key>
@@ -138,7 +138,7 @@
 			<key>nodeType</key>
 			<string>LHSprite</string>
 			<key>parentUUID</key>
-			<string>E61B1A01-0841-4151-8A92-B85F6B19E8A3</string>
+			<string>1CF593BF-8FEE-4CF2-B6C0-2CE2453FD61D</string>
 			<key>relativeImagePath</key>
 			<string>publishedResources/</string>
 			<key>rotation</key>
@@ -175,15 +175,15 @@
 					<key>colorOverlay</key>
 					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 					<key>generalPosition</key>
-					<string>{-0.037500, 0.000000}</string>
+					<string>{-0.026042, 0.000000}</string>
 					<key>imageFileName</key>
 					<string>Objects_spritesheet.png</string>
 					<key>name</key>
-					<string>ScoreSprite</string>
+					<string>SheepIconDisabledSprite</string>
 					<key>nodeType</key>
 					<string>LHSprite</string>
 					<key>parentUUID</key>
-					<string>B99AE27D-070B-49CA-9129-CA71880F2661</string>
+					<string>91A8D4A2-BB73-4901-95B0-3FC7703A34EF</string>
 					<key>relativeImagePath</key>
 					<string>publishedResources/</string>
 					<key>rotation</key>
@@ -191,17 +191,17 @@
 					<key>scale</key>
 					<string>{1.000000, 1.000000}</string>
 					<key>size</key>
-					<string>{44.000000, 36.000000}</string>
+					<string>{65.000000, 65.000000}</string>
 					<key>spriteName</key>
-					<string>sheepActive</string>
+					<string>sheepIcon_disabled</string>
 					<key>spriteUUID</key>
-					<string>E0CF02CA-44B4-4CFB-A88E-B6B4B81A5531</string>
+					<string>6132382A-BDF0-4C84-AA8E-DF55086AABFE</string>
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
 					</array>
 					<key>uuid</key>
-					<string>44F0040D-0E50-410C-AC44-3746FE461074</string>
+					<string>CC6C3820-7BFB-4EC9-A9BB-593816983C17</string>
 					<key>zOrder</key>
 					<integer>0</integer>
 				</dict>
@@ -213,39 +213,199 @@
 					<key>colorOverlay</key>
 					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 					<key>generalPosition</key>
-					<string>{0.020833, 0.000000}</string>
+					<string>{-0.026042, 0.000000}</string>
+					<key>imageFileName</key>
+					<string>Objects_spritesheet.png</string>
 					<key>name</key>
-					<string>ScoreLabelNode</string>
+					<string>SheepIconActiveSprite</string>
 					<key>nodeType</key>
-					<string>LHNode</string>
+					<string>LHSprite</string>
 					<key>parentUUID</key>
-					<string>B99AE27D-070B-49CA-9129-CA71880F2661</string>
+					<string>91A8D4A2-BB73-4901-95B0-3FC7703A34EF</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
 					<key>rotation</key>
 					<real>0.0</real>
 					<key>scale</key>
 					<string>{1.000000, 1.000000}</string>
 					<key>size</key>
-					<string>{20.000000, 20.000000}</string>
+					<string>{65.000000, 65.000000}</string>
+					<key>spriteName</key>
+					<string>sheepIcon_active</string>
+					<key>spriteUUID</key>
+					<string>5940F199-DD1A-42E5-B02C-8C0E9417804D</string>
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
 					</array>
 					<key>uuid</key>
-					<string>6F3BBF8A-CDDB-4FE2-9F39-B0D7DDDB4576</string>
+					<string>A1118C13-31F3-4840-911F-EFCD827CD601</string>
 					<key>zOrder</key>
-					<integer>0</integer>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.026042, 0.000000}</string>
+					<key>imageFileName</key>
+					<string>Objects_spritesheet.png</string>
+					<key>name</key>
+					<string>SheepIconCompleteSprite</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>91A8D4A2-BB73-4901-95B0-3FC7703A34EF</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{65.000000, 65.000000}</string>
+					<key>spriteName</key>
+					<string>sheepIcon_complete</string>
+					<key>spriteUUID</key>
+					<string>F4B348FA-9894-4A08-B1DB-0C15CC727701</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>2EBF6D99-D613-4393-A992-6B15A7ED2485</string>
+					<key>zOrder</key>
+					<integer>2</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.026042, 0.000000}</string>
+					<key>imageFileName</key>
+					<string>Objects_spritesheet.png</string>
+					<key>name</key>
+					<string>FluteIconDisabledSprite</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>91A8D4A2-BB73-4901-95B0-3FC7703A34EF</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{65.000000, 65.000000}</string>
+					<key>spriteName</key>
+					<string>fluteIcon_disabled</string>
+					<key>spriteUUID</key>
+					<string>72DA5F66-EACE-4A5D-BE86-3C443C209252</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>4DDD8D67-6DBB-45A6-953F-A991059E7F08</string>
+					<key>zOrder</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.026042, 0.000000}</string>
+					<key>imageFileName</key>
+					<string>Objects_spritesheet.png</string>
+					<key>name</key>
+					<string>FluteIconActiveSprite</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>91A8D4A2-BB73-4901-95B0-3FC7703A34EF</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{65.000000, 65.000000}</string>
+					<key>spriteName</key>
+					<string>fluteIcon_active</string>
+					<key>spriteUUID</key>
+					<string>3815D77E-F516-45D7-93B8-210786D1968D</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>BD98B5F0-F796-40A4-9751-7A08CF61872C</string>
+					<key>zOrder</key>
+					<integer>4</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.026042, 0.000000}</string>
+					<key>imageFileName</key>
+					<string>Objects_spritesheet.png</string>
+					<key>name</key>
+					<string>FluteIconCompleteSprite</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>91A8D4A2-BB73-4901-95B0-3FC7703A34EF</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{65.000000, 65.000000}</string>
+					<key>spriteName</key>
+					<string>fluteIcon_complete</string>
+					<key>spriteUUID</key>
+					<string>C8E7D3AA-1D2B-411E-97C4-5BAC8BE68828</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>9676FF6D-E967-480E-A391-DB82AE8970B3</string>
+					<key>zOrder</key>
+					<integer>5</integer>
 				</dict>
 			</array>
 			<key>colorOverlay</key>
 			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 			<key>generalPosition</key>
-			<string>{0.004167, -0.662500}</string>
+			<string>{0.000000, -0.662500}</string>
 			<key>name</key>
-			<string>SheepCounter</string>
+			<string>ScoreNode</string>
 			<key>nodeType</key>
 			<string>LHNode</string>
 			<key>parentUUID</key>
-			<string>E61B1A01-0841-4151-8A92-B85F6B19E8A3</string>
+			<string>1CF593BF-8FEE-4CF2-B6C0-2CE2453FD61D</string>
 			<key>rotation</key>
 			<real>0.0</real>
 			<key>scale</key>
@@ -257,7 +417,7 @@
 				<string>DEFAULT</string>
 			</array>
 			<key>uuid</key>
-			<string>B99AE27D-070B-49CA-9129-CA71880F2661</string>
+			<string>91A8D4A2-BB73-4901-95B0-3FC7703A34EF</string>
 			<key>zOrder</key>
 			<integer>8</integer>
 		</dict>
@@ -283,7 +443,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>E61B1A01-0841-4151-8A92-B85F6B19E8A3</string>
+	<string>1CF593BF-8FEE-4CF2-B6C0-2CE2453FD61D</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>

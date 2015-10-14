@@ -226,6 +226,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>0BD90DAF-B842-4027-8816-22FB406FB4B5</string>
@@ -260,6 +261,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>E1D2948C-5C64-498E-875A-6F5A958E759F</string>

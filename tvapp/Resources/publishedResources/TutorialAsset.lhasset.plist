@@ -316,7 +316,7 @@
 					<key>spriteName</key>
 					<string>tutorial2_0037.png</string>
 					<key>spriteUUID</key>
-					<string>85CD63F3-76CD-4DA1-8330-107C8A496AB9</string>
+					<string>BE49FB18-DDCF-483F-8724-A88BADE7E067</string>
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
@@ -336,7 +336,7 @@
 			<key>nodeType</key>
 			<string>LHNode</string>
 			<key>parentUUID</key>
-			<string>15ADD2AA-6522-4980-B7B2-5952632F9BDC</string>
+			<string>40A5D077-E191-4F28-8FC5-04C44AB720A2</string>
 			<key>rotation</key>
 			<real>0.0</real>
 			<key>scale</key>
@@ -377,7 +377,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>15ADD2AA-6522-4980-B7B2-5952632F9BDC</string>
+	<string>40A5D077-E191-4F28-8FC5-04C44AB720A2</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>

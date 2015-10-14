@@ -256,6 +256,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>DD714181-097A-4B39-BE83-3A435678756E</string>
@@ -290,6 +291,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>DA3E49DE-899B-43B5-9E37-55E17E890641</string>
@@ -324,6 +326,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>D7D824B1-1891-4C66-B426-2A7C6AAB3FAD</string>
@@ -358,6 +361,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>5558AE77-6042-4B16-89BF-6CF973710DAD</string>
@@ -392,6 +396,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>263172BF-1F86-4FE7-A977-434C087C5DEB</string>

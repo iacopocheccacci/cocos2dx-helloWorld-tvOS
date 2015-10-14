@@ -149,7 +149,7 @@
 			<key>nodeType</key>
 			<string>LHTexturedShape</string>
 			<key>parentUUID</key>
-			<string>457B52D2-F00C-499E-BECF-472C36019085</string>
+			<string>DDE413F5-53B8-46DF-80D2-D3756B8F9E34</string>
 			<key>points</key>
 			<array>
 				<dict>
@@ -463,7 +463,7 @@
 			<key>nodeType</key>
 			<string>LHTexturedShape</string>
 			<key>parentUUID</key>
-			<string>457B52D2-F00C-499E-BECF-472C36019085</string>
+			<string>DDE413F5-53B8-46DF-80D2-D3756B8F9E34</string>
 			<key>points</key>
 			<array>
 				<dict>
@@ -777,7 +777,7 @@
 			<key>nodeType</key>
 			<string>LHTexturedShape</string>
 			<key>parentUUID</key>
-			<string>457B52D2-F00C-499E-BECF-472C36019085</string>
+			<string>DDE413F5-53B8-46DF-80D2-D3756B8F9E34</string>
 			<key>points</key>
 			<array>
 				<dict>
@@ -1091,7 +1091,7 @@
 			<key>nodeType</key>
 			<string>LHTexturedShape</string>
 			<key>parentUUID</key>
-			<string>457B52D2-F00C-499E-BECF-472C36019085</string>
+			<string>DDE413F5-53B8-46DF-80D2-D3756B8F9E34</string>
 			<key>points</key>
 			<array>
 				<dict>
@@ -1288,7 +1288,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>457B52D2-F00C-499E-BECF-472C36019085</string>
+	<string>DDE413F5-53B8-46DF-80D2-D3756B8F9E34</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>

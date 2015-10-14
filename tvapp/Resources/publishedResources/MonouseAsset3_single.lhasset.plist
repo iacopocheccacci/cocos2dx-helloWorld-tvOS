@@ -109,7 +109,7 @@
 			<key>nodeType</key>
 			<string>LHTexturedShape</string>
 			<key>parentUUID</key>
-			<string>B05431FF-B2B0-4F28-9940-482B7FA9174D</string>
+			<string>108B4580-9A13-4251-BC1F-DDC62541F6EC</string>
 			<key>points</key>
 			<array>
 				<dict>
@@ -306,7 +306,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>B05431FF-B2B0-4F28-9940-482B7FA9174D</string>
+	<string>108B4580-9A13-4251-BC1F-DDC62541F6EC</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>

@@ -24,7 +24,7 @@
 			<key>nodeType</key>
 			<string>LHNode</string>
 			<key>parentUUID</key>
-			<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+			<string>8544ECF3-01C8-4378-B57F-BBD7EA826D87</string>
 			<key>rotation</key>
 			<real>0.0</real>
 			<key>scale</key>
@@ -118,107 +118,6 @@
 					<key>zOrder</key>
 					<integer>0</integer>
 				</dict>
-				<dict>
-					<key>alpha</key>
-					<real>255</real>
-					<key>anchor</key>
-					<string>{0.500000, 0.500000}</string>
-					<key>children</key>
-					<array>
-						<dict>
-							<key>alpha</key>
-							<real>255</real>
-							<key>anchor</key>
-							<string>{0.500000, 0.500000}</string>
-							<key>colorOverlay</key>
-							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-							<key>generalPosition</key>
-							<string>{-0.037500, 0.000000}</string>
-							<key>imageFileName</key>
-							<string>Objects_spritesheet.png</string>
-							<key>name</key>
-							<string>ScoreSprite</string>
-							<key>nodeType</key>
-							<string>LHSprite</string>
-							<key>parentUUID</key>
-							<string>AD2AFDD5-81DF-4CCB-A4E9-9D6D1195A5BC</string>
-							<key>relativeImagePath</key>
-							<string>publishedResources/</string>
-							<key>rotation</key>
-							<real>0.0</real>
-							<key>scale</key>
-							<string>{1.000000, 1.000000}</string>
-							<key>size</key>
-							<string>{44.000000, 36.000000}</string>
-							<key>spriteName</key>
-							<string>sheepActive</string>
-							<key>spriteUUID</key>
-							<string>E0CF02CA-44B4-4CFB-A88E-B6B4B81A5531</string>
-							<key>tags</key>
-							<array>
-								<string>DEFAULT</string>
-							</array>
-							<key>uuid</key>
-							<string>F04F7DDB-E48E-4EB0-B0C1-CB923D6E3BFB</string>
-							<key>zOrder</key>
-							<integer>0</integer>
-						</dict>
-						<dict>
-							<key>alpha</key>
-							<real>255</real>
-							<key>anchor</key>
-							<string>{0.500000, 0.500000}</string>
-							<key>colorOverlay</key>
-							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-							<key>generalPosition</key>
-							<string>{0.020833, 0.000000}</string>
-							<key>name</key>
-							<string>ScoreLabelNode</string>
-							<key>nodeType</key>
-							<string>LHNode</string>
-							<key>parentUUID</key>
-							<string>AD2AFDD5-81DF-4CCB-A4E9-9D6D1195A5BC</string>
-							<key>rotation</key>
-							<real>0.0</real>
-							<key>scale</key>
-							<string>{1.000000, 1.000000}</string>
-							<key>size</key>
-							<string>{20.000000, 20.000000}</string>
-							<key>tags</key>
-							<array>
-								<string>DEFAULT</string>
-							</array>
-							<key>uuid</key>
-							<string>E6106613-15F0-4FF9-86A9-6564F173D978</string>
-							<key>zOrder</key>
-							<integer>0</integer>
-						</dict>
-					</array>
-					<key>colorOverlay</key>
-					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-					<key>generalPosition</key>
-					<string>{0.000000, 0.000000}</string>
-					<key>name</key>
-					<string>SheepCounter</string>
-					<key>nodeType</key>
-					<string>LHNode</string>
-					<key>parentUUID</key>
-					<string>73AE856C-9007-4F34-BA6D-51DFBE50601A</string>
-					<key>rotation</key>
-					<real>0.0</real>
-					<key>scale</key>
-					<string>{1.000000, 1.000000}</string>
-					<key>size</key>
-					<string>{30.000000, 30.000000}</string>
-					<key>tags</key>
-					<array>
-						<string>DEFAULT</string>
-					</array>
-					<key>uuid</key>
-					<string>AD2AFDD5-81DF-4CCB-A4E9-9D6D1195A5BC</string>
-					<key>zOrder</key>
-					<integer>4</integer>
-				</dict>
 			</array>
 			<key>colorOverlay</key>
 			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
@@ -229,7 +128,7 @@
 			<key>nodeType</key>
 			<string>LHNode</string>
 			<key>parentUUID</key>
-			<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+			<string>8544ECF3-01C8-4378-B57F-BBD7EA826D87</string>
 			<key>rotation</key>
 			<real>0.0</real>
 			<key>scale</key>
@@ -263,7 +162,7 @@
 			<key>nodeType</key>
 			<string>LHSprite</string>
 			<key>parentUUID</key>
-			<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+			<string>8544ECF3-01C8-4378-B57F-BBD7EA826D87</string>
 			<key>relativeImagePath</key>
 			<string>publishedResources/</string>
 			<key>rotation</key>
@@ -301,7 +200,7 @@
 			<key>nodeType</key>
 			<string>LHSprite</string>
 			<key>parentUUID</key>
-			<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+			<string>8544ECF3-01C8-4378-B57F-BBD7EA826D87</string>
 			<key>relativeImagePath</key>
 			<string>publishedResources/</string>
 			<key>rotation</key>
@@ -345,7 +244,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+	<string>8544ECF3-01C8-4378-B57F-BBD7EA826D87</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>

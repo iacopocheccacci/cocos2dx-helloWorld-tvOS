@@ -41,7 +41,7 @@
 					<key>scale</key>
 					<string>{3.084021, 1.028055}</string>
 					<key>size</key>
-					<string>{377.000000, 390.000000}</string>
+					<string>{389.000000, 390.000000}</string>
 					<key>spriteName</key>
 					<string>mondo3_muro_003_ombra.png</string>
 					<key>tags</key>
@@ -143,7 +143,7 @@
 			<key>nodeType</key>
 			<string>LHTexturedShape</string>
 			<key>parentUUID</key>
-			<string>983C64D4-D299-4463-9E7A-AF55B72E3B99</string>
+			<string>4DE0AD41-AC57-4603-A118-538F81D75BAC</string>
 			<key>points</key>
 			<array>
 				<dict>
@@ -408,7 +408,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>983C64D4-D299-4463-9E7A-AF55B72E3B99</string>
+	<string>4DE0AD41-AC57-4603-A118-538F81D75BAC</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>

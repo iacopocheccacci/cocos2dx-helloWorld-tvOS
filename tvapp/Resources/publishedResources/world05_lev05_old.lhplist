@@ -150,7 +150,7 @@
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{-1.765024, 2.755569}</string>
+							<string>{-1.765622, 2.755740}</string>
 							<key>name</key>
 							<string>CameraLowerScreen</string>
 							<key>nodeType</key>
@@ -226,7 +226,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>77D7A99A-4B7F-499B-85E8-90A93085757B</string>
@@ -261,7 +260,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>823C6557-3F05-4229-B898-0747764110C0</string>
@@ -296,7 +294,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>2DAC81A2-D8B8-4BA8-ABF2-DE2EDF8D7F61</string>
@@ -331,7 +328,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>B3251512-2716-414A-93FB-BF0C1AB0F16F</string>
@@ -366,7 +362,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>0B9DB68D-0330-491D-BE40-C7E5C1545971</string>
@@ -401,7 +396,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>D9874EDB-2F4A-4546-8C58-C06D994FE60F</string>
@@ -436,7 +430,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>26A3CCAA-C730-4640-A4EB-3E0955EF4AE3</string>
@@ -471,7 +464,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>D0F75C22-3D50-4C1B-BB85-17320879FC40</string>
@@ -506,7 +498,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>84939BCD-B468-41C4-BDF0-9D0B962B7AE3</string>
@@ -575,7 +566,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>7055DFBB-AD9A-499D-A2B7-001EBD86DAA6</string>
@@ -746,7 +736,6 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
-						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>862F1AEE-46E4-4593-9889-CC2EA79523A1</string>
@@ -5633,7 +5622,7 @@
 					<key>colorOverlay</key>
 					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 					<key>generalPosition</key>
-					<string>{0.997917, 1.400000}</string>
+					<string>{1.028125, 1.100000}</string>
 					<key>name</key>
 					<string>gearAsset</string>
 					<key>nodeType</key>
@@ -5963,15 +5952,15 @@
 							<key>alpha</key>
 							<real>255</real>
 							<key>anchor</key>
-							<string>{0.000000, 0.000000}</string>
+							<string>{0.500000, 0.000000}</string>
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{1.070923, 0.892005}</string>
+							<string>{1.992188, 0.792404}</string>
 							<key>imageFileName</key>
 							<string>w5_rocceDavanti.png</string>
 							<key>name</key>
-							<string>mondo5_roccescure_23.png2</string>
+							<string>mondo5_roccescure_06.png</string>
 							<key>nodeType</key>
 							<string>LHSprite</string>
 							<key>parentUUID</key>
@@ -5981,21 +5970,21 @@
 							<key>rotation</key>
 							<real>0.0</real>
 							<key>scale</key>
-							<string>{-1.000027, 1.110138}</string>
+							<string>{1.660622, 1.492228}</string>
 							<key>size</key>
-							<string>{64.000000, 64.000000}</string>
+							<string>{193.000000, 193.000000}</string>
 							<key>spriteName</key>
-							<string>mondo5_roccescure_23.png</string>
+							<string>mondo5_roccescure_06.png</string>
 							<key>spriteUUID</key>
-							<string>85284A34-D617-472E-8208-38E338CA045C</string>
+							<string>6C6AE8A9-83FF-4901-940F-E18F5A22374E</string>
 							<key>tags</key>
 							<array>
 								<string>DEFAULT</string>
 							</array>
 							<key>uuid</key>
-							<string>CE76302E-7494-471B-9B0E-FD7BD18D66A1</string>
+							<string>20E191F5-EA12-42CE-9933-C0A07DA6F64D</string>
 							<key>zOrder</key>
-							<integer>-2</integer>
+							<integer>-1</integer>
 						</dict>
 						<dict>
 							<key>alpha</key>
@@ -6043,82 +6032,6 @@
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{1.992188, 0.792404}</string>
-							<key>imageFileName</key>
-							<string>w5_rocceDavanti.png</string>
-							<key>name</key>
-							<string>mondo5_roccescure_06.png</string>
-							<key>nodeType</key>
-							<string>LHSprite</string>
-							<key>parentUUID</key>
-							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
-							<key>relativeImagePath</key>
-							<string>publishedResources/</string>
-							<key>rotation</key>
-							<real>0.0</real>
-							<key>scale</key>
-							<string>{1.660622, 1.733026}</string>
-							<key>size</key>
-							<string>{193.000000, 193.000000}</string>
-							<key>spriteName</key>
-							<string>mondo5_roccescure_06.png</string>
-							<key>spriteUUID</key>
-							<string>6C6AE8A9-83FF-4901-940F-E18F5A22374E</string>
-							<key>tags</key>
-							<array>
-								<string>DEFAULT</string>
-							</array>
-							<key>uuid</key>
-							<string>20E191F5-EA12-42CE-9933-C0A07DA6F64D</string>
-							<key>zOrder</key>
-							<integer>-1</integer>
-						</dict>
-						<dict>
-							<key>alpha</key>
-							<real>255</real>
-							<key>anchor</key>
-							<string>{0.500000, 0.500000}</string>
-							<key>colorOverlay</key>
-							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-							<key>generalPosition</key>
-							<string>{1.035959, 1.096509}</string>
-							<key>imageFileName</key>
-							<string>w5_rocceDavanti.png</string>
-							<key>name</key>
-							<string>mondo5_roccescure_11.png1</string>
-							<key>nodeType</key>
-							<string>LHSprite</string>
-							<key>parentUUID</key>
-							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
-							<key>relativeImagePath</key>
-							<string>publishedResources/</string>
-							<key>rotation</key>
-							<real>0.0</real>
-							<key>scale</key>
-							<string>{1.000000, 1.000000}</string>
-							<key>size</key>
-							<string>{64.000000, 128.000000}</string>
-							<key>spriteName</key>
-							<string>mondo5_roccescure_11.png</string>
-							<key>spriteUUID</key>
-							<string>3FD884E0-919E-44C4-B4F0-C86F32237E7A</string>
-							<key>tags</key>
-							<array>
-								<string>DEFAULT</string>
-							</array>
-							<key>uuid</key>
-							<string>A919AB1C-09D2-4564-A65C-DD297FC5827D</string>
-							<key>zOrder</key>
-							<integer>-1</integer>
-						</dict>
-						<dict>
-							<key>alpha</key>
-							<real>255</real>
-							<key>anchor</key>
-							<string>{0.500000, 0.000000}</string>
-							<key>colorOverlay</key>
-							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-							<key>generalPosition</key>
 							<string>{1.509115, 0.792404}</string>
 							<key>imageFileName</key>
 							<string>w5_rocceDavanti.png</string>
@@ -6146,6 +6059,44 @@
 							</array>
 							<key>uuid</key>
 							<string>64E4329B-4E89-4D4B-B3C8-48B699D284FB</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{1.000000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.709115, 0.992404}</string>
+							<key>imageFileName</key>
+							<string>w5_rocceDavanti.png</string>
+							<key>name</key>
+							<string>mondo5_roccescure_04.png1</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>270</real>
+							<key>scale</key>
+							<string>{1.101990, -1.350779}</string>
+							<key>size</key>
+							<string>{389.000000, 310.000000}</string>
+							<key>spriteName</key>
+							<string>mondo5_roccescure_04.png</string>
+							<key>spriteUUID</key>
+							<string>F26DB508-51B0-4989-87B2-451F696A6168</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>75A801AE-5D2E-4768-B076-1F893051AACC</string>
 							<key>zOrder</key>
 							<integer>0</integer>
 						</dict>
@@ -6309,7 +6260,7 @@
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{3.875257, 0.801529}</string>
+							<string>{3.409115, 0.792404}</string>
 							<key>imageFileName</key>
 							<string>w5_rocceDavanti.png</string>
 							<key>name</key>
@@ -6321,7 +6272,7 @@
 							<key>relativeImagePath</key>
 							<string>publishedResources/</string>
 							<key>rotation</key>
-							<real>0.0</real>
+							<real>270</real>
 							<key>scale</key>
 							<string>{1.172521, 1.471066}</string>
 							<key>size</key>
@@ -6343,15 +6294,15 @@
 							<key>alpha</key>
 							<real>255</real>
 							<key>anchor</key>
-							<string>{1.000000, 0.500000}</string>
+							<string>{0.500000, 0.000000}</string>
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{0.928907, 1.342404}</string>
+							<string>{3.892448, 0.967404}</string>
 							<key>imageFileName</key>
 							<string>w5_rocceDavanti.png</string>
 							<key>name</key>
-							<string>mondo5_roccescure_04.png1</string>
+							<string>mondo5_roccescure_10.png1</string>
 							<key>nodeType</key>
 							<string>LHSprite</string>
 							<key>parentUUID</key>
@@ -6359,21 +6310,21 @@
 							<key>relativeImagePath</key>
 							<string>publishedResources/</string>
 							<key>rotation</key>
-							<real>0.0</real>
+							<real>90</real>
 							<key>scale</key>
-							<string>{1.136247, -1.350779}</string>
+							<string>{1.041667, 1.062500}</string>
 							<key>size</key>
-							<string>{389.000000, 310.000000}</string>
+							<string>{192.000000, 256.000000}</string>
 							<key>spriteName</key>
-							<string>mondo5_roccescure_04.png</string>
+							<string>mondo5_roccescure_10.png</string>
 							<key>spriteUUID</key>
-							<string>F26DB508-51B0-4989-87B2-451F696A6168</string>
+							<string>31EAD006-0873-430D-BEAA-FA56D99013D7</string>
 							<key>tags</key>
 							<array>
 								<string>DEFAULT</string>
 							</array>
 							<key>uuid</key>
-							<string>75A801AE-5D2E-4768-B076-1F893051AACC</string>
+							<string>E3CD011D-38F3-495D-A9DF-1A6EF5D62C88</string>
 							<key>zOrder</key>
 							<integer>0</integer>
 						</dict>
@@ -6385,7 +6336,7 @@
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{1.042427, 1.192723}</string>
+							<string>{1.042448, 1.192404}</string>
 							<key>imageFileName</key>
 							<string>w5_rocceDavanti.png</string>
 							<key>name</key>
@@ -6423,7 +6374,7 @@
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{1.042747, 1.092590}</string>
+							<string>{1.041407, 1.092404}</string>
 							<key>imageFileName</key>
 							<string>w5_rocceDavanti.png</string>
 							<key>name</key>
@@ -6450,6 +6401,44 @@
 							</array>
 							<key>uuid</key>
 							<string>FB48E79C-22D9-48C5-B8C7-8FE3A520F80D</string>
+							<key>zOrder</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{3.325782, 1.142404}</string>
+							<key>imageFileName</key>
+							<string>w5_rocceDavanti.png</string>
+							<key>name</key>
+							<string>mondo5_roccescure_11.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>270</real>
+							<key>scale</key>
+							<string>{1.333341, 1.199317}</string>
+							<key>size</key>
+							<string>{64.000000, 128.000000}</string>
+							<key>spriteName</key>
+							<string>mondo5_roccescure_11.png</string>
+							<key>spriteUUID</key>
+							<string>3FD884E0-919E-44C4-B4F0-C86F32237E7A</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>71BBDB9A-82DE-4C71-8763-E52A2E4ADA82</string>
 							<key>zOrder</key>
 							<integer>1</integer>
 						</dict>
@@ -6495,6 +6484,82 @@
 							<key>alpha</key>
 							<real>255</real>
 							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.325782, 0.692404}</string>
+							<key>imageFileName</key>
+							<string>w5_rocceDavanti.png</string>
+							<key>name</key>
+							<string>mondo5_roccescure_14.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.222222, 1.166667}</string>
+							<key>size</key>
+							<string>{144.000000, 288.000000}</string>
+							<key>spriteName</key>
+							<string>mondo5_roccescure_14.png</string>
+							<key>spriteUUID</key>
+							<string>DFC552A8-81DC-48A8-BD85-109337776B5B</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>E1F2AE77-49B1-49B9-AAD0-DB7C239737B2</string>
+							<key>zOrder</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{1.000000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.392448, 0.992404}</string>
+							<key>imageFileName</key>
+							<string>w5_rocceDavanti.png</string>
+							<key>name</key>
+							<string>mondo5_roccescure_01.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>270</real>
+							<key>scale</key>
+							<string>{1.199054, 1.240209}</string>
+							<key>size</key>
+							<string>{190.000000, 198.000000}</string>
+							<key>spriteName</key>
+							<string>mondo5_roccescure_01.png</string>
+							<key>spriteUUID</key>
+							<string>8D5D4A3B-7845-4AFB-BB6F-E55F09742F78</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>5D38D228-8FB9-474C-A39B-61D091248455</string>
+							<key>zOrder</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
 							<string>{0.500000, 0.500000}</string>
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
@@ -6533,53 +6598,15 @@
 							<key>alpha</key>
 							<real>255</real>
 							<key>anchor</key>
-							<string>{1.000000, 0.500000}</string>
+							<string>{0.500000, 0.500000}</string>
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{0.406041, 0.992404}</string>
+							<string>{2.492448, 1.367404}</string>
 							<key>imageFileName</key>
 							<string>w5_rocceDavanti.png</string>
 							<key>name</key>
-							<string>mondo5_roccescure_01.png</string>
-							<key>nodeType</key>
-							<string>LHSprite</string>
-							<key>parentUUID</key>
-							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
-							<key>relativeImagePath</key>
-							<string>publishedResources/</string>
-							<key>rotation</key>
-							<real>270</real>
-							<key>scale</key>
-							<string>{1.199054, 1.317483}</string>
-							<key>size</key>
-							<string>{190.000000, 198.000000}</string>
-							<key>spriteName</key>
-							<string>mondo5_roccescure_01.png</string>
-							<key>spriteUUID</key>
-							<string>8D5D4A3B-7845-4AFB-BB6F-E55F09742F78</string>
-							<key>tags</key>
-							<array>
-								<string>DEFAULT</string>
-							</array>
-							<key>uuid</key>
-							<string>5D38D228-8FB9-474C-A39B-61D091248455</string>
-							<key>zOrder</key>
-							<integer>1</integer>
-						</dict>
-						<dict>
-							<key>alpha</key>
-							<real>255</real>
-							<key>anchor</key>
-							<string>{0.000000, 0.000000}</string>
-							<key>colorOverlay</key>
-							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-							<key>generalPosition</key>
-							<string>{2.298883, 0.692404}</string>
-							<key>imageFileName</key>
-							<string>w5_rocceDavanti.png</string>
-							<key>name</key>
-							<string>mondo5_roccescure_14.png</string>
+							<string>mondo5_roccescure_29.png</string>
 							<key>nodeType</key>
 							<string>LHSprite</string>
 							<key>parentUUID</key>
@@ -6589,21 +6616,21 @@
 							<key>rotation</key>
 							<real>0.0</real>
 							<key>scale</key>
-							<string>{1.554260, 1.393559}</string>
+							<string>{-1.337379, 1.342683}</string>
 							<key>size</key>
-							<string>{144.000000, 288.000000}</string>
+							<string>{206.000000, 205.000000}</string>
 							<key>spriteName</key>
-							<string>mondo5_roccescure_14.png</string>
+							<string>mondo5_roccescure_29.png</string>
 							<key>spriteUUID</key>
-							<string>DFC552A8-81DC-48A8-BD85-109337776B5B</string>
+							<string>4E36ECE6-1257-496A-BBF2-D2D545AE3819</string>
 							<key>tags</key>
 							<array>
 								<string>DEFAULT</string>
 							</array>
 							<key>uuid</key>
-							<string>E1F2AE77-49B1-49B9-AAD0-DB7C239737B2</string>
+							<string>A66AAB38-DDC3-435F-A908-783CBE192B73</string>
 							<key>zOrder</key>
-							<integer>1</integer>
+							<integer>2</integer>
 						</dict>
 						<dict>
 							<key>alpha</key>
@@ -6613,121 +6640,7 @@
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{3.307319, 1.162691}</string>
-							<key>imageFileName</key>
-							<string>w5_rocceDavanti.png</string>
-							<key>name</key>
-							<string>mondo5_roccescure_11.png</string>
-							<key>nodeType</key>
-							<string>LHSprite</string>
-							<key>parentUUID</key>
-							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
-							<key>relativeImagePath</key>
-							<string>publishedResources/</string>
-							<key>rotation</key>
-							<real>0.0</real>
-							<key>scale</key>
-							<string>{1.333341, 1.558145}</string>
-							<key>size</key>
-							<string>{64.000000, 128.000000}</string>
-							<key>spriteName</key>
-							<string>mondo5_roccescure_11.png</string>
-							<key>spriteUUID</key>
-							<string>3FD884E0-919E-44C4-B4F0-C86F32237E7A</string>
-							<key>tags</key>
-							<array>
-								<string>DEFAULT</string>
-							</array>
-							<key>uuid</key>
-							<string>71BBDB9A-82DE-4C71-8763-E52A2E4ADA82</string>
-							<key>zOrder</key>
-							<integer>1</integer>
-						</dict>
-						<dict>
-							<key>alpha</key>
-							<real>255</real>
-							<key>anchor</key>
-							<string>{0.500000, 0.000000}</string>
-							<key>colorOverlay</key>
-							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-							<key>generalPosition</key>
-							<string>{1.044881, 1.193432}</string>
-							<key>imageFileName</key>
-							<string>w5_rocceDavanti.png</string>
-							<key>name</key>
-							<string>mondo5_roccescure_26.png2</string>
-							<key>nodeType</key>
-							<string>LHSprite</string>
-							<key>parentUUID</key>
-							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
-							<key>relativeImagePath</key>
-							<string>publishedResources/</string>
-							<key>rotation</key>
-							<real>0.0</real>
-							<key>scale</key>
-							<string>{0.466687, 0.399888}</string>
-							<key>size</key>
-							<string>{131.000000, 315.000000}</string>
-							<key>spriteName</key>
-							<string>mondo5_roccescure_26.png</string>
-							<key>spriteUUID</key>
-							<string>D12884FA-3D6D-405B-A490-72B222C78524</string>
-							<key>tags</key>
-							<array>
-								<string>DEFAULT</string>
-							</array>
-							<key>uuid</key>
-							<string>B464AD83-4EBC-4D29-9574-F7E502FD4F9B</string>
-							<key>zOrder</key>
-							<integer>1</integer>
-						</dict>
-						<dict>
-							<key>alpha</key>
-							<real>255</real>
-							<key>anchor</key>
-							<string>{0.500000, 1.000000}</string>
-							<key>colorOverlay</key>
-							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-							<key>generalPosition</key>
-							<string>{1.037113, 1.437828}</string>
-							<key>imageFileName</key>
-							<string>w5_rocceDavanti.png</string>
-							<key>name</key>
-							<string>mondo5_roccescure_27.png2</string>
-							<key>nodeType</key>
-							<string>LHSprite</string>
-							<key>parentUUID</key>
-							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
-							<key>relativeImagePath</key>
-							<string>publishedResources/</string>
-							<key>rotation</key>
-							<real>0.0</real>
-							<key>scale</key>
-							<string>{0.495345, 0.496797}</string>
-							<key>size</key>
-							<string>{130.000000, 315.000000}</string>
-							<key>spriteName</key>
-							<string>mondo5_roccescure_27.png</string>
-							<key>spriteUUID</key>
-							<string>5C2430F1-EB05-4F3F-924D-198EC24B7240</string>
-							<key>tags</key>
-							<array>
-								<string>DEFAULT</string>
-							</array>
-							<key>uuid</key>
-							<string>0350FC98-1F61-498C-BEB0-BC65B6EFAEE7</string>
-							<key>zOrder</key>
-							<integer>1</integer>
-						</dict>
-						<dict>
-							<key>alpha</key>
-							<real>255</real>
-							<key>anchor</key>
-							<string>{0.500000, 0.500000}</string>
-							<key>colorOverlay</key>
-							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-							<key>generalPosition</key>
-							<string>{3.711943, 0.970361}</string>
+							<string>{3.525782, 0.942404}</string>
 							<key>imageFileName</key>
 							<string>w5_rocceDavanti.png</string>
 							<key>name</key>
@@ -6739,9 +6652,9 @@
 							<key>relativeImagePath</key>
 							<string>publishedResources/</string>
 							<key>rotation</key>
-							<real>0.0</real>
+							<real>270</real>
 							<key>scale</key>
-							<string>{1.000000, 1.000000}</string>
+							<string>{1.000000, -1.000000}</string>
 							<key>size</key>
 							<string>{123.000000, 233.000000}</string>
 							<key>spriteName</key>
@@ -6765,45 +6678,7 @@
 							<key>colorOverlay</key>
 							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 							<key>generalPosition</key>
-							<string>{2.620212, 1.300992}</string>
-							<key>imageFileName</key>
-							<string>w5_rocceDavanti.png</string>
-							<key>name</key>
-							<string>mondo5_roccescure_29.png1</string>
-							<key>nodeType</key>
-							<string>LHSprite</string>
-							<key>parentUUID</key>
-							<string>99132DA8-A321-4398-B428-1E9329B9589C</string>
-							<key>relativeImagePath</key>
-							<string>publishedResources/</string>
-							<key>rotation</key>
-							<real>0.0</real>
-							<key>scale</key>
-							<string>{-1.337379, 1.424259}</string>
-							<key>size</key>
-							<string>{206.000000, 205.000000}</string>
-							<key>spriteName</key>
-							<string>mondo5_roccescure_29.png</string>
-							<key>spriteUUID</key>
-							<string>4E36ECE6-1257-496A-BBF2-D2D545AE3819</string>
-							<key>tags</key>
-							<array>
-								<string>DEFAULT</string>
-							</array>
-							<key>uuid</key>
-							<string>B8F2C85E-B252-4E23-8532-A4C684CA0A31</string>
-							<key>zOrder</key>
-							<integer>2</integer>
-						</dict>
-						<dict>
-							<key>alpha</key>
-							<real>255</real>
-							<key>anchor</key>
-							<string>{0.500000, 0.500000}</string>
-							<key>colorOverlay</key>
-							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-							<key>generalPosition</key>
-							<string>{2.324011, 0.876545}</string>
+							<string>{3.025782, 1.172092}</string>
 							<key>imageFileName</key>
 							<string>w5_rocceDavanti.png</string>
 							<key>name</key>
@@ -6817,7 +6692,7 @@
 							<key>rotation</key>
 							<real>0.0</real>
 							<key>scale</key>
-							<string>{1.498996, 1.514388}</string>
+							<string>{1.000000, 1.000000}</string>
 							<key>size</key>
 							<string>{123.000000, 233.000000}</string>
 							<key>spriteName</key>
@@ -9143,6 +9018,40 @@
 				</dict>
 				<dict>
 					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>StartEoloAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>F75C29BF-8414-439A-B828-336CD02EC8CE</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.966667, 0.750000}</string>
+					<key>name</key>
+					<string>StartEoloAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>ABC84916-5C0C-45CB-867B-3B1A74E464F2</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
 					<real>0.0</real>
 					<key>anchor</key>
 					<string>{0.500000, 0.500000}</string>
@@ -9151,7 +9060,7 @@
 					<key>colorOverlay</key>
 					<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
 					<key>generalPosition</key>
-					<string>{1.281109, 0.381851}</string>
+					<string>{1.316667, 0.350606}</string>
 					<key>name</key>
 					<string>EoloBezier</string>
 					<key>nodeType</key>
@@ -9162,39 +9071,39 @@
 					<array>
 						<dict>
 							<key>ctrl1</key>
-							<string>{-339.436818, 325.358460}</string>
+							<string>{-373.221463, 344.644753}</string>
 							<key>ctrl2</key>
-							<string>{-334.513648, 192.592000}</string>
+							<string>{-288.000180, 143.621575}</string>
 							<key>hasCtrl1</key>
 							<true/>
 							<key>hasCtrl2</key>
 							<true/>
 							<key>mainPt</key>
-							<string>{-350.215233, 221.977013}</string>
+							<string>{-383.999878, 241.263306}</string>
 						</dict>
 						<dict>
 							<key>ctrl1</key>
-							<string>{-363.947599, -64.611618}</string>
+							<string>{-377.463568, -124.057734}</string>
 							<key>ctrl2</key>
-							<string>{-283.947599, -320.611618}</string>
+							<string>{-297.463568, -380.057734}</string>
 							<key>hasCtrl1</key>
 							<true/>
 							<key>hasCtrl2</key>
 							<true/>
 							<key>mainPt</key>
-							<string>{-338.484211, -148.932309}</string>
+							<string>{-352.000180, -208.378425}</string>
 						</dict>
 						<dict>
 							<key>ctrl1</key>
-							<string>{8.464890, -124.663997}</string>
+							<string>{207.999665, 191.612083}</string>
 							<key>ctrl2</key>
-							<string>{355.468062, -220.590855}</string>
+							<string>{389.252749, -222.371894}</string>
 							<key>hasCtrl1</key>
 							<true/>
 							<key>hasCtrl2</key>
 							<true/>
 							<key>mainPt</key>
-							<string>{350.215133, -206.597386}</string>
+							<string>{383.999820, -208.378425}</string>
 						</dict>
 					</array>
 					<key>rotation</key>
@@ -9202,13 +9111,945 @@
 					<key>scale</key>
 					<string>{1.000000, 1.000000}</string>
 					<key>size</key>
-					<string>{700.430481, 443.954041}</string>
+					<string>{767.999756, 482.526611}</string>
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
 					</array>
 					<key>uuid</key>
 					<string>2BB79F58-92CC-42C3-8397-2EC589B264EF</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>animations</key>
+					<array>
+						<dict>
+							<key>active</key>
+							<false/>
+							<key>fps</key>
+							<integer>24</integer>
+							<key>name</key>
+							<string>EoloBezier</string>
+							<key>properties</key>
+							<dict>
+								<key>Position</key>
+								<dict>
+									<key>Frames</key>
+									<array>
+										<dict>
+											<key>frameIndex</key>
+											<integer>0</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{880.000457, 465.651223}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>2</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{891.056213, 452.585948}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>2</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{900.310386, 437.902863}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>3</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{907.893461, 421.755290}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>4</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{913.935769, 404.296636}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>4</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{918.567660, 385.680306}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>5</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{921.919493, 366.059695}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>6</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{924.121677, 345.588163}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>7</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{925.304677, 324.419061}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>7</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{925.598793, 302.705801}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>8</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{925.134314, 280.601800}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>9</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{924.041721, 258.260408}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>10</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{922.451435, 235.835000}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>11</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{920.493732, 213.478957}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>11</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{918.299019, 191.345688}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>12</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{915.997705, 169.588559}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>13</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{913.720151, 148.360966}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>14</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{911.596725, 127.816286}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>14</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{909.757772, 108.107900}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>15</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{908.333757, 89.389215}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>16</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{907.455012, 71.813596}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>16</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{907.251863, 55.534408}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>17</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{907.854783, 40.705079}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>17</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{909.394088, 27.478961}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>18</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{912.000164, 16.009462}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>19</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{921.109372, -1.702861}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>19</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{934.576983, -12.416387}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>20</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{952.064371, -16.875386}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>21</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{973.232791, -15.824242}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>22</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{997.743499, -10.007337}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>23</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1025.257766, -0.169051}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>24</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1055.436917, 12.946278}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>25</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1087.942298, 28.594345}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>27</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1122.435150, 46.030744}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>28</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1158.576703, 64.511056}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>30</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1196.028310, 83.290978}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>31</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1234.451272, 101.626169}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>33</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1273.506882, 118.772244}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>34</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1312.856387, 133.984816}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>36</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1352.161108, 146.519566}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>37</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1391.082314, 155.632094}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>39</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1429.281302, 160.578055}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>40</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1466.419368, 160.613085}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>41</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1502.157761, 154.992811}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>43</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1536.157803, 142.972881}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>44</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1568.080814, 123.808915}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>46</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1597.588008, 96.756577}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>47</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1624.340729, 61.071482}</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>49</integer>
+											<key>positions</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<string>{1648.000218, 16.009349}</string>
+											</dict>
+										</dict>
+									</array>
+									<key>type</key>
+									<string>LHPositionProperty</string>
+								</dict>
+								<key>Rotation</key>
+								<dict>
+									<key>Frames</key>
+									<array>
+										<dict>
+											<key>frameIndex</key>
+											<integer>0</integer>
+											<key>rotations</key>
+											<dict/>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>2</integer>
+											<key>rotations</key>
+											<dict/>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>2</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-7.0663681030273438</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>3</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-13.131278991699219</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>4</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-18.249679565429688</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>4</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-22.527244567871094</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>5</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-26.081756591796875</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>6</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-29.023078918457031</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>7</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-31.445571899414062</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>7</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-33.425422668457031</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>8</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-35.021415710449219</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>9</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-36.277938842773438</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>10</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-37.226211547851562</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>11</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-37.884506225585938</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>11</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-38.259513854980469</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>12</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-38.345588684082031</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>13</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-38.122566223144531</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>14</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-37.552352905273438</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>14</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-36.571998596191406</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>15</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-35.083915710449219</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>16</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-32.93658447265625</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>16</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-29.893417358398438</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>17</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-25.583198547363281</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>17</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-19.420341491699219</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>18</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-5.0054779052734375</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>19</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>19.276016235351562</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>19</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>43.473701477050781</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>20</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>60.621131896972656</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>21</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>71.128883361816406</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>22</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>77.45391845703125</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>23</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>81.267295837402344</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>24</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>83.484504699707031</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>25</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>84.595314025878906</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>27</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>84.860458374023438</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>28</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>84.409622192382812</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>30</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>83.288551330566406</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>31</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>81.480659484863281</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>33</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>78.914939880371094</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>34</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>75.466484069824219</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>36</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>70.955543518066406</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>37</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>65.155921936035156</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>39</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>57.832420349121094</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>40</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>48.841148376464844</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>41</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>38.308502197265625</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>43</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>26.801212310791016</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>44</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>15.263626098632812</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>46</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>4.6368637084960938</real>
+											</dict>
+										</dict>
+										<dict>
+											<key>frameIndex</key>
+											<integer>47</integer>
+											<key>rotations</key>
+											<dict>
+												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
+												<real>-4.5202903747558594</real>
+											</dict>
+										</dict>
+									</array>
+									<key>type</key>
+									<string>LHRotationProperty</string>
+								</dict>
+							</dict>
+							<key>repetitions</key>
+							<integer>1</integer>
+							<key>totalFrames</key>
+							<integer>50</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.916667, 0.725000}</string>
+					<key>name</key>
+					<string>EoloBezierNode</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{31.165649, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>StartEoloAsset</string>
+					</array>
+					<key>uuid</key>
+					<string>76A46537-4BF8-43A8-BDF0-7E70663E7560</string>
 					<key>zOrder</key>
 					<integer>0</integer>
 				</dict>
@@ -9394,7 +10235,7 @@
 					<key>colorOverlay</key>
 					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 					<key>generalPosition</key>
-					<string>{2.116828, 0.202960}</string>
+					<string>{2.150000, 0.200000}</string>
 					<key>name</key>
 					<string>InteractiveBrazierAsset</string>
 					<key>nodeType</key>
@@ -9449,972 +10290,6 @@
 					<string>69AF1B05-0DAE-488F-8367-0A557006A1FA</string>
 					<key>zOrder</key>
 					<integer>20</integer>
-				</dict>
-				<dict>
-					<key>alpha</key>
-					<real>255</real>
-					<key>anchor</key>
-					<string>{0.500000, 0.500000}</string>
-					<key>animations</key>
-					<array>
-						<dict>
-							<key>active</key>
-							<false/>
-							<key>fps</key>
-							<integer>24</integer>
-							<key>name</key>
-							<string>EoloBezier</string>
-							<key>properties</key>
-							<dict>
-								<key>Position</key>
-								<dict>
-									<key>Frames</key>
-									<array>
-										<dict>
-											<key>frameIndex</key>
-											<integer>0</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{879.649595, 466.356384}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>1</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{881.384465, 461.525677}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>2</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{882.692541, 454.495807}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>2</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{883.617338, 445.440627}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>2</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{884.202233, 434.534077}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>3</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{884.490616, 421.950091}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>4</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{884.525885, 407.862597}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>4</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{884.351485, 392.445490}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>5</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{884.010923, 375.872644}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>6</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{883.547541, 358.318009}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>7</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{883.004660, 339.955542}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>7</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{882.425806, 320.959114}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>8</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{881.854441, 301.502628}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>9</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{881.333879, 281.760011}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>10</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{880.907565, 261.905196}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>11</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{880.618949, 242.112079}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>12</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{880.511432, 222.554587}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>13</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{880.628419, 203.406635}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>13</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{881.013297, 184.842136}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>14</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{881.709567, 167.035018}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>15</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{882.760604, 150.159183}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>16</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{884.209773, 134.388540}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>16</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{886.100583, 119.897030}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>17</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{888.476393, 106.858548}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>17</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{891.380626, 95.447032}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>18</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{899.423008, 75.855185}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>19</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{909.861395, 59.812563}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>20</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{922.614040, 47.039075}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>21</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{937.599076, 37.254535}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>21</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{954.734644, 30.178760}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>22</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{973.938895, 25.531568}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>23</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{995.130029, 23.032805}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>24</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1018.226280, 22.402360}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>25</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1043.145764, 23.360021}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>27</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1069.806580, 25.625553}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>28</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1098.126975, 28.918861}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>29</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1128.025138, 32.959803}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>30</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1159.419213, 37.468153}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>32</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1192.227349, 42.163749}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>33</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1226.367743, 46.766454}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>35</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1261.758551, 50.996078}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>37</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1298.317940, 54.572454}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>38</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1335.964078, 57.215394}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>40</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1374.615125, 58.644771}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>42</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1414.189266, 58.580397}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>43</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1454.604690, 56.742075}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>45</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1495.779512, 52.849686}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>47</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1537.631946, 46.623028}</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>49</integer>
-											<key>positions</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<string>{1580.080083, 37.781955}</string>
-											</dict>
-										</dict>
-									</array>
-									<key>type</key>
-									<string>LHPositionProperty</string>
-								</dict>
-								<key>Rotation</key>
-								<dict>
-									<key>Frames</key>
-									<array>
-										<dict>
-											<key>frameIndex</key>
-											<integer>0</integer>
-											<key>rotations</key>
-											<dict/>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>1</integer>
-											<key>rotations</key>
-											<dict/>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>2</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-4.7093582153320312</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>2</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-7.4709930419921875</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>2</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-9.2279052734375</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>3</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-10.397262573242188</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>4</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-11.188812255859375</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>4</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-11.717933654785156</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>5</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-12.052764892578125</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>6</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-12.234146118164062</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>7</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-12.286064147949219</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>7</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-12.222785949707031</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>8</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-12.051094055175781</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>9</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-11.770744323730469</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>10</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-11.376106262207031</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>11</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-10.855682373046875</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>12</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-10.190650939941406</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>13</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-9.3530197143554688</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>13</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-8.301544189453125</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>14</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-6.9768905639648438</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>15</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-5.2905197143554688</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>16</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-3.1069107055664062</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>16</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>-0.213836669921875</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>17</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>3.7379608154296875</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>17</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>11.777267456054688</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>18</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>22.509979248046875</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>19</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>34.412513732910156</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>20</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>46.316604614257812</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>21</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>57.022140502929688</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>21</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>65.855926513671875</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>22</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>72.734291076660156</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>23</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>77.895713806152344</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>24</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>81.660102844238281</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>25</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>84.316398620605469</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>27</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>86.092292785644531</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>28</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>87.156570434570312</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>29</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>87.631393432617188</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>30</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>87.604324340820312</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>32</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>87.137443542480469</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>33</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>86.274505615234375</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>35</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>85.046409606933594</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>37</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>83.475151062011719</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>38</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>81.577217102050781</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>40</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>79.366096496582031</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>42</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>76.854957580566406</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>43</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>74.058990478515625</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>45</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>70.997100830078125</real>
-											</dict>
-										</dict>
-										<dict>
-											<key>frameIndex</key>
-											<integer>47</integer>
-											<key>rotations</key>
-											<dict>
-												<key>76A46537-4BF8-43A8-BDF0-7E70663E7560</key>
-												<real>67.6939697265625</real>
-											</dict>
-										</dict>
-									</array>
-									<key>type</key>
-									<string>LHRotationProperty</string>
-								</dict>
-							</dict>
-							<key>repetitions</key>
-							<integer>1</integer>
-							<key>totalFrames</key>
-							<integer>50</integer>
-						</dict>
-					</array>
-					<key>colorOverlay</key>
-					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-					<key>generalPosition</key>
-					<string>{0.916667, 0.725000}</string>
-					<key>name</key>
-					<string>EoloBezierNode</string>
-					<key>nodeType</key>
-					<string>LHNode</string>
-					<key>parentUUID</key>
-					<string>_GAME_WORLD_NODE_UUID_</string>
-					<key>rotation</key>
-					<real>0.0</real>
-					<key>scale</key>
-					<string>{1.000000, 1.000000}</string>
-					<key>size</key>
-					<string>{31.165649, 32.000000}</string>
-					<key>tags</key>
-					<array>
-						<string>DEFAULT</string>
-						<string>StartEoloAsset</string>
-					</array>
-					<key>uuid</key>
-					<string>76A46537-4BF8-43A8-BDF0-7E70663E7560</string>
-					<key>zOrder</key>
-					<integer>22</integer>
-				</dict>
-				<dict>
-					<key>alpha</key>
-					<real>255</real>
-					<key>anchor</key>
-					<string>{0.500000, 0.500000}</string>
-					<key>assetFile</key>
-					<string>StartEoloAsset.lhasset</string>
-					<key>assetUUID</key>
-					<string>F75C29BF-8414-439A-B828-336CD02EC8CE</string>
-					<key>colorOverlay</key>
-					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
-					<key>generalPosition</key>
-					<string>{0.966667, 0.750000}</string>
-					<key>name</key>
-					<string>StartEoloAsset</string>
-					<key>nodeType</key>
-					<string>LHAsset</string>
-					<key>parentUUID</key>
-					<string>_GAME_WORLD_NODE_UUID_</string>
-					<key>rotation</key>
-					<real>0.0</real>
-					<key>scale</key>
-					<string>{1.000000, 1.000000}</string>
-					<key>size</key>
-					<string>{128.000000, 64.000000}</string>
-					<key>tags</key>
-					<array>
-						<string>DEFAULT</string>
-					</array>
-					<key>uuid</key>
-					<string>ABC84916-5C0C-45CB-867B-3B1A74E464F2</string>
-					<key>zOrder</key>
-					<integer>22</integer>
 				</dict>
 				<dict>
 					<key>alpha</key>
@@ -10632,7 +10507,7 @@
 					<key>colorOverlay</key>
 					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 					<key>generalPosition</key>
-					<string>{2.296396, -0.124498}</string>
+					<string>{2.233333, -0.050000}</string>
 					<key>name</key>
 					<string>Nota</string>
 					<key>nodeType</key>

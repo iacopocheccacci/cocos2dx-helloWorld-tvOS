@@ -9000,9 +9000,9 @@
 	<key>gameWorld</key>
 	<dict>
 		<key>960x640</key>
-		<string>{{-0.300000, -1.925000}, {3.233333, 3.125000}}</string>
+		<string>{{-0.300000, -3.575000}, {3.233333, 4.775000}}</string>
 		<key>general</key>
-		<string>{{-0.300000, -1.925000}, {3.233333, 3.125000}}</string>
+		<string>{{-0.300000, -3.575000}, {3.233333, 4.775000}}</string>
 	</dict>
 	<key>globalGravityDirection</key>
 	<string>{0.000000, -1.000000}</string>

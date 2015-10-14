@@ -226,6 +226,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>6F37692B-4179-47DC-A7B8-827C0E0ED209</string>
@@ -260,6 +261,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>ABB3A34C-A61B-4FB8-B636-20168A995AF9</string>
@@ -294,6 +296,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>F48D2B12-38DD-4F47-BB9A-540D75E55A8B</string>
@@ -328,6 +331,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>E2B77C47-34DE-4FDC-918F-6E4AE4B3040D</string>
@@ -362,6 +366,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>35A54B7C-4D7D-4704-80E8-511F7E2109CC</string>
@@ -396,6 +401,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>6AD71BF5-6FD2-49EA-BC15-107321A2665A</string>
@@ -430,6 +436,7 @@
 					<key>tags</key>
 					<array>
 						<string>DEFAULT</string>
+						<string>GRASS</string>
 					</array>
 					<key>uuid</key>
 					<string>A5FA603A-14FF-4E7D-8ECE-9AAE89D849BA</string>
@@ -542,7 +549,7 @@
 					<key>alpha</key>
 					<real>255</real>
 					<key>anchor</key>
-					<string>{0.500000, 0.500000}</string>
+					<string>{0.500000, 0.000000}</string>
 					<key>assetFile</key>
 					<string>OneSidePlatformAsset.lhasset</string>
 					<key>assetUUID</key>
@@ -550,7 +557,7 @@
 					<key>colorOverlay</key>
 					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
 					<key>generalPosition</key>
-					<string>{0.083334, 0.575000}</string>
+					<string>{0.300000, 0.550000}</string>
 					<key>name</key>
 					<string>OneSidePlatformAsset</string>
 					<key>nodeType</key>
@@ -560,7 +567,7 @@
 					<key>rotation</key>
 					<real>0.0</real>
 					<key>scale</key>
-					<string>{8.750002, 1.000000}</string>
+					<string>{5.500006, 1.000000}</string>
 					<key>size</key>
 					<string>{128.000000, 32.000000}</string>
 					<key>tags</key>
@@ -569,6 +576,41 @@
 					</array>
 					<key>uuid</key>
 					<string>E8516D85-E534-42F8-99DD-433946BA7C38</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.000000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.283333, 0.550000}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{3.250000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>GRASS</string>
+					</array>
+					<key>uuid</key>
+					<string>BF11CFC0-2176-4203-AE1D-4EA17B50B189</string>
 					<key>zOrder</key>
 					<integer>-48</integer>
 				</dict>

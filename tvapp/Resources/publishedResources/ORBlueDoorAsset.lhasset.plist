@@ -49,7 +49,7 @@
 			<key>nodeType</key>
 			<string>LHSprite</string>
 			<key>parentUUID</key>
-			<string>F33C66F5-A018-4103-A37C-BE702505866B</string>
+			<string>51F63D68-E607-44AF-AD71-06B45230A0DB</string>
 			<key>relativeImagePath</key>
 			<string>publishedResources/</string>
 			<key>rotation</key>
@@ -98,7 +98,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>F33C66F5-A018-4103-A37C-BE702505866B</string>
+	<string>51F63D68-E607-44AF-AD71-06B45230A0DB</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>

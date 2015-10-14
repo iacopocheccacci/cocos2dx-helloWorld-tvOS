@@ -2107,9 +2107,9 @@
 							<key>size</key>
 							<string>{829.000000, 1024.000000}</string>
 							<key>spriteName</key>
-							<string>WorldRoom_vi_schiacciato_08.png</string>
+							<string>WorldRoom_vi_schiacciato_08</string>
 							<key>spriteUUID</key>
-							<string>56E80DAD-65FD-4AB6-B99D-16B2BC2CB446</string>
+							<string>AE06D3ED-E358-4B7E-98F3-E4C9D1C1294D</string>
 							<key>tags</key>
 							<array>
 								<string>DEFAULT</string>

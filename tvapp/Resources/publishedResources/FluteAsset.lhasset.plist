@@ -85,6 +85,47 @@
 					<key>totalFrames</key>
 					<integer>60</integer>
 				</dict>
+				<dict>
+					<key>active</key>
+					<false/>
+					<key>fps</key>
+					<integer>12</integer>
+					<key>name</key>
+					<string>note_catch</string>
+					<key>properties</key>
+					<dict>
+						<key>Position</key>
+						<dict>
+							<key>Frames</key>
+							<array>
+								<dict>
+									<key>frameIndex</key>
+									<integer>0</integer>
+									<key>positions</key>
+									<dict>
+										<key>88CD3255-7BFE-4870-981B-62E9075684DE</key>
+										<string>{0.000000, -0.000000}</string>
+									</dict>
+								</dict>
+								<dict>
+									<key>frameIndex</key>
+									<integer>119</integer>
+									<key>positions</key>
+									<dict>
+										<key>88CD3255-7BFE-4870-981B-62E9075684DE</key>
+										<string>{0.000000, -4000.000000}</string>
+									</dict>
+								</dict>
+							</array>
+							<key>type</key>
+							<string>LHPositionProperty</string>
+						</dict>
+					</dict>
+					<key>repetitions</key>
+					<integer>1</integer>
+					<key>totalFrames</key>
+					<integer>120</integer>
+				</dict>
 			</array>
 			<key>children</key>
 			<array>
@@ -281,7 +322,7 @@
 			<key>nodeType</key>
 			<string>LHNode</string>
 			<key>parentUUID</key>
-			<string>9B32C571-0EAB-48FF-B174-D54AC8398AB6</string>
+			<string>5FAC6989-1DAE-41BB-AB1A-5E1DBE857AFD</string>
 			<key>rotation</key>
 			<real>0.0</real>
 			<key>scale</key>
@@ -322,7 +363,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>9B32C571-0EAB-48FF-B174-D54AC8398AB6</string>
+	<string>5FAC6989-1DAE-41BB-AB1A-5E1DBE857AFD</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>
