@@ -1,0 +1,5875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aspect</key>
+	<integer>1</integer>
+	<key>backgroundColor</key>
+	<string>{{0.839216, 0.949020}, {0.925490, 1.000000}}</string>
+	<key>children</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>name</key>
+			<string>BACK USER INTERFACE</string>
+			<key>nodeType</key>
+			<string>LHBackUINode</string>
+			<key>parentUUID</key>
+			<string>0C954DF4-6B60-4671-A0ED-E7BB1F8D9BD1</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{128.000000, 128.000000}</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>15E88CE4-1129-469A-9C39-42719C533A01</string>
+			<key>zOrder</key>
+			<integer>-1</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{0.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.266667, 0.225000}</string>
+							<key>name</key>
+							<string>target</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>2BA4C964-70CB-40FA-9BAD-66D0A742FA64</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1760.000000, 672.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>F50243DA-4930-49F0-BECF-835E2A8F5723</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{0.994784, 1.000000}, {0.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.166667, 0.225000}</string>
+							<key>name</key>
+							<string>bounds</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>2BA4C964-70CB-40FA-9BAD-66D0A742FA64</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1568.000000, 672.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>DCA64964-B4A2-4807-ABD0-283A06C441AB</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.683333, 0.225000}</string>
+					<key>name</key>
+					<string>CameraFocus</string>
+					<key>nodePhysics</key>
+					<dict>
+						<key>allowSleep</key>
+						<true/>
+						<key>angularDamping</key>
+						<real>0.0</real>
+						<key>angularVelocity</key>
+						<real>0.0</real>
+						<key>bullet</key>
+						<false/>
+						<key>fixedRotation</key>
+						<false/>
+						<key>genericFixture</key>
+						<dict>
+							<key>category</key>
+							<integer>1</integer>
+							<key>density</key>
+							<real>0.10000000149011612</real>
+							<key>friction</key>
+							<real>0.20000000298023224</real>
+							<key>mask</key>
+							<integer>65535</integer>
+							<key>name</key>
+							<string>GenericFixture</string>
+							<key>restitution</key>
+							<real>0.0</real>
+							<key>sensor</key>
+							<true/>
+							<key>shapeID</key>
+							<integer>0</integer>
+						</dict>
+						<key>gravityScale</key>
+						<real>1</real>
+						<key>linearDamping</key>
+						<real>0.0</real>
+						<key>linearVelocity</key>
+						<string>{0.000000, 0.000000}</string>
+						<key>shape</key>
+						<integer>0</integer>
+						<key>type</key>
+						<integer>0</integer>
+					</dict>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{65.000000, 95.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>SCRIPT_EVENT</string>
+						<string>CAMERA_EVENT</string>
+					</array>
+					<key>userPropertyInfo</key>
+					<dict>
+						<key>boundsNode</key>
+						<string>DCA64964-B4A2-4807-ABD0-283A06C441AB</string>
+						<key>duration</key>
+						<integer>5</integer>
+						<key>fitMode</key>
+						<string>width</string>
+						<key>isOneShot</key>
+						<true/>
+						<key>panningSpeed</key>
+						<integer>2</integer>
+						<key>targetNode</key>
+						<string>F50243DA-4930-49F0-BECF-835E2A8F5723</string>
+						<key>zoomingSpeed</key>
+						<integer>1</integer>
+					</dict>
+					<key>userPropertyName</key>
+					<string>CameraFocus</string>
+					<key>uuid</key>
+					<string>2BA4C964-70CB-40FA-9BAD-66D0A742FA64</string>
+					<key>zOrder</key>
+					<integer>-100</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.016667, 0.575000}</string>
+							<key>name</key>
+							<string>CameraLowerBound</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>80A0B579-903F-4CB0-A01B-E5D76051ADFC</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>CAMERA_LOWER_BOUND</string>
+							</array>
+							<key>uuid</key>
+							<string>5E70004E-7174-42AA-BE88-DC55402EEBC2</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.116667, 0.525000}</string>
+							<key>name</key>
+							<string>CameraUpperBound</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>80A0B579-903F-4CB0-A01B-E5D76051ADFC</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>CAMERA_UPPER_BOUND</string>
+							</array>
+							<key>uuid</key>
+							<string>9154E957-5026-4FF6-A03B-2F1F3DC7F717</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.350000, 0.312500}</string>
+							<key>name</key>
+							<string>CameraUpperScreen</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>80A0B579-903F-4CB0-A01B-E5D76051ADFC</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{2432.000000, 864.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>CAMERA_UPPER_SCREEN</string>
+							</array>
+							<key>uuid</key>
+							<string>0E154A7D-235E-4F86-9FEE-5ACCD52691FA</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.366667, 0.400000}</string>
+							<key>name</key>
+							<string>CameraLowerScreen</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>80A0B579-903F-4CB0-A01B-E5D76051ADFC</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{2216.000000, 864.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>CAMERA_LOWER_SCREEN</string>
+							</array>
+							<key>uuid</key>
+							<string>04BC126F-DD4E-44C2-9CD5-483838E6B43F</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.000000, 0.000000}</string>
+					<key>name</key>
+					<string>CameraZone</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{100.000000, 100.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>CAMERA_ZONE</string>
+					</array>
+					<key>uuid</key>
+					<string>80A0B579-903F-4CB0-A01B-E5D76051ADFC</string>
+					<key>zOrder</key>
+					<integer>-100</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.000000, 0.000000}</string>
+					<key>assetFile</key>
+					<string>GroundAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>2F98A83D-1933-4FAA-8C77-AEE4F3A07548</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.033333, 0.850000}</string>
+					<key>name</key>
+					<string>GroundAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{18.000000, 2.500000}</string>
+					<key>size</key>
+					<string>{128.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>GRASS</string>
+					</array>
+					<key>uuid</key>
+					<string>6A1BBF22-1E06-4F47-8850-4CDA4D35A256</string>
+					<key>zOrder</key>
+					<integer>-52</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.000000, 0.000000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.800000, 0.550000}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.500000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>GRASS</string>
+					</array>
+					<key>uuid</key>
+					<string>73528D42-3D2F-43BC-BF24-2A2E49D0E029</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.000000, 0.000000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.633333, 0.550000}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.750000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>C56C3105-299D-41E4-B90F-CEEF0CC2672E</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.666667, 0.075000}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.998779, 1.064848}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>6B65BEEB-2C61-4FF8-85FB-0C66A8AE0CCD</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.000000, 0.000000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.533333, 0.775000}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{0.500000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>GRASS</string>
+					</array>
+					<key>uuid</key>
+					<string>8C8D48AB-00A0-45F9-A1E8-0F4722EDE321</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>children</key>
+							<array>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.000000, 1.000000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{-0.333334, 1.482241}</string>
+									<key>imageFileName</key>
+									<string>w1_cielo.png</string>
+									<key>name</key>
+									<string>mondo1_cielo0001</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>C60CA549-FBF5-412C-90EB-7BE66EF9EE3B</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{10.265060, 1.187500}</string>
+									<key>size</key>
+									<string>{332.000000, 1024.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_cielo0001</string>
+									<key>spriteUUID</key>
+									<string>A063E734-9478-4B4A-A746-7628A0D18C9A</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>7E362178-5C6E-4345-9E00-8F449D00D682</string>
+									<key>zOrder</key>
+									<integer>-2</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>170</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{1.883333, 0.382241}</string>
+									<key>imageFileName</key>
+									<string>w1_nuvole.png</string>
+									<key>name</key>
+									<string>mondo1_nuvole7</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>C60CA549-FBF5-412C-90EB-7BE66EF9EE3B</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>359.17788696289062</real>
+									<key>scale</key>
+									<string>{0.907485, 0.850480}</string>
+									<key>size</key>
+									<string>{658.000000, 599.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_nuvole0004</string>
+									<key>spriteUUID</key>
+									<string>CD7B908B-C01A-4677-8AA5-52363A85825C</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>F6125098-16EC-4D30-8DAF-84ACE82DC2FB</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>170</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{0.483333, 0.532241}</string>
+									<key>imageFileName</key>
+									<string>w1_nuvole.png</string>
+									<key>name</key>
+									<string>mondo1_nuvole6</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>C60CA549-FBF5-412C-90EB-7BE66EF9EE3B</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>359.17788696289062</real>
+									<key>scale</key>
+									<string>{0.907485, 0.850480}</string>
+									<key>size</key>
+									<string>{658.000000, 599.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_nuvole0004</string>
+									<key>spriteUUID</key>
+									<string>CD7B908B-C01A-4677-8AA5-52363A85825C</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>A2C7380C-D984-4253-9F2B-E879CFCE3234</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>180</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{1.016666, 0.807241}</string>
+									<key>imageFileName</key>
+									<string>w1_nuvole.png</string>
+									<key>name</key>
+									<string>mondo1_nuvole4</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>C60CA549-FBF5-412C-90EB-7BE66EF9EE3B</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>359.17788696289062</real>
+									<key>scale</key>
+									<string>{0.907485, 0.850480}</string>
+									<key>size</key>
+									<string>{658.000000, 599.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_nuvole0004</string>
+									<key>spriteUUID</key>
+									<string>CD7B908B-C01A-4677-8AA5-52363A85825C</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>D0D046BA-58D4-4C00-9030-C6DA4E1FF92F</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{1.266666, -0.292759}</string>
+									<key>imageFileName</key>
+									<string>w1_nuvole.png</string>
+									<key>name</key>
+									<string>mondo1_nuvole0002</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>C60CA549-FBF5-412C-90EB-7BE66EF9EE3B</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{0.577970, 0.559488}</string>
+									<key>size</key>
+									<string>{808.000000, 372.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_nuvole0002</string>
+									<key>spriteUUID</key>
+									<string>3A45C081-8582-43A3-BB98-3A2BD1223F5F</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>7835DA6F-BE41-406C-882E-66DAC5D769BB</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+							<key>generalPosition</key>
+							<string>{0.066667, 0.100000}</string>
+							<key>name</key>
+							<string>sky</string>
+							<key>nodeType</key>
+							<string>LHParallaxLayer</string>
+							<key>parentUUID</key>
+							<string>CEFFD4B5-D294-4F17-B79D-8D36E198F407</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>C60CA549-FBF5-412C-90EB-7BE66EF9EE3B</string>
+							<key>xRatio</key>
+							<real>0.10000000149011612</real>
+							<key>yRatio</key>
+							<real>0.0</real>
+							<key>zOrder</key>
+							<integer>-8</integer>
+						</dict>
+						<dict>
+							<key>children</key>
+							<array>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{1.775000, 0.957241}</string>
+									<key>imageFileName</key>
+									<string>w1_bgChiaro1.png</string>
+									<key>name</key>
+									<string>mondo1_montange0008</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>D96EEFEF-90B3-4730-8C62-EC7EF84AE9D8</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{1.140625, 1.000000}</string>
+									<key>size</key>
+									<string>{1024.000000, 239.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_montange0008</string>
+									<key>spriteUUID</key>
+									<string>1278EC15-66BD-4B1B-BCA4-A8234BF0CAFB</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>53475C01-0CA6-4AC6-B4FA-E371CE2B373D</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{1.816666, 0.707241}</string>
+									<key>imageFileName</key>
+									<string>w1_bgChiaro1.png</string>
+									<key>name</key>
+									<string>mondo1_montange0007</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>D96EEFEF-90B3-4730-8C62-EC7EF84AE9D8</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{-1.000000, 1.000000}</string>
+									<key>size</key>
+									<string>{1024.000000, 645.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_montange0007</string>
+									<key>spriteUUID</key>
+									<string>C96AF60F-658D-49EB-9A87-FC1D9AE93152</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>9759D03B-2C8A-4D43-85D2-D1F144395112</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+							<key>generalPosition</key>
+							<string>{0.066667, 0.132241}</string>
+							<key>name</key>
+							<string>backMountain</string>
+							<key>nodeType</key>
+							<string>LHParallaxLayer</string>
+							<key>parentUUID</key>
+							<string>CEFFD4B5-D294-4F17-B79D-8D36E198F407</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>D96EEFEF-90B3-4730-8C62-EC7EF84AE9D8</string>
+							<key>xRatio</key>
+							<real>0.11999999731779099</real>
+							<key>yRatio</key>
+							<real>0.0</real>
+							<key>zOrder</key>
+							<integer>-4</integer>
+						</dict>
+						<dict>
+							<key>children</key>
+							<array>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{0.066666, 0.882241}</string>
+									<key>imageFileName</key>
+									<string>w1_bgScuro2.png</string>
+									<key>name</key>
+									<string>mondo1_montange0004</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>CE3C5B13-A223-40B3-95E1-689F89FFD583</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{1.000000, -1.000000}</string>
+									<key>size</key>
+									<string>{512.000000, 210.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_montange0004</string>
+									<key>spriteUUID</key>
+									<string>BBE52D84-8D72-4E09-9E92-5A53999E8AB9</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>3ACEE6D8-DB4F-4D12-856D-06E9C3935A8E</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{0.050000, 1.207241}</string>
+									<key>imageFileName</key>
+									<string>w1_bgScuro2.png</string>
+									<key>name</key>
+									<string>mondo1_montange0001</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>CE3C5B13-A223-40B3-95E1-689F89FFD583</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{8.000000, 6.000000}</string>
+									<key>size</key>
+									<string>{64.000000, 64.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_montange0001</string>
+									<key>spriteUUID</key>
+									<string>12187977-373D-4517-870E-706D7039740A</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>F18913BF-6BDF-4932-BE87-1340565AA12F</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{2.353125, 1.082241}</string>
+									<key>imageFileName</key>
+									<string>w1_bgScuro2.png</string>
+									<key>name</key>
+									<string>mondo1_montange2</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>CE3C5B13-A223-40B3-95E1-689F89FFD583</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{1.000000, 1.000000}</string>
+									<key>size</key>
+									<string>{767.000000, 804.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_montange0002</string>
+									<key>spriteUUID</key>
+									<string>2FD0FD79-FD8B-4FB3-AEC8-8E249E44CF4E</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>27D0F12E-3548-4F32-9711-BE6FC9BD9931</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{0.683333, 0.882241}</string>
+									<key>imageFileName</key>
+									<string>w1_bgScuro2.png</string>
+									<key>name</key>
+									<string>mondo1_montange0002</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>CE3C5B13-A223-40B3-95E1-689F89FFD583</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{1.000000, 1.000000}</string>
+									<key>size</key>
+									<string>{767.000000, 804.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_montange0002</string>
+									<key>spriteUUID</key>
+									<string>2FD0FD79-FD8B-4FB3-AEC8-8E249E44CF4E</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>A7EBC797-4A9B-453A-A20E-DBA9C33B49B9</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{1.500000, 1.082241}</string>
+									<key>imageFileName</key>
+									<string>w1_bgScuro1.png</string>
+									<key>name</key>
+									<string>mondo1_montange0003</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>CE3C5B13-A223-40B3-95E1-689F89FFD583</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{-1.000000, 1.000000}</string>
+									<key>size</key>
+									<string>{1024.000000, 751.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_montange0003</string>
+									<key>spriteUUID</key>
+									<string>1E623873-86F1-41E3-B8D9-73A81F7F191F</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>4659AA31-3BEC-4978-93B4-B6B8225B0591</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{1.100000, 1.362500}</string>
+									<key>imageFileName</key>
+									<string>w1_cielo.png</string>
+									<key>name</key>
+									<string>sfumatura</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>CE3C5B13-A223-40B3-95E1-689F89FFD583</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{8.875000, 1.562500}</string>
+									<key>size</key>
+									<string>{256.000000, 256.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_sfumatura</string>
+									<key>spriteUUID</key>
+									<string>3D5F378C-38A0-46BB-84F8-A117707CE986</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>FB81A12C-FE32-4CD1-BA32-7D6BA243527B</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+							<key>generalPosition</key>
+							<string>{0.066667, 0.132241}</string>
+							<key>name</key>
+							<string>frontMountain</string>
+							<key>nodeType</key>
+							<string>LHParallaxLayer</string>
+							<key>parentUUID</key>
+							<string>CEFFD4B5-D294-4F17-B79D-8D36E198F407</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>CE3C5B13-A223-40B3-95E1-689F89FFD583</string>
+							<key>xRatio</key>
+							<real>0.15000000596046448</real>
+							<key>yRatio</key>
+							<real>0.0</real>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>generalPosition</key>
+					<string>{0.000000, -0.732241}</string>
+					<key>name</key>
+					<string>parallax</string>
+					<key>nodeType</key>
+					<string>LHParallax</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>CEFFD4B5-D294-4F17-B79D-8D36E198F407</string>
+					<key>zOrder</key>
+					<integer>-44</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.000000, 0.000000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.733333, -0.725000}</string>
+							<key>imageFileName</key>
+							<string>w1_rovine1.png</string>
+							<key>name</key>
+							<string>mondo1_rovine0001</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>3AFF9705-5BEA-4581-8AF0-BA07F40F4F14</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.200000, 1.200000}</string>
+							<key>size</key>
+							<string>{346.000000, 233.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_rovine0001</string>
+							<key>spriteUUID</key>
+							<string>F9FE3FB7-1837-47C5-8094-3F8FE12458B9</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>B982971F-9D40-41E9-9A75-555E4411BE45</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.433333, -0.650000}</string>
+							<key>imageFileName</key>
+							<string>w1_rovine1.png</string>
+							<key>name</key>
+							<string>mondo1_rovine0002</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>3AFF9705-5BEA-4581-8AF0-BA07F40F4F14</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.977273, 1.000000}</string>
+							<key>size</key>
+							<string>{99.000000, 197.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_rovine0002</string>
+							<key>spriteUUID</key>
+							<string>FCFE814C-1E94-4670-B22A-E96D6018F81D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>CA749E79-35A4-496C-990E-49788780B616</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.566667, 1.300000}</string>
+					<key>name</key>
+					<string>rovine</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>3AFF9705-5BEA-4581-8AF0-BA07F40F4F14</string>
+					<key>zOrder</key>
+					<integer>-42</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>200</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.551042, -0.951562}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli2.png</string>
+							<key>name</key>
+							<string>mondo1_chiome0002</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.800000, 0.800000}</string>
+							<key>size</key>
+							<string>{341.000000, 522.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_chiome0002.png</string>
+							<key>spriteUUID</key>
+							<string>3CD3EA4B-A9B5-4B49-A805-C75281AB3E51</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>2045E208-A657-44EC-9BE4-AF8850290958</string>
+							<key>zOrder</key>
+							<integer>-9</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.616667, -1.150000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli2.png</string>
+							<key>name</key>
+							<string>mondo1_chiome2</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{341.000000, 522.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_chiome0002.png</string>
+							<key>spriteUUID</key>
+							<string>3CD3EA4B-A9B5-4B49-A805-C75281AB3E51</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>8E88574A-B805-41FF-81F0-86525FBB5EA0</string>
+							<key>zOrder</key>
+							<integer>-9</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.300000, -0.675000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli1.png</string>
+							<key>name</key>
+							<string>mondo1_cespuglichiari0003</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{154.000000, 101.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespuglichiari0003.png</string>
+							<key>spriteUUID</key>
+							<string>2C787B80-C87E-4EE1-B29D-3648F5CFCE33</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>45F56FB3-5071-4FFE-8FD5-95764AEEEF4A</string>
+							<key>zOrder</key>
+							<integer>-4</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.516667, -0.650000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli1.png</string>
+							<key>name</key>
+							<string>mondo1_cespuglichiari10</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{182.000000, 104.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespuglichiari0010.png</string>
+							<key>spriteUUID</key>
+							<string>8E04793D-DDEC-4C36-86A0-05C0AA3E6A0C</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>DEB5440E-A0FD-438E-A936-5D90E820F6D6</string>
+							<key>zOrder</key>
+							<integer>-4</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.416667, -0.725000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli1.png</string>
+							<key>name</key>
+							<string>mondo1_cespuglichiari0005</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{475.000000, 160.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespuglichiari0005.png</string>
+							<key>spriteUUID</key>
+							<string>5AC80BC3-E1D9-4116-A9AE-824418C9DF62</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>1C63531C-6C2D-4A00-9684-187299BAA89F</string>
+							<key>zOrder</key>
+							<integer>-4</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.966667, -0.650000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli1.png</string>
+							<key>name</key>
+							<string>mondo1_cespuglichiari0002</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{182.000000, 106.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespuglichiari0002.png</string>
+							<key>spriteUUID</key>
+							<string>CA32DE32-80FD-4DBD-85A1-7CEEAFC953ED</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>9461D23D-2D72-41ED-95CD-FFCAF1BA4FD1</string>
+							<key>zOrder</key>
+							<integer>-4</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.883333, -0.725000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli1.png</string>
+							<key>name</key>
+							<string>mondo1_cespuglichiari0006</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{609.000000, 237.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespuglichiari0006.png</string>
+							<key>spriteUUID</key>
+							<string>9B957109-848F-4DBC-AA90-A393963CAF56</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>5FFC3E95-1FC8-434E-B18F-A4081439DF6C</string>
+							<key>zOrder</key>
+							<integer>-4</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.350000, -0.700000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli1.png</string>
+							<key>name</key>
+							<string>mondo1_cespuglichiari0008</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.625000, 0.550473}</string>
+							<key>size</key>
+							<string>{512.000000, 317.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespuglichiari0008.png</string>
+							<key>spriteUUID</key>
+							<string>47BAD1F0-8689-4DCE-9A2C-2BCA22167463</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>E8181ADB-E455-4EA3-8DCB-ADA0FD3B1F3E</string>
+							<key>zOrder</key>
+							<integer>-4</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>children</key>
+							<array>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 1.000000}</string>
+									<key>animations</key>
+									<array>
+										<dict>
+											<key>active</key>
+											<true/>
+											<key>fps</key>
+											<integer>12</integer>
+											<key>name</key>
+											<string>idle</string>
+											<key>properties</key>
+											<dict>
+												<key>Position</key>
+												<dict>
+													<key>Frames</key>
+													<array>
+														<dict>
+															<key>frameIndex</key>
+															<integer>0</integer>
+															<key>positions</key>
+															<dict>
+																<key>919BC412-250D-4B83-A90E-2312498A76AC</key>
+																<string>{280.000000, 63.999939}</string>
+															</dict>
+														</dict>
+													</array>
+													<key>type</key>
+													<string>LHPositionProperty</string>
+												</dict>
+												<key>Sprite Frame</key>
+												<dict>
+													<key>Frames</key>
+													<array>
+														<dict>
+															<key>frameIndex</key>
+															<integer>0</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state1_0001.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>38</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state1_0002.png</string>
+														</dict>
+													</array>
+													<key>type</key>
+													<string>LHSpriteFrameProperty</string>
+												</dict>
+											</dict>
+											<key>repetitions</key>
+											<integer>0</integer>
+											<key>totalFrames</key>
+											<integer>40</integer>
+										</dict>
+										<dict>
+											<key>active</key>
+											<false/>
+											<key>fps</key>
+											<integer>12</integer>
+											<key>name</key>
+											<string>start_move</string>
+											<key>properties</key>
+											<dict>
+												<key>Position</key>
+												<dict>
+													<key>Frames</key>
+													<array>
+														<dict>
+															<key>frameIndex</key>
+															<integer>0</integer>
+															<key>positions</key>
+															<dict>
+																<key>919BC412-250D-4B83-A90E-2312498A76AC</key>
+																<string>{280.000000, 63.999939}</string>
+															</dict>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>7</integer>
+															<key>positions</key>
+															<dict>
+																<key>919BC412-250D-4B83-A90E-2312498A76AC</key>
+																<string>{280.000000, 63.999939}</string>
+															</dict>
+														</dict>
+													</array>
+													<key>type</key>
+													<string>LHPositionProperty</string>
+												</dict>
+												<key>Sprite Frame</key>
+												<dict>
+													<key>Frames</key>
+													<array>
+														<dict>
+															<key>frameIndex</key>
+															<integer>0</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0001.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>1</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0002.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>2</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0003.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>3</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0004.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>4</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0005.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>5</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0006.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>6</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0007.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>7</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0008.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>8</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0009.png</string>
+														</dict>
+													</array>
+													<key>type</key>
+													<string>LHSpriteFrameProperty</string>
+												</dict>
+											</dict>
+											<key>repetitions</key>
+											<integer>1</integer>
+											<key>totalFrames</key>
+											<integer>9</integer>
+										</dict>
+										<dict>
+											<key>active</key>
+											<false/>
+											<key>fps</key>
+											<integer>12</integer>
+											<key>name</key>
+											<string>end_move</string>
+											<key>properties</key>
+											<dict>
+												<key>Position</key>
+												<dict>
+													<key>Frames</key>
+													<array>
+														<dict>
+															<key>frameIndex</key>
+															<integer>0</integer>
+															<key>positions</key>
+															<dict>
+																<key>919BC412-250D-4B83-A90E-2312498A76AC</key>
+																<string>{280.000000, 63.999939}</string>
+															</dict>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>14</integer>
+															<key>positions</key>
+															<dict>
+																<key>919BC412-250D-4B83-A90E-2312498A76AC</key>
+																<string>{696.000000, 63.999939}</string>
+															</dict>
+														</dict>
+													</array>
+													<key>type</key>
+													<string>LHPositionProperty</string>
+												</dict>
+												<key>Sprite Frame</key>
+												<dict>
+													<key>Frames</key>
+													<array>
+														<dict>
+															<key>frameIndex</key>
+															<integer>0</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0009.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>1</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0002.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>2</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0003.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>3</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0004.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>4</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0005.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>5</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0009.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>6</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0002.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>7</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0003.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>8</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0004.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>9</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0005.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>10</integer>
+															<key>spriteSheetName</key>
+															<string>fox-state2_0009.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>11</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0002.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>12</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0003.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>13</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0004.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>14</integer>
+															<key>spriteSheetName</key>
+															<string>fox-loop_0005.png</string>
+														</dict>
+													</array>
+													<key>type</key>
+													<string>LHSpriteFrameProperty</string>
+												</dict>
+											</dict>
+											<key>repetitions</key>
+											<integer>1</integer>
+											<key>totalFrames</key>
+											<integer>15</integer>
+										</dict>
+									</array>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{0.291667, 0.100000}</string>
+									<key>imageFileName</key>
+									<string>Fox_spritesheet.png</string>
+									<key>name</key>
+									<string>fox-state1_0001.png</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>0ECE3CFE-952E-4AFF-8776-AE6B5D587511</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{-1.000000, 1.000000}</string>
+									<key>size</key>
+									<string>{94.000000, 53.000000}</string>
+									<key>spriteName</key>
+									<string>fox-state1_0001.png</string>
+									<key>spriteUUID</key>
+									<string>32752210-84F4-42B0-9FB1-F0D2DC9C857C</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+										<string>ANIMATION</string>
+									</array>
+									<key>uuid</key>
+									<string>919BC412-250D-4B83-A90E-2312498A76AC</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{0.741667, 0.019643}</string>
+									<key>imageFileName</key>
+									<string>w1_cespugli1.png</string>
+									<key>name</key>
+									<string>mondo1_cespuglichiari8</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>0ECE3CFE-952E-4AFF-8776-AE6B5D587511</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{0.625000, 0.477129}</string>
+									<key>size</key>
+									<string>{512.000000, 317.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_cespuglichiari0008.png</string>
+									<key>spriteUUID</key>
+									<string>47BAD1F0-8689-4DCE-9A2C-2BCA22167463</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>1BFDDA58-04D6-44DF-AD3D-CE935D089607</string>
+									<key>zOrder</key>
+									<integer>1</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>animations</key>
+									<array>
+										<dict>
+											<key>active</key>
+											<true/>
+											<key>fps</key>
+											<integer>12</integer>
+											<key>name</key>
+											<string>idle</string>
+											<key>properties</key>
+											<dict>
+												<key>Sprite Frame</key>
+												<dict>
+													<key>Frames</key>
+													<array>
+														<dict>
+															<key>frameIndex</key>
+															<integer>0</integer>
+															<key>spriteSheetName</key>
+															<string>frasche1_0001.png</string>
+														</dict>
+													</array>
+													<key>type</key>
+													<string>LHSpriteFrameProperty</string>
+												</dict>
+											</dict>
+											<key>repetitions</key>
+											<integer>0</integer>
+											<key>totalFrames</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>active</key>
+											<false/>
+											<key>fps</key>
+											<integer>12</integer>
+											<key>name</key>
+											<string>start_move</string>
+											<key>properties</key>
+											<dict>
+												<key>Sprite Frame</key>
+												<dict>
+													<key>Frames</key>
+													<array>
+														<dict>
+															<key>frameIndex</key>
+															<integer>0</integer>
+															<key>spriteSheetName</key>
+															<string>frasche1_0001.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>19</integer>
+															<key>spriteSheetName</key>
+															<string>frasche1_0001.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>20</integer>
+															<key>spriteSheetName</key>
+															<string>frasche1_0002.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>21</integer>
+															<key>spriteSheetName</key>
+															<string>frasche1_0003.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>22</integer>
+															<key>spriteSheetName</key>
+															<string>frasche1_0004.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>23</integer>
+															<key>spriteSheetName</key>
+															<string>frasche1_0005.png</string>
+														</dict>
+														<dict>
+															<key>frameIndex</key>
+															<integer>24</integer>
+															<key>spriteSheetName</key>
+															<string>frasche1_0006.png</string>
+														</dict>
+													</array>
+													<key>type</key>
+													<string>LHSpriteFrameProperty</string>
+												</dict>
+											</dict>
+											<key>repetitions</key>
+											<integer>1</integer>
+											<key>totalFrames</key>
+											<integer>25</integer>
+										</dict>
+									</array>
+									<key>colorOverlay</key>
+									<string>{{0.239216, 0.556863}, {0.321569, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{0.675000, -0.055357}</string>
+									<key>imageFileName</key>
+									<string>Leaves.png</string>
+									<key>name</key>
+									<string>frasche1_0001.png</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>0ECE3CFE-952E-4AFF-8776-AE6B5D587511</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{1.000000, 1.000000}</string>
+									<key>size</key>
+									<string>{80.000000, 60.000000}</string>
+									<key>spriteName</key>
+									<string>frasche1_0001.png</string>
+									<key>spriteUUID</key>
+									<string>D737EB3A-BA15-46AE-9C7B-312F173393D3</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+										<string>ANIMATION</string>
+									</array>
+									<key>uuid</key>
+									<string>7BE577BB-1428-435E-AB14-8D36075AA896</string>
+									<key>zOrder</key>
+									<integer>2</integer>
+								</dict>
+							</array>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.141667, -0.750000}</string>
+							<key>name</key>
+							<string>FoxNode</string>
+							<key>nodePhysics</key>
+							<dict>
+								<key>allowSleep</key>
+								<true/>
+								<key>angularDamping</key>
+								<real>0.0</real>
+								<key>angularVelocity</key>
+								<real>0.0</real>
+								<key>bullet</key>
+								<false/>
+								<key>fixedRotation</key>
+								<false/>
+								<key>genericFixture</key>
+								<dict>
+									<key>category</key>
+									<integer>1</integer>
+									<key>density</key>
+									<real>0.10000000149011612</real>
+									<key>friction</key>
+									<real>0.20000000298023224</real>
+									<key>mask</key>
+									<integer>65535</integer>
+									<key>name</key>
+									<string>GenericFixture</string>
+									<key>restitution</key>
+									<real>0.0</real>
+									<key>sensor</key>
+									<true/>
+									<key>shapeID</key>
+									<integer>0</integer>
+								</dict>
+								<key>gravityScale</key>
+								<real>1</real>
+								<key>linearDamping</key>
+								<real>0.0</real>
+								<key>linearVelocity</key>
+								<string>{0.000000, 0.000000}</string>
+								<key>shape</key>
+								<integer>0</integer>
+								<key>type</key>
+								<integer>0</integer>
+							</dict>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{48.000000, 127.999878}</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+								<string>INSPIRATION</string>
+							</array>
+							<key>userPropertyInfo</key>
+							<dict>
+								<key>soundName</key>
+								<string>event:/sndInspiration/sndInspirationAnimals</string>
+							</dict>
+							<key>userPropertyName</key>
+							<string>InspirationAudio</string>
+							<key>uuid</key>
+							<string>0ECE3CFE-952E-4AFF-8776-AE6B5D587511</string>
+							<key>zOrder</key>
+							<integer>-3</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.593229, -0.692773}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli2.png</string>
+							<key>name</key>
+							<string>mondo1_cespugliscuri0002</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.331169, 0.725248}</string>
+							<key>size</key>
+							<string>{154.000000, 101.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespugliscuri0002.png</string>
+							<key>spriteUUID</key>
+							<string>546C5364-AA91-457C-8AAA-C23DED27E7E7</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>7E4C5B2F-D111-4F42-A1FB-0AD6A1A50CCC</string>
+							<key>zOrder</key>
+							<integer>-2</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.946875, -0.876563}</string>
+							<key>imageFileName</key>
+							<string>w1_alberi2.png</string>
+							<key>name</key>
+							<string>mondo1_tronchi0003</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{250.000000, 290.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_tronchi0003</string>
+							<key>spriteUUID</key>
+							<string>567A1CDF-0C3F-422A-B6BB-1CFAD8C37434</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>8E0240CB-1932-49F9-9791-4577BA036342</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.572396, -0.885938}</string>
+							<key>imageFileName</key>
+							<string>w1_alberi2.png</string>
+							<key>name</key>
+							<string>mondo1_tronchi0002</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.109137, 1.040816}</string>
+							<key>size</key>
+							<string>{394.000000, 294.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_tronchi0002.png</string>
+							<key>spriteUUID</key>
+							<string>5ECD1747-09BA-4A0F-9F20-F909A127074E</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>F8B06288-F55E-42D5-89B8-98D5D8AE1788</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.766667, -1.225000}</string>
+							<key>imageFileName</key>
+							<string>w1_alberi1.png</string>
+							<key>name</key>
+							<string>chiomaBonus</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>2.1201567649841309</real>
+							<key>scale</key>
+							<string>{-1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{655.000000, 376.000000}</string>
+							<key>spriteName</key>
+							<string>chiomaBonus</string>
+							<key>spriteUUID</key>
+							<string>AA717233-6B28-4414-9B75-02BF3FC824CB</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>B7FC6F13-09B7-4D56-8200-69AE0D816930</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.466667, -1.350000}</string>
+							<key>imageFileName</key>
+							<string>w1_alberi1.png</string>
+							<key>name</key>
+							<string>mondo1_chiome0005</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{355.000000, 321.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_chiome0005</string>
+							<key>spriteUUID</key>
+							<string>0FAABE28-C819-48E6-9474-D019045C2BA4</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>D085AFE0-93F6-4D28-8BFE-72094F147400</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.250000, -1.075000}</string>
+							<key>imageFileName</key>
+							<string>w1_alberi1.png</string>
+							<key>name</key>
+							<string>mondo1_chiome0003</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.063601}</string>
+							<key>size</key>
+							<string>{590.000000, 511.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_chiome0003</string>
+							<key>spriteUUID</key>
+							<string>748926AA-3755-43DC-B1AC-BD8BA5F8E03D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>F9242F70-6153-4D67-BCC4-E7F47AFE5363</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.517708, -1.159375}</string>
+							<key>imageFileName</key>
+							<string>w1_alberi1.png</string>
+							<key>name</key>
+							<string>mondo1_chiome0004</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>5.2569880485534668</real>
+							<key>scale</key>
+							<string>{1.010638, 1.000000}</string>
+							<key>size</key>
+							<string>{470.000000, 277.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_chiome0004</string>
+							<key>spriteUUID</key>
+							<string>42F190BF-CD2B-425F-90DA-04E4B6D068FA</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>66EE9B4B-872E-4359-B83C-7B1E817494BF</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.933333, -0.700000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli2.png</string>
+							<key>name</key>
+							<string>mondo1_cespugliscuri0004</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{475.000000, 160.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespugliscuri0004.png</string>
+							<key>spriteUUID</key>
+							<string>13984BF1-053C-4CD1-8072-48FD272587A1</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>0838CFEC-7DD7-4062-A9C5-4E177EDC66C6</string>
+							<key>zOrder</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.350000, -0.700000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli2.png</string>
+							<key>name</key>
+							<string>mondo1_cespugliscuri0001</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{182.000000, 106.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespugliscuri0001.png</string>
+							<key>spriteUUID</key>
+							<string>737ECDDA-3BDC-493D-97CA-3A6543483BE2</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>695BDBCC-E3DF-4082-A6CD-1778F4445812</string>
+							<key>zOrder</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.166667, -0.675000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli2.png</string>
+							<key>name</key>
+							<string>mondo1_cespugliscuri0005</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>10.121700286865234</real>
+							<key>scale</key>
+							<string>{-0.685872, 0.615910}</string>
+							<key>size</key>
+							<string>{609.000000, 237.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespugliscuri0005.png</string>
+							<key>spriteUUID</key>
+							<string>46728571-8B7A-4397-BE7F-B4D444644078</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>6D7047E7-F0C7-4F50-93FD-244710824D67</string>
+							<key>zOrder</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.633333, -0.650000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli2.png</string>
+							<key>name</key>
+							<string>mondo1_cespugliscuri0007</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.562500, 0.550473}</string>
+							<key>size</key>
+							<string>{512.000000, 317.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespugliscuri0007.png</string>
+							<key>spriteUUID</key>
+							<string>1147250A-C464-49F1-B1A4-9066B7AAEC78</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>7E8439AD-43A7-4F3C-8D94-A77D15E9D384</string>
+							<key>zOrder</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.316667, -0.700000}</string>
+							<key>imageFileName</key>
+							<string>w1_cespugli2.png</string>
+							<key>name</key>
+							<string>mondo1_cespugliscuri0006</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.752857, 0.833333}</string>
+							<key>size</key>
+							<string>{175.000000, 96.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_cespugliscuri0006</string>
+							<key>spriteUUID</key>
+							<string>74D95A8D-45AF-481E-A24E-F90AC6D2471E</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>9F2702F7-1C7F-4D49-9E26-FAC741627B0D</string>
+							<key>zOrder</key>
+							<integer>1</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.300000, 1.500000}</string>
+					<key>name</key>
+					<string>alberi</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>A9D60DB5-1374-40DA-9EC4-4B61DF18B89B</string>
+					<key>zOrder</key>
+					<integer>-40</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.150569, 0.328843}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonna1_top</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 64.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonna1_top</string>
+							<key>spriteUUID</key>
+							<string>17D5D446-07EB-42F9-BB30-8B949932F32C</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>2FDA4984-2C05-4B6E-9E76-DEBBD4FDD6E7</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.397444, 0.413218}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceChiare.png</string>
+							<key>name</key>
+							<string>mondo1_rocce_07</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.166667}</string>
+							<key>size</key>
+							<string>{128.000000, 192.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_rocce_07</string>
+							<key>spriteUUID</key>
+							<string>3C91989C-E113-4C5F-BD8C-4FAA4BF19F8E</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>0A94FC9E-7549-4330-9968-277435632D61</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.333784, 0.413218}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceChiare.png</string>
+							<key>name</key>
+							<string>mondo1_rocce_05</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.100938, 1.166667}</string>
+							<key>size</key>
+							<string>{129.000000, 192.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_rocce_05</string>
+							<key>spriteUUID</key>
+							<string>7CE43C08-E596-4EE7-BEAD-B3CDD24508B4</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>040A51DB-1915-4352-8E62-7A1D4B7B9EF0</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.197444, -0.266469}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonne_0011</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 34.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonne_0011</string>
+							<key>spriteUUID</key>
+							<string>5AB9AA66-4591-4F8F-AD90-997B67F52703</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>3048B5F3-9D26-4034-88C0-F3565799AE22</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.197444, -0.266469}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonne_0010_end2</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 34.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonne_0010_end</string>
+							<key>spriteUUID</key>
+							<string>5A1DE50E-1DC9-4D68-B836-A774166C92A9</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>2DC893E6-8041-4D82-BBEC-78CBE61A4496</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.064111, -0.266469}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonne_12</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 34.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonne_0008</string>
+							<key>spriteUUID</key>
+							<string>038B10BD-B335-48F8-8ACA-CD2691BD6127</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>A7CFEF50-444A-4722-93EB-6A4065E61BE5</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.997444, -0.266469}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonne_11</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 34.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonne_0010</string>
+							<key>spriteUUID</key>
+							<string>4AA241F8-0CE8-4DB5-93FB-11340C6CCE4D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>9DCBC38D-8458-4B54-BDBD-DA123BA29063</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 1.000000}</string>
+							<key>children</key>
+							<array>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{0.000000, -0.135937}</string>
+									<key>imageFileName</key>
+									<string>w1_colonne.png</string>
+									<key>name</key>
+									<string>mondo1_colonna1_top1</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>4AA7BC14-407C-4771-AEF5-F544D254C5C4</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{1.000000, 1.000000}</string>
+									<key>size</key>
+									<string>{64.000000, 64.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_colonna1_top</string>
+									<key>spriteUUID</key>
+									<string>17D5D446-07EB-42F9-BB30-8B949932F32C</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>7E69127B-3870-464A-8E3C-B918B94849BA</string>
+									<key>zOrder</key>
+									<integer>-1</integer>
+								</dict>
+								<dict>
+									<key>alpha</key>
+									<real>255</real>
+									<key>anchor</key>
+									<string>{0.500000, 0.500000}</string>
+									<key>colorOverlay</key>
+									<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+									<key>generalPosition</key>
+									<string>{-0.000521, -0.100000}</string>
+									<key>imageFileName</key>
+									<string>w1_colonne.png</string>
+									<key>name</key>
+									<string>mondo1_colonna2_mid1</string>
+									<key>nodeType</key>
+									<string>LHSprite</string>
+									<key>parentUUID</key>
+									<string>4AA7BC14-407C-4771-AEF5-F544D254C5C4</string>
+									<key>relativeImagePath</key>
+									<string>publishedResources/</string>
+									<key>rotation</key>
+									<real>0.0</real>
+									<key>scale</key>
+									<string>{1.000000, 1.000000}</string>
+									<key>size</key>
+									<string>{64.000000, 64.000000}</string>
+									<key>spriteName</key>
+									<string>mondo1_colonna2_mid</string>
+									<key>spriteUUID</key>
+									<string>9A6C9D79-D753-4D90-917C-6AC4E72C298D</string>
+									<key>tags</key>
+									<array>
+										<string>DEFAULT</string>
+									</array>
+									<key>uuid</key>
+									<string>2FF491FA-4CAF-462A-A51C-294533B70A5C</string>
+									<key>zOrder</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.277653, 0.533531}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonna2_base2</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 88.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonna2_base1</string>
+							<key>spriteUUID</key>
+							<string>B1CA85CA-77AC-4EA1-BA03-17F57701538D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>4AA7BC14-407C-4771-AEF5-F544D254C5C4</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.150048, 0.364781}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonna2_mid</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 64.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonna2_mid</string>
+							<key>spriteUUID</key>
+							<string>9A6C9D79-D753-4D90-917C-6AC4E72C298D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>1D543323-A483-4426-85A2-078C2336CEEC</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 1.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.150569, 0.533531}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonna2_base1</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 88.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonna2_base1</string>
+							<key>spriteUUID</key>
+							<string>B1CA85CA-77AC-4EA1-BA03-17F57701538D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>FE64FD1F-83F7-48D7-AE5A-71C1A3EA0549</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.230778, 0.233531}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonne_8</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 34.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonne_0008</string>
+							<key>spriteUUID</key>
+							<string>038B10BD-B335-48F8-8ACA-CD2691BD6127</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>8D22CB1D-25FE-4931-AE31-D3594DAF8E42</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.164111, 0.233531}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonne_0008</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 34.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonne_0008</string>
+							<key>spriteUUID</key>
+							<string>038B10BD-B335-48F8-8ACA-CD2691BD6127</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>27BC291C-11D9-4D17-B1EC-3974FE899C4C</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.264111, 0.233531}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonne_0010_end</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 34.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonne_0010_end</string>
+							<key>spriteUUID</key>
+							<string>5A1DE50E-1DC9-4D68-B836-A774166C92A9</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>77DA1F52-D68E-41F6-A67D-0DA5FDBD08D5</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.097444, 0.233531}</string>
+							<key>imageFileName</key>
+							<string>w1_colonne.png</string>
+							<key>name</key>
+							<string>mondo1_colonne_0010</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 34.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_colonne_0010</string>
+							<key>spriteUUID</key>
+							<string>4AA241F8-0CE8-4DB5-93FB-11340C6CCE4D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>103B85F4-B4A8-4BC9-8606-0BFD7E6CC0E7</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 1.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.254736, 0.233531}</string>
+							<key>imageFileName</key>
+							<string>w1_statue.png</string>
+							<key>name</key>
+							<string>StatuaSali</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{126.000000, 296.000000}</string>
+							<key>spriteName</key>
+							<string>StatuaSali</string>
+							<key>spriteUUID</key>
+							<string>A9880DEE-60D3-4EC6-A37C-A2887AE997A5</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>BE995F3A-70DB-4E99-8006-7D172C461A7D</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.028694, 0.499156}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceChiare.png</string>
+							<key>name</key>
+							<string>mondo1_rocce_25</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.531250, 0.372093}</string>
+							<key>size</key>
+							<string>{128.000000, 129.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_rocce_24</string>
+							<key>spriteUUID</key>
+							<string>58CEFA4E-C750-4AC5-AC6B-AAB47E5C42E5</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>4BB9B3F7-FE11-44B1-A8C2-87E4D68E90EA</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.464111, 0.316469}</string>
+					<key>name</key>
+					<string>rocceDietro</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{155.092896, 139.092773}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>7218EE55-EC28-4062-A4E7-A6E47014BD5E</string>
+					<key>zOrder</key>
+					<integer>-24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>Capanna.lhasset</string>
+					<key>assetUUID</key>
+					<string>B8984A04-8E8E-4E9E-B24F-16797C299755</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.150000, 0.750000}</string>
+					<key>name</key>
+					<string>Capanna</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{192.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>CC8A21C6-C691-4426-9A88-9C998C5FFBAA</string>
+					<key>zOrder</key>
+					<integer>-12</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.283333, -0.900000}</string>
+							<key>name</key>
+							<string>fog1</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>B2C98BC2-B892-401E-B816-940AAEFE714C</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>84912196-0475-4418-864A-B899E01EBC9F</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.050000, -0.900000}</string>
+							<key>name</key>
+							<string>fog2</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>B2C98BC2-B892-401E-B816-940AAEFE714C</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>F4FDB48B-1B80-471E-B0CA-E9D835DD4905</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.633334, -0.900000}</string>
+							<key>name</key>
+							<string>fog3</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>B2C98BC2-B892-401E-B816-940AAEFE714C</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>9E3919E2-B48A-4764-866D-CBCF00738680</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.933334, -0.900000}</string>
+							<key>name</key>
+							<string>fog4</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>B2C98BC2-B892-401E-B816-940AAEFE714C</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>31F598DA-9E4E-4914-8F31-E2F8233B8269</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.316667, -0.900000}</string>
+							<key>name</key>
+							<string>fog5</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>B2C98BC2-B892-401E-B816-940AAEFE714C</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>20D21512-D62E-4617-B0AB-E169E4564F16</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.816667, -0.900000}</string>
+							<key>name</key>
+							<string>fog6</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>B2C98BC2-B892-401E-B816-940AAEFE714C</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>702B1BFA-E3EC-461B-9625-D41A5477261E</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.533333, 1.675000}</string>
+					<key>name</key>
+					<string>fog</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{257.960114, 257.960114}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>B2C98BC2-B892-401E-B816-940AAEFE714C</string>
+					<key>zOrder</key>
+					<integer>-9</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.488335, 0.061576}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_00</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{31.000000, 2.500000}</string>
+							<key>size</key>
+							<string>{64.000000, 64.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_00</string>
+							<key>spriteUUID</key>
+							<string>24463A41-12DD-4FC0-8F90-738DBAED41A8</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>8D304A29-A8B2-483D-A5E1-BD7211A2C941</string>
+							<key>zOrder</key>
+							<integer>-2</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.206297, 0.087129}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_07</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.000000, 0.994122}</string>
+							<key>size</key>
+							<string>{128.000000, 192.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_07</string>
+							<key>spriteUUID</key>
+							<string>B37875C4-719E-4C5F-AAD0-D945CFF75C95</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>CB1A2F0D-FDF7-43FF-8928-7300D5F9165D</string>
+							<key>zOrder</key>
+							<integer>-2</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.494181, 0.478811}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.928960, 0.104997}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_29</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.258664, -1.000000}</string>
+							<key>size</key>
+							<string>{206.000000, 205.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_29</string>
+							<key>spriteUUID</key>
+							<string>DD3B70EE-5F3C-43CF-910B-1186496E174B</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>05EF4EA0-80DB-43D5-9884-4DB2560BCBBB</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.309164, 0.056591}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_24</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.124937, 1.173007}</string>
+							<key>size</key>
+							<string>{128.000000, 129.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_24</string>
+							<key>spriteUUID</key>
+							<string>1F74BEAC-BA3D-44CB-9CD9-CE8C2DDB4B70</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>7AD847E2-6109-434A-81F5-C8809F8D6818</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.700835, 0.086247}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_8</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{129.000000, 192.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_05</string>
+							<key>spriteUUID</key>
+							<string>FE6F3A6E-7B5B-42C5-ACD6-C632F5388311</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>F8928678-BD1C-4965-8B06-4C72E45EF903</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.236049, 0.118525}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_12</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.447351, 1.000000}</string>
+							<key>size</key>
+							<string>{123.000000, 233.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_12</string>
+							<key>spriteUUID</key>
+							<string>C9DDFF92-ECE2-4FA6-A4AE-DCB0D5B2380C</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>C7558F71-5A48-4B3E-A75D-DF7DE4ECF530</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.077494, 0.086881}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_5</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.355241, 1.000000}</string>
+							<key>size</key>
+							<string>{129.000000, 192.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_05</string>
+							<key>spriteUUID</key>
+							<string>FE6F3A6E-7B5B-42C5-ACD6-C632F5388311</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>53FF0165-927F-4322-A7F2-578EB0C1A2A4</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.417502, 0.164372}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_2</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.771301, 1.500000}</string>
+							<key>size</key>
+							<string>{139.000000, 194.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_02</string>
+							<key>spriteUUID</key>
+							<string>DBEA8F03-DB97-440A-9094-60CC5FF7F737</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>6E5863E1-983F-4570-BEA3-EBBCDE94A15E</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.157358, 0.089142}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_6</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.131668, 1.000000}</string>
+							<key>size</key>
+							<string>{193.000000, 193.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_06</string>
+							<key>spriteUUID</key>
+							<string>86670B78-AD35-488C-9CE0-0870C2EAF2A6</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>CF545829-240C-424C-AC96-6D119E109328</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.903333, 0.090135}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_06</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.026656, 1.000000}</string>
+							<key>size</key>
+							<string>{193.000000, 193.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_06</string>
+							<key>spriteUUID</key>
+							<string>86670B78-AD35-488C-9CE0-0870C2EAF2A6</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>AA21B6F5-A0D4-4EE8-928D-3A539CAABCFA</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.587634, -0.061401}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_04</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.325523, 1.300000}</string>
+							<key>size</key>
+							<string>{389.000000, 310.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_04</string>
+							<key>spriteUUID</key>
+							<string>F5D1C56E-325C-4E69-AB0F-95EC0F5F213E</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>177790F5-79E2-4487-A671-056E9424362B</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.076848, 0.089462}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_02</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.764161, 1.000000}</string>
+							<key>size</key>
+							<string>{139.000000, 194.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_02</string>
+							<key>spriteUUID</key>
+							<string>DBEA8F03-DB97-440A-9094-60CC5FF7F737</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>985C7779-44E5-4B93-B114-E6188202D3FF</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.584168, 0.089372}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_7</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{193.000000, 193.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_06</string>
+							<key>spriteUUID</key>
+							<string>86670B78-AD35-488C-9CE0-0870C2EAF2A6</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>995E490C-AFF7-49E2-8047-B93F0469BAC1</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.817502, 0.063981}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_25</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.244186}</string>
+							<key>size</key>
+							<string>{128.000000, 129.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_24</string>
+							<key>spriteUUID</key>
+							<string>1F74BEAC-BA3D-44CB-9CD9-CE8C2DDB4B70</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>15130B5D-BEF3-412B-BAD1-24045A12FEF5</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.761252, 0.162809}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_14</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.027778, 1.000000}</string>
+							<key>size</key>
+							<string>{144.000000, 288.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_14</string>
+							<key>spriteUUID</key>
+							<string>90C085A0-804B-49DE-9CA7-B6705C5BE55A</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>5D6AA32B-4457-4B7E-985A-6D28C60DA63C</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.709235, 0.101181}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_10</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.082665, 0.816281}</string>
+							<key>size</key>
+							<string>{192.000000, 256.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_10</string>
+							<key>spriteUUID</key>
+							<string>0D08AE1B-31BC-4749-9494-C2F3ED490ECA</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>6458FE10-4836-4E95-B5B5-9FF010B884A8</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.556217, 0.088560}</string>
+							<key>imageFileName</key>
+							<string>w1_rocceScure.png</string>
+							<key>name</key>
+							<string>mondo1_roccescure_05</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.160209, 1.000000}</string>
+							<key>size</key>
+							<string>{129.000000, 192.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_roccescure_05</string>
+							<key>spriteUUID</key>
+							<string>FE6F3A6E-7B5B-42C5-ACD6-C632F5388311</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>A55EDBB3-B3EF-4692-933E-6CFBC469A49A</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.500835, 0.913753}</string>
+					<key>name</key>
+					<string>rocceDavanti</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{97.603271, 113.603271}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>C4798790-5B81-44CE-8C45-1B54BDDD2A2C</string>
+					<key>zOrder</key>
+					<integer>-8</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.043750, -0.375000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0005_bis1</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{32.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0005_bis</string>
+							<key>spriteUUID</key>
+							<string>7183273A-5225-43C3-90B3-6412C98BDFAF</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>DFB20E3D-EC5A-4259-817F-9D9B06E63F9D</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.119792, -0.375000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0005_bis2</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{32.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0005_bis</string>
+							<key>spriteUUID</key>
+							<string>7183273A-5225-43C3-90B3-6412C98BDFAF</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>DC721ABC-AD8B-4CDB-9509-2C14B8FF2136</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{1.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.733334, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_11</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0006</string>
+							<key>spriteUUID</key>
+							<string>B6F124A9-07B2-4F2A-AF6D-B74BEBF37FBA</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>4F3412C2-7874-424F-BDED-425B3AD02585</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.600000, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_10</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0007</string>
+							<key>spriteUUID</key>
+							<string>34E65D29-255F-476D-AFC8-E3169EAA3920</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>1588C57C-DC90-4235-9049-5DD243F16D72</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.600000, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_9</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0008</string>
+							<key>spriteUUID</key>
+							<string>5E121CED-378E-48A8-AD88-44BA95233DC2</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>A7569E12-2C2A-4A80-A836-5D1541EA00A9</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.366667, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_8</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0008</string>
+							<key>spriteUUID</key>
+							<string>5E121CED-378E-48A8-AD88-44BA95233DC2</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>0525D935-8AD9-4262-96FC-FE0BF127BE7D</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.033334, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_2</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.500000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0001</string>
+							<key>spriteUUID</key>
+							<string>3609AC48-7EE0-497C-9918-1AE689665C40</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>9F3DE997-383A-4E7E-B55B-67B1D5B9AF83</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{1.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.233334, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_7</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0006</string>
+							<key>spriteUUID</key>
+							<string>B6F124A9-07B2-4F2A-AF6D-B74BEBF37FBA</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>71AD8690-8356-4B33-8E01-D1372ECD50C1</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.866667, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_5</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.375000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 21.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0003</string>
+							<key>spriteUUID</key>
+							<string>033015BB-B888-4346-BEC1-B7572CD38160</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>875A15E2-1428-4B2A-8182-FD8D2844763D</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.337500, -0.600000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_6</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.250000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0004</string>
+							<key>spriteUUID</key>
+							<string>FE92C5AA-5651-470D-87BA-449EDC35E426</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>36319C57-5715-4D98-9E66-2DCD103D965A</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.716667, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_4</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.125000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0004</string>
+							<key>spriteUUID</key>
+							<string>FE92C5AA-5651-470D-87BA-449EDC35E426</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>FFED6331-B895-470A-9FD2-71F0B47B01E6</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.583334, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_1</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0001</string>
+							<key>spriteUUID</key>
+							<string>3609AC48-7EE0-497C-9918-1AE689665C40</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>9C27942D-F005-45CB-974D-B02A56B06B21</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.050000, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_3</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 21.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0003</string>
+							<key>spriteUUID</key>
+							<string>033015BB-B888-4346-BEC1-B7572CD38160</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>01A581C3-921D-4249-BFE3-E713B8EDEA96</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{1.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.316667, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0006</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0006</string>
+							<key>spriteUUID</key>
+							<string>B6F124A9-07B2-4F2A-AF6D-B74BEBF37FBA</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>64317B94-9F93-486D-8C16-62E16A5BBF6C</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.450000, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0008</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0008</string>
+							<key>spriteUUID</key>
+							<string>5E121CED-378E-48A8-AD88-44BA95233DC2</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>5F5617E6-A8D1-4659-9EC8-DAF6E2781970</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.500000, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0004</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.125000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0004</string>
+							<key>spriteUUID</key>
+							<string>FE92C5AA-5651-470D-87BA-449EDC35E426</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>59E3F1A1-E7C5-40F6-B773-5914141ACAA8</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{1.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.337500, -0.600000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0005</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.500000, 1.000000}</string>
+							<key>size</key>
+							<string>{64.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0005</string>
+							<key>spriteUUID</key>
+							<string>0A56C33D-A06B-4477-897D-BD99BE2C7785</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>8383C87D-2DE5-4A4D-9620-2CC02D20A837</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.520834, -0.600000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0005_bis</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-0.656250, 1.000000}</string>
+							<key>size</key>
+							<string>{32.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0005_bis</string>
+							<key>spriteUUID</key>
+							<string>7183273A-5225-43C3-90B3-6412C98BDFAF</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>35FB83CB-3B6E-4484-B069-67D398D9631F</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.916667, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0001</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0001</string>
+							<key>spriteUUID</key>
+							<string>3609AC48-7EE0-497C-9918-1AE689665C40</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>565BCC07-EA31-4B02-812A-31B3F472AA5A</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.650000, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0003</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 21.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0003</string>
+							<key>spriteUUID</key>
+							<string>033015BB-B888-4346-BEC1-B7572CD38160</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>53668A65-42BA-493D-A90D-DF6F98484583</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.233334, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0007</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0007</string>
+							<key>spriteUUID</key>
+							<string>34E65D29-255F-476D-AFC8-E3169EAA3920</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>3703877E-E910-449B-A2D9-E0476449819C</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.783334, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0002</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0002</string>
+							<key>spriteUUID</key>
+							<string>C6FD13C3-2AF5-47F3-BE8F-6951AD14C332</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>992E28FF-D29C-4B2F-AB34-993E166E0582</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.316667, -0.300000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_0009</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 19.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0009</string>
+							<key>spriteUUID</key>
+							<string>C8AAB2D8-C05F-4391-8768-A1559A61DBA5</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>03423283-11E1-47DD-8103-CADB26059A45</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.000000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.050000, -0.375000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_erba_13</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.437502, 1.000000}</string>
+							<key>size</key>
+							<string>{128.000000, 21.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_erba_0003</string>
+							<key>spriteUUID</key>
+							<string>033015BB-B888-4346-BEC1-B7572CD38160</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>C790A261-0E77-4BBC-BF7C-3D4B64534EBE</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.716667, -0.125000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_piante_0003</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{201.000000, 111.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_piante_0003</string>
+							<key>spriteUUID</key>
+							<string>985CBB85-CF94-4607-970A-FD39D70FBDE8</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>3A6DED4F-61AB-49E3-A25A-3BF20479CA14</string>
+							<key>zOrder</key>
+							<integer>2</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.983334, -0.225000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_piante_0004</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{46.000000, 46.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_piante_0004</string>
+							<key>spriteUUID</key>
+							<string>706C6292-C70D-418A-B684-C4A57476F3E8</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>AB39D10F-F4E6-4525-A486-AB5E7DF79CD8</string>
+							<key>zOrder</key>
+							<integer>2</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.607552, -0.131641}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_piante_0002</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{196.000000, 123.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_piante_0002</string>
+							<key>spriteUUID</key>
+							<string>AF21C069-ADFF-47B5-B72C-4146714A3927</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>1A4FD4EC-4416-45E6-B59C-48C6E2EC3381</string>
+							<key>zOrder</key>
+							<integer>2</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.366667, -0.125000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_piante_0002_2</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 136.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_piante_0002_2</string>
+							<key>spriteUUID</key>
+							<string>91D4DB5C-86B8-4BD8-9A87-4FD57EE772D4</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>1F1347E1-312A-4638-8094-4F37E2219419</string>
+							<key>zOrder</key>
+							<integer>2</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.316667, -0.100000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_piante_0002_3</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{103.000000, 94.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_piante_0002_3</string>
+							<key>spriteUUID</key>
+							<string>F563551A-34B1-4CCB-A8DF-0E986AA3CD5D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>554B1EF6-0626-445E-916B-85D890C0E0C5</string>
+							<key>zOrder</key>
+							<integer>2</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.683334, -0.225000}</string>
+							<key>imageFileName</key>
+							<string>w1_erba.png</string>
+							<key>name</key>
+							<string>mondo1_piante_0007</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.576531, 0.626471}</string>
+							<key>size</key>
+							<string>{98.000000, 85.000000}</string>
+							<key>spriteName</key>
+							<string>mondo1_piante_0007</string>
+							<key>spriteUUID</key>
+							<string>BC9422A0-EB45-4699-88E5-C900E5E767A5</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>DB34F74C-B935-452E-AC25-555A9A2CBB88</string>
+							<key>zOrder</key>
+							<integer>2</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.516667, 1.150000}</string>
+					<key>name</key>
+					<string>erba</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{107.876428, 107.876428}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>9DD00A00-812B-4902-B74F-403FE658381A</string>
+					<key>zOrder</key>
+					<integer>-4</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>SideAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>F2CC2884-5674-4E6C-8B6A-49764F3A6B08</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.366667, -0.050000}</string>
+					<key>name</key>
+					<string>SideAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 10.962872}</string>
+					<key>size</key>
+					<string>{64.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>30507921-AF50-413A-A1D7-3303FE937D63</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>SideAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>F2CC2884-5674-4E6C-8B6A-49764F3A6B08</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.033333, -0.025000}</string>
+					<key>name</key>
+					<string>SideAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 10.125000}</string>
+					<key>size</key>
+					<string>{64.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>D7AA2D31-115D-4DEE-A9A6-F6FCD7CE53C0</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>Sheep.lhasset</string>
+					<key>assetUUID</key>
+					<string>27949101-93EC-4D7F-AA45-6A95BB9775B3</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.566667, 0.800000}</string>
+					<key>name</key>
+					<string>Sheep</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>86EB4C06-CC7B-48A0-8D49-2599C59A03EB</string>
+					<key>zOrder</key>
+					<integer>4</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>Sheep.lhasset</string>
+					<key>assetUUID</key>
+					<string>27949101-93EC-4D7F-AA45-6A95BB9775B3</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.633333, 0.000000}</string>
+					<key>name</key>
+					<string>Sheep</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>774613D5-BF61-45A3-B405-9B315AD087CD</string>
+					<key>zOrder</key>
+					<integer>4</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>Sheep.lhasset</string>
+					<key>assetUUID</key>
+					<string>27949101-93EC-4D7F-AA45-6A95BB9775B3</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.733333, 0.000000}</string>
+					<key>name</key>
+					<string>Sheep</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>097A9660-CACD-44F2-B7BB-0099CE35AD7B</string>
+					<key>zOrder</key>
+					<integer>4</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>PanAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>5254F677-753A-47F3-A63F-490A79CD51E7</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.150000, 0.750000}</string>
+					<key>name</key>
+					<string>PanAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{32.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>2602AC8A-DE4C-42F9-97E0-453A6AC9C1B1</string>
+					<key>zOrder</key>
+					<integer>20</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>Nota.lhasset</string>
+					<key>assetUUID</key>
+					<string>CC1D3B34-07DE-4B26-AB11-18A00B2A55BF</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.683333, 0.250000}</string>
+					<key>name</key>
+					<string>Nota</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 63.996155}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>8860BDB1-3F1A-43B5-BAE2-47D6DE33F636</string>
+					<key>zOrder</key>
+					<integer>24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>Nota.lhasset</string>
+					<key>assetUUID</key>
+					<string>CC1D3B34-07DE-4B26-AB11-18A00B2A55BF</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.883333, 0.075000}</string>
+					<key>name</key>
+					<string>Nota</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 63.996155}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>1851A075-8B44-4C2B-9CEE-D75CAD20D79D</string>
+					<key>zOrder</key>
+					<integer>24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>Nota.lhasset</string>
+					<key>assetUUID</key>
+					<string>CC1D3B34-07DE-4B26-AB11-18A00B2A55BF</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.916667, 0.125000}</string>
+					<key>name</key>
+					<string>Nota</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000030}</string>
+					<key>size</key>
+					<string>{64.000000, 63.996155}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>C0220521-6121-4E05-978B-7984194F514A</string>
+					<key>zOrder</key>
+					<integer>24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>PortalAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>3D85B41F-5CAB-4D61-8E60-A293C2FB6DA1</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.122916, 0.698438}</string>
+					<key>name</key>
+					<string>PortalAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 192.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>A51E3566-F357-4BAC-BC43-00D4676E054E</string>
+					<key>zOrder</key>
+					<integer>32</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>name</key>
+			<string>GAME WORLD</string>
+			<key>nodeType</key>
+			<string>LHGameWorldNode</string>
+			<key>parentUUID</key>
+			<string>0C954DF4-6B60-4671-A0ED-E7BB1F8D9BD1</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{128.000000, 128.000000}</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>49411A1E-B625-419D-955A-1465DBA7593E</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>name</key>
+			<string>FRONT USER INTERFACE</string>
+			<key>nodeType</key>
+			<string>LHUINode</string>
+			<key>parentUUID</key>
+			<string>0C954DF4-6B60-4671-A0ED-E7BB1F8D9BD1</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{128.000000, 128.000000}</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>3F29DB5B-7E58-4D76-97E7-95F0BC5A94B7</string>
+			<key>zOrder</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>designResolution</key>
+	<string>{960.000000, 640.000000}</string>
+	<key>devices</key>
+	<array>
+		<dict>
+			<key>ratio</key>
+			<real>1</real>
+			<key>size</key>
+			<string>{960.000000, 640.000000}</string>
+			<key>suffix</key>
+			<string>sd</string>
+		</dict>
+		<dict>
+			<key>ratio</key>
+			<real>2</real>
+			<key>size</key>
+			<string>{1920.000000, 1280.000000}</string>
+			<key>suffix</key>
+			<string>hd</string>
+		</dict>
+	</array>
+	<key>gameWorld</key>
+	<dict>
+		<key>960x640</key>
+		<string>{{0.000000, -1.492718}, {2.333333, 2.567718}}</string>
+		<key>general</key>
+		<string>{{0.000000, -1.492718}, {2.333333, 2.567718}}</string>
+	</dict>
+	<key>globalGravityDirection</key>
+	<string>{0.000000, -1.000000}</string>
+	<key>globalGravityForce</key>
+	<real>8</real>
+	<key>nodeType</key>
+	<string>LHScene</string>
+	<key>sceneFormat</key>
+	<real>1</real>
+	<key>tags</key>
+	<array>
+		<string>DEFAULT</string>
+	</array>
+	<key>useGlobalGravity</key>
+	<true/>
+	<key>uuid</key>
+	<string>0C954DF4-6B60-4671-A0ED-E7BB1F8D9BD1</string>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w6_videoStory/w6_sc03/zeus0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{447,389}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{447,389}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc03/zeus0003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{453,2},{447,389}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{447,389}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc03/zeus0004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,395},{447,389}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{447,389}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc03/zeus0005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{395,395},{447,389}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{447,389}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w6_sc03_ss02.png</string>
+			<key>realTextureFileName</key>
+			<string>w6_sc03_ss02.png</string>
+			<key>size</key>
+			<string>{902,844}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>902</integer>
+			<key>height</key>
+			<integer>844</integer>
+		</dict>
+	</dict>
+</plist>

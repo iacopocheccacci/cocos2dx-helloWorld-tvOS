@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alpha</key>
+	<real>255</real>
+	<key>anchor</key>
+	<string>{0.500000, 0.500000}</string>
+	<key>assetUUID</key>
+	<string>1F0C8928-E876-4751-B0BD-7FC3B57328B8</string>
+	<key>children</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{1.000000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.052083, 0.000000}</string>
+					<key>imageFileName</key>
+					<string>w2_lightning.png</string>
+					<key>name</key>
+					<string>LightninHalfCircle1</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>3DD44CA4-7B8F-4791-A96D-4C1BB8E70B87</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{32.000000, 64.000000}</string>
+					<key>spriteName</key>
+					<string>LightningHalfCircle</string>
+					<key>spriteUUID</key>
+					<string>2D8C2382-87FB-4268-AD60-41B3CBBF3B0D</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>A109B7CA-12AB-4ED9-BEB9-B02DA84C7CB2</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{1.000000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.052083, 0.000000}</string>
+					<key>imageFileName</key>
+					<string>w2_lightning.png</string>
+					<key>name</key>
+					<string>LightninHalfCircle</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>3DD44CA4-7B8F-4791-A96D-4C1BB8E70B87</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{32.000000, 64.000000}</string>
+					<key>spriteName</key>
+					<string>LightningHalfCircle</string>
+					<key>spriteUUID</key>
+					<string>2D8C2382-87FB-4268-AD60-41B3CBBF3B0D</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>98CF6EAF-455D-47BB-955E-C3EC0BDCF663</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.000000, 0.000000}</string>
+					<key>imageFileName</key>
+					<string>w2_lightning.png</string>
+					<key>name</key>
+					<string>LightningSegment</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>3DD44CA4-7B8F-4791-A96D-4C1BB8E70B87</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{50.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{2.000000, 64.000000}</string>
+					<key>spriteName</key>
+					<string>LightningSegment</string>
+					<key>spriteUUID</key>
+					<string>A069CB04-9D05-4338-A328-14A0D142237C</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>3CF163F9-F779-4342-A2C2-806CEA91C56C</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>name</key>
+			<string>LightningRootNode</string>
+			<key>nodeType</key>
+			<string>LHNode</string>
+			<key>parentUUID</key>
+			<string>B2082585-A87F-4801-B1D1-6E3A23B1B886</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{100.000000, 100.000000}</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>3DD44CA4-7B8F-4791-A96D-4C1BB8E70B87</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>colorOverlay</key>
+	<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+	<key>generalPosition</key>
+	<string>{0.066667, 0.100000}</string>
+	<key>name</key>
+	<string>Untitled</string>
+	<key>nodeType</key>
+	<string>LHAsset</string>
+	<key>parentUUID</key>
+	<string>2B7DC3ED-E1CD-4DCF-9992-55A8438ADB2E</string>
+	<key>rotation</key>
+	<real>0.0</real>
+	<key>scale</key>
+	<string>{1.000000, 1.000000}</string>
+	<key>size</key>
+	<string>{128.000000, 128.000000}</string>
+	<key>tags</key>
+	<array>
+		<string>DEFAULT</string>
+	</array>
+	<key>uuid</key>
+	<string>B2082585-A87F-4801-B1D1-6E3A23B1B886</string>
+	<key>zOrder</key>
+	<integer>0</integer>
+</dict>
+</plist>

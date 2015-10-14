@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>eolo_aria_00000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{282.000000, 4.000000}, {270.000000, 270.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {270.000000, 270.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>A7FCD1D1-6306-454B-AE27-BA942186C2F3</string>
+		</dict>
+		<key>eolo_aria_00001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{838.000000, 4.000000}, {204.000000, 206.000000}}</string>
+			<key>offset</key>
+			<string>{6.000000, -4.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{28.000000, 39.000000}, {206.000000, 204.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>F960EC22-297B-43C2-AAD9-7AEBFA1D6499</string>
+		</dict>
+		<key>eolo_aria_00002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{814.000000, 563.000000}, {243.000000, 238.000000}}</string>
+			<key>offset</key>
+			<string>{0.500000, 3.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{19.000000, 14.000000}, {238.000000, 243.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>DB51C2AD-99C0-4A08-9C1B-BE78E5E64449</string>
+		</dict>
+		<key>eolo_aria_00003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{276.000000, 282.000000}, {265.000000, 256.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, 4.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2.000000, 3.000000}, {265.000000, 256.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>7DA2E6CD-CCC7-4FD5-8C3A-EAE2BC244A5F</string>
+		</dict>
+		<key>eolo_aria_00004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{560.000000, 276.000000}, {264.000000, 265.000000}}</string>
+			<key>offset</key>
+			<string>{-3.000000, -0.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{2.000000, 0.000000}, {265.000000, 264.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>C95210BC-A8A8-4DDD-B5E7-F32F7EC3CC65</string>
+		</dict>
+		<key>eolo_aria_00005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{544.000000, 805.000000}, {250.000000, 258.000000}}</string>
+			<key>offset</key>
+			<string>{-3.000000, 3.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{9.000000, 7.000000}, {258.000000, 250.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>547E8325-A6EA-4202-AA85-2D36AC996E73</string>
+		</dict>
+		<key>eolo_aria_00006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{4.000000, 282.000000}, {264.000000, 261.000000}}</string>
+			<key>offset</key>
+			<string>{-2.000000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 5.000000}, {264.000000, 261.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>3490B995-305D-413B-A8A9-90196438AF86</string>
+		</dict>
+		<key>eolo_aria_00007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{272.000000, 811.000000}, {260.000000, 248.000000}}</string>
+			<key>offset</key>
+			<string>{3.000000, -2.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 13.000000}, {260.000000, 248.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>4C01FB86-69F1-4247-9C8C-181441FF94E1</string>
+		</dict>
+		<key>eolo_aria_00008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{4.000000, 551.000000}, {260.000000, 256.000000}}</string>
+			<key>offset</key>
+			<string>{-2.000000, -4.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3.000000, 11.000000}, {260.000000, 256.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>0AA6F923-69EF-42B9-BE7E-2CCE72A1F4C2</string>
+		</dict>
+		<key>eolo_aria_00009.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{276.000000, 546.000000}, {260.000000, 257.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, 5.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 1.000000}, {260.000000, 257.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>DD54E72D-9822-4B08-9396-7A5169C4319D</string>
+		</dict>
+		<key>eolo_aria_00010.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{544.000000, 548.000000}, {262.000000, 249.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, 4.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3.000000, 6.000000}, {262.000000, 249.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>1DCAD5C3-773D-420C-9E88-D1B1F1A0E503</string>
+		</dict>
+		<key>eolo_aria_00011.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{560.000000, 4.000000}, {264.000000, 270.000000}}</string>
+			<key>offset</key>
+			<string>{-3.000000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {270.000000, 264.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>7F7690E4-AE46-4552-985C-220FF259C3AE</string>
+		</dict>
+		<key>eolo_aria_00012.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{810.000000, 814.000000}, {235.000000, 240.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, 2.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{17.000000, 16.000000}, {240.000000, 235.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>E36089D5-E860-4FB0-9A7D-18ACC9911ED2</string>
+		</dict>
+		<key>eolo_aria_00013.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{838.000000, 216.000000}, {197.000000, 187.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{35.000000, 42.000000}, {197.000000, 187.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>626D7F86-87A9-496E-9C67-86A4C1F8563D</string>
+		</dict>
+		<key>eolo_aria_00014.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{833.000000, 411.000000}, {153.000000, 144.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, 3.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{56.000000, 60.000000}, {153.000000, 144.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>D5AB6F49-7540-47DC-A1FA-7F7BC2324574</string>
+		</dict>
+		<key>eolo_aria_00015.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{4.000000, 815.000000}, {111.000000, 102.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, 3.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{79.000000, 81.000000}, {111.000000, 102.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>52FD20A5-2184-4D7A-8A9C-DC1F1AAFD6A7</string>
+		</dict>
+		<key>eolo_aria_00016.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{123.000000, 815.000000}, {64.000000, 61.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, 0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{104.000000, 104.000000}, {64.000000, 61.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>172D80E0-080B-4BD7-A687-FE59B57B3D6A</string>
+		</dict>
+		<key>eolo_aria_00017.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{4.000000, 4.000000}, {270.000000, 270.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {270.000000, 270.000000}}</string>
+			<key>sourceSize</key>
+			<string>{270.000000, 270.000000}</string>
+			<key>uuid</key>
+			<string>A5344C5F-F8B2-4586-8C9A-B7B4E7972A41</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1056.000000, 1063.000000}</string>
+		<key>textureFileName</key>
+		<string>EoloAria_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

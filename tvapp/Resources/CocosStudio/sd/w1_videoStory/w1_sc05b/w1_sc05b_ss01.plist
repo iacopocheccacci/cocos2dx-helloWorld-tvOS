@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w1_videoStory/w1_sc05b/bgsc05b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{883,401}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{883,401}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc05b/flutepiece01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{889,204},{97,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,96}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc05b/flutepiece02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{889,2},{99,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{99,97}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc05b/flutepiece03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{889,404},{95,98}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{95,98}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc05b/flutepiece04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{889,304},{97,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,96}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc05b/flutepiece05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{889,103},{97,99}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{97,99}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w1_sc05b_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w1_sc05b_ss01.png</string>
+			<key>size</key>
+			<string>{990,501}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>990</integer>
+			<key>height</key>
+			<integer>501</integer>
+		</dict>
+	</dict>
+</plist>

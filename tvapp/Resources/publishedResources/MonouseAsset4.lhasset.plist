@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alpha</key>
+	<real>255</real>
+	<key>anchor</key>
+	<string>{0.500000, 0.500000}</string>
+	<key>assetUUID</key>
+	<string>6BDA3AC6-862D-4876-ADD1-6244D783A502</string>
+	<key>children</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>0.0</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.000000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.000000, -0.173485}</string>
+					<key>imageFileName</key>
+					<string>Monouso4_spritesheet.png</string>
+					<key>name</key>
+					<string>MonouseSprite1</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>760E7C79-513B-4A0A-9F55-E365C12AE6E7</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{3.084021, 12.336693}</string>
+					<key>size</key>
+					<string>{78.000000, 154.000000}</string>
+					<key>spriteName</key>
+					<string>monouso_w4_02_0000.png</string>
+					<key>spriteUUID</key>
+					<string>187A7E7E-A081-4DEC-86E8-F7DC7C61890F</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>A6375E71-EB30-4D60-A58D-BDCDCFAA3442</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{-0.100000, 0.000000}</string>
+			<key>name</key>
+			<string>Block1</string>
+			<key>nodePhysics</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<real>0.0</real>
+				<key>angularVelocity</key>
+				<real>0.0</real>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>genericFixture</key>
+				<dict>
+					<key>category</key>
+					<integer>1</integer>
+					<key>density</key>
+					<real>0.10000000149011612</real>
+					<key>friction</key>
+					<real>0.20000000298023224</real>
+					<key>mask</key>
+					<integer>1</integer>
+					<key>maskName</key>
+					<string>monousePlatformMask</string>
+					<key>name</key>
+					<string>GenericFixture</string>
+					<key>restitution</key>
+					<real>0.0</real>
+					<key>sensor</key>
+					<false/>
+					<key>shapeID</key>
+					<integer>0</integer>
+				</dict>
+				<key>gravityScale</key>
+				<real>1</real>
+				<key>linearDamping</key>
+				<real>0.0</real>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shape</key>
+				<integer>2</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>nodeType</key>
+			<string>LHTexturedShape</string>
+			<key>parentUUID</key>
+			<string>49E8FFD2-4C1E-45F0-AD65-5B04AD54AA15</string>
+			<key>points</key>
+			<array>
+				<dict>
+					<key>point</key>
+					<string>{98.688674, -49.346600}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{98.580723, 98.619521}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-98.688642, 98.693374}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-74.016506, -98.693373}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{74.016506, -98.693373}</string>
+				</dict>
+			</array>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{0.324252, 0.081059}</string>
+			<key>size</key>
+			<string>{197.377350, 197.386749}</string>
+			<key>subclassNodeType</key>
+			<string>MonousePlatform</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+				<string>BLOCK</string>
+				<string>MONOUSE</string>
+				<string>ONESIDE</string>
+			</array>
+			<key>tileScale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>tileTexture</key>
+			<false/>
+			<key>triangles</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.580723, 98.619521}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.109375}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688642, 98.693374}</string>
+					<key>uv</key>
+					<string>{0.890625, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.890625}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.109375}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.580723, 98.619521}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.890625}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.109375, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.016506, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.107692, 0.301004}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.999453, 0.999626}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.000000, 1.000000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.016506, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.860095, 0.370942}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.000000, 1.000000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-74.016506, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.107692, 0.301004}</string>
+				</dict>
+			</array>
+			<key>uuid</key>
+			<string>760E7C79-513B-4A0A-9F55-E365C12AE6E7</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>0.0</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.000000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.008634, -0.156387}</string>
+					<key>imageFileName</key>
+					<string>Monouso4_spritesheet.png</string>
+					<key>name</key>
+					<string>MonouseSprite2</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>2C9919E1-208F-48AD-90D6-BF55C8288BE5</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{3.170905, 12.336693}</string>
+					<key>size</key>
+					<string>{73.000000, 148.000000}</string>
+					<key>spriteName</key>
+					<string>monouso_w4_01_0000.png</string>
+					<key>spriteUUID</key>
+					<string>D7BABB5F-48A4-490F-93BD-D225EEB3DD3D</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>622E75AA-97A3-45C1-A016-7268AA48725A</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{-0.033333, 0.000000}</string>
+			<key>name</key>
+			<string>Block2</string>
+			<key>nodePhysics</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<real>0.0</real>
+				<key>angularVelocity</key>
+				<real>0.0</real>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>genericFixture</key>
+				<dict>
+					<key>category</key>
+					<integer>1</integer>
+					<key>density</key>
+					<real>0.10000000149011612</real>
+					<key>friction</key>
+					<real>0.20000000298023224</real>
+					<key>mask</key>
+					<integer>1</integer>
+					<key>maskName</key>
+					<string>monousePlatformMask</string>
+					<key>name</key>
+					<string>GenericFixture</string>
+					<key>restitution</key>
+					<real>0.0</real>
+					<key>sensor</key>
+					<false/>
+					<key>shapeID</key>
+					<integer>0</integer>
+				</dict>
+				<key>gravityScale</key>
+				<real>1</real>
+				<key>linearDamping</key>
+				<real>0.0</real>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shape</key>
+				<integer>2</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>nodeType</key>
+			<string>LHTexturedShape</string>
+			<key>parentUUID</key>
+			<string>49E8FFD2-4C1E-45F0-AD65-5B04AD54AA15</string>
+			<key>points</key>
+			<array>
+				<dict>
+					<key>point</key>
+					<string>{98.688675, -49.346600}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{98.581711, 98.619521}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-98.687654, 98.693374}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-98.688673, -49.346600}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-74.016505, -98.693373}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{74.016507, -98.693373}</string>
+				</dict>
+			</array>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{0.324252, 0.081059}</string>
+			<key>size</key>
+			<string>{197.377350, 197.386749}</string>
+			<key>subclassNodeType</key>
+			<string>MonousePlatform</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+				<string>BLOCK</string>
+				<string>MONOUSE</string>
+				<string>ONESIDE</string>
+			</array>
+			<key>tileScale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>tileTexture</key>
+			<false/>
+			<key>triangles</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.581711, 98.619521}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.109375}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.687654, 98.693374}</string>
+					<key>uv</key>
+					<string>{0.890625, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688673, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.890625}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.688675, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.109375}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.581711, 98.619521}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.890625}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688673, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.109375, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.016507, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.158068, 0.142552}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.688675, -49.346600}</string>
+					<key>uv</key>
+					<string>{1.000000, 0.001189}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688673, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.999453, 0.999626}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.016507, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.900288, 0.176483}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688673, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.999453, 0.999626}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-74.016505, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.158068, 0.142552}</string>
+				</dict>
+			</array>
+			<key>uuid</key>
+			<string>2C9919E1-208F-48AD-90D6-BF55C8288BE5</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>0.0</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.000207, 1.270043}</string>
+					<key>imageFileName</key>
+					<string>Monouso4_spritesheet.png</string>
+					<key>name</key>
+					<string>MonouseSprite3</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>23292887-D963-4E49-8EF6-385A0285B847</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{3.182024, 12.336693}</string>
+					<key>size</key>
+					<string>{83.000000, 150.000000}</string>
+					<key>spriteName</key>
+					<string>monouso_w4_03_0000.png</string>
+					<key>spriteUUID</key>
+					<string>684DD231-EF17-4B86-92BB-E452BF9E8E04</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>9B547337-D916-4D6B-A319-19159906CA80</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.033333, 0.000000}</string>
+			<key>name</key>
+			<string>Block3</string>
+			<key>nodePhysics</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<real>0.0</real>
+				<key>angularVelocity</key>
+				<real>0.0</real>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>genericFixture</key>
+				<dict>
+					<key>category</key>
+					<integer>1</integer>
+					<key>density</key>
+					<real>0.10000000149011612</real>
+					<key>friction</key>
+					<real>0.20000000298023224</real>
+					<key>mask</key>
+					<integer>1</integer>
+					<key>maskName</key>
+					<string>monousePlatformMask</string>
+					<key>name</key>
+					<string>GenericFixture</string>
+					<key>restitution</key>
+					<real>0.0</real>
+					<key>sensor</key>
+					<false/>
+					<key>shapeID</key>
+					<integer>0</integer>
+				</dict>
+				<key>gravityScale</key>
+				<real>1</real>
+				<key>linearDamping</key>
+				<real>0.0</real>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shape</key>
+				<integer>2</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>nodeType</key>
+			<string>LHTexturedShape</string>
+			<key>parentUUID</key>
+			<string>49E8FFD2-4C1E-45F0-AD65-5B04AD54AA15</string>
+			<key>points</key>
+			<array>
+				<dict>
+					<key>point</key>
+					<string>{98.689154, -49.346600}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{98.580216, 98.619521}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-98.689149, 98.693374}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-98.688195, -49.346600}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-74.016026, -98.693373}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{74.016985, -98.693373}</string>
+				</dict>
+			</array>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{0.324252, 0.081059}</string>
+			<key>size</key>
+			<string>{197.378311, 197.386749}</string>
+			<key>subclassNodeType</key>
+			<string>MonousePlatform</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+				<string>BLOCK</string>
+				<string>MONOUSE</string>
+				<string>ONESIDE</string>
+			</array>
+			<key>tileScale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>tileTexture</key>
+			<false/>
+			<key>triangles</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.580216, 98.619521}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.109375}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.689149, 98.693374}</string>
+					<key>uv</key>
+					<string>{0.890625, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688195, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.890625}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.689154, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.109375}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.580216, 98.619521}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.890625}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688195, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.109375, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.016985, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.266747, 0.183963}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.689154, -49.346600}</string>
+					<key>uv</key>
+					<string>{1.000000, 0.001189}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688195, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.999453, 0.999626}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.016985, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.774771, 0.238260}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688195, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.999453, 0.999626}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-74.016026, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.266747, 0.183963}</string>
+				</dict>
+			</array>
+			<key>uuid</key>
+			<string>23292887-D963-4E49-8EF6-385A0285B847</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>0.0</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.000000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.000397, -0.175663}</string>
+					<key>imageFileName</key>
+					<string>Monouso4_spritesheet.png</string>
+					<key>name</key>
+					<string>MonouseSprite4</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>87AF30CC-2326-48F2-869F-4B76094E9444</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{3.108029, 12.336693}</string>
+					<key>size</key>
+					<string>{78.000000, 154.000000}</string>
+					<key>spriteName</key>
+					<string>monouso_w4_02_0000.png</string>
+					<key>spriteUUID</key>
+					<string>187A7E7E-A081-4DEC-86E8-F7DC7C61890F</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>AD696F1E-FB88-4EDB-A62B-0F729023F238</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.100000, 0.000000}</string>
+			<key>name</key>
+			<string>Block4</string>
+			<key>nodePhysics</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<real>0.0</real>
+				<key>angularVelocity</key>
+				<real>0.0</real>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>genericFixture</key>
+				<dict>
+					<key>category</key>
+					<integer>1</integer>
+					<key>density</key>
+					<real>0.10000000149011612</real>
+					<key>friction</key>
+					<real>0.20000000298023224</real>
+					<key>mask</key>
+					<integer>1</integer>
+					<key>maskName</key>
+					<string>monousePlatformMask</string>
+					<key>name</key>
+					<string>GenericFixture</string>
+					<key>restitution</key>
+					<real>0.0</real>
+					<key>sensor</key>
+					<false/>
+					<key>shapeID</key>
+					<integer>0</integer>
+				</dict>
+				<key>gravityScale</key>
+				<real>1</real>
+				<key>linearDamping</key>
+				<real>0.0</real>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shape</key>
+				<integer>2</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>nodeType</key>
+			<string>LHTexturedShape</string>
+			<key>parentUUID</key>
+			<string>49E8FFD2-4C1E-45F0-AD65-5B04AD54AA15</string>
+			<key>points</key>
+			<array>
+				<dict>
+					<key>point</key>
+					<string>{98.688674, -49.346600}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{98.580723, 98.619521}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-98.688642, 98.693374}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-74.016506, -98.693373}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{74.016506, -98.693373}</string>
+				</dict>
+			</array>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{0.324252, 0.081059}</string>
+			<key>size</key>
+			<string>{197.377350, 197.386749}</string>
+			<key>subclassNodeType</key>
+			<string>MonousePlatform</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+				<string>BLOCK</string>
+				<string>MONOUSE</string>
+				<string>ONESIDE</string>
+			</array>
+			<key>tileScale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>tileTexture</key>
+			<false/>
+			<key>triangles</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.580723, 98.619521}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.109375}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688642, 98.693374}</string>
+					<key>uv</key>
+					<string>{0.890625, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.890625}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.109375}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.580723, 98.619521}</string>
+					<key>uv</key>
+					<string>{0.500000, 0.890625}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.109375, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.016506, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.138509, 0.118786}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{1.000000, 0.001189}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.999453, 0.999626}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.016506, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.855273, 0.220615}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-98.688674, -49.346600}</string>
+					<key>uv</key>
+					<string>{0.000000, 1.000000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-74.016506, -98.693373}</string>
+					<key>uv</key>
+					<string>{0.138509, 0.118786}</string>
+				</dict>
+			</array>
+			<key>uuid</key>
+			<string>87AF30CC-2326-48F2-869F-4B76094E9444</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>colorOverlay</key>
+	<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+	<key>generalPosition</key>
+	<string>{0.066667, 0.100000}</string>
+	<key>name</key>
+	<string>Untitled</string>
+	<key>nodeType</key>
+	<string>LHAsset</string>
+	<key>parentUUID</key>
+	<string>2B7DC3ED-E1CD-4DCF-9992-55A8438ADB2E</string>
+	<key>rotation</key>
+	<real>0.0</real>
+	<key>scale</key>
+	<string>{1.000000, 1.000000}</string>
+	<key>size</key>
+	<string>{256.000000, 16.000000}</string>
+	<key>tags</key>
+	<array>
+		<string>DEFAULT</string>
+	</array>
+	<key>uuid</key>
+	<string>49E8FFD2-4C1E-45F0-AD65-5B04AD54AA15</string>
+	<key>zOrder</key>
+	<integer>0</integer>
+</dict>
+</plist>

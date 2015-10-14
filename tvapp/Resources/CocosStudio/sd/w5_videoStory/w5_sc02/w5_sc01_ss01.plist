@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w5_videoStory/w5_sc02/adebodysc02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,456},{485,477}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{485,477}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc02/ade_head_sc02_0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{483,456},{252,388}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{252,388}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc02/bgsc02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{882,450}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{882,450}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc02/lupobody.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{483,712},{208,275}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{208,275}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc02/lupohead.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{888,2},{122,104}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{122,104}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w5_sc01_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w5_sc01_ss01.png</string>
+			<key>size</key>
+			<string>{1012,989}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1012</integer>
+			<key>height</key>
+			<integer>989</integer>
+		</dict>
+	</dict>
+</plist>

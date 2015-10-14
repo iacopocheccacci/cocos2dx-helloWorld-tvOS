@@ -11,15 +11,313 @@
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		204F34BB1BC3245A005CF428 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204F34BA1BC3245A005CF428 /* GameController.framework */; };
+		204F34BD1BC3289C005CF428 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204F34BC1BC3289C005CF428 /* GameController.framework */; };
+		208A70631BC94EB100D56479 /* blankPixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 208A70531BC94EB100D56479 /* blankPixel.png */; };
+		208A70641BC94EB100D56479 /* blankPixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 208A70531BC94EB100D56479 /* blankPixel.png */; };
+		208A70651BC94EB100D56479 /* blankPixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 208A70531BC94EB100D56479 /* blankPixel.png */; };
+		208A70661BC94EB100D56479 /* CocosStudio in Resources */ = {isa = PBXBuildFile; fileRef = 208A70541BC94EB100D56479 /* CocosStudio */; };
+		208A70671BC94EB100D56479 /* CocosStudio in Resources */ = {isa = PBXBuildFile; fileRef = 208A70541BC94EB100D56479 /* CocosStudio */; };
+		208A70681BC94EB100D56479 /* CocosStudio in Resources */ = {isa = PBXBuildFile; fileRef = 208A70541BC94EB100D56479 /* CocosStudio */; };
+		208A70691BC94EB100D56479 /* extension in Resources */ = {isa = PBXBuildFile; fileRef = 208A70551BC94EB100D56479 /* extension */; };
+		208A706A1BC94EB100D56479 /* extension in Resources */ = {isa = PBXBuildFile; fileRef = 208A70551BC94EB100D56479 /* extension */; };
+		208A706B1BC94EB100D56479 /* extension in Resources */ = {isa = PBXBuildFile; fileRef = 208A70551BC94EB100D56479 /* extension */; };
+		208A706C1BC94EB100D56479 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 208A70561BC94EB100D56479 /* fonts */; };
+		208A706D1BC94EB100D56479 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 208A70561BC94EB100D56479 /* fonts */; };
+		208A706E1BC94EB100D56479 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 208A70561BC94EB100D56479 /* fonts */; };
+		208A706F1BC94EB100D56479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208A70571BC94EB100D56479 /* Images.xcassets */; };
+		208A70701BC94EB100D56479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208A70571BC94EB100D56479 /* Images.xcassets */; };
+		208A70711BC94EB100D56479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208A70571BC94EB100D56479 /* Images.xcassets */; };
+		208A70721BC94EB100D56479 /* LH2-Published in Resources */ = {isa = PBXBuildFile; fileRef = 208A70581BC94EB100D56479 /* LH2-Published */; };
+		208A70731BC94EB100D56479 /* LH2-Published in Resources */ = {isa = PBXBuildFile; fileRef = 208A70581BC94EB100D56479 /* LH2-Published */; };
+		208A70741BC94EB100D56479 /* LH2-Published in Resources */ = {isa = PBXBuildFile; fileRef = 208A70581BC94EB100D56479 /* LH2-Published */; };
+		208A70751BC94EB100D56479 /* Media in Resources */ = {isa = PBXBuildFile; fileRef = 208A70591BC94EB100D56479 /* Media */; };
+		208A70761BC94EB100D56479 /* Media in Resources */ = {isa = PBXBuildFile; fileRef = 208A70591BC94EB100D56479 /* Media */; };
+		208A70771BC94EB100D56479 /* Media in Resources */ = {isa = PBXBuildFile; fileRef = 208A70591BC94EB100D56479 /* Media */; };
+		208A70781BC94EB100D56479 /* noteDuration.png in Resources */ = {isa = PBXBuildFile; fileRef = 208A705A1BC94EB100D56479 /* noteDuration.png */; };
+		208A70791BC94EB100D56479 /* noteDuration.png in Resources */ = {isa = PBXBuildFile; fileRef = 208A705A1BC94EB100D56479 /* noteDuration.png */; };
+		208A707A1BC94EB100D56479 /* noteDuration.png in Resources */ = {isa = PBXBuildFile; fileRef = 208A705A1BC94EB100D56479 /* noteDuration.png */; };
+		208A707B1BC94EB100D56479 /* particles in Resources */ = {isa = PBXBuildFile; fileRef = 208A705B1BC94EB100D56479 /* particles */; };
+		208A707C1BC94EB100D56479 /* particles in Resources */ = {isa = PBXBuildFile; fileRef = 208A705B1BC94EB100D56479 /* particles */; };
+		208A707D1BC94EB100D56479 /* particles in Resources */ = {isa = PBXBuildFile; fileRef = 208A705B1BC94EB100D56479 /* particles */; };
+		208A707E1BC94EB100D56479 /* publishedResources in Resources */ = {isa = PBXBuildFile; fileRef = 208A705C1BC94EB100D56479 /* publishedResources */; };
+		208A707F1BC94EB100D56479 /* publishedResources in Resources */ = {isa = PBXBuildFile; fileRef = 208A705C1BC94EB100D56479 /* publishedResources */; };
+		208A70801BC94EB100D56479 /* publishedResources in Resources */ = {isa = PBXBuildFile; fileRef = 208A705C1BC94EB100D56479 /* publishedResources */; };
+		208A70811BC94EB100D56479 /* sdkbox_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 208A705D1BC94EB100D56479 /* sdkbox_config.json */; };
+		208A70821BC94EB100D56479 /* sdkbox_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 208A705D1BC94EB100D56479 /* sdkbox_config.json */; };
+		208A70831BC94EB100D56479 /* sdkbox_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 208A705D1BC94EB100D56479 /* sdkbox_config.json */; };
+		208A70841BC94EB100D56479 /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 208A705E1BC94EB100D56479 /* Shaders */; };
+		208A70851BC94EB100D56479 /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 208A705E1BC94EB100D56479 /* Shaders */; };
+		208A70861BC94EB100D56479 /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 208A705E1BC94EB100D56479 /* Shaders */; };
+		208A70871BC94EB100D56479 /* SOP_levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208A705F1BC94EB100D56479 /* SOP_levels.plist */; };
+		208A70881BC94EB100D56479 /* SOP_levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208A705F1BC94EB100D56479 /* SOP_levels.plist */; };
+		208A70891BC94EB100D56479 /* SOP_levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208A705F1BC94EB100D56479 /* SOP_levels.plist */; };
+		208A708A1BC94EB100D56479 /* SOP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208A70601BC94EB100D56479 /* SOP.plist */; };
+		208A708B1BC94EB100D56479 /* SOP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208A70601BC94EB100D56479 /* SOP.plist */; };
+		208A708C1BC94EB100D56479 /* SOP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208A70601BC94EB100D56479 /* SOP.plist */; };
+		208A708D1BC94EB100D56479 /* subtitles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208A70611BC94EB100D56479 /* subtitles.plist */; };
+		208A708E1BC94EB100D56479 /* subtitles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208A70611BC94EB100D56479 /* subtitles.plist */; };
+		208A708F1BC94EB100D56479 /* subtitles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208A70611BC94EB100D56479 /* subtitles.plist */; };
+		208A70901BC94EB100D56479 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 208A70621BC94EB100D56479 /* UI */; };
+		208A70911BC94EB100D56479 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 208A70621BC94EB100D56479 /* UI */; };
+		208A70921BC94EB100D56479 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 208A70621BC94EB100D56479 /* UI */; };
+		208A71431BC94EC200D56479 /* AnalyticsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70931BC94EC100D56479 /* AnalyticsManager.cpp */; };
+		208A71441BC94EC200D56479 /* AnalyticsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70931BC94EC100D56479 /* AnalyticsManager.cpp */; };
+		208A71451BC94EC200D56479 /* AnalyticsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70931BC94EC100D56479 /* AnalyticsManager.cpp */; };
+		208A71461BC94EC200D56479 /* AnimationComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70951BC94EC100D56479 /* AnimationComponent.cpp */; };
+		208A71471BC94EC200D56479 /* AnimationComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70951BC94EC100D56479 /* AnimationComponent.cpp */; };
+		208A71481BC94EC200D56479 /* AnimationComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70951BC94EC100D56479 /* AnimationComponent.cpp */; };
+		208A71491BC94EC200D56479 /* AudioOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70971BC94EC100D56479 /* AudioOptions.cpp */; };
+		208A714A1BC94EC200D56479 /* AudioOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70971BC94EC100D56479 /* AudioOptions.cpp */; };
+		208A714B1BC94EC200D56479 /* AudioOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70971BC94EC100D56479 /* AudioOptions.cpp */; };
+		208A714C1BC94EC200D56479 /* Brazier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70991BC94EC100D56479 /* Brazier.cpp */; };
+		208A714D1BC94EC200D56479 /* Brazier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70991BC94EC100D56479 /* Brazier.cpp */; };
+		208A714E1BC94EC200D56479 /* Brazier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70991BC94EC100D56479 /* Brazier.cpp */; };
+		208A714F1BC94EC200D56479 /* CameraManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709B1BC94EC100D56479 /* CameraManager.cpp */; };
+		208A71501BC94EC200D56479 /* CameraManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709B1BC94EC100D56479 /* CameraManager.cpp */; };
+		208A71511BC94EC200D56479 /* CameraManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709B1BC94EC100D56479 /* CameraManager.cpp */; };
+		208A71521BC94EC200D56479 /* CollisionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709D1BC94EC100D56479 /* CollisionManager.cpp */; };
+		208A71531BC94EC200D56479 /* CollisionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709D1BC94EC100D56479 /* CollisionManager.cpp */; };
+		208A71541BC94EC200D56479 /* CollisionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709D1BC94EC100D56479 /* CollisionManager.cpp */; };
+		208A71551BC94EC200D56479 /* ConfirmInputPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */; };
+		208A71561BC94EC200D56479 /* ConfirmInputPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */; };
+		208A71571BC94EC200D56479 /* ConfirmInputPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */; };
+		208A71581BC94EC200D56479 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A11BC94EC100D56479 /* Controller.cpp */; };
+		208A71591BC94EC200D56479 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A11BC94EC100D56479 /* Controller.cpp */; };
+		208A715A1BC94EC200D56479 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A11BC94EC100D56479 /* Controller.cpp */; };
+		208A715B1BC94EC200D56479 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A41BC94EC100D56479 /* Door.cpp */; };
+		208A715C1BC94EC200D56479 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A41BC94EC100D56479 /* Door.cpp */; };
+		208A715D1BC94EC200D56479 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A41BC94EC100D56479 /* Door.cpp */; };
+		208A715E1BC94EC200D56479 /* Drop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A61BC94EC100D56479 /* Drop.cpp */; };
+		208A715F1BC94EC200D56479 /* Drop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A61BC94EC100D56479 /* Drop.cpp */; };
+		208A71601BC94EC200D56479 /* Drop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A61BC94EC100D56479 /* Drop.cpp */; };
+		208A71611BC94EC200D56479 /* EditorMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A81BC94EC100D56479 /* EditorMenuItem.cpp */; };
+		208A71621BC94EC200D56479 /* EditorMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A81BC94EC100D56479 /* EditorMenuItem.cpp */; };
+		208A71631BC94EC200D56479 /* EditorMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A81BC94EC100D56479 /* EditorMenuItem.cpp */; };
+		208A71641BC94EC200D56479 /* EditorMenuManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70AA1BC94EC100D56479 /* EditorMenuManager.cpp */; };
+		208A71651BC94EC200D56479 /* EditorMenuManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70AA1BC94EC100D56479 /* EditorMenuManager.cpp */; };
+		208A71661BC94EC200D56479 /* EditorMenuManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70AA1BC94EC100D56479 /* EditorMenuManager.cpp */; };
+		208A71671BC94EC200D56479 /* EditorTableView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70AC1BC94EC100D56479 /* EditorTableView.cpp */; };
+		208A71681BC94EC200D56479 /* EditorTableView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70AC1BC94EC100D56479 /* EditorTableView.cpp */; };
+		208A71691BC94EC200D56479 /* EditorTableView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70AC1BC94EC100D56479 /* EditorTableView.cpp */; };
+		208A716A1BC94EC200D56479 /* EffectsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70AE1BC94EC100D56479 /* EffectsManager.cpp */; };
+		208A716B1BC94EC200D56479 /* EffectsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70AE1BC94EC100D56479 /* EffectsManager.cpp */; };
+		208A716C1BC94EC200D56479 /* EffectsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70AE1BC94EC100D56479 /* EffectsManager.cpp */; };
+		208A716D1BC94EC200D56479 /* Eolo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B01BC94EC100D56479 /* Eolo.cpp */; };
+		208A716E1BC94EC200D56479 /* Eolo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B01BC94EC100D56479 /* Eolo.cpp */; };
+		208A716F1BC94EC200D56479 /* Eolo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B01BC94EC100D56479 /* Eolo.cpp */; };
+		208A71701BC94EC200D56479 /* EoloZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B21BC94EC200D56479 /* EoloZone.cpp */; };
+		208A71711BC94EC200D56479 /* EoloZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B21BC94EC200D56479 /* EoloZone.cpp */; };
+		208A71721BC94EC200D56479 /* EoloZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B21BC94EC200D56479 /* EoloZone.cpp */; };
+		208A71731BC94EC200D56479 /* FaithJumpBrick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B41BC94EC200D56479 /* FaithJumpBrick.cpp */; };
+		208A71741BC94EC200D56479 /* FaithJumpBrick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B41BC94EC200D56479 /* FaithJumpBrick.cpp */; };
+		208A71751BC94EC200D56479 /* FaithJumpBrick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B41BC94EC200D56479 /* FaithJumpBrick.cpp */; };
+		208A71761BC94EC200D56479 /* FakeLoading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B61BC94EC200D56479 /* FakeLoading.cpp */; };
+		208A71771BC94EC200D56479 /* FakeLoading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B61BC94EC200D56479 /* FakeLoading.cpp */; };
+		208A71781BC94EC200D56479 /* FakeLoading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B61BC94EC200D56479 /* FakeLoading.cpp */; };
+		208A71791BC94EC200D56479 /* Flute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B81BC94EC200D56479 /* Flute.cpp */; };
+		208A717A1BC94EC200D56479 /* Flute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B81BC94EC200D56479 /* Flute.cpp */; };
+		208A717B1BC94EC200D56479 /* Flute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70B81BC94EC200D56479 /* Flute.cpp */; };
+		208A717C1BC94EC200D56479 /* GameCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70BA1BC94EC200D56479 /* GameCamera.cpp */; };
+		208A717D1BC94EC200D56479 /* GameCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70BA1BC94EC200D56479 /* GameCamera.cpp */; };
+		208A717E1BC94EC200D56479 /* GameCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70BA1BC94EC200D56479 /* GameCamera.cpp */; };
+		208A717F1BC94EC200D56479 /* GameContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70BC1BC94EC200D56479 /* GameContext.cpp */; };
+		208A71801BC94EC200D56479 /* GameContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70BC1BC94EC200D56479 /* GameContext.cpp */; };
+		208A71811BC94EC200D56479 /* GameContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70BC1BC94EC200D56479 /* GameContext.cpp */; };
+		208A71821BC94EC200D56479 /* GameLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70BE1BC94EC200D56479 /* GameLogic.cpp */; };
+		208A71831BC94EC200D56479 /* GameLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70BE1BC94EC200D56479 /* GameLogic.cpp */; };
+		208A71841BC94EC200D56479 /* GameLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70BE1BC94EC200D56479 /* GameLogic.cpp */; };
+		208A71851BC94EC200D56479 /* Gear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C01BC94EC200D56479 /* Gear.cpp */; };
+		208A71861BC94EC200D56479 /* Gear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C01BC94EC200D56479 /* Gear.cpp */; };
+		208A71871BC94EC200D56479 /* Gear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C01BC94EC200D56479 /* Gear.cpp */; };
+		208A71881BC94EC200D56479 /* Goatskin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C21BC94EC200D56479 /* Goatskin.cpp */; };
+		208A71891BC94EC200D56479 /* Goatskin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C21BC94EC200D56479 /* Goatskin.cpp */; };
+		208A718A1BC94EC200D56479 /* Goatskin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C21BC94EC200D56479 /* Goatskin.cpp */; };
+		208A718B1BC94EC200D56479 /* GoatskinMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C41BC94EC200D56479 /* GoatskinMenuItem.cpp */; };
+		208A718C1BC94EC200D56479 /* GoatskinMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C41BC94EC200D56479 /* GoatskinMenuItem.cpp */; };
+		208A718D1BC94EC200D56479 /* GoatskinMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C41BC94EC200D56479 /* GoatskinMenuItem.cpp */; };
+		208A718E1BC94EC200D56479 /* HUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C61BC94EC200D56479 /* HUD.cpp */; };
+		208A718F1BC94EC200D56479 /* HUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C61BC94EC200D56479 /* HUD.cpp */; };
+		208A71901BC94EC200D56479 /* HUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C61BC94EC200D56479 /* HUD.cpp */; };
+		208A71911BC94EC200D56479 /* InputMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C81BC94EC200D56479 /* InputMenuItem.cpp */; };
+		208A71921BC94EC200D56479 /* InputMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C81BC94EC200D56479 /* InputMenuItem.cpp */; };
+		208A71931BC94EC200D56479 /* InputMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70C81BC94EC200D56479 /* InputMenuItem.cpp */; };
+		208A71941BC94EC200D56479 /* InputSelection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70CA1BC94EC200D56479 /* InputSelection.cpp */; };
+		208A71951BC94EC200D56479 /* InputSelection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70CA1BC94EC200D56479 /* InputSelection.cpp */; };
+		208A71961BC94EC200D56479 /* InputSelection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70CA1BC94EC200D56479 /* InputSelection.cpp */; };
+		208A71971BC94EC200D56479 /* Inspiration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70CC1BC94EC200D56479 /* Inspiration.cpp */; };
+		208A71981BC94EC200D56479 /* Inspiration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70CC1BC94EC200D56479 /* Inspiration.cpp */; };
+		208A71991BC94EC200D56479 /* Inspiration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70CC1BC94EC200D56479 /* Inspiration.cpp */; };
+		208A719A1BC94EC200D56479 /* InteractiveBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70CE1BC94EC200D56479 /* InteractiveBlock.cpp */; };
+		208A719B1BC94EC200D56479 /* InteractiveBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70CE1BC94EC200D56479 /* InteractiveBlock.cpp */; };
+		208A719C1BC94EC200D56479 /* InteractiveBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70CE1BC94EC200D56479 /* InteractiveBlock.cpp */; };
+		208A719D1BC94EC200D56479 /* LightningBolt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D01BC94EC200D56479 /* LightningBolt.cpp */; };
+		208A719E1BC94EC200D56479 /* LightningBolt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D01BC94EC200D56479 /* LightningBolt.cpp */; };
+		208A719F1BC94EC200D56479 /* LightningBolt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D01BC94EC200D56479 /* LightningBolt.cpp */; };
+		208A71A01BC94EC200D56479 /* LightningBranch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D21BC94EC200D56479 /* LightningBranch.cpp */; };
+		208A71A11BC94EC200D56479 /* LightningBranch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D21BC94EC200D56479 /* LightningBranch.cpp */; };
+		208A71A21BC94EC200D56479 /* LightningBranch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D21BC94EC200D56479 /* LightningBranch.cpp */; };
+		208A71A31BC94EC200D56479 /* LightningLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D41BC94EC200D56479 /* LightningLine.cpp */; };
+		208A71A41BC94EC200D56479 /* LightningLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D41BC94EC200D56479 /* LightningLine.cpp */; };
+		208A71A51BC94EC200D56479 /* LightningLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D41BC94EC200D56479 /* LightningLine.cpp */; };
+		208A71A61BC94EC200D56479 /* LinearInterpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D61BC94EC200D56479 /* LinearInterpolation.cpp */; };
+		208A71A71BC94EC200D56479 /* LinearInterpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D61BC94EC200D56479 /* LinearInterpolation.cpp */; };
+		208A71A81BC94EC200D56479 /* LinearInterpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D61BC94EC200D56479 /* LinearInterpolation.cpp */; };
+		208A71A91BC94EC200D56479 /* LoadingLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D81BC94EC200D56479 /* LoadingLayer.cpp */; };
+		208A71AA1BC94EC200D56479 /* LoadingLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D81BC94EC200D56479 /* LoadingLayer.cpp */; };
+		208A71AB1BC94EC200D56479 /* LoadingLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70D81BC94EC200D56479 /* LoadingLayer.cpp */; };
+		208A71AC1BC94EC200D56479 /* LosePopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70DA1BC94EC200D56479 /* LosePopUp.cpp */; };
+		208A71AD1BC94EC200D56479 /* LosePopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70DA1BC94EC200D56479 /* LosePopUp.cpp */; };
+		208A71AE1BC94EC200D56479 /* LosePopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70DA1BC94EC200D56479 /* LosePopUp.cpp */; };
+		208A71AF1BC94EC200D56479 /* MonousePlatform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70DC1BC94EC200D56479 /* MonousePlatform.cpp */; };
+		208A71B01BC94EC200D56479 /* MonousePlatform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70DC1BC94EC200D56479 /* MonousePlatform.cpp */; };
+		208A71B11BC94EC200D56479 /* MonousePlatform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70DC1BC94EC200D56479 /* MonousePlatform.cpp */; };
+		208A71B21BC94EC200D56479 /* MyMenuItemSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70DE1BC94EC200D56479 /* MyMenuItemSprite.cpp */; };
+		208A71B31BC94EC200D56479 /* MyMenuItemSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70DE1BC94EC200D56479 /* MyMenuItemSprite.cpp */; };
+		208A71B41BC94EC200D56479 /* MyMenuItemSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70DE1BC94EC200D56479 /* MyMenuItemSprite.cpp */; };
+		208A71B51BC94EC200D56479 /* MyMenuItemToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E01BC94EC200D56479 /* MyMenuItemToggle.cpp */; };
+		208A71B61BC94EC200D56479 /* MyMenuItemToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E01BC94EC200D56479 /* MyMenuItemToggle.cpp */; };
+		208A71B71BC94EC200D56479 /* MyMenuItemToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E01BC94EC200D56479 /* MyMenuItemToggle.cpp */; };
+		208A71B81BC94EC200D56479 /* NavigationMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E21BC94EC200D56479 /* NavigationMenu.cpp */; };
+		208A71B91BC94EC200D56479 /* NavigationMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E21BC94EC200D56479 /* NavigationMenu.cpp */; };
+		208A71BA1BC94EC200D56479 /* NavigationMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E21BC94EC200D56479 /* NavigationMenu.cpp */; };
+		208A71BB1BC94EC200D56479 /* NavigationPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E41BC94EC200D56479 /* NavigationPopUp.cpp */; };
+		208A71BC1BC94EC200D56479 /* NavigationPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E41BC94EC200D56479 /* NavigationPopUp.cpp */; };
+		208A71BD1BC94EC200D56479 /* NavigationPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E41BC94EC200D56479 /* NavigationPopUp.cpp */; };
+		208A71BE1BC94EC200D56479 /* Note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E61BC94EC200D56479 /* Note.cpp */; };
+		208A71BF1BC94EC200D56479 /* Note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E61BC94EC200D56479 /* Note.cpp */; };
+		208A71C01BC94EC200D56479 /* Note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E61BC94EC200D56479 /* Note.cpp */; };
+		208A71C11BC94EC200D56479 /* NoteMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E81BC94EC200D56479 /* NoteMenuItem.cpp */; };
+		208A71C21BC94EC200D56479 /* NoteMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E81BC94EC200D56479 /* NoteMenuItem.cpp */; };
+		208A71C31BC94EC200D56479 /* NoteMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70E81BC94EC200D56479 /* NoteMenuItem.cpp */; };
+		208A71C41BC94EC200D56479 /* NoteProgressBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70EA1BC94EC200D56479 /* NoteProgressBar.cpp */; };
+		208A71C51BC94EC200D56479 /* NoteProgressBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70EA1BC94EC200D56479 /* NoteProgressBar.cpp */; };
+		208A71C61BC94EC200D56479 /* NoteProgressBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70EA1BC94EC200D56479 /* NoteProgressBar.cpp */; };
+		208A71C71BC94EC200D56479 /* NotificationPop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70EC1BC94EC200D56479 /* NotificationPop.cpp */; };
+		208A71C81BC94EC200D56479 /* NotificationPop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70EC1BC94EC200D56479 /* NotificationPop.cpp */; };
+		208A71C91BC94EC200D56479 /* NotificationPop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70EC1BC94EC200D56479 /* NotificationPop.cpp */; };
+		208A71CA1BC94EC200D56479 /* PausePopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70EF1BC94EC200D56479 /* PausePopUp.cpp */; };
+		208A71CB1BC94EC200D56479 /* PausePopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70EF1BC94EC200D56479 /* PausePopUp.cpp */; };
+		208A71CC1BC94EC200D56479 /* PausePopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70EF1BC94EC200D56479 /* PausePopUp.cpp */; };
+		208A71CD1BC94EC200D56479 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F11BC94EC200D56479 /* Player.cpp */; };
+		208A71CE1BC94EC200D56479 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F11BC94EC200D56479 /* Player.cpp */; };
+		208A71CF1BC94EC200D56479 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F11BC94EC200D56479 /* Player.cpp */; };
+		208A71D01BC94EC200D56479 /* PlayerDeathState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F31BC94EC200D56479 /* PlayerDeathState.cpp */; };
+		208A71D11BC94EC200D56479 /* PlayerDeathState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F31BC94EC200D56479 /* PlayerDeathState.cpp */; };
+		208A71D21BC94EC200D56479 /* PlayerDeathState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F31BC94EC200D56479 /* PlayerDeathState.cpp */; };
+		208A71D31BC94EC200D56479 /* PlayerExultingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F51BC94EC200D56479 /* PlayerExultingState.cpp */; };
+		208A71D41BC94EC200D56479 /* PlayerExultingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F51BC94EC200D56479 /* PlayerExultingState.cpp */; };
+		208A71D51BC94EC200D56479 /* PlayerExultingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F51BC94EC200D56479 /* PlayerExultingState.cpp */; };
+		208A71D61BC94EC200D56479 /* PlayerFallingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F71BC94EC200D56479 /* PlayerFallingState.cpp */; };
+		208A71D71BC94EC200D56479 /* PlayerFallingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F71BC94EC200D56479 /* PlayerFallingState.cpp */; };
+		208A71D81BC94EC200D56479 /* PlayerFallingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F71BC94EC200D56479 /* PlayerFallingState.cpp */; };
+		208A71D91BC94EC200D56479 /* PlayerFlyingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F91BC94EC200D56479 /* PlayerFlyingState.cpp */; };
+		208A71DA1BC94EC200D56479 /* PlayerFlyingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F91BC94EC200D56479 /* PlayerFlyingState.cpp */; };
+		208A71DB1BC94EC200D56479 /* PlayerFlyingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70F91BC94EC200D56479 /* PlayerFlyingState.cpp */; };
+		208A71DC1BC94EC200D56479 /* PlayerJumpingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70FB1BC94EC200D56479 /* PlayerJumpingState.cpp */; };
+		208A71DD1BC94EC200D56479 /* PlayerJumpingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70FB1BC94EC200D56479 /* PlayerJumpingState.cpp */; };
+		208A71DE1BC94EC200D56479 /* PlayerJumpingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70FB1BC94EC200D56479 /* PlayerJumpingState.cpp */; };
+		208A71DF1BC94EC200D56479 /* PlayerStandingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70FD1BC94EC200D56479 /* PlayerStandingState.cpp */; };
+		208A71E01BC94EC200D56479 /* PlayerStandingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70FD1BC94EC200D56479 /* PlayerStandingState.cpp */; };
+		208A71E11BC94EC200D56479 /* PlayerStandingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70FD1BC94EC200D56479 /* PlayerStandingState.cpp */; };
+		208A71E21BC94EC200D56479 /* PlayerWalkingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71001BC94EC200D56479 /* PlayerWalkingState.cpp */; };
+		208A71E31BC94EC200D56479 /* PlayerWalkingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71001BC94EC200D56479 /* PlayerWalkingState.cpp */; };
+		208A71E41BC94EC200D56479 /* PlayerWalkingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71001BC94EC200D56479 /* PlayerWalkingState.cpp */; };
+		208A71E51BC94EC200D56479 /* PopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71021BC94EC200D56479 /* PopUp.cpp */; };
+		208A71E61BC94EC200D56479 /* PopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71021BC94EC200D56479 /* PopUp.cpp */; };
+		208A71E71BC94EC200D56479 /* PopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71021BC94EC200D56479 /* PopUp.cpp */; };
+		208A71E81BC94EC200D56479 /* Portal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71041BC94EC200D56479 /* Portal.cpp */; };
+		208A71E91BC94EC200D56479 /* Portal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71041BC94EC200D56479 /* Portal.cpp */; };
+		208A71EA1BC94EC200D56479 /* Portal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71041BC94EC200D56479 /* Portal.cpp */; };
+		208A71EB1BC94EC200D56479 /* ScoreManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71061BC94EC200D56479 /* ScoreManager.cpp */; };
+		208A71EC1BC94EC200D56479 /* ScoreManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71061BC94EC200D56479 /* ScoreManager.cpp */; };
+		208A71ED1BC94EC200D56479 /* ScoreManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71061BC94EC200D56479 /* ScoreManager.cpp */; };
+		208A71EE1BC94EC200D56479 /* SettingsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71081BC94EC200D56479 /* SettingsManager.cpp */; };
+		208A71EF1BC94EC200D56479 /* SettingsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71081BC94EC200D56479 /* SettingsManager.cpp */; };
+		208A71F01BC94EC200D56479 /* SettingsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71081BC94EC200D56479 /* SettingsManager.cpp */; };
+		208A71F11BC94EC200D56479 /* SettingsPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A710A1BC94EC200D56479 /* SettingsPopUp.cpp */; };
+		208A71F21BC94EC200D56479 /* SettingsPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A710A1BC94EC200D56479 /* SettingsPopUp.cpp */; };
+		208A71F31BC94EC200D56479 /* SettingsPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A710A1BC94EC200D56479 /* SettingsPopUp.cpp */; };
+		208A71F41BC94EC200D56479 /* ShakeAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A710C1BC94EC200D56479 /* ShakeAction.cpp */; };
+		208A71F51BC94EC200D56479 /* ShakeAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A710C1BC94EC200D56479 /* ShakeAction.cpp */; };
+		208A71F61BC94EC200D56479 /* ShakeAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A710C1BC94EC200D56479 /* ShakeAction.cpp */; };
+		208A71F71BC94EC200D56479 /* Sheep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A710E1BC94EC200D56479 /* Sheep.cpp */; };
+		208A71F81BC94EC200D56479 /* Sheep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A710E1BC94EC200D56479 /* Sheep.cpp */; };
+		208A71F91BC94EC200D56479 /* Sheep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A710E1BC94EC200D56479 /* Sheep.cpp */; };
+		208A71FA1BC94EC200D56479 /* SheepCounterGlobal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71101BC94EC200D56479 /* SheepCounterGlobal.cpp */; };
+		208A71FB1BC94EC200D56479 /* SheepCounterGlobal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71101BC94EC200D56479 /* SheepCounterGlobal.cpp */; };
+		208A71FC1BC94EC200D56479 /* SheepCounterGlobal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71101BC94EC200D56479 /* SheepCounterGlobal.cpp */; };
+		208A71FD1BC94EC200D56479 /* SheepCounterView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71121BC94EC200D56479 /* SheepCounterView.cpp */; };
+		208A71FE1BC94EC200D56479 /* SheepCounterView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71121BC94EC200D56479 /* SheepCounterView.cpp */; };
+		208A71FF1BC94EC200D56479 /* SheepCounterView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71121BC94EC200D56479 /* SheepCounterView.cpp */; };
+		208A72001BC94EC200D56479 /* SheepDeathState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71141BC94EC200D56479 /* SheepDeathState.cpp */; };
+		208A72011BC94EC200D56479 /* SheepDeathState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71141BC94EC200D56479 /* SheepDeathState.cpp */; };
+		208A72021BC94EC200D56479 /* SheepDeathState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71141BC94EC200D56479 /* SheepDeathState.cpp */; };
+		208A72031BC94EC200D56479 /* SheepFallingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71161BC94EC200D56479 /* SheepFallingState.cpp */; };
+		208A72041BC94EC200D56479 /* SheepFallingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71161BC94EC200D56479 /* SheepFallingState.cpp */; };
+		208A72051BC94EC200D56479 /* SheepFallingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71161BC94EC200D56479 /* SheepFallingState.cpp */; };
+		208A72061BC94EC200D56479 /* SheepFlyingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71181BC94EC200D56479 /* SheepFlyingState.cpp */; };
+		208A72071BC94EC200D56479 /* SheepFlyingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71181BC94EC200D56479 /* SheepFlyingState.cpp */; };
+		208A72081BC94EC200D56479 /* SheepFlyingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71181BC94EC200D56479 /* SheepFlyingState.cpp */; };
+		208A72091BC94EC200D56479 /* SheepJumpingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A711A1BC94EC200D56479 /* SheepJumpingState.cpp */; };
+		208A720A1BC94EC200D56479 /* SheepJumpingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A711A1BC94EC200D56479 /* SheepJumpingState.cpp */; };
+		208A720B1BC94EC200D56479 /* SheepJumpingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A711A1BC94EC200D56479 /* SheepJumpingState.cpp */; };
+		208A720C1BC94EC200D56479 /* SheepMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A711C1BC94EC200D56479 /* SheepMenuItem.cpp */; };
+		208A720D1BC94EC200D56479 /* SheepMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A711C1BC94EC200D56479 /* SheepMenuItem.cpp */; };
+		208A720E1BC94EC200D56479 /* SheepMenuItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A711C1BC94EC200D56479 /* SheepMenuItem.cpp */; };
+		208A720F1BC94EC200D56479 /* SheepShow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A711E1BC94EC200D56479 /* SheepShow.cpp */; };
+		208A72101BC94EC200D56479 /* SheepShow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A711E1BC94EC200D56479 /* SheepShow.cpp */; };
+		208A72111BC94EC200D56479 /* SheepShow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A711E1BC94EC200D56479 /* SheepShow.cpp */; };
+		208A72121BC94EC200D56479 /* SheepStandingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71201BC94EC200D56479 /* SheepStandingState.cpp */; };
+		208A72131BC94EC200D56479 /* SheepStandingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71201BC94EC200D56479 /* SheepStandingState.cpp */; };
+		208A72141BC94EC200D56479 /* SheepStandingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71201BC94EC200D56479 /* SheepStandingState.cpp */; };
+		208A72151BC94EC200D56479 /* SheepWalkingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71231BC94EC200D56479 /* SheepWalkingState.cpp */; };
+		208A72161BC94EC200D56479 /* SheepWalkingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71231BC94EC200D56479 /* SheepWalkingState.cpp */; };
+		208A72171BC94EC200D56479 /* SheepWalkingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71231BC94EC200D56479 /* SheepWalkingState.cpp */; };
+		208A72181BC94EC200D56479 /* SoundComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71251BC94EC200D56479 /* SoundComponent.cpp */; };
+		208A72191BC94EC200D56479 /* SoundComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71251BC94EC200D56479 /* SoundComponent.cpp */; };
+		208A721A1BC94EC200D56479 /* SoundComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71251BC94EC200D56479 /* SoundComponent.cpp */; };
+		208A721B1BC94EC200D56479 /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71271BC94EC200D56479 /* SoundManager.cpp */; };
+		208A721C1BC94EC200D56479 /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71271BC94EC200D56479 /* SoundManager.cpp */; };
+		208A721D1BC94EC200D56479 /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71271BC94EC200D56479 /* SoundManager.cpp */; };
+		208A721E1BC94EC200D56479 /* SoundVideo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71291BC94EC200D56479 /* SoundVideo.cpp */; };
+		208A721F1BC94EC200D56479 /* SoundVideo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71291BC94EC200D56479 /* SoundVideo.cpp */; };
+		208A72201BC94EC200D56479 /* SoundVideo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71291BC94EC200D56479 /* SoundVideo.cpp */; };
+		208A72211BC94EC200D56479 /* Switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A712B1BC94EC200D56479 /* Switch.cpp */; };
+		208A72221BC94EC200D56479 /* Switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A712B1BC94EC200D56479 /* Switch.cpp */; };
+		208A72231BC94EC200D56479 /* Switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A712B1BC94EC200D56479 /* Switch.cpp */; };
+		208A72241BC94EC200D56479 /* Tutorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A712D1BC94EC200D56479 /* Tutorial.cpp */; };
+		208A72251BC94EC200D56479 /* Tutorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A712D1BC94EC200D56479 /* Tutorial.cpp */; };
+		208A72261BC94EC200D56479 /* Tutorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A712D1BC94EC200D56479 /* Tutorial.cpp */; };
+		208A72271BC94EC200D56479 /* Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A712F1BC94EC200D56479 /* Utility.cpp */; };
+		208A72281BC94EC200D56479 /* Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A712F1BC94EC200D56479 /* Utility.cpp */; };
+		208A72291BC94EC200D56479 /* Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A712F1BC94EC200D56479 /* Utility.cpp */; };
+		208A722A1BC94EC200D56479 /* VideoStory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71311BC94EC200D56479 /* VideoStory.cpp */; };
+		208A722B1BC94EC200D56479 /* VideoStory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71311BC94EC200D56479 /* VideoStory.cpp */; };
+		208A722C1BC94EC200D56479 /* VideoStory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71311BC94EC200D56479 /* VideoStory.cpp */; };
+		208A722D1BC94EC200D56479 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71331BC94EC200D56479 /* VisibleRect.cpp */; };
+		208A722E1BC94EC200D56479 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71331BC94EC200D56479 /* VisibleRect.cpp */; };
+		208A722F1BC94EC200D56479 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71331BC94EC200D56479 /* VisibleRect.cpp */; };
+		208A72301BC94EC200D56479 /* Wolf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71361BC94EC200D56479 /* Wolf.cpp */; };
+		208A72311BC94EC200D56479 /* Wolf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71361BC94EC200D56479 /* Wolf.cpp */; };
+		208A72321BC94EC200D56479 /* Wolf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71361BC94EC200D56479 /* Wolf.cpp */; };
+		208A72331BC94EC200D56479 /* WolfDangerState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71381BC94EC200D56479 /* WolfDangerState.cpp */; };
+		208A72341BC94EC200D56479 /* WolfDangerState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71381BC94EC200D56479 /* WolfDangerState.cpp */; };
+		208A72351BC94EC200D56479 /* WolfDangerState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71381BC94EC200D56479 /* WolfDangerState.cpp */; };
+		208A72361BC94EC200D56479 /* WolfWithBrazierState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A713B1BC94EC200D56479 /* WolfWithBrazierState.cpp */; };
+		208A72371BC94EC200D56479 /* WolfWithBrazierState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A713B1BC94EC200D56479 /* WolfWithBrazierState.cpp */; };
+		208A72381BC94EC200D56479 /* WolfWithBrazierState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A713B1BC94EC200D56479 /* WolfWithBrazierState.cpp */; };
+		208A72391BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A713D1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp */; };
+		208A723A1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A713D1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp */; };
+		208A723B1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A713D1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp */; };
+		208A723C1BC94EC200D56479 /* WolfWithPlayerState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A713F1BC94EC200D56479 /* WolfWithPlayerState.cpp */; };
+		208A723D1BC94EC200D56479 /* WolfWithPlayerState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A713F1BC94EC200D56479 /* WolfWithPlayerState.cpp */; };
+		208A723E1BC94EC200D56479 /* WolfWithPlayerState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A713F1BC94EC200D56479 /* WolfWithPlayerState.cpp */; };
+		208A723F1BC94EC200D56479 /* WorldLevelName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71411BC94EC200D56479 /* WorldLevelName.cpp */; };
+		208A72401BC94EC200D56479 /* WorldLevelName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71411BC94EC200D56479 /* WorldLevelName.cpp */; };
+		208A72411BC94EC200D56479 /* WorldLevelName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71411BC94EC200D56479 /* WorldLevelName.cpp */; };
+		208A72A71BC9653900D56479 /* libLevelHelper2-API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A72A41BC963AA00D56479 /* libLevelHelper2-API.a */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
-		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
-		46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
-		46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
-		46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* CloseSelected.png */; };
-		46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* CloseSelected.png */; };
-		46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
-		46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
@@ -56,8 +354,6 @@
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
 		521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6219F0C34300D177D7 /* Default-667h@2x.png */; };
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
-		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
-		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		9ED42A821BA8C57B00C25D7A /* TVMLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED42A801BA8C57B00C25D7A /* TVMLKit.framework */; };
@@ -66,7 +362,6 @@
 		9EE108771BA8A45800078FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
 		9EE108781BA8A46000078FAA /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FF17EB989F00D1A890 /* RootViewController.mm */; };
 		9EE1087B1BA8A72800078FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE108791BA8A72800078FAA /* Assets.xcassets */; };
-		9EE1087C1BA8A72800078FAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EE1087A1BA8A72800078FAA /* Info.plist */; };
 		9EF9A8D21BA89A0E00102D0A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF9A8D11BA89A0E00102D0A /* AudioToolbox.framework */; };
 		9EF9A8D41BA89A1800102D0A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF9A8D31BA89A1800102D0A /* AVFoundation.framework */; };
 		9EF9A8D61BA89A1F00102D0A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF9A8D51BA89A1F00102D0A /* OpenAL.framework */; };
@@ -81,11 +376,6 @@
 		9EF9A8E71BA89A8200102D0A /* libcocos2d tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF9A8B11BA88DA800102D0A /* libcocos2d tvOS.a */; };
 		9EF9A8EA1BA89E2D00102D0A /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		9EF9A8EB1BA89E3100102D0A /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
-		9EF9A8EC1BA89E6C00102D0A /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
-		9EF9A8ED1BA89E6C00102D0A /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* CloseSelected.png */; };
-		9EF9A8EE1BA89E6C00102D0A /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
-		9EF9A8EF1BA89E7000102D0A /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
-		9EF9A8F01BA89E7500102D0A /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -126,6 +416,41 @@
 			remoteGlobalIDString = A07A4C241783777C0073F6A7;
 			remoteInfo = "cocos2dx iOS";
 		};
+		208A72481BC94EDC00D56479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EDE843919A483A200599C48;
+			remoteInfo = "LevelHelper2-API";
+		};
+		208A724A1BC94EDC00D56479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EDE871519A4898100599C48;
+			remoteInfo = "LevelHelper2-API+Box2d";
+		};
+		208A724C1BC94EDC00D56479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EDE8B7C19A4986C00599C48;
+			remoteInfo = "LevelHelper2-API+Box2d-OSX";
+		};
+		208A72A31BC963AA00D56479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 208A72541BC9564E00D56479;
+			remoteInfo = "LevelHelper2-API+Box2d-tvOS";
+		};
+		208A72A51BC9650900D56479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 208A72531BC9564E00D56479;
+			remoteInfo = "LevelHelper2-API+Box2d-tvOS";
+		};
 		9EF9A8B01BA88DA800102D0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
@@ -148,11 +473,202 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* tvapp-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvapp-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		204F34BA1BC3245A005CF428 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		204F34BC1BC3289C005CF428 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		208A70531BC94EB100D56479 /* blankPixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankPixel.png; sourceTree = "<group>"; };
+		208A70541BC94EB100D56479 /* CocosStudio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CocosStudio; sourceTree = "<group>"; };
+		208A70551BC94EB100D56479 /* extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = extension; sourceTree = "<group>"; };
+		208A70561BC94EB100D56479 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		208A70571BC94EB100D56479 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		208A70581BC94EB100D56479 /* LH2-Published */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "LH2-Published"; sourceTree = "<group>"; };
+		208A70591BC94EB100D56479 /* Media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Media; sourceTree = "<group>"; };
+		208A705A1BC94EB100D56479 /* noteDuration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteDuration.png; sourceTree = "<group>"; };
+		208A705B1BC94EB100D56479 /* particles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = particles; sourceTree = "<group>"; };
+		208A705C1BC94EB100D56479 /* publishedResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = publishedResources; sourceTree = "<group>"; };
+		208A705D1BC94EB100D56479 /* sdkbox_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sdkbox_config.json; sourceTree = "<group>"; };
+		208A705E1BC94EB100D56479 /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shaders; sourceTree = "<group>"; };
+		208A705F1BC94EB100D56479 /* SOP_levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SOP_levels.plist; sourceTree = "<group>"; };
+		208A70601BC94EB100D56479 /* SOP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SOP.plist; sourceTree = "<group>"; };
+		208A70611BC94EB100D56479 /* subtitles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = subtitles.plist; sourceTree = "<group>"; };
+		208A70621BC94EB100D56479 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
+		208A70931BC94EC100D56479 /* AnalyticsManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnalyticsManager.cpp; sourceTree = "<group>"; };
+		208A70941BC94EC100D56479 /* AnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsManager.h; sourceTree = "<group>"; };
+		208A70951BC94EC100D56479 /* AnimationComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationComponent.cpp; sourceTree = "<group>"; };
+		208A70961BC94EC100D56479 /* AnimationComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationComponent.h; sourceTree = "<group>"; };
+		208A70971BC94EC100D56479 /* AudioOptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioOptions.cpp; sourceTree = "<group>"; };
+		208A70981BC94EC100D56479 /* AudioOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioOptions.h; sourceTree = "<group>"; };
+		208A70991BC94EC100D56479 /* Brazier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Brazier.cpp; sourceTree = "<group>"; };
+		208A709A1BC94EC100D56479 /* Brazier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brazier.h; sourceTree = "<group>"; };
+		208A709B1BC94EC100D56479 /* CameraManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CameraManager.cpp; sourceTree = "<group>"; };
+		208A709C1BC94EC100D56479 /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		208A709D1BC94EC100D56479 /* CollisionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollisionManager.cpp; sourceTree = "<group>"; };
+		208A709E1BC94EC100D56479 /* CollisionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionManager.h; sourceTree = "<group>"; };
+		208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConfirmInputPopUp.cpp; sourceTree = "<group>"; };
+		208A70A01BC94EC100D56479 /* ConfirmInputPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmInputPopUp.h; sourceTree = "<group>"; };
+		208A70A11BC94EC100D56479 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		208A70A21BC94EC100D56479 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		208A70A31BC94EC100D56479 /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		208A70A41BC94EC100D56479 /* Door.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Door.cpp; sourceTree = "<group>"; };
+		208A70A51BC94EC100D56479 /* Door.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
+		208A70A61BC94EC100D56479 /* Drop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drop.cpp; sourceTree = "<group>"; };
+		208A70A71BC94EC100D56479 /* Drop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drop.h; sourceTree = "<group>"; };
+		208A70A81BC94EC100D56479 /* EditorMenuItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EditorMenuItem.cpp; sourceTree = "<group>"; };
+		208A70A91BC94EC100D56479 /* EditorMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorMenuItem.h; sourceTree = "<group>"; };
+		208A70AA1BC94EC100D56479 /* EditorMenuManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EditorMenuManager.cpp; sourceTree = "<group>"; };
+		208A70AB1BC94EC100D56479 /* EditorMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorMenuManager.h; sourceTree = "<group>"; };
+		208A70AC1BC94EC100D56479 /* EditorTableView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EditorTableView.cpp; sourceTree = "<group>"; };
+		208A70AD1BC94EC100D56479 /* EditorTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorTableView.h; sourceTree = "<group>"; };
+		208A70AE1BC94EC100D56479 /* EffectsManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectsManager.cpp; sourceTree = "<group>"; };
+		208A70AF1BC94EC100D56479 /* EffectsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectsManager.h; sourceTree = "<group>"; };
+		208A70B01BC94EC100D56479 /* Eolo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Eolo.cpp; sourceTree = "<group>"; };
+		208A70B11BC94EC200D56479 /* Eolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eolo.h; sourceTree = "<group>"; };
+		208A70B21BC94EC200D56479 /* EoloZone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EoloZone.cpp; sourceTree = "<group>"; };
+		208A70B31BC94EC200D56479 /* EoloZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EoloZone.h; sourceTree = "<group>"; };
+		208A70B41BC94EC200D56479 /* FaithJumpBrick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FaithJumpBrick.cpp; sourceTree = "<group>"; };
+		208A70B51BC94EC200D56479 /* FaithJumpBrick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaithJumpBrick.h; sourceTree = "<group>"; };
+		208A70B61BC94EC200D56479 /* FakeLoading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FakeLoading.cpp; sourceTree = "<group>"; };
+		208A70B71BC94EC200D56479 /* FakeLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeLoading.h; sourceTree = "<group>"; };
+		208A70B81BC94EC200D56479 /* Flute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Flute.cpp; sourceTree = "<group>"; };
+		208A70B91BC94EC200D56479 /* Flute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flute.h; sourceTree = "<group>"; };
+		208A70BA1BC94EC200D56479 /* GameCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameCamera.cpp; sourceTree = "<group>"; };
+		208A70BB1BC94EC200D56479 /* GameCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCamera.h; sourceTree = "<group>"; };
+		208A70BC1BC94EC200D56479 /* GameContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameContext.cpp; sourceTree = "<group>"; };
+		208A70BD1BC94EC200D56479 /* GameContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameContext.h; sourceTree = "<group>"; };
+		208A70BE1BC94EC200D56479 /* GameLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameLogic.cpp; sourceTree = "<group>"; };
+		208A70BF1BC94EC200D56479 /* GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLogic.h; sourceTree = "<group>"; };
+		208A70C01BC94EC200D56479 /* Gear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gear.cpp; sourceTree = "<group>"; };
+		208A70C11BC94EC200D56479 /* Gear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gear.h; sourceTree = "<group>"; };
+		208A70C21BC94EC200D56479 /* Goatskin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Goatskin.cpp; sourceTree = "<group>"; };
+		208A70C31BC94EC200D56479 /* Goatskin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goatskin.h; sourceTree = "<group>"; };
+		208A70C41BC94EC200D56479 /* GoatskinMenuItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoatskinMenuItem.cpp; sourceTree = "<group>"; };
+		208A70C51BC94EC200D56479 /* GoatskinMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoatskinMenuItem.h; sourceTree = "<group>"; };
+		208A70C61BC94EC200D56479 /* HUD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HUD.cpp; sourceTree = "<group>"; };
+		208A70C71BC94EC200D56479 /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
+		208A70C81BC94EC200D56479 /* InputMenuItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputMenuItem.cpp; sourceTree = "<group>"; };
+		208A70C91BC94EC200D56479 /* InputMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputMenuItem.h; sourceTree = "<group>"; };
+		208A70CA1BC94EC200D56479 /* InputSelection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputSelection.cpp; sourceTree = "<group>"; };
+		208A70CB1BC94EC200D56479 /* InputSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputSelection.h; sourceTree = "<group>"; };
+		208A70CC1BC94EC200D56479 /* Inspiration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Inspiration.cpp; sourceTree = "<group>"; };
+		208A70CD1BC94EC200D56479 /* Inspiration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inspiration.h; sourceTree = "<group>"; };
+		208A70CE1BC94EC200D56479 /* InteractiveBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InteractiveBlock.cpp; sourceTree = "<group>"; };
+		208A70CF1BC94EC200D56479 /* InteractiveBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveBlock.h; sourceTree = "<group>"; };
+		208A70D01BC94EC200D56479 /* LightningBolt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LightningBolt.cpp; sourceTree = "<group>"; };
+		208A70D11BC94EC200D56479 /* LightningBolt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightningBolt.h; sourceTree = "<group>"; };
+		208A70D21BC94EC200D56479 /* LightningBranch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LightningBranch.cpp; sourceTree = "<group>"; };
+		208A70D31BC94EC200D56479 /* LightningBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightningBranch.h; sourceTree = "<group>"; };
+		208A70D41BC94EC200D56479 /* LightningLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LightningLine.cpp; sourceTree = "<group>"; };
+		208A70D51BC94EC200D56479 /* LightningLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightningLine.h; sourceTree = "<group>"; };
+		208A70D61BC94EC200D56479 /* LinearInterpolation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearInterpolation.cpp; sourceTree = "<group>"; };
+		208A70D71BC94EC200D56479 /* LinearInterpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearInterpolation.h; sourceTree = "<group>"; };
+		208A70D81BC94EC200D56479 /* LoadingLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadingLayer.cpp; sourceTree = "<group>"; };
+		208A70D91BC94EC200D56479 /* LoadingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingLayer.h; sourceTree = "<group>"; };
+		208A70DA1BC94EC200D56479 /* LosePopUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LosePopUp.cpp; sourceTree = "<group>"; };
+		208A70DB1BC94EC200D56479 /* LosePopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LosePopUp.h; sourceTree = "<group>"; };
+		208A70DC1BC94EC200D56479 /* MonousePlatform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonousePlatform.cpp; sourceTree = "<group>"; };
+		208A70DD1BC94EC200D56479 /* MonousePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonousePlatform.h; sourceTree = "<group>"; };
+		208A70DE1BC94EC200D56479 /* MyMenuItemSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyMenuItemSprite.cpp; sourceTree = "<group>"; };
+		208A70DF1BC94EC200D56479 /* MyMenuItemSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMenuItemSprite.h; sourceTree = "<group>"; };
+		208A70E01BC94EC200D56479 /* MyMenuItemToggle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyMenuItemToggle.cpp; sourceTree = "<group>"; };
+		208A70E11BC94EC200D56479 /* MyMenuItemToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMenuItemToggle.h; sourceTree = "<group>"; };
+		208A70E21BC94EC200D56479 /* NavigationMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NavigationMenu.cpp; sourceTree = "<group>"; };
+		208A70E31BC94EC200D56479 /* NavigationMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationMenu.h; sourceTree = "<group>"; };
+		208A70E41BC94EC200D56479 /* NavigationPopUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NavigationPopUp.cpp; sourceTree = "<group>"; };
+		208A70E51BC94EC200D56479 /* NavigationPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationPopUp.h; sourceTree = "<group>"; };
+		208A70E61BC94EC200D56479 /* Note.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Note.cpp; sourceTree = "<group>"; };
+		208A70E71BC94EC200D56479 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		208A70E81BC94EC200D56479 /* NoteMenuItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoteMenuItem.cpp; sourceTree = "<group>"; };
+		208A70E91BC94EC200D56479 /* NoteMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteMenuItem.h; sourceTree = "<group>"; };
+		208A70EA1BC94EC200D56479 /* NoteProgressBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoteProgressBar.cpp; sourceTree = "<group>"; };
+		208A70EB1BC94EC200D56479 /* NoteProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteProgressBar.h; sourceTree = "<group>"; };
+		208A70EC1BC94EC200D56479 /* NotificationPop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NotificationPop.cpp; sourceTree = "<group>"; };
+		208A70ED1BC94EC200D56479 /* NotificationPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationPop.h; sourceTree = "<group>"; };
+		208A70EE1BC94EC200D56479 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		208A70EF1BC94EC200D56479 /* PausePopUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PausePopUp.cpp; sourceTree = "<group>"; };
+		208A70F01BC94EC200D56479 /* PausePopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PausePopUp.h; sourceTree = "<group>"; };
+		208A70F11BC94EC200D56479 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		208A70F21BC94EC200D56479 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		208A70F31BC94EC200D56479 /* PlayerDeathState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerDeathState.cpp; sourceTree = "<group>"; };
+		208A70F41BC94EC200D56479 /* PlayerDeathState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDeathState.h; sourceTree = "<group>"; };
+		208A70F51BC94EC200D56479 /* PlayerExultingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerExultingState.cpp; sourceTree = "<group>"; };
+		208A70F61BC94EC200D56479 /* PlayerExultingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerExultingState.h; sourceTree = "<group>"; };
+		208A70F71BC94EC200D56479 /* PlayerFallingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerFallingState.cpp; sourceTree = "<group>"; };
+		208A70F81BC94EC200D56479 /* PlayerFallingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerFallingState.h; sourceTree = "<group>"; };
+		208A70F91BC94EC200D56479 /* PlayerFlyingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerFlyingState.cpp; sourceTree = "<group>"; };
+		208A70FA1BC94EC200D56479 /* PlayerFlyingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerFlyingState.h; sourceTree = "<group>"; };
+		208A70FB1BC94EC200D56479 /* PlayerJumpingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerJumpingState.cpp; sourceTree = "<group>"; };
+		208A70FC1BC94EC200D56479 /* PlayerJumpingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerJumpingState.h; sourceTree = "<group>"; };
+		208A70FD1BC94EC200D56479 /* PlayerStandingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerStandingState.cpp; sourceTree = "<group>"; };
+		208A70FE1BC94EC200D56479 /* PlayerStandingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStandingState.h; sourceTree = "<group>"; };
+		208A70FF1BC94EC200D56479 /* PlayerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerState.h; sourceTree = "<group>"; };
+		208A71001BC94EC200D56479 /* PlayerWalkingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerWalkingState.cpp; sourceTree = "<group>"; };
+		208A71011BC94EC200D56479 /* PlayerWalkingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerWalkingState.h; sourceTree = "<group>"; };
+		208A71021BC94EC200D56479 /* PopUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PopUp.cpp; sourceTree = "<group>"; };
+		208A71031BC94EC200D56479 /* PopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUp.h; sourceTree = "<group>"; };
+		208A71041BC94EC200D56479 /* Portal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Portal.cpp; sourceTree = "<group>"; };
+		208A71051BC94EC200D56479 /* Portal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portal.h; sourceTree = "<group>"; };
+		208A71061BC94EC200D56479 /* ScoreManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScoreManager.cpp; sourceTree = "<group>"; };
+		208A71071BC94EC200D56479 /* ScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreManager.h; sourceTree = "<group>"; };
+		208A71081BC94EC200D56479 /* SettingsManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SettingsManager.cpp; sourceTree = "<group>"; };
+		208A71091BC94EC200D56479 /* SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManager.h; sourceTree = "<group>"; };
+		208A710A1BC94EC200D56479 /* SettingsPopUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SettingsPopUp.cpp; sourceTree = "<group>"; };
+		208A710B1BC94EC200D56479 /* SettingsPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsPopUp.h; sourceTree = "<group>"; };
+		208A710C1BC94EC200D56479 /* ShakeAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShakeAction.cpp; sourceTree = "<group>"; };
+		208A710D1BC94EC200D56479 /* ShakeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeAction.h; sourceTree = "<group>"; };
+		208A710E1BC94EC200D56479 /* Sheep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sheep.cpp; sourceTree = "<group>"; };
+		208A710F1BC94EC200D56479 /* Sheep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sheep.h; sourceTree = "<group>"; };
+		208A71101BC94EC200D56479 /* SheepCounterGlobal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepCounterGlobal.cpp; sourceTree = "<group>"; };
+		208A71111BC94EC200D56479 /* SheepCounterGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepCounterGlobal.h; sourceTree = "<group>"; };
+		208A71121BC94EC200D56479 /* SheepCounterView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepCounterView.cpp; sourceTree = "<group>"; };
+		208A71131BC94EC200D56479 /* SheepCounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepCounterView.h; sourceTree = "<group>"; };
+		208A71141BC94EC200D56479 /* SheepDeathState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepDeathState.cpp; sourceTree = "<group>"; };
+		208A71151BC94EC200D56479 /* SheepDeathState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepDeathState.h; sourceTree = "<group>"; };
+		208A71161BC94EC200D56479 /* SheepFallingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepFallingState.cpp; sourceTree = "<group>"; };
+		208A71171BC94EC200D56479 /* SheepFallingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepFallingState.h; sourceTree = "<group>"; };
+		208A71181BC94EC200D56479 /* SheepFlyingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepFlyingState.cpp; sourceTree = "<group>"; };
+		208A71191BC94EC200D56479 /* SheepFlyingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepFlyingState.h; sourceTree = "<group>"; };
+		208A711A1BC94EC200D56479 /* SheepJumpingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepJumpingState.cpp; sourceTree = "<group>"; };
+		208A711B1BC94EC200D56479 /* SheepJumpingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepJumpingState.h; sourceTree = "<group>"; };
+		208A711C1BC94EC200D56479 /* SheepMenuItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepMenuItem.cpp; sourceTree = "<group>"; };
+		208A711D1BC94EC200D56479 /* SheepMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepMenuItem.h; sourceTree = "<group>"; };
+		208A711E1BC94EC200D56479 /* SheepShow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepShow.cpp; sourceTree = "<group>"; };
+		208A711F1BC94EC200D56479 /* SheepShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepShow.h; sourceTree = "<group>"; };
+		208A71201BC94EC200D56479 /* SheepStandingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepStandingState.cpp; sourceTree = "<group>"; };
+		208A71211BC94EC200D56479 /* SheepStandingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepStandingState.h; sourceTree = "<group>"; };
+		208A71221BC94EC200D56479 /* SheepState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepState.h; sourceTree = "<group>"; };
+		208A71231BC94EC200D56479 /* SheepWalkingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SheepWalkingState.cpp; sourceTree = "<group>"; };
+		208A71241BC94EC200D56479 /* SheepWalkingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepWalkingState.h; sourceTree = "<group>"; };
+		208A71251BC94EC200D56479 /* SoundComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundComponent.cpp; sourceTree = "<group>"; };
+		208A71261BC94EC200D56479 /* SoundComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundComponent.h; sourceTree = "<group>"; };
+		208A71271BC94EC200D56479 /* SoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
+		208A71281BC94EC200D56479 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		208A71291BC94EC200D56479 /* SoundVideo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundVideo.cpp; sourceTree = "<group>"; };
+		208A712A1BC94EC200D56479 /* SoundVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundVideo.h; sourceTree = "<group>"; };
+		208A712B1BC94EC200D56479 /* Switch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Switch.cpp; sourceTree = "<group>"; };
+		208A712C1BC94EC200D56479 /* Switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switch.h; sourceTree = "<group>"; };
+		208A712D1BC94EC200D56479 /* Tutorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tutorial.cpp; sourceTree = "<group>"; };
+		208A712E1BC94EC200D56479 /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
+		208A712F1BC94EC200D56479 /* Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utility.cpp; sourceTree = "<group>"; };
+		208A71301BC94EC200D56479 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		208A71311BC94EC200D56479 /* VideoStory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoStory.cpp; sourceTree = "<group>"; };
+		208A71321BC94EC200D56479 /* VideoStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoStory.h; sourceTree = "<group>"; };
+		208A71331BC94EC200D56479 /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisibleRect.cpp; sourceTree = "<group>"; };
+		208A71341BC94EC200D56479 /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibleRect.h; sourceTree = "<group>"; };
+		208A71351BC94EC200D56479 /* WindMovable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindMovable.h; sourceTree = "<group>"; };
+		208A71361BC94EC200D56479 /* Wolf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wolf.cpp; sourceTree = "<group>"; };
+		208A71371BC94EC200D56479 /* Wolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wolf.h; sourceTree = "<group>"; };
+		208A71381BC94EC200D56479 /* WolfDangerState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WolfDangerState.cpp; sourceTree = "<group>"; };
+		208A71391BC94EC200D56479 /* WolfDangerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WolfDangerState.h; sourceTree = "<group>"; };
+		208A713A1BC94EC200D56479 /* WolfState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WolfState.h; sourceTree = "<group>"; };
+		208A713B1BC94EC200D56479 /* WolfWithBrazierState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WolfWithBrazierState.cpp; sourceTree = "<group>"; };
+		208A713C1BC94EC200D56479 /* WolfWithBrazierState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WolfWithBrazierState.h; sourceTree = "<group>"; };
+		208A713D1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WolfWithPlayerAndBrazierState.cpp; sourceTree = "<group>"; };
+		208A713E1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WolfWithPlayerAndBrazierState.h; sourceTree = "<group>"; };
+		208A713F1BC94EC200D56479 /* WolfWithPlayerState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WolfWithPlayerState.cpp; sourceTree = "<group>"; };
+		208A71401BC94EC200D56479 /* WolfWithPlayerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WolfWithPlayerState.h; sourceTree = "<group>"; };
+		208A71411BC94EC200D56479 /* WorldLevelName.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorldLevelName.cpp; sourceTree = "<group>"; };
+		208A71421BC94EC200D56479 /* WorldLevelName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldLevelName.h; sourceTree = "<group>"; };
+		208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LevelHelper2-API.xcodeproj"; path = "../LevelHelper2-API/LevelHelper2-API.xcodeproj"; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
-		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
-		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
-		46880B7A19C43A67006E1F66 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
@@ -191,7 +707,6 @@
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
 		521A8E6219F0C34300D177D7 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
-		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9ED42A801BA8C57B00C25D7A /* TVMLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVMLKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/TVMLKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -226,6 +741,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204F34BB1BC3245A005CF428 /* GameController.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
@@ -265,6 +781,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208A72A71BC9653900D56479 /* libLevelHelper2-API.a in Frameworks */,
+				204F34BD1BC3289C005CF428 /* GameController.framework in Frameworks */,
 				9ED42A821BA8C57B00C25D7A /* TVMLKit.framework in Frameworks */,
 				9ED42A831BA8C57B00C25D7A /* TVServices.framework in Frameworks */,
 				9EF9A8E71BA89A8200102D0A /* libcocos2d tvOS.a in Frameworks */,
@@ -320,9 +838,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		208A72431BC94EDB00D56479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				208A72491BC94EDC00D56479 /* libLevelHelper2-API.a */,
+				208A724B1BC94EDC00D56479 /* libLevelHelper2-API.a */,
+				208A724D1BC94EDC00D56479 /* libLevelHelper2-API.a */,
+				208A72A41BC963AA00D56479 /* libLevelHelper2-API.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				46880B8319C43A87006E1F66 /* Classes */,
 				46880B7519C43A67006E1F66 /* Resources */,
@@ -338,6 +868,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				204F34BC1BC3289C005CF428 /* GameController.framework */,
+				204F34BA1BC3245A005CF428 /* GameController.framework */,
 				9ED42A801BA8C57B00C25D7A /* TVMLKit.framework */,
 				9ED42A811BA8C57B00C25D7A /* TVServices.framework */,
 				9EF9A8E51BA89A7700102D0A /* libiconv.tbd */,
@@ -377,11 +909,22 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				521A8EA819F11F5000D177D7 /* fonts */,
-				3EACC98E19EE6D4300EB3C5E /* res */,
-				46880B7619C43A67006E1F66 /* CloseNormal.png */,
-				46880B7719C43A67006E1F66 /* CloseSelected.png */,
-				46880B7A19C43A67006E1F66 /* HelloWorld.png */,
+				208A70531BC94EB100D56479 /* blankPixel.png */,
+				208A70541BC94EB100D56479 /* CocosStudio */,
+				208A70551BC94EB100D56479 /* extension */,
+				208A70561BC94EB100D56479 /* fonts */,
+				208A70571BC94EB100D56479 /* Images.xcassets */,
+				208A70581BC94EB100D56479 /* LH2-Published */,
+				208A70591BC94EB100D56479 /* Media */,
+				208A705A1BC94EB100D56479 /* noteDuration.png */,
+				208A705B1BC94EB100D56479 /* particles */,
+				208A705C1BC94EB100D56479 /* publishedResources */,
+				208A705D1BC94EB100D56479 /* sdkbox_config.json */,
+				208A705E1BC94EB100D56479 /* Shaders */,
+				208A705F1BC94EB100D56479 /* SOP_levels.plist */,
+				208A70601BC94EB100D56479 /* SOP.plist */,
+				208A70611BC94EB100D56479 /* subtitles.plist */,
+				208A70621BC94EB100D56479 /* UI */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -390,6 +933,182 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				208A70931BC94EC100D56479 /* AnalyticsManager.cpp */,
+				208A70941BC94EC100D56479 /* AnalyticsManager.h */,
+				208A70951BC94EC100D56479 /* AnimationComponent.cpp */,
+				208A70961BC94EC100D56479 /* AnimationComponent.h */,
+				208A70971BC94EC100D56479 /* AudioOptions.cpp */,
+				208A70981BC94EC100D56479 /* AudioOptions.h */,
+				208A70991BC94EC100D56479 /* Brazier.cpp */,
+				208A709A1BC94EC100D56479 /* Brazier.h */,
+				208A709B1BC94EC100D56479 /* CameraManager.cpp */,
+				208A709C1BC94EC100D56479 /* CameraManager.h */,
+				208A709D1BC94EC100D56479 /* CollisionManager.cpp */,
+				208A709E1BC94EC100D56479 /* CollisionManager.h */,
+				208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */,
+				208A70A01BC94EC100D56479 /* ConfirmInputPopUp.h */,
+				208A70A11BC94EC100D56479 /* Controller.cpp */,
+				208A70A21BC94EC100D56479 /* Controller.h */,
+				208A70A31BC94EC100D56479 /* Definitions.h */,
+				208A70A41BC94EC100D56479 /* Door.cpp */,
+				208A70A51BC94EC100D56479 /* Door.h */,
+				208A70A61BC94EC100D56479 /* Drop.cpp */,
+				208A70A71BC94EC100D56479 /* Drop.h */,
+				208A70A81BC94EC100D56479 /* EditorMenuItem.cpp */,
+				208A70A91BC94EC100D56479 /* EditorMenuItem.h */,
+				208A70AA1BC94EC100D56479 /* EditorMenuManager.cpp */,
+				208A70AB1BC94EC100D56479 /* EditorMenuManager.h */,
+				208A70AC1BC94EC100D56479 /* EditorTableView.cpp */,
+				208A70AD1BC94EC100D56479 /* EditorTableView.h */,
+				208A70AE1BC94EC100D56479 /* EffectsManager.cpp */,
+				208A70AF1BC94EC100D56479 /* EffectsManager.h */,
+				208A70B01BC94EC100D56479 /* Eolo.cpp */,
+				208A70B11BC94EC200D56479 /* Eolo.h */,
+				208A70B21BC94EC200D56479 /* EoloZone.cpp */,
+				208A70B31BC94EC200D56479 /* EoloZone.h */,
+				208A70B41BC94EC200D56479 /* FaithJumpBrick.cpp */,
+				208A70B51BC94EC200D56479 /* FaithJumpBrick.h */,
+				208A70B61BC94EC200D56479 /* FakeLoading.cpp */,
+				208A70B71BC94EC200D56479 /* FakeLoading.h */,
+				208A70B81BC94EC200D56479 /* Flute.cpp */,
+				208A70B91BC94EC200D56479 /* Flute.h */,
+				208A70BA1BC94EC200D56479 /* GameCamera.cpp */,
+				208A70BB1BC94EC200D56479 /* GameCamera.h */,
+				208A70BC1BC94EC200D56479 /* GameContext.cpp */,
+				208A70BD1BC94EC200D56479 /* GameContext.h */,
+				208A70BE1BC94EC200D56479 /* GameLogic.cpp */,
+				208A70BF1BC94EC200D56479 /* GameLogic.h */,
+				208A70C01BC94EC200D56479 /* Gear.cpp */,
+				208A70C11BC94EC200D56479 /* Gear.h */,
+				208A70C21BC94EC200D56479 /* Goatskin.cpp */,
+				208A70C31BC94EC200D56479 /* Goatskin.h */,
+				208A70C41BC94EC200D56479 /* GoatskinMenuItem.cpp */,
+				208A70C51BC94EC200D56479 /* GoatskinMenuItem.h */,
+				208A70C61BC94EC200D56479 /* HUD.cpp */,
+				208A70C71BC94EC200D56479 /* HUD.h */,
+				208A70C81BC94EC200D56479 /* InputMenuItem.cpp */,
+				208A70C91BC94EC200D56479 /* InputMenuItem.h */,
+				208A70CA1BC94EC200D56479 /* InputSelection.cpp */,
+				208A70CB1BC94EC200D56479 /* InputSelection.h */,
+				208A70CC1BC94EC200D56479 /* Inspiration.cpp */,
+				208A70CD1BC94EC200D56479 /* Inspiration.h */,
+				208A70CE1BC94EC200D56479 /* InteractiveBlock.cpp */,
+				208A70CF1BC94EC200D56479 /* InteractiveBlock.h */,
+				208A70D01BC94EC200D56479 /* LightningBolt.cpp */,
+				208A70D11BC94EC200D56479 /* LightningBolt.h */,
+				208A70D21BC94EC200D56479 /* LightningBranch.cpp */,
+				208A70D31BC94EC200D56479 /* LightningBranch.h */,
+				208A70D41BC94EC200D56479 /* LightningLine.cpp */,
+				208A70D51BC94EC200D56479 /* LightningLine.h */,
+				208A70D61BC94EC200D56479 /* LinearInterpolation.cpp */,
+				208A70D71BC94EC200D56479 /* LinearInterpolation.h */,
+				208A70D81BC94EC200D56479 /* LoadingLayer.cpp */,
+				208A70D91BC94EC200D56479 /* LoadingLayer.h */,
+				208A70DA1BC94EC200D56479 /* LosePopUp.cpp */,
+				208A70DB1BC94EC200D56479 /* LosePopUp.h */,
+				208A70DC1BC94EC200D56479 /* MonousePlatform.cpp */,
+				208A70DD1BC94EC200D56479 /* MonousePlatform.h */,
+				208A70DE1BC94EC200D56479 /* MyMenuItemSprite.cpp */,
+				208A70DF1BC94EC200D56479 /* MyMenuItemSprite.h */,
+				208A70E01BC94EC200D56479 /* MyMenuItemToggle.cpp */,
+				208A70E11BC94EC200D56479 /* MyMenuItemToggle.h */,
+				208A70E21BC94EC200D56479 /* NavigationMenu.cpp */,
+				208A70E31BC94EC200D56479 /* NavigationMenu.h */,
+				208A70E41BC94EC200D56479 /* NavigationPopUp.cpp */,
+				208A70E51BC94EC200D56479 /* NavigationPopUp.h */,
+				208A70E61BC94EC200D56479 /* Note.cpp */,
+				208A70E71BC94EC200D56479 /* Note.h */,
+				208A70E81BC94EC200D56479 /* NoteMenuItem.cpp */,
+				208A70E91BC94EC200D56479 /* NoteMenuItem.h */,
+				208A70EA1BC94EC200D56479 /* NoteProgressBar.cpp */,
+				208A70EB1BC94EC200D56479 /* NoteProgressBar.h */,
+				208A70EC1BC94EC200D56479 /* NotificationPop.cpp */,
+				208A70ED1BC94EC200D56479 /* NotificationPop.h */,
+				208A70EE1BC94EC200D56479 /* Observer.h */,
+				208A70EF1BC94EC200D56479 /* PausePopUp.cpp */,
+				208A70F01BC94EC200D56479 /* PausePopUp.h */,
+				208A70F11BC94EC200D56479 /* Player.cpp */,
+				208A70F21BC94EC200D56479 /* Player.h */,
+				208A70F31BC94EC200D56479 /* PlayerDeathState.cpp */,
+				208A70F41BC94EC200D56479 /* PlayerDeathState.h */,
+				208A70F51BC94EC200D56479 /* PlayerExultingState.cpp */,
+				208A70F61BC94EC200D56479 /* PlayerExultingState.h */,
+				208A70F71BC94EC200D56479 /* PlayerFallingState.cpp */,
+				208A70F81BC94EC200D56479 /* PlayerFallingState.h */,
+				208A70F91BC94EC200D56479 /* PlayerFlyingState.cpp */,
+				208A70FA1BC94EC200D56479 /* PlayerFlyingState.h */,
+				208A70FB1BC94EC200D56479 /* PlayerJumpingState.cpp */,
+				208A70FC1BC94EC200D56479 /* PlayerJumpingState.h */,
+				208A70FD1BC94EC200D56479 /* PlayerStandingState.cpp */,
+				208A70FE1BC94EC200D56479 /* PlayerStandingState.h */,
+				208A70FF1BC94EC200D56479 /* PlayerState.h */,
+				208A71001BC94EC200D56479 /* PlayerWalkingState.cpp */,
+				208A71011BC94EC200D56479 /* PlayerWalkingState.h */,
+				208A71021BC94EC200D56479 /* PopUp.cpp */,
+				208A71031BC94EC200D56479 /* PopUp.h */,
+				208A71041BC94EC200D56479 /* Portal.cpp */,
+				208A71051BC94EC200D56479 /* Portal.h */,
+				208A71061BC94EC200D56479 /* ScoreManager.cpp */,
+				208A71071BC94EC200D56479 /* ScoreManager.h */,
+				208A71081BC94EC200D56479 /* SettingsManager.cpp */,
+				208A71091BC94EC200D56479 /* SettingsManager.h */,
+				208A710A1BC94EC200D56479 /* SettingsPopUp.cpp */,
+				208A710B1BC94EC200D56479 /* SettingsPopUp.h */,
+				208A710C1BC94EC200D56479 /* ShakeAction.cpp */,
+				208A710D1BC94EC200D56479 /* ShakeAction.h */,
+				208A710E1BC94EC200D56479 /* Sheep.cpp */,
+				208A710F1BC94EC200D56479 /* Sheep.h */,
+				208A71101BC94EC200D56479 /* SheepCounterGlobal.cpp */,
+				208A71111BC94EC200D56479 /* SheepCounterGlobal.h */,
+				208A71121BC94EC200D56479 /* SheepCounterView.cpp */,
+				208A71131BC94EC200D56479 /* SheepCounterView.h */,
+				208A71141BC94EC200D56479 /* SheepDeathState.cpp */,
+				208A71151BC94EC200D56479 /* SheepDeathState.h */,
+				208A71161BC94EC200D56479 /* SheepFallingState.cpp */,
+				208A71171BC94EC200D56479 /* SheepFallingState.h */,
+				208A71181BC94EC200D56479 /* SheepFlyingState.cpp */,
+				208A71191BC94EC200D56479 /* SheepFlyingState.h */,
+				208A711A1BC94EC200D56479 /* SheepJumpingState.cpp */,
+				208A711B1BC94EC200D56479 /* SheepJumpingState.h */,
+				208A711C1BC94EC200D56479 /* SheepMenuItem.cpp */,
+				208A711D1BC94EC200D56479 /* SheepMenuItem.h */,
+				208A711E1BC94EC200D56479 /* SheepShow.cpp */,
+				208A711F1BC94EC200D56479 /* SheepShow.h */,
+				208A71201BC94EC200D56479 /* SheepStandingState.cpp */,
+				208A71211BC94EC200D56479 /* SheepStandingState.h */,
+				208A71221BC94EC200D56479 /* SheepState.h */,
+				208A71231BC94EC200D56479 /* SheepWalkingState.cpp */,
+				208A71241BC94EC200D56479 /* SheepWalkingState.h */,
+				208A71251BC94EC200D56479 /* SoundComponent.cpp */,
+				208A71261BC94EC200D56479 /* SoundComponent.h */,
+				208A71271BC94EC200D56479 /* SoundManager.cpp */,
+				208A71281BC94EC200D56479 /* SoundManager.h */,
+				208A71291BC94EC200D56479 /* SoundVideo.cpp */,
+				208A712A1BC94EC200D56479 /* SoundVideo.h */,
+				208A712B1BC94EC200D56479 /* Switch.cpp */,
+				208A712C1BC94EC200D56479 /* Switch.h */,
+				208A712D1BC94EC200D56479 /* Tutorial.cpp */,
+				208A712E1BC94EC200D56479 /* Tutorial.h */,
+				208A712F1BC94EC200D56479 /* Utility.cpp */,
+				208A71301BC94EC200D56479 /* Utility.h */,
+				208A71311BC94EC200D56479 /* VideoStory.cpp */,
+				208A71321BC94EC200D56479 /* VideoStory.h */,
+				208A71331BC94EC200D56479 /* VisibleRect.cpp */,
+				208A71341BC94EC200D56479 /* VisibleRect.h */,
+				208A71351BC94EC200D56479 /* WindMovable.h */,
+				208A71361BC94EC200D56479 /* Wolf.cpp */,
+				208A71371BC94EC200D56479 /* Wolf.h */,
+				208A71381BC94EC200D56479 /* WolfDangerState.cpp */,
+				208A71391BC94EC200D56479 /* WolfDangerState.h */,
+				208A713A1BC94EC200D56479 /* WolfState.h */,
+				208A713B1BC94EC200D56479 /* WolfWithBrazierState.cpp */,
+				208A713C1BC94EC200D56479 /* WolfWithBrazierState.h */,
+				208A713D1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp */,
+				208A713E1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.h */,
+				208A713F1BC94EC200D56479 /* WolfWithPlayerState.cpp */,
+				208A71401BC94EC200D56479 /* WolfWithPlayerState.h */,
+				208A71411BC94EC200D56479 /* WorldLevelName.cpp */,
+				208A71421BC94EC200D56479 /* WorldLevelName.h */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -506,6 +1225,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				208A72A61BC9650900D56479 /* PBXTargetDependency */,
 				9EF9A8E91BA89E0900102D0A /* PBXTargetDependency */,
 			);
 			name = "tvapp-tv";
@@ -523,6 +1243,7 @@
 				TargetAttributes = {
 					9EF9A8B91BA898F000102D0A = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G6RAKRKZPR;
 					};
 				};
 			};
@@ -543,6 +1264,10 @@
 				{
 					ProductGroup = 1AC6FAE6180E9839004C840B /* Products */;
 					ProjectRef = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+				},
+				{
+					ProductGroup = 208A72431BC94EDB00D56479 /* Products */;
+					ProjectRef = 208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -569,6 +1294,34 @@
 			remoteRef = 1AC6FB06180E9839004C840B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		208A72491BC94EDC00D56479 /* libLevelHelper2-API.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libLevelHelper2-API.a";
+			remoteRef = 208A72481BC94EDC00D56479 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		208A724B1BC94EDC00D56479 /* libLevelHelper2-API.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libLevelHelper2-API.a";
+			remoteRef = 208A724A1BC94EDC00D56479 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		208A724D1BC94EDC00D56479 /* libLevelHelper2-API.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libLevelHelper2-API.a";
+			remoteRef = 208A724C1BC94EDC00D56479 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		208A72A41BC963AA00D56479 /* libLevelHelper2-API.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libLevelHelper2-API.a";
+			remoteRef = 208A72A31BC963AA00D56479 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		9EF9A8B11BA88DA800102D0A /* libcocos2d tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -584,27 +1337,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				208A707E1BC94EB100D56479 /* publishedResources in Resources */,
+				208A706F1BC94EB100D56479 /* Images.xcassets in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
+				208A70871BC94EB100D56479 /* SOP_levels.plist in Resources */,
+				208A70781BC94EB100D56479 /* noteDuration.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
-				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
-				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
+				208A708D1BC94EB100D56479 /* subtitles.plist in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
-				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				208A70901BC94EB100D56479 /* UI in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
+				208A706C1BC94EB100D56479 /* fonts in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
-				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
+				208A70751BC94EB100D56479 /* Media in Resources */,
+				208A70721BC94EB100D56479 /* LH2-Published in Resources */,
+				208A708A1BC94EB100D56479 /* SOP.plist in Resources */,
+				208A70661BC94EB100D56479 /* CocosStudio in Resources */,
+				208A70841BC94EB100D56479 /* Shaders in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
-				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
+				208A707B1BC94EB100D56479 /* particles in Resources */,
+				208A70811BC94EB100D56479 /* sdkbox_config.json in Resources */,
+				208A70631BC94EB100D56479 /* blankPixel.png in Resources */,
+				208A70691BC94EB100D56479 /* extension in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,12 +1377,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
+				208A707C1BC94EB100D56479 /* particles in Resources */,
+				208A70671BC94EB100D56479 /* CocosStudio in Resources */,
+				208A70881BC94EB100D56479 /* SOP_levels.plist in Resources */,
+				208A70821BC94EB100D56479 /* sdkbox_config.json in Resources */,
+				208A70851BC94EB100D56479 /* Shaders in Resources */,
+				208A706D1BC94EB100D56479 /* fonts in Resources */,
+				208A708B1BC94EB100D56479 /* SOP.plist in Resources */,
+				208A707F1BC94EB100D56479 /* publishedResources in Resources */,
+				208A708E1BC94EB100D56479 /* subtitles.plist in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
-				3EACC99019EE6D4300EB3C5E /* res in Resources */,
-				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
-				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
-				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
+				208A70701BC94EB100D56479 /* Images.xcassets in Resources */,
+				208A706A1BC94EB100D56479 /* extension in Resources */,
+				208A70761BC94EB100D56479 /* Media in Resources */,
+				208A70791BC94EB100D56479 /* noteDuration.png in Resources */,
+				208A70911BC94EB100D56479 /* UI in Resources */,
+				208A70731BC94EB100D56479 /* LH2-Published in Resources */,
+				208A70641BC94EB100D56479 /* blankPixel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,13 +1401,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE1087C1BA8A72800078FAA /* Info.plist in Resources */,
-				9EF9A8EE1BA89E6C00102D0A /* HelloWorld.png in Resources */,
-				9EF9A8EC1BA89E6C00102D0A /* CloseNormal.png in Resources */,
-				9EF9A8F01BA89E7500102D0A /* fonts in Resources */,
+				208A707D1BC94EB100D56479 /* particles in Resources */,
+				208A70681BC94EB100D56479 /* CocosStudio in Resources */,
+				208A70891BC94EB100D56479 /* SOP_levels.plist in Resources */,
+				208A70831BC94EB100D56479 /* sdkbox_config.json in Resources */,
+				208A70861BC94EB100D56479 /* Shaders in Resources */,
+				208A706E1BC94EB100D56479 /* fonts in Resources */,
+				208A708C1BC94EB100D56479 /* SOP.plist in Resources */,
+				208A70801BC94EB100D56479 /* publishedResources in Resources */,
+				208A708F1BC94EB100D56479 /* subtitles.plist in Resources */,
 				9EE1087B1BA8A72800078FAA /* Assets.xcassets in Resources */,
-				9EF9A8EF1BA89E7000102D0A /* res in Resources */,
-				9EF9A8ED1BA89E6C00102D0A /* CloseSelected.png in Resources */,
+				208A70711BC94EB100D56479 /* Images.xcassets in Resources */,
+				208A706B1BC94EB100D56479 /* extension in Resources */,
+				208A70771BC94EB100D56479 /* Media in Resources */,
+				208A707A1BC94EB100D56479 /* noteDuration.png in Resources */,
+				208A70921BC94EB100D56479 /* UI in Resources */,
+				208A70741BC94EB100D56479 /* LH2-Published in Resources */,
+				208A70651BC94EB100D56479 /* blankPixel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,11 +1428,96 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208A71A61BC94EC200D56479 /* LinearInterpolation.cpp in Sources */,
+				208A71FD1BC94EC200D56479 /* SheepCounterView.cpp in Sources */,
+				208A72271BC94EC200D56479 /* Utility.cpp in Sources */,
+				208A71551BC94EC200D56479 /* ConfirmInputPopUp.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				208A71A01BC94EC200D56479 /* LightningBranch.cpp in Sources */,
+				208A71671BC94EC200D56479 /* EditorTableView.cpp in Sources */,
+				208A719D1BC94EC200D56479 /* LightningBolt.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				208A71F11BC94EC200D56479 /* SettingsPopUp.cpp in Sources */,
+				208A71731BC94EC200D56479 /* FaithJumpBrick.cpp in Sources */,
+				208A71CD1BC94EC200D56479 /* Player.cpp in Sources */,
+				208A71AC1BC94EC200D56479 /* LosePopUp.cpp in Sources */,
+				208A72241BC94EC200D56479 /* Tutorial.cpp in Sources */,
+				208A720F1BC94EC200D56479 /* SheepShow.cpp in Sources */,
+				208A72211BC94EC200D56479 /* Switch.cpp in Sources */,
+				208A72331BC94EC200D56479 /* WolfDangerState.cpp in Sources */,
+				208A71EE1BC94EC200D56479 /* SettingsManager.cpp in Sources */,
+				208A71B51BC94EC200D56479 /* MyMenuItemToggle.cpp in Sources */,
+				208A717C1BC94EC200D56479 /* GameCamera.cpp in Sources */,
+				208A716D1BC94EC200D56479 /* Eolo.cpp in Sources */,
+				208A71FA1BC94EC200D56479 /* SheepCounterGlobal.cpp in Sources */,
+				208A723C1BC94EC200D56479 /* WolfWithPlayerState.cpp in Sources */,
+				208A71E81BC94EC200D56479 /* Portal.cpp in Sources */,
+				208A71D91BC94EC200D56479 /* PlayerFlyingState.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				208A71851BC94EC200D56479 /* Gear.cpp in Sources */,
+				208A72031BC94EC200D56479 /* SheepFallingState.cpp in Sources */,
+				208A71C71BC94EC200D56479 /* NotificationPop.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				208A71F41BC94EC200D56479 /* ShakeAction.cpp in Sources */,
+				208A715B1BC94EC200D56479 /* Door.cpp in Sources */,
+				208A71BE1BC94EC200D56479 /* Note.cpp in Sources */,
+				208A72181BC94EC200D56479 /* SoundComponent.cpp in Sources */,
+				208A71431BC94EC200D56479 /* AnalyticsManager.cpp in Sources */,
+				208A71B81BC94EC200D56479 /* NavigationMenu.cpp in Sources */,
+				208A71791BC94EC200D56479 /* Flute.cpp in Sources */,
+				208A71521BC94EC200D56479 /* CollisionManager.cpp in Sources */,
+				208A71D01BC94EC200D56479 /* PlayerDeathState.cpp in Sources */,
+				208A71881BC94EC200D56479 /* Goatskin.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				208A72001BC94EC200D56479 /* SheepDeathState.cpp in Sources */,
+				208A71E21BC94EC200D56479 /* PlayerWalkingState.cpp in Sources */,
+				208A715E1BC94EC200D56479 /* Drop.cpp in Sources */,
+				208A71641BC94EC200D56479 /* EditorMenuManager.cpp in Sources */,
+				208A71E51BC94EC200D56479 /* PopUp.cpp in Sources */,
+				208A71CA1BC94EC200D56479 /* PausePopUp.cpp in Sources */,
+				208A71D61BC94EC200D56479 /* PlayerFallingState.cpp in Sources */,
+				208A714F1BC94EC200D56479 /* CameraManager.cpp in Sources */,
+				208A71461BC94EC200D56479 /* AnimationComponent.cpp in Sources */,
+				208A72061BC94EC200D56479 /* SheepFlyingState.cpp in Sources */,
+				208A720C1BC94EC200D56479 /* SheepMenuItem.cpp in Sources */,
+				208A721E1BC94EC200D56479 /* SoundVideo.cpp in Sources */,
+				208A71C11BC94EC200D56479 /* NoteMenuItem.cpp in Sources */,
+				208A71941BC94EC200D56479 /* InputSelection.cpp in Sources */,
+				208A71491BC94EC200D56479 /* AudioOptions.cpp in Sources */,
+				208A71D31BC94EC200D56479 /* PlayerExultingState.cpp in Sources */,
+				208A71821BC94EC200D56479 /* GameLogic.cpp in Sources */,
+				208A72361BC94EC200D56479 /* WolfWithBrazierState.cpp in Sources */,
+				208A71AF1BC94EC200D56479 /* MonousePlatform.cpp in Sources */,
+				208A722A1BC94EC200D56479 /* VideoStory.cpp in Sources */,
+				208A71911BC94EC200D56479 /* InputMenuItem.cpp in Sources */,
+				208A71581BC94EC200D56479 /* Controller.cpp in Sources */,
+				208A71611BC94EC200D56479 /* EditorMenuItem.cpp in Sources */,
+				208A72121BC94EC200D56479 /* SheepStandingState.cpp in Sources */,
+				208A71971BC94EC200D56479 /* Inspiration.cpp in Sources */,
+				208A72091BC94EC200D56479 /* SheepJumpingState.cpp in Sources */,
+				208A718E1BC94EC200D56479 /* HUD.cpp in Sources */,
+				208A71DF1BC94EC200D56479 /* PlayerStandingState.cpp in Sources */,
+				208A714C1BC94EC200D56479 /* Brazier.cpp in Sources */,
+				208A716A1BC94EC200D56479 /* EffectsManager.cpp in Sources */,
+				208A722D1BC94EC200D56479 /* VisibleRect.cpp in Sources */,
+				208A72301BC94EC200D56479 /* Wolf.cpp in Sources */,
+				208A717F1BC94EC200D56479 /* GameContext.cpp in Sources */,
+				208A71701BC94EC200D56479 /* EoloZone.cpp in Sources */,
+				208A72391BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp in Sources */,
+				208A71C41BC94EC200D56479 /* NoteProgressBar.cpp in Sources */,
+				208A72151BC94EC200D56479 /* SheepWalkingState.cpp in Sources */,
+				208A721B1BC94EC200D56479 /* SoundManager.cpp in Sources */,
+				208A71761BC94EC200D56479 /* FakeLoading.cpp in Sources */,
+				208A71EB1BC94EC200D56479 /* ScoreManager.cpp in Sources */,
+				208A71A91BC94EC200D56479 /* LoadingLayer.cpp in Sources */,
+				208A71F71BC94EC200D56479 /* Sheep.cpp in Sources */,
+				208A71B21BC94EC200D56479 /* MyMenuItemSprite.cpp in Sources */,
+				208A71BB1BC94EC200D56479 /* NavigationPopUp.cpp in Sources */,
+				208A719A1BC94EC200D56479 /* InteractiveBlock.cpp in Sources */,
+				208A723F1BC94EC200D56479 /* WorldLevelName.cpp in Sources */,
+				208A71A31BC94EC200D56479 /* LightningLine.cpp in Sources */,
+				208A718B1BC94EC200D56479 /* GoatskinMenuItem.cpp in Sources */,
+				208A71DC1BC94EC200D56479 /* PlayerJumpingState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,9 +1525,94 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208A716E1BC94EC200D56479 /* Eolo.cpp in Sources */,
+				208A71E91BC94EC200D56479 /* Portal.cpp in Sources */,
+				208A718C1BC94EC200D56479 /* GoatskinMenuItem.cpp in Sources */,
+				208A71921BC94EC200D56479 /* InputMenuItem.cpp in Sources */,
+				208A71621BC94EC200D56479 /* EditorMenuItem.cpp in Sources */,
+				208A714D1BC94EC200D56479 /* Brazier.cpp in Sources */,
+				208A71DA1BC94EC200D56479 /* PlayerFlyingState.cpp in Sources */,
+				208A72311BC94EC200D56479 /* Wolf.cpp in Sources */,
+				208A71831BC94EC200D56479 /* GameLogic.cpp in Sources */,
+				208A72011BC94EC200D56479 /* SheepDeathState.cpp in Sources */,
+				208A71EC1BC94EC200D56479 /* ScoreManager.cpp in Sources */,
+				208A71E31BC94EC200D56479 /* PlayerWalkingState.cpp in Sources */,
+				208A71C51BC94EC200D56479 /* NoteProgressBar.cpp in Sources */,
+				208A722E1BC94EC200D56479 /* VisibleRect.cpp in Sources */,
+				208A721F1BC94EC200D56479 /* SoundVideo.cpp in Sources */,
+				208A71EF1BC94EC200D56479 /* SettingsManager.cpp in Sources */,
+				208A71AD1BC94EC200D56479 /* LosePopUp.cpp in Sources */,
+				208A72221BC94EC200D56479 /* Switch.cpp in Sources */,
+				208A71B01BC94EC200D56479 /* MonousePlatform.cpp in Sources */,
+				208A71531BC94EC200D56479 /* CollisionManager.cpp in Sources */,
+				208A71BF1BC94EC200D56479 /* Note.cpp in Sources */,
+				208A721C1BC94EC200D56479 /* SoundManager.cpp in Sources */,
+				208A71441BC94EC200D56479 /* AnalyticsManager.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				208A717D1BC94EC200D56479 /* GameCamera.cpp in Sources */,
+				208A72101BC94EC200D56479 /* SheepShow.cpp in Sources */,
+				208A72341BC94EC200D56479 /* WolfDangerState.cpp in Sources */,
+				208A71D71BC94EC200D56479 /* PlayerFallingState.cpp in Sources */,
+				208A72401BC94EC200D56479 /* WorldLevelName.cpp in Sources */,
+				208A72071BC94EC200D56479 /* SheepFlyingState.cpp in Sources */,
+				208A71711BC94EC200D56479 /* EoloZone.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				208A71471BC94EC200D56479 /* AnimationComponent.cpp in Sources */,
+				208A719B1BC94EC200D56479 /* InteractiveBlock.cpp in Sources */,
+				208A71BC1BC94EC200D56479 /* NavigationPopUp.cpp in Sources */,
+				208A71951BC94EC200D56479 /* InputSelection.cpp in Sources */,
+				208A72281BC94EC200D56479 /* Utility.cpp in Sources */,
+				208A71891BC94EC200D56479 /* Goatskin.cpp in Sources */,
+				208A715F1BC94EC200D56479 /* Drop.cpp in Sources */,
+				208A71981BC94EC200D56479 /* Inspiration.cpp in Sources */,
+				208A71741BC94EC200D56479 /* FaithJumpBrick.cpp in Sources */,
+				208A723D1BC94EC200D56479 /* WolfWithPlayerState.cpp in Sources */,
+				208A71C21BC94EC200D56479 /* NoteMenuItem.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				208A71C81BC94EC200D56479 /* NotificationPop.cpp in Sources */,
+				208A722B1BC94EC200D56479 /* VideoStory.cpp in Sources */,
+				208A720D1BC94EC200D56479 /* SheepMenuItem.cpp in Sources */,
+				208A71501BC94EC200D56479 /* CameraManager.cpp in Sources */,
+				208A71B61BC94EC200D56479 /* MyMenuItemToggle.cpp in Sources */,
+				208A719E1BC94EC200D56479 /* LightningBolt.cpp in Sources */,
+				208A720A1BC94EC200D56479 /* SheepJumpingState.cpp in Sources */,
+				208A71FB1BC94EC200D56479 /* SheepCounterGlobal.cpp in Sources */,
+				208A71DD1BC94EC200D56479 /* PlayerJumpingState.cpp in Sources */,
+				208A71D41BC94EC200D56479 /* PlayerExultingState.cpp in Sources */,
+				208A71561BC94EC200D56479 /* ConfirmInputPopUp.cpp in Sources */,
+				208A71A71BC94EC200D56479 /* LinearInterpolation.cpp in Sources */,
+				208A71AA1BC94EC200D56479 /* LoadingLayer.cpp in Sources */,
+				208A71861BC94EC200D56479 /* Gear.cpp in Sources */,
+				208A71D11BC94EC200D56479 /* PlayerDeathState.cpp in Sources */,
+				208A71CE1BC94EC200D56479 /* Player.cpp in Sources */,
+				208A715C1BC94EC200D56479 /* Door.cpp in Sources */,
+				208A71B31BC94EC200D56479 /* MyMenuItemSprite.cpp in Sources */,
+				208A71A11BC94EC200D56479 /* LightningBranch.cpp in Sources */,
+				208A72041BC94EC200D56479 /* SheepFallingState.cpp in Sources */,
+				208A71F81BC94EC200D56479 /* Sheep.cpp in Sources */,
+				208A72161BC94EC200D56479 /* SheepWalkingState.cpp in Sources */,
+				208A71FE1BC94EC200D56479 /* SheepCounterView.cpp in Sources */,
+				208A718F1BC94EC200D56479 /* HUD.cpp in Sources */,
+				208A714A1BC94EC200D56479 /* AudioOptions.cpp in Sources */,
+				208A716B1BC94EC200D56479 /* EffectsManager.cpp in Sources */,
+				208A71E01BC94EC200D56479 /* PlayerStandingState.cpp in Sources */,
+				208A71591BC94EC200D56479 /* Controller.cpp in Sources */,
+				208A72251BC94EC200D56479 /* Tutorial.cpp in Sources */,
+				208A71B91BC94EC200D56479 /* NavigationMenu.cpp in Sources */,
+				208A72191BC94EC200D56479 /* SoundComponent.cpp in Sources */,
+				208A71A41BC94EC200D56479 /* LightningLine.cpp in Sources */,
+				208A723A1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp in Sources */,
+				208A71771BC94EC200D56479 /* FakeLoading.cpp in Sources */,
+				208A72131BC94EC200D56479 /* SheepStandingState.cpp in Sources */,
+				208A71E61BC94EC200D56479 /* PopUp.cpp in Sources */,
+				208A71681BC94EC200D56479 /* EditorTableView.cpp in Sources */,
+				208A71F21BC94EC200D56479 /* SettingsPopUp.cpp in Sources */,
+				208A71CB1BC94EC200D56479 /* PausePopUp.cpp in Sources */,
+				208A72371BC94EC200D56479 /* WolfWithBrazierState.cpp in Sources */,
+				208A717A1BC94EC200D56479 /* Flute.cpp in Sources */,
+				208A71651BC94EC200D56479 /* EditorMenuManager.cpp in Sources */,
+				208A71801BC94EC200D56479 /* GameContext.cpp in Sources */,
+				208A71F51BC94EC200D56479 /* ShakeAction.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,11 +1620,96 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208A71A81BC94EC200D56479 /* LinearInterpolation.cpp in Sources */,
+				208A71FF1BC94EC200D56479 /* SheepCounterView.cpp in Sources */,
+				208A72291BC94EC200D56479 /* Utility.cpp in Sources */,
+				208A71571BC94EC200D56479 /* ConfirmInputPopUp.cpp in Sources */,
 				9EF9A8EA1BA89E2D00102D0A /* AppDelegate.cpp in Sources */,
+				208A71A21BC94EC200D56479 /* LightningBranch.cpp in Sources */,
+				208A71691BC94EC200D56479 /* EditorTableView.cpp in Sources */,
+				208A719F1BC94EC200D56479 /* LightningBolt.cpp in Sources */,
 				9EE108781BA8A46000078FAA /* RootViewController.mm in Sources */,
+				208A71F31BC94EC200D56479 /* SettingsPopUp.cpp in Sources */,
+				208A71751BC94EC200D56479 /* FaithJumpBrick.cpp in Sources */,
+				208A71CF1BC94EC200D56479 /* Player.cpp in Sources */,
+				208A71AE1BC94EC200D56479 /* LosePopUp.cpp in Sources */,
+				208A72261BC94EC200D56479 /* Tutorial.cpp in Sources */,
+				208A72111BC94EC200D56479 /* SheepShow.cpp in Sources */,
+				208A72231BC94EC200D56479 /* Switch.cpp in Sources */,
+				208A72351BC94EC200D56479 /* WolfDangerState.cpp in Sources */,
+				208A71F01BC94EC200D56479 /* SettingsManager.cpp in Sources */,
+				208A71B71BC94EC200D56479 /* MyMenuItemToggle.cpp in Sources */,
+				208A717E1BC94EC200D56479 /* GameCamera.cpp in Sources */,
+				208A716F1BC94EC200D56479 /* Eolo.cpp in Sources */,
+				208A71FC1BC94EC200D56479 /* SheepCounterGlobal.cpp in Sources */,
+				208A723E1BC94EC200D56479 /* WolfWithPlayerState.cpp in Sources */,
+				208A71EA1BC94EC200D56479 /* Portal.cpp in Sources */,
+				208A71DB1BC94EC200D56479 /* PlayerFlyingState.cpp in Sources */,
 				9EE108761BA8A43600078FAA /* AppController.mm in Sources */,
+				208A71871BC94EC200D56479 /* Gear.cpp in Sources */,
+				208A72051BC94EC200D56479 /* SheepFallingState.cpp in Sources */,
+				208A71C91BC94EC200D56479 /* NotificationPop.cpp in Sources */,
 				9EE108771BA8A45800078FAA /* main.m in Sources */,
+				208A71F61BC94EC200D56479 /* ShakeAction.cpp in Sources */,
+				208A715D1BC94EC200D56479 /* Door.cpp in Sources */,
+				208A71C01BC94EC200D56479 /* Note.cpp in Sources */,
+				208A721A1BC94EC200D56479 /* SoundComponent.cpp in Sources */,
+				208A71451BC94EC200D56479 /* AnalyticsManager.cpp in Sources */,
+				208A71BA1BC94EC200D56479 /* NavigationMenu.cpp in Sources */,
+				208A717B1BC94EC200D56479 /* Flute.cpp in Sources */,
+				208A71541BC94EC200D56479 /* CollisionManager.cpp in Sources */,
+				208A71D21BC94EC200D56479 /* PlayerDeathState.cpp in Sources */,
+				208A718A1BC94EC200D56479 /* Goatskin.cpp in Sources */,
 				9EF9A8EB1BA89E3100102D0A /* HelloWorldScene.cpp in Sources */,
+				208A72021BC94EC200D56479 /* SheepDeathState.cpp in Sources */,
+				208A71E41BC94EC200D56479 /* PlayerWalkingState.cpp in Sources */,
+				208A71601BC94EC200D56479 /* Drop.cpp in Sources */,
+				208A71661BC94EC200D56479 /* EditorMenuManager.cpp in Sources */,
+				208A71E71BC94EC200D56479 /* PopUp.cpp in Sources */,
+				208A71CC1BC94EC200D56479 /* PausePopUp.cpp in Sources */,
+				208A71D81BC94EC200D56479 /* PlayerFallingState.cpp in Sources */,
+				208A71511BC94EC200D56479 /* CameraManager.cpp in Sources */,
+				208A71481BC94EC200D56479 /* AnimationComponent.cpp in Sources */,
+				208A72081BC94EC200D56479 /* SheepFlyingState.cpp in Sources */,
+				208A720E1BC94EC200D56479 /* SheepMenuItem.cpp in Sources */,
+				208A72201BC94EC200D56479 /* SoundVideo.cpp in Sources */,
+				208A71C31BC94EC200D56479 /* NoteMenuItem.cpp in Sources */,
+				208A71961BC94EC200D56479 /* InputSelection.cpp in Sources */,
+				208A714B1BC94EC200D56479 /* AudioOptions.cpp in Sources */,
+				208A71D51BC94EC200D56479 /* PlayerExultingState.cpp in Sources */,
+				208A71841BC94EC200D56479 /* GameLogic.cpp in Sources */,
+				208A72381BC94EC200D56479 /* WolfWithBrazierState.cpp in Sources */,
+				208A71B11BC94EC200D56479 /* MonousePlatform.cpp in Sources */,
+				208A722C1BC94EC200D56479 /* VideoStory.cpp in Sources */,
+				208A71931BC94EC200D56479 /* InputMenuItem.cpp in Sources */,
+				208A715A1BC94EC200D56479 /* Controller.cpp in Sources */,
+				208A71631BC94EC200D56479 /* EditorMenuItem.cpp in Sources */,
+				208A72141BC94EC200D56479 /* SheepStandingState.cpp in Sources */,
+				208A71991BC94EC200D56479 /* Inspiration.cpp in Sources */,
+				208A720B1BC94EC200D56479 /* SheepJumpingState.cpp in Sources */,
+				208A71901BC94EC200D56479 /* HUD.cpp in Sources */,
+				208A71E11BC94EC200D56479 /* PlayerStandingState.cpp in Sources */,
+				208A714E1BC94EC200D56479 /* Brazier.cpp in Sources */,
+				208A716C1BC94EC200D56479 /* EffectsManager.cpp in Sources */,
+				208A722F1BC94EC200D56479 /* VisibleRect.cpp in Sources */,
+				208A72321BC94EC200D56479 /* Wolf.cpp in Sources */,
+				208A71811BC94EC200D56479 /* GameContext.cpp in Sources */,
+				208A71721BC94EC200D56479 /* EoloZone.cpp in Sources */,
+				208A723B1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp in Sources */,
+				208A71C61BC94EC200D56479 /* NoteProgressBar.cpp in Sources */,
+				208A72171BC94EC200D56479 /* SheepWalkingState.cpp in Sources */,
+				208A721D1BC94EC200D56479 /* SoundManager.cpp in Sources */,
+				208A71781BC94EC200D56479 /* FakeLoading.cpp in Sources */,
+				208A71ED1BC94EC200D56479 /* ScoreManager.cpp in Sources */,
+				208A71AB1BC94EC200D56479 /* LoadingLayer.cpp in Sources */,
+				208A71F91BC94EC200D56479 /* Sheep.cpp in Sources */,
+				208A71B41BC94EC200D56479 /* MyMenuItemSprite.cpp in Sources */,
+				208A71BD1BC94EC200D56479 /* NavigationPopUp.cpp in Sources */,
+				208A719C1BC94EC200D56479 /* InteractiveBlock.cpp in Sources */,
+				208A72411BC94EC200D56479 /* WorldLevelName.cpp in Sources */,
+				208A71A51BC94EC200D56479 /* LightningLine.cpp in Sources */,
+				208A718D1BC94EC200D56479 /* GoatskinMenuItem.cpp in Sources */,
+				208A71DE1BC94EC200D56479 /* PlayerJumpingState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,6 +1725,11 @@
 			isa = PBXTargetDependency;
 			name = "cocos2dx iOS";
 			targetProxy = 1AC6FB24180E99E1004C840B /* PBXContainerItemProxy */;
+		};
+		208A72A61BC9650900D56479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LevelHelper2-API+Box2d-tvOS";
+			targetProxy = 208A72A51BC9650900D56479 /* PBXContainerItemProxy */;
 		};
 		9EF9A8E91BA89E0900102D0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -848,6 +1893,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -861,7 +1907,7 @@
 					USE_FILE32API,
 					CC_TARGET_OS_APPLETV,
 					"COCOS2D_DEBUG=1",
-					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+					"LH_USE_BOX2D=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -873,11 +1919,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/tvos",
 					"$(SRCROOT)/../cocos2d/cocos/platform/tvos/Simulation",
+					"$(SRCROOT)/../LevelHelper2-API/LevelHelper2-API/**",
 				);
 				INFOPLIST_FILE = tv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocos.tvapp;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.balzo.org.cocos.tvapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -903,6 +1951,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -916,7 +1965,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_FILE32API,
 					CC_TARGET_OS_APPLETV,
-					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+					"LH_USE_BOX2D=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -928,11 +1977,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/tvos",
 					"$(SRCROOT)/../cocos2d/cocos/platform/tvos/Simulation",
+					"$(SRCROOT)/../LevelHelper2-API/LevelHelper2-API/**",
 				);
 				INFOPLIST_FILE = tv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocos.tvapp;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.balzo.org.cocos.tvapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;

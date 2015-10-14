@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alpha</key>
+	<real>255</real>
+	<key>anchor</key>
+	<string>{0.500000, 0.500000}</string>
+	<key>assetUUID</key>
+	<string>9627316E-33B3-4B84-9151-48B336B11F85</string>
+	<key>children</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>0.0</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 1.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.000000, 0.025000}</string>
+							<key>imageFileName</key>
+							<string>Fire_spritesheet.png</string>
+							<key>name</key>
+							<string>fireSprite</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>931A286C-E343-4AD2-A296-8F6CDEBEA7E5</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{105.000000, 106.000000}</string>
+							<key>spriteName</key>
+							<string>fuoco_aterra_acceso_0000.png</string>
+							<key>spriteUUID</key>
+							<string>36432E43-618A-4FB5-9CBC-87192993D52D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>FB2D5DFC-354D-4830-B45F-D3664B423394</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.000000, 0.067658}</string>
+					<key>name</key>
+					<string>fireNode</string>
+					<key>nodePhysics</key>
+					<dict>
+						<key>allowSleep</key>
+						<true/>
+						<key>angularDamping</key>
+						<real>0.0</real>
+						<key>angularVelocity</key>
+						<real>0.0</real>
+						<key>bullet</key>
+						<false/>
+						<key>fixedRotation</key>
+						<true/>
+						<key>genericFixture</key>
+						<dict>
+							<key>category</key>
+							<integer>1</integer>
+							<key>density</key>
+							<real>0.10000000149011612</real>
+							<key>friction</key>
+							<real>0.20000000298023224</real>
+							<key>mask</key>
+							<integer>65535</integer>
+							<key>name</key>
+							<string>GenericFixture</string>
+							<key>restitution</key>
+							<real>0.0</real>
+							<key>sensor</key>
+							<true/>
+							<key>shapeID</key>
+							<integer>0</integer>
+						</dict>
+						<key>gravityScale</key>
+						<real>0.0</real>
+						<key>linearDamping</key>
+						<real>0.0</real>
+						<key>linearVelocity</key>
+						<string>{0.000000, 0.000000}</string>
+						<key>ovalShape</key>
+						<array>
+							<array>
+								<string>{-24, 1.9594349641362686e-15}</string>
+								<string>{-23.538846969604492, -3.1214451789855957}</string>
+								<string>{-22.17310905456543, -6.1229348182678223}</string>
+								<string>{-19.955270767211914, -8.8891239166259766}</string>
+								<string>{-16.970561981201172, -11.313708305358887}</string>
+								<string>{-19.955270767211914, 8.8891239166259766}</string>
+								<string>{-22.17310905456543, 6.1229348182678223}</string>
+								<string>{-23.538846969604492, 3.1214451789855957}</string>
+							</array>
+							<array>
+								<string>{-19.955270767211914, 8.8891239166259766}</string>
+								<string>{-16.970561981201172, -11.313708305358887}</string>
+								<string>{-13.333685874938965, -13.303513526916504}</string>
+								<string>{-9.1844024658203125, -14.782072067260742}</string>
+								<string>{-4.6821675300598145, -15.692564010620117}</string>
+								<string>{-9.1844024658203125, 14.782072067260742}</string>
+								<string>{-13.333685874938965, 13.303513526916504}</string>
+								<string>{-16.970561981201172, 11.313708305358887}</string>
+							</array>
+							<array>
+								<string>{-9.1844024658203125, 14.782072067260742}</string>
+								<string>{-4.6821675300598145, -15.692564010620117}</string>
+								<string>{-4.4087285634274859e-15, -16}</string>
+								<string>{4.6821675300598145, -15.692564010620117}</string>
+								<string>{9.1844024658203125, -14.782072067260742}</string>
+								<string>{4.6821675300598145, 15.692564010620117}</string>
+								<string>{1.469576117223083e-15, 16}</string>
+								<string>{-4.6821675300598145, 15.692564010620117}</string>
+							</array>
+							<array>
+								<string>{4.6821675300598145, 15.692564010620117}</string>
+								<string>{9.1844024658203125, -14.782072067260742}</string>
+								<string>{13.333685874938965, -13.303513526916504}</string>
+								<string>{16.970561981201172, -11.313708305358887}</string>
+								<string>{19.955270767211914, -8.8891239166259766}</string>
+								<string>{16.970561981201172, 11.313708305358887}</string>
+								<string>{13.333685874938965, 13.303513526916504}</string>
+								<string>{9.1844024658203125, 14.782072067260742}</string>
+							</array>
+							<array>
+								<string>{16.970561981201172, 11.313708305358887}</string>
+								<string>{19.955270767211914, -8.8891239166259766}</string>
+								<string>{22.17310905456543, -6.1229348182678223}</string>
+								<string>{23.538846969604492, -3.1214451789855957}</string>
+								<string>{24, 0}</string>
+								<string>{23.538846969604492, 3.1214451789855957}</string>
+								<string>{22.17310905456543, 6.1229348182678223}</string>
+								<string>{19.955270767211914, 8.8891239166259766}</string>
+							</array>
+						</array>
+						<key>shape</key>
+						<integer>4</integer>
+						<key>type</key>
+						<integer>2</integer>
+					</dict>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>81CB3594-8CC3-4FFC-8B0C-5490826A6E30</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{2.343748, 2.706331}</string>
+					<key>size</key>
+					<string>{48.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>FIRE</string>
+					</array>
+					<key>uuid</key>
+					<string>931A286C-E343-4AD2-A296-8F6CDEBEA7E5</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, -0.025000}</string>
+			<key>name</key>
+			<string>brazierShape</string>
+			<key>nodePhysics</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<real>0.0</real>
+				<key>angularVelocity</key>
+				<real>0.0</real>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<true/>
+				<key>genericFixture</key>
+				<dict>
+					<key>category</key>
+					<integer>1</integer>
+					<key>density</key>
+					<real>0.10000000149011612</real>
+					<key>friction</key>
+					<real>0.20000000298023224</real>
+					<key>mask</key>
+					<integer>65535</integer>
+					<key>name</key>
+					<string>GenericFixture</string>
+					<key>restitution</key>
+					<real>0.0</real>
+					<key>sensor</key>
+					<true/>
+					<key>shapeID</key>
+					<integer>0</integer>
+				</dict>
+				<key>gravityScale</key>
+				<real>1.3877787807814457e-16</real>
+				<key>linearDamping</key>
+				<real>0.0</real>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shape</key>
+				<integer>2</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>nodeType</key>
+			<string>LHTexturedShape</string>
+			<key>parentUUID</key>
+			<string>CFB1B48E-4C03-4D8C-860D-CD059716DECF</string>
+			<key>points</key>
+			<array>
+				<dict>
+					<key>point</key>
+					<string>{74.999998, -86.602538}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{74.999998, 86.602538}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-75.000000, 86.602540}</string>
+				</dict>
+				<dict>
+					<key>point</key>
+					<string>{-75.000000, -86.602540}</string>
+				</dict>
+			</array>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{0.426667, 0.369504}</string>
+			<key>size</key>
+			<string>{150.000000, 173.205078}</string>
+			<key>subclassNodeType</key>
+			<string>Brazier</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+				<string>BRAZIER</string>
+				<string>STATIC</string>
+			</array>
+			<key>tileScale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>tileTexture</key>
+			<false/>
+			<key>triangles</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-75.000000, 86.602540}</string>
+					<key>uv</key>
+					<string>{0.890625, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-75.000000, -86.602540}</string>
+					<key>uv</key>
+					<string>{0.304688, 0.838291}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.999998, -86.602538}</string>
+					<key>uv</key>
+					<string>{0.304688, 0.161709}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{-75.000000, 86.602540}</string>
+					<key>uv</key>
+					<string>{0.000000, 1.000000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.999998, -86.602538}</string>
+					<key>uv</key>
+					<string>{1.000000, 0.500000}</string>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>color</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>point</key>
+					<string>{74.999998, 86.602538}</string>
+					<key>uv</key>
+					<string>{0.770567, 0.795649}</string>
+				</dict>
+			</array>
+			<key>uuid</key>
+			<string>81CB3594-8CC3-4FFC-8B0C-5490826A6E30</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>colorOverlay</key>
+	<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+	<key>generalPosition</key>
+	<string>{0.066667, 0.100000}</string>
+	<key>name</key>
+	<string>Untitled</string>
+	<key>nodeType</key>
+	<string>LHAsset</string>
+	<key>parentUUID</key>
+	<string>2B7DC3ED-E1CD-4DCF-9992-55A8438ADB2E</string>
+	<key>rotation</key>
+	<real>0.0</real>
+	<key>scale</key>
+	<string>{1.000000, 1.000000}</string>
+	<key>size</key>
+	<string>{48.000000, 32.000000}</string>
+	<key>tags</key>
+	<array>
+		<string>DEFAULT</string>
+	</array>
+	<key>uuid</key>
+	<string>CFB1B48E-4C03-4D8C-860D-CD059716DECF</string>
+	<key>zOrder</key>
+	<integer>0</integer>
+</dict>
+</plist>

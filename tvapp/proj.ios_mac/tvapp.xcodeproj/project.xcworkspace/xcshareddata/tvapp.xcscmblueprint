@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2B13D152CFEDA7B9654DB6DE544EBB37A80A28B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ACEECD7B0B7BEFE9A0C4D0A0C902D2ACB78CFEAA" : 0,
+    "2B13D152CFEDA7B9654DB6DE544EBB37A80A28B7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C3510F47-B7E9-4C56-8EB9-1870CAEC328D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ACEECD7B0B7BEFE9A0C4D0A0C902D2ACB78CFEAA" : "songofpanfinal\/",
+    "2B13D152CFEDA7B9654DB6DE544EBB37A80A28B7" : "cocos2dx-helloWorld-tvOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tvapp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tvapp\/proj.ios_mac\/tvapp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Balzoeu\/cocos2dx-helloWorld-tvOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B13D152CFEDA7B9654DB6DE544EBB37A80A28B7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/bitbucket.org\/giuslape\/songofpanfinal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ACEECD7B0B7BEFE9A0C4D0A0C902D2ACB78CFEAA"
+    }
+  ]
+}

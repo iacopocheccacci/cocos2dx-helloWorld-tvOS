@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>lupo_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1289.000000, 1179.000000}, {211.000000, 207.000000}}</string>
+			<key>offset</key>
+			<string>{140.500000, 22.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{281.000000, 10.000000}, {211.000000, 207.000000}}</string>
+			<key>sourceSize</key>
+			<string>{492.000000, 271.000000}</string>
+			<key>uuid</key>
+			<string>A6DB7BC9-B666-4DC4-88ED-285C89749D05</string>
+		</dict>
+		<key>lupo_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{387.000000, 1322.000000}, {239.000000, 252.000000}}</string>
+			<key>offset</key>
+			<string>{126.500000, 0.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 253.000000}, {252.000000, 239.000000}}</string>
+			<key>sourceSize</key>
+			<string>{492.000000, 271.000000}</string>
+			<key>uuid</key>
+			<string>305C201C-C1A8-4DE0-89A8-DAE3C3C6CACD</string>
+		</dict>
+		<key>lupo_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{387.000000, 386.000000}, {385.000000, 265.000000}}</string>
+			<key>offset</key>
+			<string>{44.500000, 2.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{98.000000, 1.000000}, {385.000000, 265.000000}}</string>
+			<key>sourceSize</key>
+			<string>{492.000000, 271.000000}</string>
+			<key>uuid</key>
+			<string>B3C28ADA-476B-4F3D-986E-7B9A5A4BDC19</string>
+		</dict>
+		<key>lupo_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{774.000000, 386.000000}, {427.000000, 225.000000}}</string>
+			<key>offset</key>
+			<string>{-32.500000, -14.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{9.000000, 0.000000}, {225.000000, 427.000000}}</string>
+			<key>sourceSize</key>
+			<string>{492.000000, 271.000000}</string>
+			<key>uuid</key>
+			<string>313A845A-C0A7-4635-99CC-FE1432EF5D99</string>
+		</dict>
+		<key>lupo_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{387.000000, 653.000000}, {397.000000, 226.000000}}</string>
+			<key>offset</key>
+			<string>{-12.500000, -10.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{12.000000, 35.000000}, {226.000000, 397.000000}}</string>
+			<key>sourceSize</key>
+			<string>{492.000000, 271.000000}</string>
+			<key>uuid</key>
+			<string>BEF08AC0-2519-4976-84F3-29A43FD2061A</string>
+		</dict>
+		<key>lupo_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1001.000000, 495.000000}, {390.000000, 228.000000}}</string>
+			<key>offset</key>
+			<string>{9.000000, -6.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{60.000000, 28.000000}, {390.000000, 228.000000}}</string>
+			<key>sourceSize</key>
+			<string>{492.000000, 271.000000}</string>
+			<key>uuid</key>
+			<string>252BF164-DEB6-4943-AE85-16B0C81F2250</string>
+		</dict>
+		<key>lupo_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1001.000000, 725.000000}, {374.000000, 228.000000}}</string>
+			<key>offset</key>
+			<string>{57.000000, -5.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{116.000000, 27.000000}, {374.000000, 228.000000}}</string>
+			<key>sourceSize</key>
+			<string>{492.000000, 271.000000}</string>
+			<key>uuid</key>
+			<string>2D8BAB9F-4CA9-4C37-966C-1D634AECE0C6</string>
+		</dict>
+		<key>lupo_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1377.000000, 725.000000}, {179.000000, 220.000000}}</string>
+			<key>offset</key>
+			<string>{156.500000, 1.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{313.000000, 24.000000}, {179.000000, 220.000000}}</string>
+			<key>sourceSize</key>
+			<string>{492.000000, 271.000000}</string>
+			<key>uuid</key>
+			<string>8F6E2096-94B8-4DFA-811F-A7E7893C6CEB</string>
+		</dict>
+		<key>lupo_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1159.000000, 1.000000}, {492.000000, 271.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {271.000000, 492.000000}}</string>
+			<key>sourceSize</key>
+			<string>{492.000000, 271.000000}</string>
+			<key>uuid</key>
+			<string>D089940A-38EF-4E6B-9BB1-47F1F5B6BE11</string>
+		</dict>
+		<key>lupo_GROTTA_occhi_w5.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 1159.000000}, {384.000000, 384.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {384.000000, 384.000000}}</string>
+			<key>sourceSize</key>
+			<string>{384.000000, 384.000000}</string>
+			<key>uuid</key>
+			<string>9E575A48-1B06-47D3-A3F6-505F913F937F</string>
+		</dict>
+		<key>lupo_GROTTA_w5.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 773.000000}, {384.000000, 384.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {384.000000, 384.000000}}</string>
+			<key>sourceSize</key>
+			<string>{384.000000, 384.000000}</string>
+			<key>uuid</key>
+			<string>5B224FDE-031A-4F16-A59E-BE1C45C47BB9</string>
+		</dict>
+		<key>lupo_Pan.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 1.000000}, {384.000000, 384.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {384.000000, 384.000000}}</string>
+			<key>sourceSize</key>
+			<string>{384.000000, 384.000000}</string>
+			<key>uuid</key>
+			<string>43DF1C72-728F-4114-83C6-38D3EEF022F2</string>
+		</dict>
+		<key>lupo_danger.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 387.000000}, {384.000000, 384.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {384.000000, 384.000000}}</string>
+			<key>sourceSize</key>
+			<string>{384.000000, 384.000000}</string>
+			<key>uuid</key>
+			<string>40A4D073-526B-4617-8739-BBC8B78C87FB</string>
+		</dict>
+		<key>lupo_davanti_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1304.000000, 955.000000}, {198.000000, 215.000000}}</string>
+			<key>offset</key>
+			<string>{33.000000, -5.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{72.000000, 30.000000}, {198.000000, 215.000000}}</string>
+			<key>sourceSize</key>
+			<string>{276.000000, 264.000000}</string>
+			<key>uuid</key>
+			<string>04BD9512-285F-48DF-A9F3-6964B3CE1301</string>
+		</dict>
+		<key>lupo_davanti_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1101.000000, 955.000000}, {201.000000, 222.000000}}</string>
+			<key>offset</key>
+			<string>{33.500000, -6.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{71.000000, 27.000000}, {201.000000, 222.000000}}</string>
+			<key>sourceSize</key>
+			<string>{276.000000, 264.000000}</string>
+			<key>uuid</key>
+			<string>67F450F5-3FEF-4BB2-936A-22AA2F7BDE74</string>
+		</dict>
+		<key>lupo_davanti_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{603.000000, 1081.000000}, {215.000000, 253.000000}}</string>
+			<key>offset</key>
+			<string>{26.500000, 5.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{11.000000, 57.000000}, {253.000000, 215.000000}}</string>
+			<key>sourceSize</key>
+			<string>{276.000000, 264.000000}</string>
+			<key>uuid</key>
+			<string>2F1699D3-4174-47FB-947A-0F8ACF83368F</string>
+		</dict>
+		<key>lupo_davanti_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{387.000000, 1052.000000}, {268.000000, 214.000000}}</string>
+			<key>offset</key>
+			<string>{-3.000000, -24.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 1.000000}, {214.000000, 268.000000}}</string>
+			<key>sourceSize</key>
+			<string>{276.000000, 264.000000}</string>
+			<key>uuid</key>
+			<string>C9611F31-916B-4405-9DF2-20465D714D4E</string>
+		</dict>
+		<key>lupo_davanti_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{858.000000, 1081.000000}, {241.000000, 213.000000}}</string>
+			<key>offset</key>
+			<string>{12.500000, -18.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{30.000000, 44.000000}, {241.000000, 213.000000}}</string>
+			<key>sourceSize</key>
+			<string>{276.000000, 264.000000}</string>
+			<key>uuid</key>
+			<string>045608F4-0525-47EB-87EB-28C819E7ADCE</string>
+		</dict>
+		<key>lupo_davanti_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{641.000000, 1298.000000}, {241.000000, 216.000000}}</string>
+			<key>offset</key>
+			<string>{15.500000, -14.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 33.000000}, {216.000000, 241.000000}}</string>
+			<key>sourceSize</key>
+			<string>{276.000000, 264.000000}</string>
+			<key>uuid</key>
+			<string>185AE618-400A-428C-8124-31A7015B1745</string>
+		</dict>
+		<key>lupo_davanti_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{859.000000, 1296.000000}, {231.000000, 216.000000}}</string>
+			<key>offset</key>
+			<string>{17.500000, -11.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{13.000000, 40.000000}, {216.000000, 231.000000}}</string>
+			<key>sourceSize</key>
+			<string>{276.000000, 264.000000}</string>
+			<key>uuid</key>
+			<string>DA8765D6-E9CC-4CE6-B59F-28AD2179A938</string>
+		</dict>
+		<key>lupo_davanti_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1077.000000, 1296.000000}, {210.000000, 217.000000}}</string>
+			<key>offset</key>
+			<string>{33.000000, -7.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{66.000000, 31.000000}, {210.000000, 217.000000}}</string>
+			<key>sourceSize</key>
+			<string>{276.000000, 264.000000}</string>
+			<key>uuid</key>
+			<string>BBAD34D7-BF21-4E9B-A841-ECC868453F60</string>
+		</dict>
+		<key>lupo_davanti_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{615.000000, 815.000000}, {276.000000, 264.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {276.000000, 264.000000}}</string>
+			<key>sourceSize</key>
+			<string>{276.000000, 264.000000}</string>
+			<key>uuid</key>
+			<string>A04045B1-EE6D-42A4-A523-C08FC18AEF9D</string>
+		</dict>
+		<key>lupo_illuminato.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{387.000000, 1.000000}, {384.000000, 383.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 1.000000}, {384.000000, 383.000000}}</string>
+			<key>sourceSize</key>
+			<string>{384.000000, 384.000000}</string>
+			<key>uuid</key>
+			<string>C571B778-1A36-413F-A459-D07578755264</string>
+		</dict>
+		<key>lupo_illuminato_w5.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{773.000000, 1.000000}, {384.000000, 383.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 1.000000}, {384.000000, 383.000000}}</string>
+			<key>sourceSize</key>
+			<string>{384.000000, 384.000000}</string>
+			<key>uuid</key>
+			<string>ED903882-76DB-464A-A58B-F5E6AE9BAE47</string>
+		</dict>
+		<key>teschiPecora.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1432.000000, 1.000000}, {92.000000, 129.000000}}</string>
+			<key>offset</key>
+			<string>{-5.000000, -8.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 6.000000}, {129.000000, 92.000000}}</string>
+			<key>sourceSize</key>
+			<string>{114.000000, 146.000000}</string>
+			<key>uuid</key>
+			<string>4B3C37AE-535D-4AF1-9D5A-5AD7DB6A6618</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1562.000000, 1562.000000}</string>
+		<key>textureFileName</key>
+		<string>lupo_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

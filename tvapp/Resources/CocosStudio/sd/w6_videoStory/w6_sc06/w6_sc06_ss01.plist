@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w6_videoStory/w6_sc06/body zeus PP.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{503,214}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{503,214}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc06/zeus head.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{509,2},{292,303}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{292,303}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w6_sc06_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w6_sc06_ss01.png</string>
+			<key>size</key>
+			<string>{814,296}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>814</integer>
+			<key>height</key>
+			<integer>296</integer>
+		</dict>
+	</dict>
+</plist>

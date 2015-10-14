@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w3_videoStory/w3_sc03/bgsc03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{691,439}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{691,439}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc03/colonna.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,664},{219,396}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{219,396}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc03/ol.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{697,2},{658,210}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{658,210}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc03/panwalkcycle0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{911,2},{102,182}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,182}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc03/panwalkcycle0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{911,188},{102,182}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,182}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w3_sc03_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w3_sc03_ss01.png</string>
+			<key>size</key>
+			<string>{1015,885}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1015</integer>
+			<key>height</key>
+			<integer>885</integer>
+		</dict>
+	</dict>
+</plist>

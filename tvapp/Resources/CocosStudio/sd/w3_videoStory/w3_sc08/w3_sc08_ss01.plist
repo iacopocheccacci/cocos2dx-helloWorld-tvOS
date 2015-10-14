@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w3_videoStory/w3_sc08/panarml.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{451,496},{164,180}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{164,180}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panarml_black.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{554,680},{164,180}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{164,180}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panarmr.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,902},{105,158}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{105,158}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panarmr_black.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{164,902},{105,158}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{105,158}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panbodysc08_0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{198,345}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{198,345}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panbodysc08_0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,351},{198,345}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{198,345}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panbodysc08_black.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,700},{198,345}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{198,345}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panheadsc080001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{204,2},{199,243}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,243}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panheadsc080002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{204,249},{199,243}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,243}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panheadsc080003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{204,496},{199,243}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{199,243}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panheadsc080004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{351,699},{199,243}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,243}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panheadsc08_black0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{407,2},{199,243}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,243}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc08/panheadsc08_black0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{407,249},{199,243}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,243}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w3_sc08_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w3_sc08_ss01.png</string>
+			<key>size</key>
+			<string>{720,1009}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>720</integer>
+			<key>height</key>
+			<integer>1009</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>capannaBrucia_loop_0001</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{257.000000, 2.000000}, {248.000000, 234.000000}}</string>
+			<key>offset</key>
+			<string>{18.500000, -41.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{37.000000, 83.000000}, {248.000000, 234.000000}}</string>
+			<key>sourceSize</key>
+			<string>{285.000000, 317.000000}</string>
+			<key>uuid</key>
+			<string>592BA001-94BA-4566-8334-4AD53A7B4935</string>
+		</dict>
+		<key>capannaBrucia_loop_0002</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 2.000000}, {248.000000, 251.000000}}</string>
+			<key>offset</key>
+			<string>{18.500000, -33.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 37.000000}, {251.000000, 248.000000}}</string>
+			<key>sourceSize</key>
+			<string>{285.000000, 317.000000}</string>
+			<key>uuid</key>
+			<string>83B63632-7DBF-4F74-88FB-0200BBC3F4A8</string>
+		</dict>
+		<key>capannaBrucia_loop_0003</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 478.000000}, {248.000000, 220.000000}}</string>
+			<key>offset</key>
+			<string>{18.500000, -48.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{37.000000, 97.000000}, {248.000000, 220.000000}}</string>
+			<key>sourceSize</key>
+			<string>{285.000000, 317.000000}</string>
+			<key>uuid</key>
+			<string>21C1B915-2ADC-4AD6-96EA-35909E6E732C</string>
+		</dict>
+		<key>capannaBrucia_loop_0004</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{254.000000, 464.000000}, {248.000000, 220.000000}}</string>
+			<key>offset</key>
+			<string>{18.500000, -48.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 37.000000}, {220.000000, 248.000000}}</string>
+			<key>sourceSize</key>
+			<string>{285.000000, 317.000000}</string>
+			<key>uuid</key>
+			<string>12CA9354-D35F-4CFE-8A6C-43B12F5AB626</string>
+		</dict>
+		<key>capannaBrucia_loop_0005</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 254.000000}, {248.000000, 220.000000}}</string>
+			<key>offset</key>
+			<string>{18.500000, -48.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{37.000000, 97.000000}, {248.000000, 220.000000}}</string>
+			<key>sourceSize</key>
+			<string>{285.000000, 317.000000}</string>
+			<key>uuid</key>
+			<string>FDA0EE65-0291-4E32-B877-F27467F51CEB</string>
+		</dict>
+		<key>capannaBrucia_loop_0006</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{257.000000, 240.000000}, {248.000000, 220.000000}}</string>
+			<key>offset</key>
+			<string>{18.500000, -48.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{37.000000, 97.000000}, {248.000000, 220.000000}}</string>
+			<key>sourceSize</key>
+			<string>{285.000000, 317.000000}</string>
+			<key>uuid</key>
+			<string>1E6A425D-3DA0-416B-BFEF-9CE5A9D97F6A</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{506.000000, 713.000000}</string>
+		<key>textureFileName</key>
+		<string>GoalBurnLoop_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

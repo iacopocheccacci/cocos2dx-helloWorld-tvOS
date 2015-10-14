@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alpha</key>
+	<real>255</real>
+	<key>anchor</key>
+	<string>{0.500000, 0.500000}</string>
+	<key>assetUUID</key>
+	<string>27949101-93EC-4D7F-AA45-6A95BB9775B3</string>
+	<key>children</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.366664, 1.000000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.000000, 0.050000}</string>
+					<key>imageFileName</key>
+					<string>Sheep_spritesheet.png</string>
+					<key>name</key>
+					<string>SheepSprite</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>3B7935E4-D5DB-4EAE-946E-C87022A3A74E</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{120.000000, 87.000000}</string>
+					<key>spriteName</key>
+					<string>pecoraIdle_01_0000.png</string>
+					<key>spriteUUID</key>
+					<string>C9FC19AC-0BC0-473A-812C-2F2473D1760F</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>4A050AC3-7412-4C8B-AEB6-ADB3155FDE5C</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>name</key>
+			<string>Sheep</string>
+			<key>nodePhysics</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<real>0.0</real>
+				<key>angularVelocity</key>
+				<real>0.0</real>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<true/>
+				<key>genericFixture</key>
+				<dict>
+					<key>category</key>
+					<integer>8</integer>
+					<key>categoryName</key>
+					<string>Category_04</string>
+					<key>collisionCategories</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>Category_02</string>
+						<string>Category_03</string>
+						<string>Category_05</string>
+						<string>Category_06</string>
+						<string>Category_07</string>
+						<string>Category_08</string>
+						<string>Category_09</string>
+						<string>Category_10</string>
+						<string>Category_11</string>
+						<string>Category_12</string>
+						<string>Category_13</string>
+						<string>Category_14</string>
+						<string>Category_15</string>
+						<string>Category_16</string>
+					</array>
+					<key>density</key>
+					<real>0.10000000149011612</real>
+					<key>friction</key>
+					<real>0.40000000596046448</real>
+					<key>ignoreCategories</key>
+					<array>
+						<string>Category_04</string>
+					</array>
+					<key>mask</key>
+					<integer>65527</integer>
+					<key>maskName</key>
+					<string>sheepNodeMask</string>
+					<key>name</key>
+					<string>GenericFixture</string>
+					<key>restitution</key>
+					<real>0.0</real>
+					<key>sensor</key>
+					<false/>
+					<key>shapeID</key>
+					<integer>0</integer>
+				</dict>
+				<key>gravityScale</key>
+				<real>10</real>
+				<key>linearDamping</key>
+				<real>0.0</real>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shape</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>nodeType</key>
+			<string>LHNode</string>
+			<key>parentUUID</key>
+			<string>9B5F650D-525C-4E3D-945D-42B63B84225F</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{64.000000, 64.000000}</string>
+			<key>subclassNodeType</key>
+			<string>Sheep</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+				<string>SHEEP</string>
+			</array>
+			<key>uuid</key>
+			<string>3B7935E4-D5DB-4EAE-946E-C87022A3A74E</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>colorOverlay</key>
+	<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+	<key>generalPosition</key>
+	<string>{0.066667, 0.100000}</string>
+	<key>name</key>
+	<string>Untitled</string>
+	<key>nodeType</key>
+	<string>LHAsset</string>
+	<key>parentUUID</key>
+	<string>2B7DC3ED-E1CD-4DCF-9992-55A8438ADB2E</string>
+	<key>rotation</key>
+	<real>0.0</real>
+	<key>scale</key>
+	<string>{1.000000, 1.000000}</string>
+	<key>size</key>
+	<string>{64.000000, 64.000000}</string>
+	<key>tags</key>
+	<array>
+		<string>DEFAULT</string>
+	</array>
+	<key>uuid</key>
+	<string>9B5F650D-525C-4E3D-945D-42B63B84225F</string>
+	<key>zOrder</key>
+	<integer>0</integer>
+</dict>
+</plist>

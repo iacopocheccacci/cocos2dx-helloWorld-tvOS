@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w5_videoStory/w5_sc06/adearmsc6_0006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{287,278}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{287,278}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc06/adearmsc6_0007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{293,2},{287,278}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{287,278}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc06/adearmsc6_0008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{584,2},{287,278}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{287,278}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc06/adearmsc6_0009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,284},{287,278}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{287,278}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc06/adearmsc6_0010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,575},{287,278}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{287,278}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc06/adearmsc6_loop_0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{284,284},{287,258}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{287,258}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc06/adearmsc6_loop_0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{575,284},{287,258}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{287,258}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc06/adearmsc6_loop_0003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{284,546},{287,258}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{287,258}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc06/adearmsc6_loop_0004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{546,546},{287,258}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{287,258}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w5_sc06_ss02.png</string>
+			<key>realTextureFileName</key>
+			<string>w5_sc06_ss02.png</string>
+			<key>size</key>
+			<string>{873,864}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>873</integer>
+			<key>height</key>
+			<integer>864</integer>
+		</dict>
+	</dict>
+</plist>

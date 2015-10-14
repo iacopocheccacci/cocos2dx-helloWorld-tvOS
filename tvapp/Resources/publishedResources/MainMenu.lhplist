@@ -1,0 +1,3838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aspect</key>
+	<integer>1</integer>
+	<key>backgroundColor</key>
+	<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+	<key>children</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.009085}</string>
+			<key>name</key>
+			<string>BACK USER INTERFACE</string>
+			<key>nodeType</key>
+			<string>LHBackUINode</string>
+			<key>parentUUID</key>
+			<string>FBE5D596-03F2-4AE2-B328-A7D417A4339B</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{128.000000, 128.000000}</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>BF8E214B-3F68-4E1A-8BDC-3FF91BE27AFB</string>
+			<key>zOrder</key>
+			<integer>-1</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-2.083333, 0.000000}</string>
+							<key>name</key>
+							<string>StartNodeProj</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>3FD49BC5-DEC6-4E8B-9A9A-B831E01014C5</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>RAIL_START_PROJ</string>
+							</array>
+							<key>uuid</key>
+							<string>5EC59A80-9BB0-4B80-8FA7-786F1B9228AC</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.083333, 0.000000}</string>
+							<key>name</key>
+							<string>EndNodeProj</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>3FD49BC5-DEC6-4E8B-9A9A-B831E01014C5</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>RAIL_END_PROJ</string>
+							</array>
+							<key>uuid</key>
+							<string>BD4994E1-0FF0-47F2-8C58-8156C2246A8E</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-2.083333, 0.065625}</string>
+							<key>name</key>
+							<string>StartRailPath</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>3FD49BC5-DEC6-4E8B-9A9A-B831E01014C5</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>RAIL_POINT_0</string>
+							</array>
+							<key>uuid</key>
+							<string>6017F2B9-38A7-4667-8217-FF8607CB88E1</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.083333, 0.065625}</string>
+							<key>name</key>
+							<string>EndRailPath</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>3FD49BC5-DEC6-4E8B-9A9A-B831E01014C5</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>RAIL_POINT_1</string>
+							</array>
+							<key>uuid</key>
+							<string>5E15812B-E57A-4348-B605-269D5D92433F</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{3.939621, -0.840625}</string>
+					<key>name</key>
+					<string>CameraRail</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{3387.927734, 564.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>CAMERA_RAIL</string>
+					</array>
+					<key>uuid</key>
+					<string>3FD49BC5-DEC6-4E8B-9A9A-B831E01014C5</string>
+					<key>zOrder</key>
+					<integer>-100</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{4.677741, -2.044608}</string>
+					<key>imageFileName</key>
+					<string>Flauto_spritesheet.png</string>
+					<key>name</key>
+					<string>FluteFeedback</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{115.000000, 90.000000}</string>
+					<key>spriteName</key>
+					<string>flauto_part_00.png</string>
+					<key>spriteUUID</key>
+					<string>E5E3209B-9A67-4AA5-B3EC-03B94CA91AA2</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>B6963F2E-8DE3-4326-8A62-B3F6A99FF599</string>
+					<key>zOrder</key>
+					<integer>-90</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.866667, 0.650000}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-2.000000, 2.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>GRASS</string>
+					</array>
+					<key>uuid</key>
+					<string>AE5374D0-473E-44E2-8254-73A9D5209208</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.575000, 0.700000}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{7.250000, 2.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>3A0DCF69-E898-4D1F-AC29-656547FE7D76</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{4.453125, 0.696875}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-1.968750, 2.062500}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>FE24CBB6-43D6-482A-9824-34E337762391</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{4.718750, 0.496875}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-1.937500, 6.062500}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>9025EF0A-802A-448F-8924-9E58F9972DDA</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.312500, 0.306250}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-11.875000, 9.875000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>CCCFFB5E-54E5-465E-B507-14EF39BBAFB0</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.770833, 0.343750}</string>
+					<key>name</key>
+					<string>BlockShape3</string>
+					<key>nodePhysics</key>
+					<dict>
+						<key>allowSleep</key>
+						<true/>
+						<key>angularDamping</key>
+						<real>0.0</real>
+						<key>angularVelocity</key>
+						<real>0.0</real>
+						<key>bullet</key>
+						<false/>
+						<key>fixedRotation</key>
+						<false/>
+						<key>genericFixture</key>
+						<dict>
+							<key>category</key>
+							<integer>1</integer>
+							<key>density</key>
+							<real>0.10000000149011612</real>
+							<key>friction</key>
+							<real>0.20000000298023224</real>
+							<key>mask</key>
+							<integer>65535</integer>
+							<key>name</key>
+							<string>GenericFixture</string>
+							<key>restitution</key>
+							<real>0.0</real>
+							<key>sensor</key>
+							<false/>
+							<key>shapeID</key>
+							<integer>0</integer>
+						</dict>
+						<key>gravityScale</key>
+						<real>1</real>
+						<key>linearDamping</key>
+						<real>0.0</real>
+						<key>linearVelocity</key>
+						<string>{0.000000, 0.000000}</string>
+						<key>shape</key>
+						<integer>3</integer>
+						<key>type</key>
+						<integer>0</integer>
+					</dict>
+					<key>nodeType</key>
+					<string>LHTexturedShape</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>points</key>
+					<array>
+						<dict>
+							<key>point</key>
+							<string>{19.354846, 32.080014}</string>
+						</dict>
+						<dict>
+							<key>point</key>
+							<string>{-19.354846, 3.564446}</string>
+						</dict>
+						<dict>
+							<key>point</key>
+							<string>{-19.354846, -32.080013}</string>
+						</dict>
+					</array>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.033333, 1.122194}</string>
+					<key>size</key>
+					<string>{38.709694, 64.160027}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>tileScale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>tileTexture</key>
+					<false/>
+					<key>triangles</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{19.354846, 32.080014}</string>
+							<key>uv</key>
+							<string>{0.890625, 0.500000}</string>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{-19.354846, 3.564446}</string>
+							<key>uv</key>
+							<string>{0.304688, 0.838291}</string>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{-19.354846, -32.080013}</string>
+							<key>uv</key>
+							<string>{0.304688, 0.161709}</string>
+						</dict>
+					</array>
+					<key>uuid</key>
+					<string>CC4B2428-B18E-4A0A-9834-C73BF7ECC8EA</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.933333, 0.675000}</string>
+					<key>name</key>
+					<string>BlockShape2</string>
+					<key>nodePhysics</key>
+					<dict>
+						<key>allowSleep</key>
+						<true/>
+						<key>angularDamping</key>
+						<real>0.0</real>
+						<key>angularVelocity</key>
+						<real>0.0</real>
+						<key>bullet</key>
+						<false/>
+						<key>fixedRotation</key>
+						<false/>
+						<key>genericFixture</key>
+						<dict>
+							<key>category</key>
+							<integer>1</integer>
+							<key>density</key>
+							<real>0.10000000149011612</real>
+							<key>friction</key>
+							<real>0.20000000298023224</real>
+							<key>mask</key>
+							<integer>65535</integer>
+							<key>name</key>
+							<string>GenericFixture</string>
+							<key>restitution</key>
+							<real>0.0</real>
+							<key>sensor</key>
+							<false/>
+							<key>shapeID</key>
+							<integer>0</integer>
+						</dict>
+						<key>gravityScale</key>
+						<real>1</real>
+						<key>linearDamping</key>
+						<real>0.0</real>
+						<key>linearVelocity</key>
+						<string>{0.000000, 0.000000}</string>
+						<key>shape</key>
+						<integer>3</integer>
+						<key>type</key>
+						<integer>0</integer>
+					</dict>
+					<key>nodeType</key>
+					<string>LHTexturedShape</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>points</key>
+					<array>
+						<dict>
+							<key>point</key>
+							<string>{15.483876, 81.982256}</string>
+						</dict>
+						<dict>
+							<key>point</key>
+							<string>{-15.483877, 71.288918}</string>
+						</dict>
+						<dict>
+							<key>point</key>
+							<string>{-15.483877, -81.982256}</string>
+						</dict>
+					</array>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.033333, 1.122194}</string>
+					<key>size</key>
+					<string>{30.967754, 163.964508}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>tileScale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>tileTexture</key>
+					<false/>
+					<key>triangles</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{15.483876, 81.982256}</string>
+							<key>uv</key>
+							<string>{0.890625, 0.500000}</string>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{-15.483877, 71.288918}</string>
+							<key>uv</key>
+							<string>{0.304688, 0.838291}</string>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{-15.483877, -81.982256}</string>
+							<key>uv</key>
+							<string>{0.304688, 0.161709}</string>
+						</dict>
+					</array>
+					<key>uuid</key>
+					<string>8EE34677-0137-4F56-A99F-54B917658B2A</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.727083, 0.003125}</string>
+					<key>name</key>
+					<string>BlockShape1</string>
+					<key>nodePhysics</key>
+					<dict>
+						<key>allowSleep</key>
+						<true/>
+						<key>angularDamping</key>
+						<real>0.0</real>
+						<key>angularVelocity</key>
+						<real>0.0</real>
+						<key>bullet</key>
+						<false/>
+						<key>fixedRotation</key>
+						<false/>
+						<key>genericFixture</key>
+						<dict>
+							<key>category</key>
+							<integer>1</integer>
+							<key>density</key>
+							<real>0.10000000149011612</real>
+							<key>friction</key>
+							<real>0.20000000298023224</real>
+							<key>mask</key>
+							<integer>65535</integer>
+							<key>name</key>
+							<string>GenericFixture</string>
+							<key>restitution</key>
+							<real>0.0</real>
+							<key>sensor</key>
+							<false/>
+							<key>shapeID</key>
+							<integer>0</integer>
+						</dict>
+						<key>gravityScale</key>
+						<real>1</real>
+						<key>linearDamping</key>
+						<real>0.0</real>
+						<key>linearVelocity</key>
+						<string>{0.000000, 0.000000}</string>
+						<key>shape</key>
+						<integer>3</integer>
+						<key>type</key>
+						<integer>0</integer>
+					</dict>
+					<key>nodeType</key>
+					<string>LHTexturedShape</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>points</key>
+					<array>
+						<dict>
+							<key>point</key>
+							<string>{17.419362, 12.475561}</string>
+						</dict>
+						<dict>
+							<key>point</key>
+							<string>{-17.419361, 12.475561}</string>
+						</dict>
+						<dict>
+							<key>point</key>
+							<string>{-17.419361, -12.475560}</string>
+						</dict>
+					</array>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.033333, 1.122194}</string>
+					<key>size</key>
+					<string>{34.838722, 24.951122}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>tileScale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>tileTexture</key>
+					<false/>
+					<key>triangles</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{17.419362, 12.475561}</string>
+							<key>uv</key>
+							<string>{0.890625, 0.500000}</string>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{-17.419361, 12.475561}</string>
+							<key>uv</key>
+							<string>{0.304688, 0.838291}</string>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{-17.419361, -12.475560}</string>
+							<key>uv</key>
+							<string>{0.304688, 0.161709}</string>
+						</dict>
+					</array>
+					<key>uuid</key>
+					<string>9491FA11-208B-4E37-8292-C034403DA5D0</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.833333, 0.662500}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-2.500000, -2.750000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>AD5910ED-09D4-4D42-A5CF-EF72C312C8E9</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.729167, 0.412500}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-0.625000, -7.750000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>A8C272CC-40BD-43AA-AE8C-D105A3BD730A</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.833333, 0.437500}</string>
+					<key>name</key>
+					<string>BlockShape4</string>
+					<key>nodePhysics</key>
+					<dict>
+						<key>allowSleep</key>
+						<true/>
+						<key>angularDamping</key>
+						<real>0.0</real>
+						<key>angularVelocity</key>
+						<real>0.0</real>
+						<key>bullet</key>
+						<false/>
+						<key>fixedRotation</key>
+						<false/>
+						<key>genericFixture</key>
+						<dict>
+							<key>category</key>
+							<integer>1</integer>
+							<key>density</key>
+							<real>0.10000000149011612</real>
+							<key>friction</key>
+							<real>0.20000000298023224</real>
+							<key>mask</key>
+							<integer>65535</integer>
+							<key>name</key>
+							<string>GenericFixture</string>
+							<key>restitution</key>
+							<real>0.0</real>
+							<key>sensor</key>
+							<false/>
+							<key>shapeID</key>
+							<integer>0</integer>
+						</dict>
+						<key>gravityScale</key>
+						<real>1</real>
+						<key>linearDamping</key>
+						<real>0.0</real>
+						<key>linearVelocity</key>
+						<string>{0.000000, 0.000000}</string>
+						<key>shape</key>
+						<integer>3</integer>
+						<key>type</key>
+						<integer>0</integer>
+					</dict>
+					<key>nodeType</key>
+					<string>LHTexturedShape</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>points</key>
+					<array>
+						<dict>
+							<key>point</key>
+							<string>{15.880900, 81.982256}</string>
+						</dict>
+						<dict>
+							<key>point</key>
+							<string>{-15.880899, 80.072731}</string>
+						</dict>
+						<dict>
+							<key>point</key>
+							<string>{-15.880900, -81.982253}</string>
+						</dict>
+					</array>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{5.037498, 0.683075}</string>
+					<key>size</key>
+					<string>{31.761799, 163.964508}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>tileScale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>tileTexture</key>
+					<false/>
+					<key>triangles</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{15.880900, 81.982256}</string>
+							<key>uv</key>
+							<string>{0.890625, 0.500000}</string>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{-15.880899, 80.072731}</string>
+							<key>uv</key>
+							<string>{0.304688, 0.838291}</string>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>color</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>point</key>
+							<string>{-15.880900, -81.982253}</string>
+							<key>uv</key>
+							<string>{0.304688, 0.161709}</string>
+						</dict>
+					</array>
+					<key>uuid</key>
+					<string>6202B312-FE46-446D-99F5-A496A7C878A4</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.318750, -0.284375}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-7.937500, 1.937500}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>D018B8EE-19F2-45D1-BF95-CDD738DFCACE</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.645833, -0.284375}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-1.875000, 1.937500}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>6492F2F8-8AEF-4A57-9800-98DD148863FE</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{4.850000, 0.403125}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-2.000000, 7.937500}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>D812EB2A-A782-4B5F-A217-1BC8AA5281B1</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{4.586458, 0.596875}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-2.031250, 4.062500}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>892C0E25-18BD-4050-AFFD-953D50D23098</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.491667, 0.634375}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-2.000000, 2.312500}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>B9D38501-F479-444E-B4DF-D68CBE151366</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.625000, 0.537500}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-2.000000, 4.250000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>9FD4AC34-4C1B-4A78-9400-0DF20A76E2A9</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.756250, 0.434375}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-1.937500, 6.312500}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>03D625FF-19FB-4C37-8315-3AF617599AEB</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.143750, 0.234375}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-5.687500, 10.312500}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>AFA23951-9F7E-4930-83ED-C4829BCA4D22</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.885417, 0.332813}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-2.062500, 8.343750}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>89F016A3-A852-4C6F-A6A6-FF90DD66A8D0</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.254167, -0.381250}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-4.875000, 2.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>6CB2BCBC-1945-44F4-BAB1-6ED384AF9D47</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>BlockAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1D8E4294-F9FB-4491-9E55-597AF1A43B75</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{4.020834, 1.000592}</string>
+					<key>name</key>
+					<string>BlockAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{57.624992, 4.011841}</string>
+					<key>size</key>
+					<string>{64.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>111E9AE4-E17B-4CB4-B92C-133FA52A7526</string>
+					<key>zOrder</key>
+					<integer>-56</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>SideAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>F2CC2884-5674-4E6C-8B6A-49764F3A6B08</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{7.279167, -0.143750}</string>
+					<key>name</key>
+					<string>SideAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, -14.312500}</string>
+					<key>size</key>
+					<string>{64.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>3704685A-7266-4DCF-A614-8249402C5A52</string>
+					<key>zOrder</key>
+					<integer>-52</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>GroundAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>2F98A83D-1933-4FAA-8C77-AEE4F3A07548</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{6.441667, -0.350000}</string>
+					<key>name</key>
+					<string>GroundAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{4.375000, -1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>GRASS</string>
+					</array>
+					<key>uuid</key>
+					<string>649DFE18-ED73-4E37-82E7-04A843F64E89</string>
+					<key>zOrder</key>
+					<integer>-52</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>GroundAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>2F98A83D-1933-4FAA-8C77-AEE4F3A07548</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.000000, 0.980954}</string>
+					<key>name</key>
+					<string>GroundAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{16.500002, 4.619080}</string>
+					<key>size</key>
+					<string>{128.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>GRASS</string>
+					</array>
+					<key>uuid</key>
+					<string>17856E0F-69AC-4AC0-B969-1D0EC8088926</string>
+					<key>zOrder</key>
+					<integer>-52</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>SideAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>F2CC2884-5674-4E6C-8B6A-49764F3A6B08</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.050000, -0.398816}</string>
+					<key>name</key>
+					<string>SideAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.500000, 12.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>D51E4D6B-579B-4F47-BA41-B0282DAFF195</string>
+					<key>zOrder</key>
+					<integer>-52</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>LoseAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>76E5523B-E7F0-4E71-BF45-4FB2E4C53CBF</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{6.366667, 1.348817}</string>
+					<key>name</key>
+					<string>LoseAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{10.333333, 1.000000}</string>
+					<key>size</key>
+					<string>{192.000000, 64.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>86E7B8C6-946D-4B8E-B368-6A6565FE0F66</string>
+					<key>zOrder</key>
+					<integer>-52</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.000000, 1.000000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{3.820833, -0.487500}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{2.343750, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>41CC8884-7181-4BF2-B5B9-AAF7706787EE</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.000000, 1.000000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{4.341667, -0.493750}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{2.312500, 0.875000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>A41A6CDF-54BE-454A-8C48-873B0BCE2CFA</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.533333, 0.318750}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.859375, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>BA6CD52D-A01D-44AA-8C77-386AD2F21974</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.531250, 0.514062}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.468750, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>3DCF8BFD-1280-43E0-9FA8-D5169D56EC13</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{3.589583, -0.375000}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{18.843750, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>BAD848C2-4D87-4990-8CF0-5CF31D81B971</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.000000, 1.000000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{3.795833, 0.712500}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{2.312500, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>4C4C6092-3C11-4F96-98C1-CFB7221D3B44</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.000000, 1.000000}</string>
+					<key>assetFile</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>04025E78-F0C6-4DEE-886F-F425D81421C6</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{3.066667, 0.712500}</string>
+					<key>name</key>
+					<string>OneSidePlatformAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{2.312500, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>TEMPLE_ROCK</string>
+					</array>
+					<key>uuid</key>
+					<string>F5003303-80E3-4235-A2A1-81EB03648CD8</string>
+					<key>zOrder</key>
+					<integer>-48</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.789991, -2.359792}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_2.png1</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{16.125000, 1.396825}</string>
+							<key>size</key>
+							<string>{126.000000, 126.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_2.png</string>
+							<key>spriteUUID</key>
+							<string>F3C5A72F-B336-4A36-8F19-C7033ACC41E3</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>FEEF61B9-EC1B-4E23-AD40-E14D799312EF</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{3.056528, -2.359792}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_2.png2</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-18.412699, 1.396825}</string>
+							<key>size</key>
+							<string>{126.000000, 126.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_2.png</string>
+							<key>spriteUUID</key>
+							<string>F3C5A72F-B336-4A36-8F19-C7033ACC41E3</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>B6F66DCB-185C-4614-9D24-535AB5FFE9DC</string>
+							<key>zOrder</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.101805, -3.934792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom2.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_03.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 1024.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_03.png</string>
+							<key>spriteUUID</key>
+							<string>D18314D9-922D-49BA-9133-A215D1F804FF</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>FDC56500-8AD0-4FBC-B277-CD7980583BB6</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.031528, -3.934792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom4.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_05.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 1024.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_05.png</string>
+							<key>spriteUUID</key>
+							<string>11AB2F86-5232-4094-A3D1-03D2D09F4017</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>B1C424D8-FCBA-49BC-AE68-BF606C19C795</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-1.151805, -3.934792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom1.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_02.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 1024.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_02.png</string>
+							<key>spriteUUID</key>
+							<string>7BD3AA80-96B0-4481-BAAC-CD832BCAF95E</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>2883A3F0-FA4B-4E59-B5BE-DCFCBCC7E567</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.964861, -3.934792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom3.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_04.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 1024.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_04.png</string>
+							<key>spriteUUID</key>
+							<string>B0322FC5-B41E-4CC0-A4FA-C3AEE97A2A4F</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>CAE5D320-4A54-4B18-8A77-9C9A8843E661</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{3.098195, -3.934792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom5.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_06.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 1024.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_06.png</string>
+							<key>spriteUUID</key>
+							<string>2AEAF355-B48D-4CA4-AC0E-49DC3593CE93</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>6195DE27-E8F1-4C40-AA06-B6CDB5600C88</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{4.164861, -3.934792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom6.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_07.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 1024.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_07.png</string>
+							<key>spriteUUID</key>
+							<string>EF30578C-0305-4AF0-A2F2-734E3E87CFF7</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>162B4238-7299-4844-A96B-F0BC55C92975</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{5.129445, -3.934792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom7.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_08.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{829.000000, 1024.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_08.png</string>
+							<key>spriteUUID</key>
+							<string>56E80DAD-65FD-4AB6-B99D-16B2BC2CB446</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>EEE58612-0CF2-4B2B-860F-EE2C90EE1118</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-1.151805, -2.734792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom8.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_09.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 512.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_09.png</string>
+							<key>spriteUUID</key>
+							<string>89D369B2-DADF-4674-9429-E5BD010E86F2</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>736FEC02-912C-4A85-A72C-FFC8D9D724C0</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.101805, -2.734792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom9.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_10.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 512.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_10.png</string>
+							<key>spriteUUID</key>
+							<string>739B8AE9-4CCF-4204-8047-A56FB657DD72</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>4DD07504-B2C5-48BE-84A8-E664C369B573</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.964861, -2.759792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom10.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_11.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 512.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_11.png</string>
+							<key>spriteUUID</key>
+							<string>43C04AF5-A773-491A-8E09-5EC7C8BABC5F</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>CA99AED8-73EE-480C-969A-15FF62654148</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.031528, -2.759792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom11.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_12.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 512.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_12.png</string>
+							<key>spriteUUID</key>
+							<string>D339134D-BF99-4706-8FE5-572D7C3E1FAF</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>25DF9432-21DB-42A0-8B09-2E58A67FA8F0</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{3.098195, -2.759792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom12.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_13.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 512.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_13.png</string>
+							<key>spriteUUID</key>
+							<string>5BD50EF1-04B9-4529-AB4A-3A7AFA86F0A5</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>A32D5619-1910-4396-A584-50A79404FA01</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{4.164861, -2.734792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom13.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_14.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{1024.000000, 512.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_14.png</string>
+							<key>spriteUUID</key>
+							<string>15E8820F-3E9F-450F-8107-FF126C87DA75</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>AB604374-FB30-484B-ACA1-568FE69DEF59</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{5.129445, -2.734792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom14.png</string>
+							<key>name</key>
+							<string>WorldRoom_vi_schiacciato_15.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{829.000000, 512.000000}</string>
+							<key>spriteName</key>
+							<string>WorldRoom_vi_schiacciato_15.png</string>
+							<key>spriteUUID</key>
+							<string>8A66B597-CF1C-4743-9336-4240DF944E84</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>BDDD5AD8-3363-43A4-A21C-B5283C209E74</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-1.018212, -2.409792}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_2.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{11.678572, 1.396825}</string>
+							<key>size</key>
+							<string>{126.000000, 126.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_2.png</string>
+							<key>spriteUUID</key>
+							<string>F3C5A72F-B336-4A36-8F19-C7033ACC41E3</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>FF91BC3A-C80B-43BC-B6C8-4CD89BB02D8C</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{3.954965, -3.441042}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_2.png5</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.103175, 1.000000}</string>
+							<key>size</key>
+							<string>{126.000000, 126.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_2.png</string>
+							<key>spriteUUID</key>
+							<string>F3C5A72F-B336-4A36-8F19-C7033ACC41E3</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>11856779-4FAD-41E0-A80D-7E1DC6284B73</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.822639, -2.609792}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_2.png3</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{0.944444, 1.039683}</string>
+							<key>size</key>
+							<string>{126.000000, 126.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_2.png</string>
+							<key>spriteUUID</key>
+							<string>F3C5A72F-B336-4A36-8F19-C7033ACC41E3</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>B2F4FFEE-767A-4FAC-9FA3-DABBFB67A3BA</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.812743, -2.609792}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_2.png8</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-0.976190, 1.039683}</string>
+							<key>size</key>
+							<string>{126.000000, 126.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_2.png</string>
+							<key>spriteUUID</key>
+							<string>F3C5A72F-B336-4A36-8F19-C7033ACC41E3</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>7C7EEB6F-4DBD-456E-838E-8651C96F063E</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.000000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{4.894028, -2.334792}</string>
+							<key>imageFileName</key>
+							<string>WorldRoom15.png</string>
+							<key>name</key>
+							<string>pezzoCielo-2x.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{2.000000, 2.000000}</string>
+							<key>size</key>
+							<string>{643.000000, 105.000000}</string>
+							<key>spriteName</key>
+							<string>pezzoCielo-2x.png</string>
+							<key>spriteUUID</key>
+							<string>087DEFFB-7D3E-4927-8C03-AA7461E80B66</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>B18A373B-AEA4-4C95-86C1-09EE65572A06</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{1.685139, 3.159792}</string>
+					<key>name</key>
+					<string>TempleNode</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{412.533691, 364.533691}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>7074B91C-D140-4888-AABF-D49426AA7829</string>
+					<key>zOrder</key>
+					<integer>-30</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.016667, -2.875000}</string>
+							<key>name</key>
+							<string>fog3</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>7DF75F70-A299-4372-87DA-674D4B84CDEB</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>EF3BCA30-EDBC-491A-9300-AD11F93E5B5C</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.516667, -2.875000}</string>
+							<key>name</key>
+							<string>fog2</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>7DF75F70-A299-4372-87DA-674D4B84CDEB</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>8A68BBB5-EEAF-4CAE-BCA7-F0AB2B17159C</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.041667, -2.875000}</string>
+							<key>name</key>
+							<string>fog1</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>7DF75F70-A299-4372-87DA-674D4B84CDEB</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>5A64EDE1-FD4B-4107-B133-0D7EF716EDB9</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.656250, -1.675000}</string>
+							<key>name</key>
+							<string>fog4</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>7DF75F70-A299-4372-87DA-674D4B84CDEB</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>4A63AD97-958A-43A4-A58A-4EFD3FA8C00E</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.131250, -1.675000}</string>
+							<key>name</key>
+							<string>fog5</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>7DF75F70-A299-4372-87DA-674D4B84CDEB</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>129AC00F-4AEA-423C-9BB7-42027D0BCE66</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.631250, -1.675000}</string>
+							<key>name</key>
+							<string>fog6</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>7DF75F70-A299-4372-87DA-674D4B84CDEB</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{100.000000, 100.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>PARTICLE_FOG</string>
+							</array>
+							<key>uuid</key>
+							<string>59416404-9B5E-41E1-8998-F7FA8502CC60</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.466667, 2.450000}</string>
+					<key>name</key>
+					<string>fog</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{257.960114, 257.960114}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>7DF75F70-A299-4372-87DA-674D4B84CDEB</string>
+					<key>zOrder</key>
+					<integer>-28</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{2.725353, -2.544784}</string>
+							<key>imageFileName</key>
+							<string>InactiveDoors.png</string>
+							<key>name</key>
+							<string>statuaPan.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>B8476FDC-40C2-45D7-8112-C804352F8E92</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{406.000000, 482.000000}</string>
+							<key>spriteName</key>
+							<string>statuaPan.png</string>
+							<key>spriteUUID</key>
+							<string>BFD57A09-F5B8-436A-A219-D7E39DD7A506</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>B57F661A-76A5-433B-995F-7ADF3DFD7F84</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.612147, 1.768221}</string>
+					<key>name</key>
+					<string>statues</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{520.677490, 392.677490}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>B8476FDC-40C2-45D7-8112-C804352F8E92</string>
+					<key>zOrder</key>
+					<integer>-26</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>PortalWorld_6.lhasset</string>
+					<key>assetUUID</key>
+					<string>7B6F0346-1C46-472B-A8E0-420CF6BCF4AD</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{6.387500, -0.406250}</string>
+					<key>name</key>
+					<string>PortalWorld_6</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>WORLD_6</string>
+					</array>
+					<key>uuid</key>
+					<string>7C78D04A-2788-4A3D-BA81-92A4A4579CD7</string>
+					<key>zOrder</key>
+					<integer>-24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>PortalWorld_5.lhasset</string>
+					<key>assetUUID</key>
+					<string>478F3E79-4188-4E3E-B9DC-4B1B40774B8A</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{2.533333, 0.593750}</string>
+					<key>name</key>
+					<string>PortalWorld_5</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>WORLD_5</string>
+					</array>
+					<key>uuid</key>
+					<string>699C8F1F-6E2F-4614-AB54-65210686CA89</string>
+					<key>zOrder</key>
+					<integer>-24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>PortalWorld_4.lhasset</string>
+					<key>assetUUID</key>
+					<string>0BF5553F-2C6D-4B3A-B027-B4FAE5BE3AD7</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{3.220833, 0.800000}</string>
+					<key>name</key>
+					<string>PortalWorld_4</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>WORLD_4</string>
+					</array>
+					<key>uuid</key>
+					<string>F7FFED3D-F3FB-4785-86C0-56C9D3BB4F7D</string>
+					<key>zOrder</key>
+					<integer>-24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>PortalWorld_3.lhasset</string>
+					<key>assetUUID</key>
+					<string>7BC72029-5AF8-4AB9-9A95-E5028D19F95F</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{3.950000, 0.800000}</string>
+					<key>name</key>
+					<string>PortalWorld_3</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>WORLD_3</string>
+					</array>
+					<key>uuid</key>
+					<string>47E6186A-4678-4798-AB98-5FEB83E6FBD6</string>
+					<key>zOrder</key>
+					<integer>-24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>PortalWorld_2.lhasset</string>
+					<key>assetUUID</key>
+					<string>EE495D5C-6D1F-42F9-B6AA-3E051BCAE6C5</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{4.487500, -0.400000}</string>
+					<key>name</key>
+					<string>PortalWorld_2</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>WORLD_2</string>
+					</array>
+					<key>uuid</key>
+					<string>EB1EC431-623E-4B71-AAA9-DE2EB09FF90B</string>
+					<key>zOrder</key>
+					<integer>-24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>PortalWorld_1.lhasset</string>
+					<key>assetUUID</key>
+					<string>2EA32DFE-4670-4A3F-9C15-63B1B6942007</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{3.966667, -0.400000}</string>
+					<key>name</key>
+					<string>PortalWorld_1</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>WORLD_1</string>
+					</array>
+					<key>uuid</key>
+					<string>B2BFF2F5-51A4-4BA0-AD9D-D62741125528</string>
+					<key>zOrder</key>
+					<integer>-24</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.538447, 1.506833}</string>
+							<key>imageFileName</key>
+							<string>Objects_spritesheet.png</string>
+							<key>name</key>
+							<string>fogMask1</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>68A1D174-0DDD-4D75-9A44-4A3BC506612E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1200.135986, 21.000000}</string>
+							<key>size</key>
+							<string>{2.000000, 2.000000}</string>
+							<key>spriteName</key>
+							<string>whitePixel</string>
+							<key>spriteUUID</key>
+							<string>F8058B78-A5A5-4A2F-8775-C27F9BD7024C</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>F8C616C8-CC6A-4B8E-8869-238EE3C62A25</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.356051, 2.601119}</string>
+							<key>imageFileName</key>
+							<string>Objects_spritesheet.png</string>
+							<key>name</key>
+							<string>fogMask3</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>68A1D174-0DDD-4D75-9A44-4A3BC506612E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{99.380287, 86.225899}</string>
+							<key>size</key>
+							<string>{2.000000, 2.000000}</string>
+							<key>spriteName</key>
+							<string>whitePixel</string>
+							<key>spriteUUID</key>
+							<string>F8058B78-A5A5-4A2F-8775-C27F9BD7024C</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>7AD77004-4C7C-44DC-8924-7234599AAD45</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-1.588500, 2.602987}</string>
+							<key>imageFileName</key>
+							<string>Objects_spritesheet.png</string>
+							<key>name</key>
+							<string>fogMask4</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>68A1D174-0DDD-4D75-9A44-4A3BC506612E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{263.855957, 86.225899}</string>
+							<key>size</key>
+							<string>{2.000000, 2.000000}</string>
+							<key>spriteName</key>
+							<string>whitePixel</string>
+							<key>spriteUUID</key>
+							<string>F8058B78-A5A5-4A2F-8775-C27F9BD7024C</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>5F81B256-8F08-4913-91AC-F1DD91FC2ABD</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{0.000000, 0.000000}, {0.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.530507, 2.774966}</string>
+							<key>imageFileName</key>
+							<string>Objects_spritesheet.png</string>
+							<key>name</key>
+							<string>fogMask2</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>68A1D174-0DDD-4D75-9A44-4A3BC506612E</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{784.139954, 64.564911}</string>
+							<key>size</key>
+							<string>{2.000000, 2.000000}</string>
+							<key>spriteName</key>
+							<string>whitePixel</string>
+							<key>spriteUUID</key>
+							<string>F8058B78-A5A5-4A2F-8775-C27F9BD7024C</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>0DAABEE2-10A1-41B9-92BA-86561F39B07D</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{4.133333, -1.875000}</string>
+					<key>name</key>
+					<string>fogMask</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{100.000000, 100.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>68A1D174-0DDD-4D75-9A44-4A3BC506612E</string>
+					<key>zOrder</key>
+					<integer>-22</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.250000, -0.875000}</string>
+					<key>name</key>
+					<string>Respawn</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 60.969971}</string>
+					<key>tags</key>
+					<array/>
+					<key>uuid</key>
+					<string>2CA894ED-CF04-44B5-8861-09C468598466</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.702083, 0.253125}</string>
+					<key>name</key>
+					<string>TutorialVideo</string>
+					<key>nodePhysics</key>
+					<dict>
+						<key>allowSleep</key>
+						<true/>
+						<key>angularDamping</key>
+						<real>0.0</real>
+						<key>angularVelocity</key>
+						<real>0.0</real>
+						<key>bullet</key>
+						<false/>
+						<key>fixedRotation</key>
+						<false/>
+						<key>genericFixture</key>
+						<dict>
+							<key>category</key>
+							<integer>1</integer>
+							<key>density</key>
+							<real>0.10000000149011612</real>
+							<key>friction</key>
+							<real>0.20000000298023224</real>
+							<key>mask</key>
+							<integer>65535</integer>
+							<key>name</key>
+							<string>GenericFixture</string>
+							<key>restitution</key>
+							<real>0.0</real>
+							<key>sensor</key>
+							<true/>
+							<key>shapeID</key>
+							<integer>0</integer>
+						</dict>
+						<key>gravityScale</key>
+						<real>1</real>
+						<key>linearDamping</key>
+						<real>0.0</real>
+						<key>linearVelocity</key>
+						<string>{0.000000, 0.000000}</string>
+						<key>shape</key>
+						<integer>0</integer>
+						<key>type</key>
+						<integer>0</integer>
+					</dict>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{1363.999756, 716.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>SCRIPT_EVENT</string>
+					</array>
+					<key>uuid</key>
+					<string>233C0340-38C9-47EA-A85F-16EB07E2B435</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>PanAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>5254F677-753A-47F3-A63F-490A79CD51E7</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.116667, 0.650000}</string>
+					<key>name</key>
+					<string>PanAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{32.000000, 128.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>EE7509C2-7B7F-49BF-B172-2F67B0C40E85</string>
+					<key>zOrder</key>
+					<integer>20</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>MoveLeftAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>DE0713BB-22D5-4F5E-8FCE-B0283ABF1C4C</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{6.166667, -0.356250}</string>
+					<key>name</key>
+					<string>MoveLeftAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>DC613FB9-8FA8-4A88-A766-E14691E14FF2</string>
+					<key>zOrder</key>
+					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>MoveRightAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>56D87257-6CB8-4481-AB33-31443958D6C4</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.691667, -0.356250}</string>
+					<key>name</key>
+					<string>MoveRightAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{64.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>43733298-D0BA-4B55-958B-B57EBCEF342D</string>
+					<key>zOrder</key>
+					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>MovableAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>6D0E802B-A752-4888-A74D-500B87FE5D2D</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{5.791667, -0.356250}</string>
+					<key>name</key>
+					<string>MovableAsset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{128.000000, 32.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+						<string>UNLOCK_PLATFORM</string>
+					</array>
+					<key>uuid</key>
+					<string>FFFCB91B-BD3E-44B8-BADC-C4C82C46A9DA</string>
+					<key>zOrder</key>
+					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.527360, 1.314477}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_3.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>0DD502C8-0C06-4356-AF39-C9A0E89FFF9D</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{177.000000, 614.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_3.png</string>
+							<key>spriteUUID</key>
+							<string>60AA9CF4-252D-4014-87A1-E0F8678E5640</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>CEBDDA01-659C-4A87-B94D-FAE722038706</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-1.375765, 1.311352}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_1.png</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>0DD502C8-0C06-4356-AF39-C9A0E89FFF9D</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{551.000000, 614.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_1.png</string>
+							<key>spriteUUID</key>
+							<string>1CC09F8C-9931-416E-89EE-31939B971F2D</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>09C91E3C-20E9-495D-BE2A-6624D5D659D9</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.545068, 1.908227}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_2.png7</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>0DD502C8-0C06-4356-AF39-C9A0E89FFF9D</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{-1.000000, 1.188948}</string>
+							<key>size</key>
+							<string>{126.000000, 126.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_2.png</string>
+							<key>spriteUUID</key>
+							<string>F3C5A72F-B336-4A36-8F19-C7033ACC41E3</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>B1FEEF60-380A-463A-8E5F-1BD0974246AB</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{1.501318, 1.908227}</string>
+							<key>imageFileName</key>
+							<string>WorldLevelForeground.png</string>
+							<key>name</key>
+							<string>foreground_2.png6</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>0DD502C8-0C06-4356-AF39-C9A0E89FFF9D</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.188948}</string>
+							<key>size</key>
+							<string>{126.000000, 126.000000}</string>
+							<key>spriteName</key>
+							<string>foreground_2.png</string>
+							<key>spriteUUID</key>
+							<string>F3C5A72F-B336-4A36-8F19-C7033ACC41E3</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>250C12DE-F99A-4D6E-865B-0EAC7E5DE298</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{3.929932, -2.189477}</string>
+					<key>name</key>
+					<string>ForegroundNode</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>_GAME_WORLD_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{225.469727, 221.469482}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>0DD502C8-0C06-4356-AF39-C9A0E89FFF9D</string>
+					<key>zOrder</key>
+					<integer>30</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>name</key>
+			<string>GAME WORLD</string>
+			<key>nodeType</key>
+			<string>LHGameWorldNode</string>
+			<key>parentUUID</key>
+			<string>FBE5D596-03F2-4AE2-B328-A7D417A4339B</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{128.000000, 128.000000}</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>48529A22-1830-47F1-AFDF-5485E144BBE0</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>assetFile</key>
+					<string>TutorialAsset.lhasset</string>
+					<key>assetUUID</key>
+					<string>1497E932-23D8-4862-9F49-CFAA3640A1CA</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.500000, 0.325000}</string>
+					<key>name</key>
+					<string>TutorialAsset.lhasset</string>
+					<key>nodeType</key>
+					<string>LHAsset</string>
+					<key>parentUUID</key>
+					<string>_USER_INTERFACE_NODE_UUID_</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{960.000000, 304.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>F3E3FC68-061F-4DCD-818F-367D30F3D3EB</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>name</key>
+			<string>FRONT USER INTERFACE</string>
+			<key>nodeType</key>
+			<string>LHUINode</string>
+			<key>parentUUID</key>
+			<string>FBE5D596-03F2-4AE2-B328-A7D417A4339B</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{128.000000, 128.000000}</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>2095A944-206A-4B62-A471-9844A15BC792</string>
+			<key>zOrder</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>designResolution</key>
+	<string>{960.000000, 640.000000}</string>
+	<key>devices</key>
+	<array>
+		<dict>
+			<key>ratio</key>
+			<real>1</real>
+			<key>size</key>
+			<string>{960.000000, 640.000000}</string>
+			<key>suffix</key>
+			<string>sd</string>
+		</dict>
+		<dict>
+			<key>ratio</key>
+			<real>2</real>
+			<key>size</key>
+			<string>{1920.000000, 1280.000000}</string>
+			<key>suffix</key>
+			<string>hd</string>
+		</dict>
+	</array>
+	<key>gameWorld</key>
+	<dict>
+		<key>960x640</key>
+		<string>{{0.000000, -1.575000}, {7.250000, 2.575000}}</string>
+		<key>general</key>
+		<string>{{0.000000, -1.575000}, {7.250000, 2.575000}}</string>
+	</dict>
+	<key>globalGravityDirection</key>
+	<string>{0.000000, -1.000000}</string>
+	<key>globalGravityForce</key>
+	<real>8</real>
+	<key>nodeType</key>
+	<string>LHScene</string>
+	<key>sceneFormat</key>
+	<real>1</real>
+	<key>tags</key>
+	<array>
+		<string>DEFAULT</string>
+	</array>
+	<key>useGlobalGravity</key>
+	<true/>
+	<key>uuid</key>
+	<string>FBE5D596-03F2-4AE2-B328-A7D417A4339B</string>
+</dict>
+</plist>

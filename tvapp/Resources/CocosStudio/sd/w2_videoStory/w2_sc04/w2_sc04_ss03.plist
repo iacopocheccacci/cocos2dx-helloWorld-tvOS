@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w2_videoStory/w2_sc04/eolosc040017.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040018.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,243},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040019.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,484},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040020.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,725},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040021.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{243,2},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040022.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{484,2},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040023.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{725,2},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040024.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{243,243},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040025.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{243,484},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040026.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{243,725},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/eolosc040027.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{484,243},{237,237}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,237}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w2_sc04_ss03.png</string>
+			<key>realTextureFileName</key>
+			<string>w2_sc04_ss03.png</string>
+			<key>size</key>
+			<string>{964,964}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>964</integer>
+			<key>height</key>
+			<integer>964</integer>
+		</dict>
+	</dict>
+</plist>

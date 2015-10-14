@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>flower-state1_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{38.000000, 64.000000}, {11.000000, 16.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, 6.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{13.000000, 10.000000}, {16.000000, 11.000000}}</string>
+			<key>sourceSize</key>
+			<string>{40.000000, 30.000000}</string>
+			<key>uuid</key>
+			<string>FB293EBC-0068-45E5-817B-CBA5F1DDBAA5</string>
+		</dict>
+		<key>flower-state2_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{38.000000, 39.000000}, {18.000000, 17.000000}}</string>
+			<key>offset</key>
+			<string>{-4.000000, 5.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 1.000000}, {18.000000, 17.000000}}</string>
+			<key>sourceSize</key>
+			<string>{40.000000, 30.000000}</string>
+			<key>uuid</key>
+			<string>F02376AE-904E-4628-AD5A-4653F9198142</string>
+		</dict>
+		<key>flower-state2_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{49.000000, 4.000000}, {27.000000, 22.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, 4.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 4.000000}, {22.000000, 27.000000}}</string>
+			<key>sourceSize</key>
+			<string>{40.000000, 30.000000}</string>
+			<key>uuid</key>
+			<string>07F30734-C35E-48A8-8BBE-FB143FDC5238</string>
+		</dict>
+		<key>flower-state2_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{4.000000, 4.000000}, {37.000000, 27.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 2.000000}, {37.000000, 27.000000}}</string>
+			<key>sourceSize</key>
+			<string>{40.000000, 30.000000}</string>
+			<key>uuid</key>
+			<string>1D73EC09-6EE9-4A6E-B4C3-80410B8C87CE</string>
+		</dict>
+		<key>flower-state2_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{4.000000, 39.000000}, {37.000000, 26.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, 1.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{3.000000, 0.000000}, {26.000000, 37.000000}}</string>
+			<key>sourceSize</key>
+			<string>{40.000000, 30.000000}</string>
+			<key>uuid</key>
+			<string>E78068B3-4BD3-488A-BA8B-B775AE59B7B0</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{75.000000, 80.000000}</string>
+		<key>textureFileName</key>
+		<string>Flower_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

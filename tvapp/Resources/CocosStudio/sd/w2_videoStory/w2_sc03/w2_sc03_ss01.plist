@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w2_videoStory/w2_sc03/eolo_sc03_0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,342},{456,390}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{456,390}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc03/eolo_sc03_0005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{396,342},{456,390}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{456,390}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc03/nuvolarossa 2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{652,336}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{652,336}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w2_sc03_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w2_sc03_ss01.png</string>
+			<key>size</key>
+			<string>{854,800}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>854</integer>
+			<key>height</key>
+			<integer>800</integer>
+		</dict>
+	</dict>
+</plist>

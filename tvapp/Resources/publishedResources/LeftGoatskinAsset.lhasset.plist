@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alpha</key>
+	<real>255</real>
+	<key>anchor</key>
+	<string>{0.500000, 0.500000}</string>
+	<key>assetUUID</key>
+	<string>56F4FAB9-CE6D-4E95-A8B1-098FE02FCB9E</string>
+	<key>children</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>imageFileName</key>
+			<string>Otri_2_spritesheet.png</string>
+			<key>name</key>
+			<string>otre_orizzontale_Pixel.png</string>
+			<key>nodeType</key>
+			<string>LHSprite</string>
+			<key>parentUUID</key>
+			<string>988500E2-95EC-4E94-B851-16FB494A5A6B</string>
+			<key>relativeImagePath</key>
+			<string>publishedResources/</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{2.000000, 2.000000}</string>
+			<key>spriteName</key>
+			<string>otre_orizzontale_Pixel.png</string>
+			<key>spriteUUID</key>
+			<string>57D8F343-B27B-403F-AF19-6A90E8D9023B</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>F5D1900E-5C21-4447-941C-9E0AEB020803</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{-0.233854, -0.020313}</string>
+					<key>imageFileName</key>
+					<string>Otri_1_spritesheet.png</string>
+					<key>name</key>
+					<string>GoatskinSprite</string>
+					<key>nodeType</key>
+					<string>LHSprite</string>
+					<key>parentUUID</key>
+					<string>CA788A39-A296-49CA-8937-72C41563B5CB</string>
+					<key>relativeImagePath</key>
+					<string>publishedResources/</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{-1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{589.000000, 248.000000}</string>
+					<key>spriteName</key>
+					<string>Otre_orizzontale_01_0000.png</string>
+					<key>spriteUUID</key>
+					<string>63FBB844-4273-4B73-87E9-ADC13B4FC950</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>EE2FD485-3876-4C6E-9693-444657F27816</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>imageFileName</key>
+			<string>Otri_1_spritesheet.png</string>
+			<key>name</key>
+			<string>Otre_Orizzontale_Shape.png</string>
+			<key>nodePhysics</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<real>0.0</real>
+				<key>angularVelocity</key>
+				<real>0.0</real>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<true/>
+				<key>gravityScale</key>
+				<real>10</real>
+				<key>linearDamping</key>
+				<real>0.0</real>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shape</key>
+				<integer>6</integer>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>nodeType</key>
+			<string>LHSprite</string>
+			<key>parentUUID</key>
+			<string>988500E2-95EC-4E94-B851-16FB494A5A6B</string>
+			<key>relativeImagePath</key>
+			<string>publishedResources/</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{128.000000, 64.000000}</string>
+			<key>spriteName</key>
+			<string>Otre_Orizzontale_Shape.png</string>
+			<key>spriteUUID</key>
+			<string>A3576D3A-2C3D-473F-8B01-02E69DBE0F3C</string>
+			<key>subclassNodeType</key>
+			<string>Goatskin</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+				<string>BLOCK</string>
+				<string>INTERACTIVE</string>
+				<string>GOATSKIN</string>
+				<string>LEFT</string>
+			</array>
+			<key>uuid</key>
+			<string>CA788A39-A296-49CA-8937-72C41563B5CB</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>colorOverlay</key>
+	<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+	<key>generalPosition</key>
+	<string>{0.066667, 0.100000}</string>
+	<key>name</key>
+	<string>Untitled</string>
+	<key>nodeType</key>
+	<string>LHAsset</string>
+	<key>parentUUID</key>
+	<string>2B7DC3ED-E1CD-4DCF-9992-55A8438ADB2E</string>
+	<key>rotation</key>
+	<real>0.0</real>
+	<key>scale</key>
+	<string>{1.000000, 1.000000}</string>
+	<key>size</key>
+	<string>{128.000000, 64.000000}</string>
+	<key>tags</key>
+	<array>
+		<string>DEFAULT</string>
+	</array>
+	<key>uuid</key>
+	<string>988500E2-95EC-4E94-B851-16FB494A5A6B</string>
+	<key>zOrder</key>
+	<integer>0</integer>
+</dict>
+</plist>

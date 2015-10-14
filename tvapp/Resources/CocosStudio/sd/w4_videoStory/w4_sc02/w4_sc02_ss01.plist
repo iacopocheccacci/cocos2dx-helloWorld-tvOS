@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w4_videoStory/w4_sc02/adearm_sc02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{335,423},{225,77}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{225,77}</string>
+			</dict>
+			<key>w4_videoStory/w4_sc02/adebodysc02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,858},{146,329}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{146,329}</string>
+			</dict>
+			<key>w4_videoStory/w4_sc02/bg_sc02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{624,417}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{624,417}</string>
+			</dict>
+			<key>w4_videoStory/w4_sc02/lupo_run_loop_passo30001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{630,2},{431,184}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{431,184}</string>
+			</dict>
+			<key>w4_videoStory/w4_sc02/lupo_run_loop_passo30002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{818,2},{431,184}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{431,184}</string>
+			</dict>
+			<key>w4_videoStory/w4_sc02/lupo_run_loop_passo30003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,423},{431,184}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{431,184}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w4_sc02_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w4_sc02_ss01.png</string>
+			<key>size</key>
+			<string>{1004,1006}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1004</integer>
+			<key>height</key>
+			<integer>1006</integer>
+		</dict>
+	</dict>
+</plist>

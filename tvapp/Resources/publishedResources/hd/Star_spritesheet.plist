@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>stella_idle_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{4.000000, 4.000000}, {382.000000, 278.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {278.000000, 382.000000}}</string>
+			<key>sourceSize</key>
+			<string>{382.000000, 278.000000}</string>
+			<key>uuid</key>
+			<string>F5368668-D23F-4405-9742-47E6A012677F</string>
+		</dict>
+		<key>stella_idle_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{366.000000, 241.000000}, {19.000000, 5.000000}}</string>
+			<key>offset</key>
+			<string>{-181.500000, 135.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{272.000000, 0.000000}, {5.000000, 19.000000}}</string>
+			<key>sourceSize</key>
+			<string>{382.000000, 278.000000}</string>
+			<key>uuid</key>
+			<string>2C66DD1E-3B48-4F1B-A1FE-E884ABE34983</string>
+		</dict>
+		<key>stella_idle_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{341.000000, 348.000000}, {27.000000, 26.000000}}</string>
+			<key>offset</key>
+			<string>{-149.500000, 126.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{252.000000, 28.000000}, {26.000000, 27.000000}}</string>
+			<key>sourceSize</key>
+			<string>{382.000000, 278.000000}</string>
+			<key>uuid</key>
+			<string>7A23F873-B574-47F9-A14E-FFAA6F610654</string>
+		</dict>
+		<key>stella_idle_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{290.000000, 309.000000}, {76.000000, 43.000000}}</string>
+			<key>offset</key>
+			<string>{-86.000000, 101.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{219.000000, 67.000000}, {43.000000, 76.000000}}</string>
+			<key>sourceSize</key>
+			<string>{382.000000, 278.000000}</string>
+			<key>uuid</key>
+			<string>63A35373-47BC-47B1-A0C1-B3C4B1533343</string>
+		</dict>
+		<key>stella_idle_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{290.000000, 122.000000}, {111.000000, 84.000000}}</string>
+			<key>offset</key>
+			<string>{-19.500000, 58.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{155.000000, 116.000000}, {84.000000, 111.000000}}</string>
+			<key>sourceSize</key>
+			<string>{382.000000, 278.000000}</string>
+			<key>uuid</key>
+			<string>5774BE75-C816-4A9E-8239-94E04E78C016</string>
+		</dict>
+		<key>stella_idle_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{290.000000, 4.000000}, {110.000000, 94.000000}}</string>
+			<key>offset</key>
+			<string>{81.000000, -20.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{72.000000, 217.000000}, {94.000000, 110.000000}}</string>
+			<key>sourceSize</key>
+			<string>{382.000000, 278.000000}</string>
+			<key>uuid</key>
+			<string>838E6EAE-44D2-4E9A-8B36-8CB119CAAC2C</string>
+		</dict>
+		<key>stella_idle_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{290.000000, 241.000000}, {60.000000, 68.000000}}</string>
+			<key>offset</key>
+			<string>{143.000000, -83.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{22.000000, 304.000000}, {68.000000, 60.000000}}</string>
+			<key>sourceSize</key>
+			<string>{382.000000, 278.000000}</string>
+			<key>uuid</key>
+			<string>D00AD600-3F06-4E27-92C0-32381506F9F8</string>
+		</dict>
+		<key>stella_idle_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{341.000000, 309.000000}, {31.000000, 35.000000}}</string>
+			<key>offset</key>
+			<string>{166.500000, -109.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{12.000000, 342.000000}, {35.000000, 31.000000}}</string>
+			<key>sourceSize</key>
+			<string>{382.000000, 278.000000}</string>
+			<key>uuid</key>
+			<string>3705FD0A-19AD-4756-97AA-53D248811150</string>
+		</dict>
+		<key>stella_idle_0009.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{366.000000, 268.000000}, {9.000000, 11.000000}}</string>
+			<key>offset</key>
+			<string>{185.500000, -133.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 372.000000}, {11.000000, 9.000000}}</string>
+			<key>sourceSize</key>
+			<string>{382.000000, 278.000000}</string>
+			<key>uuid</key>
+			<string>0126AF2E-2FE8-4A4E-941C-0CD26365F228</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{388.000000, 390.000000}</string>
+		<key>textureFileName</key>
+		<string>Star_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

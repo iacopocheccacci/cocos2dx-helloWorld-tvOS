@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Goatskin</key>
+	<dict>
+		<key>range</key>
+		<integer>530</integer>
+	</dict>
+	<key>Input</key>
+	<dict>
+		<key>horizontalImpulse</key>
+		<real>0.3160032629966736</real>
+		<key>horizontalLimit</key>
+		<integer>9</integer>
+		<key>verticalImpulse</key>
+		<real>12.35165786743164</real>
+	</dict>
+	<key>Note</key>
+	<dict>
+		<key>noteDistance</key>
+		<real>9.502198219299316</real>
+		<key>noteDuration</key>
+		<real>10</real>
+		<key>particleScale</key>
+		<real>1.251554608345032</real>
+		<key>sheepPanDistance</key>
+		<real>1.5</real>
+	</dict>
+	<key>Sheep</key>
+	<dict>
+		<key>horizontalImpulse</key>
+		<real>0.5397601127624512</real>
+		<key>horizontalLimit</key>
+		<real>7.118232250213623</real>
+		<key>sheepDistance</key>
+		<real>0.2000000029802322</real>
+		<key>verticalImpulse</key>
+		<real>8.409999847412109</real>
+	</dict>
+	<key>string element key</key>
+	<string>string element value</string>
+</dict>
+</plist>

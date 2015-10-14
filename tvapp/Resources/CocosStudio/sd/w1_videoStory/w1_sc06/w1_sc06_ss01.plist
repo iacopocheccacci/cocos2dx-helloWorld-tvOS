@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w1_videoStory/w1_sc06/cielo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{989,392}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{989,392}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc06/montagnepp.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,398},{600,410}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{600,410}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc06/pansc06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{977,398},{38,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{38,56}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc06/pecora0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{977,458},{44,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{44,38}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc06/pecora0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{977,500},{44,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{44,38}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc06/zeusarm.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{416,871},{173,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{173,74}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc01/gregge.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{822,398},{469,151}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{469,151}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc01/nuvolenere1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{416,398},{402,179}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{402,179}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w1_sc06_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w1_sc06_ss01.png</string>
+			<key>size</key>
+			<string>{1023,1000}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1023</integer>
+			<key>height</key>
+			<integer>1000</integer>
+		</dict>
+	</dict>
+</plist>

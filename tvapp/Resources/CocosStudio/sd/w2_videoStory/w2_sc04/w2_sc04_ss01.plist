@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w2_videoStory/w2_sc04/bg_sc04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{640,360}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,360}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc04/mg_sc04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{646,2},{640,360}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{640,360}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w2_sc04_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w2_sc04_ss01.png</string>
+			<key>size</key>
+			<string>{1008,644}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1008</integer>
+			<key>height</key>
+			<integer>644</integer>
+		</dict>
+	</dict>
+</plist>

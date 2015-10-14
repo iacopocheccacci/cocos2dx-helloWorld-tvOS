@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w5_videoStory/w5_sc03/idra_comparsa_passo20001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{347,352}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{347,352}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc03/idra_comparsa_passo20002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,358},{347,352}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{347,352}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc03/idra_comparsa_passo20003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{353,2},{347,352}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{347,352}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc03/idra_comparsa_passo20004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{353,353},{347,352}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{347,352}</string>
+			</dict>
+			<key>w5_videoStory/w5_sc03/ppsc03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,714},{421,219}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{421,219}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w5_sc03_ss02.png</string>
+			<key>realTextureFileName</key>
+			<string>w5_sc03_ss02.png</string>
+			<key>size</key>
+			<string>{707,935}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>707</integer>
+			<key>height</key>
+			<integer>935</integer>
+		</dict>
+	</dict>
+</plist>

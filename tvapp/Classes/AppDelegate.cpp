@@ -1,19 +1,27 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
+#include "Definitions.h"
+#include "FakeLoading.h"
+#include <vector>
+#include <string>
+#include "AnalyticsManager.h"
+#include "ScoreManager.h"
+
+using namespace std;
+
+#ifdef EDITOR_MODE
+    #include "EditorTableView.h"
+#endif
 
 USING_NS_CC;
 
-static cocos2d::Size designResolutionSize = cocos2d::Size(1920, 1080);
-static cocos2d::Size smallResolutionSize = cocos2d::Size(480, 320);
-static cocos2d::Size mediumResolutionSize = cocos2d::Size(1024, 768);
-static cocos2d::Size largeResolutionSize = cocos2d::Size(2048, 1536);
-
-AppDelegate::AppDelegate() {
+AppDelegate::AppDelegate()
+{
 
 }
 
 AppDelegate::~AppDelegate() 
 {
+    
 }
 
 //if you want a different context,just modify the value of glContextAttrs
@@ -22,46 +30,92 @@ void AppDelegate::initGLContextAttrs()
 {
     //set OpenGL context attributions,now can only set six attributions:
     //red,green,blue,alpha,depth,stencil
+#if CC_TARGET_PLATFORM != CC_PLATFORM_ANDROID
     GLContextAttrs glContextAttrs = {8, 8, 8, 8, 24, 8};
+#else
+    GLContextAttrs glContextAttrs = {5, 6, 5, 0, 16, 8};
+#endif
 
+    
     GLView::setGLContextAttrs(glContextAttrs);
 }
 
-// If you want to use packages manager to install more packages, 
-// don't modify or remove this function
-static int register_all_packages()
+bool AppDelegate::applicationDidFinishLaunching()
 {
-    return 0; //flag for packages manager
-}
-
-bool AppDelegate::applicationDidFinishLaunching() {
     // initialize director
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
-    if(!glview) {
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) || (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
-        glview = GLViewImpl::createWithRect("tvapp", Rect(0, 0, designResolutionSize.width, designResolutionSize.height));
-#else
-        glview = GLViewImpl::create("tvapp");
+    if(!glview)
+    {
+        glview = GLViewImpl::create(appParams::APP_NAME);
+        auto screen = glview->getVisibleRect();
+        Size frameSize = screen.size;
+        if(glview->getRetinaFactor() == 2)
+        {
+            frameSize = Size(frameSize.width * 1.5f, frameSize.height * 1.35f);
+//            glview->setFrameSize(rect.size.width * 1.5f, rect.size.height * 1.35f);
+        }
+#ifdef WIDE_SCREEN
+        frameSize = Size(frameSize.width, frameSize.width * 9.0f / 16.0f);
 #endif
+        glview->setFrameSize(frameSize.width, frameSize.height);
+        
         director->setOpenGLView(glview);
+        
     }
 
-    // turn on display FPS
-    director->setDisplayStats(true);
+    glview->setDesignResolutionSize(DESIGN_RES_H, DESIGN_RES_V, ResolutionPolicy::NO_BORDER);
+    Size frameSize = glview->getFrameSize();
+    
+    vector<string> searchPath;
+    
+    if (frameSize.width > DESIGN_RES_H)
+    {
+//        searchPath.push_back("hd");
+        searchPath.push_back(appParams::EXTENSION_HD_PATH);
+        director->setContentScaleFactor(2);
+    }
+    else
+    {
+//        searchPath.push_back("sd");
+        searchPath.push_back(appParams::EXTENSION_SD_PATH);
+        director->setContentScaleFactor(1);
+    }
+    
+    searchPath.push_back(appParams::PARTICLES_PATH);
+    searchPath.push_back(appParams::COCOS_STUDIO_PATH);
+    searchPath.push_back(appParams::PUBLISHED_RES_PATH);
 
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
-
-    // Set the design resolution
-    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::NO_BORDER);
-    Size frameSize = glview->getFrameSize();
     
-    register_all_packages();
+    auto fileUtils = FileUtils::getInstance();
+    
+    fileUtils->setSearchPaths(searchPath);
+    
+    bool displayStats = false;
 
-    // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
-
+#if 1 == COCOS2D_DEBUG
+    displayStats = true; // Display Stats in EDITOR_MODE
+#endif
+    
+    // Analytics
+    AnalyticsManager::initAnalytics();
+    AnalyticsManager::startSession();
+    
+    // Inizializzo lo ScoreManager (calcolo totale delle pecore nel gioco...)
+    ScoreManager::getInstance();
+    
+#ifdef EDITOR_MODE
+    Scene *scene = Scene::create();
+    EditorTableView *layer = EditorTableView::create();
+    scene->addChild(layer);
+#else
+    auto scene = FakeLoading::scene();
+#endif
+    
+    director->setDisplayStats(false);
+    
     // run
     director->runWithScene(scene);
 

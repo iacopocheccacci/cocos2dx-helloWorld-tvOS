@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>fumo_aterra_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{378.000000, 264.000000}, {48.000000, 24.000000}}</string>
+			<key>offset</key>
+			<string>{6.500000, -30.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 13.000000}, {24.000000, 48.000000}}</string>
+			<key>sourceSize</key>
+			<string>{61.000000, 84.000000}</string>
+			<key>uuid</key>
+			<string>A8C1EC41-341C-418A-9A81-15DB33F32191</string>
+		</dict>
+		<key>fumo_aterra_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{174.000000, 391.000000}, {53.000000, 33.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, -22.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{3.000000, 6.000000}, {33.000000, 53.000000}}</string>
+			<key>sourceSize</key>
+			<string>{61.000000, 84.000000}</string>
+			<key>uuid</key>
+			<string>C650E08F-59C2-4535-939E-B397A9226283</string>
+		</dict>
+		<key>fumo_aterra_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{363.000000, 350.000000}, {52.000000, 42.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, -16.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 3.000000}, {42.000000, 52.000000}}</string>
+			<key>sourceSize</key>
+			<string>{61.000000, 84.000000}</string>
+			<key>uuid</key>
+			<string>CC26DBB5-A6C6-4AF5-BE19-83EE4BD8AACE</string>
+		</dict>
+		<key>fumo_aterra_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{426.000000, 82.000000}, {57.000000, 40.000000}}</string>
+			<key>offset</key>
+			<string>{-2.000000, -7.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{15.000000, 0.000000}, {40.000000, 57.000000}}</string>
+			<key>sourceSize</key>
+			<string>{61.000000, 84.000000}</string>
+			<key>uuid</key>
+			<string>C17CB460-32BB-410F-8D39-28FEEFEE2B6E</string>
+		</dict>
+		<key>fumo_aterra_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{209.000000, 397.000000}, {51.000000, 35.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{28.000000, 5.000000}, {35.000000, 51.000000}}</string>
+			<key>sourceSize</key>
+			<string>{61.000000, 84.000000}</string>
+			<key>uuid</key>
+			<string>D06B2EEC-361E-4329-B765-5501C5BC44C4</string>
+		</dict>
+		<key>fumo_aterra_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{363.000000, 404.000000}, {41.000000, 37.000000}}</string>
+			<key>offset</key>
+			<string>{-2.000000, 11.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 12.000000}, {41.000000, 37.000000}}</string>
+			<key>sourceSize</key>
+			<string>{61.000000, 84.000000}</string>
+			<key>uuid</key>
+			<string>962CBBC2-6C68-4E0A-89BA-AAEA6CA83A74</string>
+		</dict>
+		<key>fumo_aterra_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{194.000000, 187.000000}, {27.000000, 15.000000}}</string>
+			<key>offset</key>
+			<string>{-6.000000, 27.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{62.000000, 11.000000}, {15.000000, 27.000000}}</string>
+			<key>sourceSize</key>
+			<string>{61.000000, 84.000000}</string>
+			<key>uuid</key>
+			<string>D9763D5D-7914-465C-8701-7E81C95A8A16</string>
+		</dict>
+		<key>fumo_aterra_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{467.000000, 90.000000}, {6.000000, 2.000000}}</string>
+			<key>offset</key>
+			<string>{-5.500000, 40.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{81.000000, 22.000000}, {2.000000, 6.000000}}</string>
+			<key>sourceSize</key>
+			<string>{61.000000, 84.000000}</string>
+			<key>uuid</key>
+			<string>E8B38CFF-BD54-49B5-8E18-C0DC0C4ADF55</string>
+		</dict>
+		<key>fumo_aterra_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{410.000000, 232.000000}, {61.000000, 84.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {61.000000, 84.000000}}</string>
+			<key>sourceSize</key>
+			<string>{61.000000, 84.000000}</string>
+			<key>uuid</key>
+			<string>EA22810C-8EAE-46B7-94A5-77879EF94DEA</string>
+		</dict>
+		<key>fumo_braciere__0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{96.000000, 416.000000}, {35.000000, 23.000000}}</string>
+			<key>offset</key>
+			<string>{4.500000, -29.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 9.000000}, {23.000000, 35.000000}}</string>
+			<key>sourceSize</key>
+			<string>{44.000000, 80.000000}</string>
+			<key>uuid</key>
+			<string>E8708C93-A579-46A6-84FD-A5B9EA5777F4</string>
+		</dict>
+		<key>fumo_braciere__0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{329.000000, 403.000000}, {38.000000, 31.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, -21.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{3.000000, 4.000000}, {31.000000, 38.000000}}</string>
+			<key>sourceSize</key>
+			<string>{44.000000, 80.000000}</string>
+			<key>uuid</key>
+			<string>E904E713-C0C0-4B0E-9425-6335BE9122B1</string>
+		</dict>
+		<key>fumo_braciere__0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{289.000000, 403.000000}, {38.000000, 41.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, -15.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2.000000, 35.000000}, {38.000000, 41.000000}}</string>
+			<key>sourceSize</key>
+			<string>{44.000000, 80.000000}</string>
+			<key>uuid</key>
+			<string>8798AAD8-D844-41F8-B95F-DF326394E2BD</string>
+		</dict>
+		<key>fumo_braciere__0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{247.000000, 398.000000}, {41.000000, 39.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, -7.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 28.000000}, {41.000000, 39.000000}}</string>
+			<key>sourceSize</key>
+			<string>{44.000000, 80.000000}</string>
+			<key>uuid</key>
+			<string>3E28B412-D788-4E1B-B4D3-3E0D7800757E</string>
+		</dict>
+		<key>fumo_braciere__0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{247.000000, 438.000000}, {37.000000, 34.000000}}</string>
+			<key>offset</key>
+			<string>{0.500000, 3.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4.000000, 20.000000}, {37.000000, 34.000000}}</string>
+			<key>sourceSize</key>
+			<string>{44.000000, 80.000000}</string>
+			<key>uuid</key>
+			<string>9775C538-B5E9-471A-9A78-DA8195BC72A4</string>
+		</dict>
+		<key>fumo_braciere__0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{379.000000, 313.000000}, {29.000000, 35.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, 11.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{6.000000, 11.000000}, {29.000000, 35.000000}}</string>
+			<key>sourceSize</key>
+			<string>{44.000000, 80.000000}</string>
+			<key>uuid</key>
+			<string>5FB4C10E-2DB9-47F2-920B-AACA2F93F0DB</string>
+		</dict>
+		<key>fumo_braciere__0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{195.000000, 216.000000}, {20.000000, 14.000000}}</string>
+			<key>offset</key>
+			<string>{-4.000000, 27.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{60.000000, 8.000000}, {14.000000, 20.000000}}</string>
+			<key>sourceSize</key>
+			<string>{44.000000, 80.000000}</string>
+			<key>uuid</key>
+			<string>4D6D7B7B-7D9D-4E59-8504-5DD9AE38DE31</string>
+		</dict>
+		<key>fumo_braciere__0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{468.000000, 97.000000}, {4.000000, 2.000000}}</string>
+			<key>offset</key>
+			<string>{-4.000000, 39.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{16.000000, 0.000000}, {4.000000, 2.000000}}</string>
+			<key>sourceSize</key>
+			<string>{44.000000, 80.000000}</string>
+			<key>uuid</key>
+			<string>19695399-2652-4581-A59A-C68A73F92D19</string>
+		</dict>
+		<key>fumo_braciere__0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{426.000000, 0.000000}, {44.000000, 80.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {44.000000, 80.000000}}</string>
+			<key>sourceSize</key>
+			<string>{44.000000, 80.000000}</string>
+			<key>uuid</key>
+			<string>D5ACE843-A318-489D-B9BB-140E0BB78EB7</string>
+		</dict>
+		<key>fuoco_aterra_acceso_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 190.000000}, {95.000000, 81.000000}}</string>
+			<key>offset</key>
+			<string>{-2.000000, -12.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 3.000000}, {81.000000, 95.000000}}</string>
+			<key>sourceSize</key>
+			<string>{105.000000, 106.000000}</string>
+			<key>uuid</key>
+			<string>36432E43-618A-4FB5-9CBC-87192993D52D</string>
+		</dict>
+		<key>fuoco_aterra_acceso_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 101.000000}, {87.000000, 91.000000}}</string>
+			<key>offset</key>
+			<string>{3.000000, -7.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 12.000000}, {91.000000, 87.000000}}</string>
+			<key>sourceSize</key>
+			<string>{105.000000, 106.000000}</string>
+			<key>uuid</key>
+			<string>FAE6203E-E526-4E59-B138-892FCC6916BB</string>
+		</dict>
+		<key>fuoco_aterra_acceso_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{214.000000, 99.000000}, {90.000000, 99.000000}}</string>
+			<key>offset</key>
+			<string>{3.500000, -4.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 11.000000}, {99.000000, 90.000000}}</string>
+			<key>sourceSize</key>
+			<string>{105.000000, 106.000000}</string>
+			<key>uuid</key>
+			<string>BF316799-17B7-400E-8D18-D7284A3E273D</string>
+		</dict>
+		<key>fuoco_aterra_acceso_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{106.000000, 99.000000}, {86.000000, 100.000000}}</string>
+			<key>offset</key>
+			<string>{1.500000, -4.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 11.000000}, {100.000000, 86.000000}}</string>
+			<key>sourceSize</key>
+			<string>{105.000000, 106.000000}</string>
+			<key>uuid</key>
+			<string>AC9813A2-61EF-43CB-A715-42699AD3EBC8</string>
+		</dict>
+		<key>fuoco_aterra_acceso_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 0.000000}, {105.000000, 99.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, -3.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 7.000000}, {105.000000, 99.000000}}</string>
+			<key>sourceSize</key>
+			<string>{105.000000, 106.000000}</string>
+			<key>uuid</key>
+			<string>DB6BB22D-99C0-4154-BEED-D9D34CD87F81</string>
+		</dict>
+		<key>fuoco_aterra_acceso_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{107.000000, 0.000000}, {97.000000, 106.000000}}</string>
+			<key>offset</key>
+			<string>{-2.000000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 2.000000}, {106.000000, 97.000000}}</string>
+			<key>sourceSize</key>
+			<string>{105.000000, 106.000000}</string>
+			<key>uuid</key>
+			<string>A8DE0EC2-6155-4453-9E72-F42564D574F7</string>
+		</dict>
+		<key>fuoco_aterra_spento_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{315.000000, 99.000000}, {95.000000, 81.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, -11.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 23.000000}, {95.000000, 81.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>B9C39638-F901-4D12-A560-6769561FF863</string>
+		</dict>
+		<key>fuoco_aterra_spento_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{212.000000, 190.000000}, {86.000000, 81.000000}}</string>
+			<key>offset</key>
+			<string>{1.500000, -11.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 23.000000}, {86.000000, 81.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>628E78FF-09CF-4815-9FFB-4665837C3263</string>
+		</dict>
+		<key>fuoco_aterra_spento_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{315.000000, 181.000000}, {81.000000, 93.000000}}</string>
+			<key>offset</key>
+			<string>{8.000000, -5.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 16.000000}, {93.000000, 81.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>EC590551-705D-4BEE-AC24-E3F9B3395E5A</string>
+		</dict>
+		<key>fuoco_aterra_spento_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{93.000000, 188.000000}, {78.000000, 100.000000}}</string>
+			<key>offset</key>
+			<string>{7.500000, -2.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 17.000000}, {100.000000, 78.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>E4C4A931-A024-4220-8CCF-EEA229FF7376</string>
+		</dict>
+		<key>fuoco_aterra_spento_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{290.000000, 335.000000}, {67.000000, 71.000000}}</string>
+			<key>offset</key>
+			<string>{12.000000, -16.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 27.000000}, {71.000000, 67.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>0069EDB2-0ABE-4106-A0E2-BED001D1372E</string>
+		</dict>
+		<key>fuoco_aterra_spento_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{125.000000, 337.000000}, {64.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{10.500000, -26.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{27.000000, 52.000000}, {64.000000, 52.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>3C449029-ADF7-4E23-B536-3DFE018D5A81</string>
+		</dict>
+		<key>fuoco_aterra_spento_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{125.000000, 391.000000}, {49.000000, 64.000000}}</string>
+			<key>offset</key>
+			<string>{12.000000, -20.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{36.000000, 40.000000}, {49.000000, 64.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>B10A4748-7FFC-487D-8827-DDDDF4E1E555</string>
+		</dict>
+		<key>fuoco_aterra_spento_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{190.000000, 337.000000}, {21.000000, 17.000000}}</string>
+			<key>offset</key>
+			<string>{18.000000, -43.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 56.000000}, {17.000000, 21.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>C4C9995E-F789-4644-90CE-9DBBA5A6ED52</string>
+		</dict>
+		<key>fuoco_aterra_spento_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{94.000000, 101.000000}, {9.000000, 18.000000}}</string>
+			<key>offset</key>
+			<string>{25.000000, -43.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{69.000000, 86.000000}, {9.000000, 18.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>59A43B72-0086-4048-9DC9-DE2CEA95808A</string>
+		</dict>
+		<key>fuoco_aterra_spento_0009.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{93.000000, 121.000000}, {6.000000, 17.000000}}</string>
+			<key>offset</key>
+			<string>{29.500000, -43.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{75.000000, 87.000000}, {6.000000, 17.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>357E389C-AFB1-49B2-AA6A-B01C5D7E543C</string>
+		</dict>
+		<key>fuoco_aterra_spento_0010.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{468.000000, 101.000000}, {2.000000, 1.000000}}</string>
+			<key>offset</key>
+			<string>{28.500000, -51.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{76.000000, 103.000000}, {2.000000, 1.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>D72DC62C-4C5C-4AA8-9D1C-F8558C40AC79</string>
+		</dict>
+		<key>fuoco_aterra_spento_0011.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{320.000000, 0.000000}, {97.000000, 104.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {104.000000, 97.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>CF2548F8-EBAB-4957-BC90-1B60F43FF310</string>
+		</dict>
+		<key>fuoco_aterra_spento_0012.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{215.000000, 0.000000}, {97.000000, 104.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {104.000000, 97.000000}}</string>
+			<key>sourceSize</key>
+			<string>{97.000000, 104.000000}</string>
+			<key>uuid</key>
+			<string>6DC67C91-0841-48A0-905E-5AE7D8E04D46</string>
+		</dict>
+		<key>fuoco_braciere_acceso_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{210.000000, 336.000000}, {59.000000, 77.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, -3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 7.000000}, {77.000000, 59.000000}}</string>
+			<key>sourceSize</key>
+			<string>{69.000000, 82.000000}</string>
+			<key>uuid</key>
+			<string>440D093D-6EAE-4FBC-BBC6-C6731465F432</string>
+		</dict>
+		<key>fuoco_braciere_acceso_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{66.000000, 337.000000}, {57.000000, 77.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, -2.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 5.000000}, {57.000000, 77.000000}}</string>
+			<key>sourceSize</key>
+			<string>{69.000000, 82.000000}</string>
+			<key>uuid</key>
+			<string>BC34DDEE-17CE-4F78-800E-48C8D4E0128B</string>
+		</dict>
+		<key>fuoco_braciere_acceso_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{300.000000, 264.000000}, {69.000000, 77.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, -2.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 1.000000}, {77.000000, 69.000000}}</string>
+			<key>sourceSize</key>
+			<string>{69.000000, 82.000000}</string>
+			<key>uuid</key>
+			<string>146CE02A-870B-4B0A-9056-FEF66CC461D1</string>
+		</dict>
+		<key>fuoco_braciere_acceso_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 286.000000}, {64.000000, 82.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2.000000, 0.000000}, {64.000000, 82.000000}}</string>
+			<key>sourceSize</key>
+			<string>{69.000000, 82.000000}</string>
+			<key>uuid</key>
+			<string>4F4265E9-E180-4B9E-BB07-D627999E974E</string>
+		</dict>
+		<key>fuoco_braciere_acceso_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{409.000000, 319.000000}, {62.000000, 81.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, -1.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2.000000, 2.000000}, {62.000000, 81.000000}}</string>
+			<key>sourceSize</key>
+			<string>{69.000000, 82.000000}</string>
+			<key>uuid</key>
+			<string>03447EA8-7A1F-4B1B-85F6-83D90EB845B9</string>
+		</dict>
+		<key>fuoco_braciere_acceso_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{407.000000, 401.000000}, {57.000000, 71.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, -5.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 11.000000}, {57.000000, 71.000000}}</string>
+			<key>sourceSize</key>
+			<string>{69.000000, 82.000000}</string>
+			<key>uuid</key>
+			<string>FB1B566D-1B1C-4DC4-8D95-CC5DC017108E</string>
+		</dict>
+		<key>fuoco_braciere_spento_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{82.000000, 268.000000}, {68.000000, 78.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -6.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 1.000000}, {78.000000, 68.000000}}</string>
+			<key>sourceSize</key>
+			<string>{70.000000, 89.000000}</string>
+			<key>uuid</key>
+			<string>ACE130FC-C964-4F3C-B8F6-763E0E3D4CD8</string>
+		</dict>
+		<key>fuoco_braciere_spento_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{211.000000, 273.000000}, {62.000000, 77.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, -6.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 6.000000}, {77.000000, 62.000000}}</string>
+			<key>sourceSize</key>
+			<string>{70.000000, 89.000000}</string>
+			<key>uuid</key>
+			<string>57C67F2A-6433-459C-BB31-3602F924F846</string>
+		</dict>
+		<key>fuoco_braciere_spento_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{412.000000, 141.000000}, {58.000000, 89.000000}}</string>
+			<key>offset</key>
+			<string>{7.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{13.000000, 0.000000}, {58.000000, 89.000000}}</string>
+			<key>sourceSize</key>
+			<string>{70.000000, 89.000000}</string>
+			<key>uuid</key>
+			<string>73BEE36C-A41C-4CF8-86C0-CBFAF29DDE45</string>
+		</dict>
+		<key>fuoco_braciere_spento_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 371.000000}, {49.000000, 79.000000}}</string>
+			<key>offset</key>
+			<string>{9.500000, -6.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{20.000000, 11.000000}, {49.000000, 79.000000}}</string>
+			<key>sourceSize</key>
+			<string>{70.000000, 89.000000}</string>
+			<key>uuid</key>
+			<string>663DC128-5267-4267-8CA9-5D2DADB9B6A1</string>
+		</dict>
+		<key>fuoco_braciere_spento_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{163.000000, 267.000000}, {47.000000, 68.000000}}</string>
+			<key>offset</key>
+			<string>{9.500000, -10.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{21.000000, 21.000000}, {47.000000, 68.000000}}</string>
+			<key>sourceSize</key>
+			<string>{70.000000, 89.000000}</string>
+			<key>uuid</key>
+			<string>79A119CD-37D2-4F89-8BA6-608C23A99EE9</string>
+		</dict>
+		<key>fuoco_braciere_spento_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{51.000000, 417.000000}, {44.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{8.000000, -20.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{21.000000, 40.000000}, {44.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{70.000000, 89.000000}</string>
+			<key>uuid</key>
+			<string>DD09987F-19E1-4015-A228-A27B02591750</string>
+		</dict>
+		<key>fuoco_braciere_spento_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{468.000000, 82.000000}, {3.000000, 6.000000}}</string>
+			<key>offset</key>
+			<string>{25.500000, 13.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{59.000000, 28.000000}, {3.000000, 6.000000}}</string>
+			<key>sourceSize</key>
+			<string>{70.000000, 89.000000}</string>
+			<key>uuid</key>
+			<string>8D678CB8-36BD-49CC-B087-BEDEDC548E14</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{472.000000, 472.000000}</string>
+		<key>textureFileName</key>
+		<string>Fire_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>rabbit-loop_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{120.000000, 2.000000}, {39.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, -2.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 9.000000}, {39.000000, 51.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>A98411D4-E559-4655-BB75-98259E9F9C1D</string>
+		</dict>
+		<key>rabbit-loop_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 2.000000}, {47.000000, 58.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, 3.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{6.000000, 3.000000}, {58.000000, 47.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>BB868457-56D5-4E1F-9DCF-D3DB980C8958</string>
+		</dict>
+		<key>rabbit-loop_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{64.000000, 47.000000}, {48.000000, 41.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, -2.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 14.000000}, {48.000000, 41.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>F949AE03-A583-4C6F-B263-7B4ECE5E47A7</string>
+		</dict>
+		<key>rabbit-loop_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 53.000000}, {39.000000, 45.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, -10.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 7.000000}, {45.000000, 39.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>20B98547-B6E0-4F93-8998-3C4C790374C9</string>
+		</dict>
+		<key>rabbit-loop_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{47.000000, 136.000000}, {40.000000, 38.000000}}</string>
+			<key>offset</key>
+			<string>{1.500000, -13.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 7.000000}, {38.000000, 40.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>79B1EC6B-3DBF-4077-8FD4-F4CF37856F10</string>
+		</dict>
+		<key>rabbit-loop_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 140.000000}, {41.000000, 33.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, -15.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 31.000000}, {41.000000, 33.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>7A486AE7-D100-41CD-A9E0-0C3F59383B3C</string>
+		</dict>
+		<key>rabbit-state1_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 96.000000}, {41.000000, 40.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, -12.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 24.000000}, {41.000000, 40.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>31ECB9FE-E564-4033-8B61-8606975D7EF2</string>
+		</dict>
+		<key>rabbit-state1_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{51.000000, 92.000000}, {41.000000, 40.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, -12.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 24.000000}, {41.000000, 40.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>BCCD1B5B-3261-4AE6-8196-025E5713FF61</string>
+		</dict>
+		<key>rabbit-state2_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{116.000000, 57.000000}, {41.000000, 48.000000}}</string>
+			<key>offset</key>
+			<string>{2.000000, -8.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 7.000000}, {48.000000, 41.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>E39EE364-6567-40AD-8C26-F76B32B191AF</string>
+		</dict>
+		<key>rabbit-state2_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{63.000000, 2.000000}, {41.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, -6.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 6.000000}, {52.000000, 41.000000}}</string>
+			<key>sourceSize</key>
+			<string>{51.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>93005E96-046F-459C-83B1-FE5837A5C7E5</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{165.000000, 177.000000}</string>
+		<key>textureFileName</key>
+		<string>Rabbit_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

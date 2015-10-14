@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>monouso_w3_01_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{782.000000, 432.000000}, {128.000000, 98.000000}}</string>
+			<key>offset</key>
+			<string>{-6.000000, 99.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3.000000, 0.000000}, {128.000000, 98.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>BEB83F3B-109A-4433-AD25-AB5970A4DDB5</string>
+		</dict>
+		<key>monouso_w3_01_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{298.000000, 779.000000}, {128.000000, 99.000000}}</string>
+			<key>offset</key>
+			<string>{-5.000000, 98.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4.000000, 0.000000}, {128.000000, 99.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>EB2E628A-4681-4F4A-978D-7CC7198CD244</string>
+		</dict>
+		<key>monouso_w3_01_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{836.000000, 875.000000}, {128.000000, 98.000000}}</string>
+			<key>offset</key>
+			<string>{-5.000000, 99.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4.000000, 0.000000}, {128.000000, 98.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>84DEDF70-6AD4-4FC6-B964-8AA03D818A59</string>
+		</dict>
+		<key>monouso_w3_01_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{788.000000, 1.000000}, {128.000000, 127.000000}}</string>
+			<key>offset</key>
+			<string>{-5.000000, 84.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{169.000000, 4.000000}, {127.000000, 128.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>DB55F321-3F61-4758-86E0-8BD9926795EB</string>
+		</dict>
+		<key>monouso_w3_01_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{739.000000, 543.000000}, {128.000000, 161.000000}}</string>
+			<key>offset</key>
+			<string>{-5.000000, 67.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4.000000, 0.000000}, {128.000000, 161.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>98FAFD5D-35FC-4E0C-9FCE-8A45BBD72312</string>
+		</dict>
+		<key>monouso_w3_01_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{455.000000, 414.000000}, {127.000000, 195.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, 50.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{101.000000, 5.000000}, {195.000000, 127.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>0E9141E2-B652-4BC6-AD99-EB5D88C8651E</string>
+		</dict>
+		<key>monouso_w3_01_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{455.000000, 156.000000}, {130.000000, 256.000000}}</string>
+			<key>offset</key>
+			<string>{-6.000000, 20.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2.000000, 0.000000}, {130.000000, 256.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>1AC1C28F-757B-42D3-931C-7BF819936C61</string>
+		</dict>
+		<key>monouso_w3_01_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{558.000000, 1.000000}, {143.000000, 228.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, 6.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{40.000000, 0.000000}, {228.000000, 143.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>1DEC05B3-0C46-4CD4-B861-9398C6CD9BEA</string>
+		</dict>
+		<key>monouso_w3_01_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{587.000000, 146.000000}, {143.000000, 227.000000}}</string>
+			<key>offset</key>
+			<string>{1.500000, -34.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3.000000, 69.000000}, {143.000000, 227.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>0829018B-4407-4504-9836-A421C206CCBE</string>
+		</dict>
+		<key>monouso_w3_01_0009.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{149.000000, 880.000000}, {113.000000, 165.000000}}</string>
+			<key>offset</key>
+			<string>{16.500000, -52.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{13.000000, 33.000000}, {165.000000, 113.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>43621145-1D49-4B61-B460-CE8172216805</string>
+		</dict>
+		<key>monouso_w3_01_0010.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{99.000000, 910.000000}, {34.000000, 60.000000}}</string>
+			<key>offset</key>
+			<string>{32.000000, -77.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{88.000000, 195.000000}, {34.000000, 60.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>0627B775-3A35-4C56-8B1F-700F59886D3B</string>
+		</dict>
+		<key>monouso_w3_01_0011.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 612.000000}, {146.000000, 296.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {146.000000, 296.000000}}</string>
+			<key>sourceSize</key>
+			<string>{146.000000, 296.000000}</string>
+			<key>uuid</key>
+			<string>73DC4DE2-8B54-4BBE-9BDF-15F36C692E3A</string>
+		</dict>
+		<key>monouso_w3_02_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{869.000000, 532.000000}, {128.000000, 98.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 104.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{209.000000, 14.000000}, {98.000000, 128.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>6CF6E902-92EB-471F-9E16-61F7D4AE7179</string>
+		</dict>
+		<key>monouso_w3_02_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{706.000000, 878.000000}, {128.000000, 99.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, 103.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{15.000000, 1.000000}, {128.000000, 99.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>5F6B2D91-8DC5-4289-8376-C7DFA73C87DC</string>
+		</dict>
+		<key>monouso_w3_02_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{428.000000, 779.000000}, {128.000000, 99.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, 104.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{15.000000, 0.000000}, {128.000000, 99.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>62F44AD1-1F01-4409-AB47-E56B02472B0F</string>
+		</dict>
+		<key>monouso_w3_02_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{782.000000, 308.000000}, {128.000000, 122.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, 92.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{15.000000, 1.000000}, {128.000000, 122.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>124ECCED-991E-42CE-8036-BBB058C0B1C1</string>
+		</dict>
+		<key>monouso_w3_02_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{714.000000, 745.000000}, {128.000000, 170.000000}}</string>
+			<key>offset</key>
+			<string>{1.000000, 68.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{137.000000, 15.000000}, {170.000000, 128.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>093FE028-B4DD-45DB-9366-8F4F0D43F537</string>
+		</dict>
+		<key>monouso_w3_02_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{600.000000, 543.000000}, {137.000000, 200.000000}}</string>
+			<key>offset</key>
+			<string>{-3.500000, 53.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{6.000000, 1.000000}, {137.000000, 200.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>598E26A7-6AE5-4C45-A0F6-6D002D74B3ED</string>
+		</dict>
+		<key>monouso_w3_02_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{315.000000, 229.000000}, {138.000000, 254.000000}}</string>
+			<key>offset</key>
+			<string>{-4.000000, 26.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 1.000000}, {138.000000, 254.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>EDDFBF69-FE43-4582-A99F-676447C2E3BC</string>
+		</dict>
+		<key>monouso_w3_02_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{327.000000, 1.000000}, {153.000000, 229.000000}}</string>
+			<key>offset</key>
+			<string>{0.500000, 11.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{51.000000, 2.000000}, {229.000000, 153.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>AB06B647-6933-4531-9070-0F34BCE6A9BB</string>
+		</dict>
+		<key>monouso_w3_02_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{169.000000, 1.000000}, {156.000000, 226.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -40.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 81.000000}, {156.000000, 226.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>801B56A5-1F1D-4EC2-9AB6-4F9A89E532F1</string>
+		</dict>
+		<key>monouso_w3_02_0009.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{732.000000, 146.000000}, {116.000000, 160.000000}}</string>
+			<key>offset</key>
+			<string>{15.000000, -57.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{35.000000, 131.000000}, {116.000000, 160.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>A65F0EE0-1055-4E8F-9B3A-79F2435956E0</string>
+		</dict>
+		<key>monouso_w3_02_0010.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 910.000000}, {52.000000, 66.000000}}</string>
+			<key>offset</key>
+			<string>{39.000000, -82.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{91.000000, 203.000000}, {52.000000, 66.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>B236EF3F-3A48-4738-AF09-A72F51C19F1F</string>
+		</dict>
+		<key>monouso_w3_02_0011.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 302.000000}, {156.000000, 308.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {156.000000, 308.000000}}</string>
+			<key>sourceSize</key>
+			<string>{156.000000, 308.000000}</string>
+			<key>uuid</key>
+			<string>BA12A22D-9E59-4D86-A631-7C551DEE3424</string>
+		</dict>
+		<key>monouso_w3_03_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{576.000000, 878.000000}, {128.000000, 101.000000}}</string>
+			<key>offset</key>
+			<string>{-2.000000, 99.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{17.000000, 0.000000}, {128.000000, 101.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>A50D3B66-D284-466E-9831-ECC6A0772AF5</string>
+		</dict>
+		<key>monouso_w3_03_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{446.000000, 880.000000}, {128.000000, 101.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, 98.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{18.000000, 1.000000}, {128.000000, 101.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>2010975D-522B-489B-B92D-742C582C4F17</string>
+		</dict>
+		<key>monouso_w3_03_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{316.000000, 880.000000}, {128.000000, 101.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, 99.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{18.000000, 0.000000}, {128.000000, 101.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>0447DCE3-73C6-416A-B871-73AC378323ED</string>
+		</dict>
+		<key>monouso_w3_03_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{850.000000, 131.000000}, {128.000000, 121.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, 89.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{18.000000, 0.000000}, {128.000000, 121.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>73847322-EA4E-4B91-8AA7-8B1EB92BC706</string>
+		</dict>
+		<key>monouso_w3_03_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{652.000000, 375.000000}, {128.000000, 166.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, 65.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{18.000000, 1.000000}, {128.000000, 166.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>94B7D065-36DB-4C03-9C7D-EA404DBD0B21</string>
+		</dict>
+		<key>monouso_w3_03_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{458.000000, 543.000000}, {140.000000, 206.000000}}</string>
+			<key>offset</key>
+			<string>{-6.000000, 45.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 1.000000}, {140.000000, 206.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>31FBC463-8E91-4A24-B9FA-4BBB8EA50EBC</string>
+		</dict>
+		<key>monouso_w3_03_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{149.000000, 612.000000}, {147.000000, 266.000000}}</string>
+			<key>offset</key>
+			<string>{-9.500000, 15.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 1.000000}, {147.000000, 266.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>F849FEBB-C9E8-4034-8BA0-A9C224E60CCC</string>
+		</dict>
+		<key>monouso_w3_03_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{159.000000, 302.000000}, {154.000000, 244.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 5.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{6.000000, 22.000000}, {154.000000, 244.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>642A4849-47F3-4F47-B81D-525BDA9EA2F8</string>
+		</dict>
+		<key>monouso_w3_03_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{298.000000, 548.000000}, {158.000000, 229.000000}}</string>
+			<key>offset</key>
+			<string>{4.000000, -35.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 70.000000}, {158.000000, 229.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>4F398C06-6B41-4612-8656-CFBC87980839</string>
+		</dict>
+		<key>monouso_w3_03_0009.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{558.000000, 751.000000}, {125.000000, 154.000000}}</string>
+			<key>offset</key>
+			<string>{13.500000, -69.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{3.000000, 34.000000}, {154.000000, 125.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>287F696F-F9F8-4314-BB6F-A774F09348EE</string>
+		</dict>
+		<key>monouso_w3_03_0010.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{55.000000, 910.000000}, {42.000000, 66.000000}}</string>
+			<key>offset</key>
+			<string>{33.000000, -94.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{95.000000, 211.000000}, {42.000000, 66.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>E9503F5F-F971-411B-9E46-1AE247309B6C</string>
+		</dict>
+		<key>monouso_w3_03_0011.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 1.000000}, {166.000000, 299.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {166.000000, 299.000000}}</string>
+			<key>sourceSize</key>
+			<string>{166.000000, 299.000000}</string>
+			<key>uuid</key>
+			<string>932F6DAF-F0A1-4A59-AA3E-7B4EC9D08CA7</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{979.000000, 994.000000}</string>
+		<key>textureFileName</key>
+		<string>Monouso3_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

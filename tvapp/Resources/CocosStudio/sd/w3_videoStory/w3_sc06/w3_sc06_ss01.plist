@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w3_videoStory/w3_sc06/bgppsc06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{783,415}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{783,415}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc06/loop_fuoco_passo3_0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{789,416},{226,247}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{226,247}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc06/loop_fuoco_passo3_0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,421},{226,247}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{226,247}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc06/loop_fuoco_passo3_0003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{253,421},{226,247}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{226,247}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc06/moutainsc06_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{371,651},{265,285}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{265,285}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc06/moutainsc06_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{504,421},{212,226}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{212,226}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc06/pansc06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{789,2},{189,410}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{189,410}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc06/bgbacksc06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{640,651},{234,145}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{234,145}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc06/bgmiddlesc06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,667},{365,279}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{365,279}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w3_sc06_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w3_sc06_ss01.png</string>
+			<key>size</key>
+			<string>{1017,948}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1017</integer>
+			<key>height</key>
+			<integer>948</integer>
+		</dict>
+	</dict>
+</plist>

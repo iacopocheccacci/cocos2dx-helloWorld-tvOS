@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w2_videoStory/w2_sc01/eolosc010004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{646,2},{276,319}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{276,319}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc01/eolosc010007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{646,282},{276,319}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{276,319}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc01/eolosc010008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,366},{276,319}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{276,319}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc01/eolosc010009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{325,366},{276,319}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{276,319}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc01/eolosc010010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,646},{276,319}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{276,319}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc01/eolosc010011.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{605,562},{276,319}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{276,319}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc01/eolosc010012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{325,689},{276,319}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{276,319}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc01/sc01_nuvole_ol.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{640,360}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,360}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w2_sc01_ss02.png</string>
+			<key>realTextureFileName</key>
+			<string>w2_sc01_ss02.png</string>
+			<key>size</key>
+			<string>{967,1010}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>967</integer>
+			<key>height</key>
+			<integer>1010</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Levels</key>
+	<array>
+		<string>world05_lev07.lhplist</string>
+		<string>world05_lev06.lhplist</string>
+		<string>world05_lev05.lhplist</string>
+		<string>world05_lev04.lhplist</string>
+		<string>world05_lev03.lhplist</string>
+		<string>world05_lev02.lhplist</string>
+		<string>world05_lev01.lhplist</string>
+		<string>world04_lev07.lhplist</string>
+		<string>world04_lev06.lhplist</string>
+		<string>world04_lev05.lhplist</string>
+		<string>world04_lev04.lhplist</string>
+		<string>world04_lev03.lhplist</string>
+		<string>world04_lev02.lhplist</string>
+		<string>world04_lev01.lhplist</string>
+		<string>world03_lev08.lhplist</string>
+		<string>world03_lev07.lhplist</string>
+		<string>world03_lev06.lhplist</string>
+		<string>world03_lev05.lhplist</string>
+		<string>world03_lev04.lhplist</string>
+		<string>world03_lev03.lhplist</string>
+		<string>world03_lev02.lhplist</string>
+		<string>world03_lev01.lhplist</string>
+		<string>world02_lev08.lhplist</string>
+		<string>world02_lev07.lhplist</string>
+		<string>world02_lev06.lhplist</string>
+		<string>world02_lev05.lhplist</string>
+		<string>world02_lev04.lhplist</string>
+		<string>world02_lev03.lhplist</string>
+		<string>world02_lev02.lhplist</string>
+		<string>world02_lev01.lhplist</string>
+		<string>world01_lev07.lhplist</string>
+		<string>world01_lev06.lhplist</string>
+		<string>world01_lev05.lhplist</string>
+		<string>world01_lev04.lhplist</string>
+		<string>world01_lev03.lhplist</string>
+		<string>world01_lev02.lhplist</string>
+		<string>world01_lev01.lhplist</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>fox_end_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 157.000000}, {43.000000, 55.000000}}</string>
+			<key>offset</key>
+			<string>{8.500000, 3.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{34.000000, 1.000000}, {43.000000, 55.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>448354E4-F677-48C2-A7D3-A4D4A29CDA96</string>
+		</dict>
+		<key>fox_end_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{153.000000, 204.000000}, {41.000000, 56.000000}}</string>
+			<key>offset</key>
+			<string>{8.500000, 3.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 35.000000}, {56.000000, 41.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>15D13E51-33F9-43DB-8BA8-AC04B1581E1C</string>
+		</dict>
+		<key>fox_end_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{179.000000, 158.000000}, {42.000000, 56.000000}}</string>
+			<key>offset</key>
+			<string>{8.000000, 3.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 34.000000}, {56.000000, 42.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>7C53B4DD-16E9-49BB-8322-BBC963693F91</string>
+		</dict>
+		<key>fox_end_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{120.000000, 146.000000}, {42.000000, 56.000000}}</string>
+			<key>offset</key>
+			<string>{8.000000, 4.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 34.000000}, {56.000000, 42.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>FB211520-2C6F-42CF-B1B4-3DB7C1130498</string>
+		</dict>
+		<key>fox_end_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{108.000000, 191.000000}, {42.000000, 55.000000}}</string>
+			<key>offset</key>
+			<string>{8.000000, 3.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{34.000000, 1.000000}, {42.000000, 55.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>07B9C273-374F-4226-91BA-8F2E18ABE549</string>
+		</dict>
+		<key>fox_end_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{61.000000, 120.000000}, {43.000000, 55.000000}}</string>
+			<key>offset</key>
+			<string>{8.500000, 3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 34.000000}, {55.000000, 43.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>9C1ED44B-B433-49A1-BB6A-47AF68FF391D</string>
+		</dict>
+		<key>fox_end_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{201.000000, 99.000000}, {43.000000, 55.000000}}</string>
+			<key>offset</key>
+			<string>{8.500000, 3.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{34.000000, 1.000000}, {43.000000, 55.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>F719813C-2186-4C8E-B716-45E88953AFFD</string>
+		</dict>
+		<key>fox_end_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{48.000000, 166.000000}, {42.000000, 56.000000}}</string>
+			<key>offset</key>
+			<string>{9.000000, 3.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{7.000000, 35.000000}, {56.000000, 42.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>0CE77687-6234-4066-A407-1528E8DE3D51</string>
+		</dict>
+		<key>fox_idle_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{148.000000, 51.000000}, {73.000000, 45.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{9.000000, 10.000000}, {73.000000, 45.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>A094F2C3-DB47-4DF9-9B7E-1A0221DEABB2</string>
+		</dict>
+		<key>fox_idle_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{148.000000, 2.000000}, {73.000000, 45.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{9.000000, 10.000000}, {73.000000, 45.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>E58D7A85-A332-49E2-A1B7-9A3A4AFF2B8D</string>
+		</dict>
+		<key>fox_idle_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 53.000000}, {73.000000, 45.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{9.000000, 10.000000}, {73.000000, 45.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>D047CEC8-6B48-49CD-B9D4-2E090814B88D</string>
+		</dict>
+		<key>fox_idle_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 2.000000}, {77.000000, 46.000000}}</string>
+			<key>offset</key>
+			<string>{-3.500000, 1.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 8.000000}, {77.000000, 46.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>C6AC9A70-FD42-486C-8735-1EB16221E7F3</string>
+		</dict>
+		<key>fox_start_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{83.000000, 2.000000}, {62.000000, 55.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -2.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{16.000000, 7.000000}, {62.000000, 55.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>BE1A25AD-14EA-4E6D-98E1-20CB8EDBE263</string>
+		</dict>
+		<key>fox_start_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{79.000000, 61.000000}, {55.000000, 59.000000}}</string>
+			<key>offset</key>
+			<string>{2.500000, -1.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 22.000000}, {59.000000, 55.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>D9D3D537-FD1A-49FB-BDDC-888A0D3D3048</string>
+		</dict>
+		<key>fox_start_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 101.000000}, {55.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{3.500000, -5.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{23.000000, 11.000000}, {55.000000, 52.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>5C90226E-35C3-4F0F-8DC8-34DF0C4CA2C7</string>
+		</dict>
+		<key>fox_start_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{142.000000, 100.000000}, {43.000000, 55.000000}}</string>
+			<key>offset</key>
+			<string>{8.500000, 3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 34.000000}, {55.000000, 43.000000}}</string>
+			<key>sourceSize</key>
+			<string>{94.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>20E5DBF3-9776-42ED-90EF-BE448BD54C0E</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{245.000000, 248.000000}</string>
+		<key>textureFileName</key>
+		<string>SittingFox_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

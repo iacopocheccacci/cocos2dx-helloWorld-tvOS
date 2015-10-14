@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w3_videoStory/w3_sc09/pansc090001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{725,2},{172,264}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{172,264}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc09/pansc090002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{725,178},{172,264}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{172,264}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc09/bgppsc09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{719,526}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{719,526}</string>
+			</dict>
+			<key>w3_videoStory/w3_sc09/bg_middle_sc09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,532},{436,389}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{436,389}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w3_sc09_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w3_sc09_ss01.png</string>
+			<key>size</key>
+			<string>{991,970}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>991</integer>
+			<key>height</key>
+			<integer>970</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,2347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>PecoraMostro_bela_0001</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{681.000000, 601.000000}, {106.000000, 72.000000}}</string>
+			<key>offset</key>
+			<string>{-6.000000, -50.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 1.000000}, {72.000000, 106.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>E68FCC72-D700-4A26-B5CD-684DB6C28C84</string>
+		</dict>
+		<key>PecoraMostro_bela_0002</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{605.000000, 601.000000}, {107.000000, 73.000000}}</string>
+			<key>offset</key>
+			<string>{-5.500000, -49.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 1.000000}, {73.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>2C17F8D1-9EFE-4C7B-997A-F3CCBC8062B2</string>
+		</dict>
+		<key>PecoraMostro_bela_0003</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{589.000000, 379.000000}, {107.000000, 79.000000}}</string>
+			<key>offset</key>
+			<string>{-5.500000, -45.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 1.000000}, {79.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>DF22BCB7-1C89-4BE0-8B63-106C6B19FA33</string>
+		</dict>
+		<key>PecoraMostro_bela_0004</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{378.000000, 446.000000}, {120.000000, 112.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -29.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {112.000000, 120.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>B50DB0CF-853A-4112-8406-B3DEA9124C42</string>
+		</dict>
+		<key>PecoraMostro_bela_0005</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{346.000000, 760.000000}, {117.000000, 124.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, -23.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 46.000000}, {117.000000, 124.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>28A06778-02A4-410C-803D-9AB48C5ACB90</string>
+		</dict>
+		<key>PecoraMostro_bela_0006</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{414.000000, 2.000000}, {115.000000, 135.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, -18.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 36.000000}, {115.000000, 135.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>E8E148A8-1D76-4485-99C3-EBE8C1644C12</string>
+		</dict>
+		<key>PecoraMostro_bela_0007</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{371.000000, 149.000000}, {113.000000, 139.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, -15.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 31.000000}, {113.000000, 139.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>1C2AFB3B-7D28-466C-B19C-6735552B68B4</string>
+		</dict>
+		<key>PecoraMostro_bela_0008</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{297.000000, 2.000000}, {114.000000, 143.000000}}</string>
+			<key>offset</key>
+			<string>{-3.000000, -14.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 28.000000}, {114.000000, 143.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>CF420D1B-D502-4856-8433-01D91683FE45</string>
+		</dict>
+		<key>PecoraMostro_bela_0009</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{134.000000, 669.000000}, {112.000000, 159.000000}}</string>
+			<key>offset</key>
+			<string>{-3.000000, -6.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 1.000000}, {159.000000, 112.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>B9611F80-2D99-4F20-8876-B274E83B829A</string>
+		</dict>
+		<key>PecoraMostro_bela_0010</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 176.000000}, {115.000000, 169.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 1.000000}, {115.000000, 169.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>EFA3BFEA-94B9-4592-90CE-92DCFC86919F</string>
+		</dict>
+		<key>PecoraMostro_bela_0011</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 349.000000}, {115.000000, 167.000000}}</string>
+			<key>offset</key>
+			<string>{-1.500000, -1.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 3.000000}, {115.000000, 167.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>332F22D7-6EDB-4970-BD99-8533003BEA91</string>
+		</dict>
+		<key>PecoraMostro_bela_0012</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{121.000000, 349.000000}, {113.000000, 167.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, -1.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 3.000000}, {113.000000, 167.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>331F2229-6917-463B-A642-5EC12BB796B2</string>
+		</dict>
+		<key>PecoraMostro_bela_0013</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{262.000000, 478.000000}, {113.000000, 143.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, -14.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 28.000000}, {113.000000, 143.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>94AEC8A1-0564-4A99-8077-08D23D3E0D24</string>
+		</dict>
+		<key>PecoraMostro_bela_0014</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{355.000000, 303.000000}, {113.000000, 140.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, -16.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 31.000000}, {113.000000, 140.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>8D879858-8274-4FE8-BEC5-DC2248745DF0</string>
+		</dict>
+		<key>PecoraMostro_bela_0015</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{237.000000, 325.000000}, {114.000000, 148.000000}}</string>
+			<key>offset</key>
+			<string>{-2.000000, -11.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 22.000000}, {114.000000, 148.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>0A75A61A-5369-4CB3-9233-4F9CAF61A5CE</string>
+		</dict>
+		<key>PecoraMostro_bela_0016</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{254.000000, 153.000000}, {113.000000, 147.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, -12.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 24.000000}, {113.000000, 147.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>40F5ADEA-8AC2-4E92-BAEA-F7AF54DA8819</string>
+		</dict>
+		<key>PecoraMostro_bela_0017</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{569.000000, 271.000000}, {104.000000, 87.000000}}</string>
+			<key>offset</key>
+			<string>{-7.000000, -42.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 1.000000}, {87.000000, 104.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>470A1979-AE16-4AC0-BB37-41A223190CCB</string>
+		</dict>
+		<key>PecoraMostro_bela_0018</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{494.000000, 535.000000}, {107.000000, 79.000000}}</string>
+			<key>offset</key>
+			<string>{-5.500000, -45.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 91.000000}, {107.000000, 79.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>75831B63-8268-4434-826F-C130BB5620AC</string>
+		</dict>
+		<key>PecoraMostro_bela_0019</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{559.000000, 727.000000}, {107.000000, 73.000000}}</string>
+			<key>offset</key>
+			<string>{-5.500000, -49.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 1.000000}, {73.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>FB54740D-4FBE-47F8-BCB2-30E5912CFDED</string>
+		</dict>
+		<key>PecoraMostro_bela_0020</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{636.000000, 821.000000}, {106.000000, 72.000000}}</string>
+			<key>offset</key>
+			<string>{-6.000000, -50.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 99.000000}, {106.000000, 72.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>956980AF-7AE8-4422-AE72-FE540F733AD4</string>
+		</dict>
+		<key>PecoraMostro_schiacciata_0001</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{636.000000, 712.000000}, {105.000000, 72.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, -49.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 1.000000}, {72.000000, 105.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>4B3F472A-4F96-4408-A3D4-FE5587582AD3</string>
+		</dict>
+		<key>PecoraMostro_schiacciata_0002</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{756.000000, 410.000000}, {110.000000, 65.000000}}</string>
+			<key>offset</key>
+			<string>{-4.000000, -53.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 106.000000}, {110.000000, 65.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>2D0BB205-F72F-4173-B81B-4F49B42CA1C3</string>
+		</dict>
+		<key>PecoraMostro_schiacciata_0003</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{814.000000, 191.000000}, {106.000000, 67.000000}}</string>
+			<key>offset</key>
+			<string>{-6.000000, -51.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 1.000000}, {67.000000, 106.000000}}</string>
+			<key>sourceSize</key>
+			<string>{120.000000, 170.000000}</string>
+			<key>uuid</key>
+			<string>109F8F92-2E45-4197-BF65-FB9F6132946A</string>
+		</dict>
+		<key>pecoraMostroBrucia_0001</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{709.000000, 2.000000}, {107.000000, 73.000000}}</string>
+			<key>offset</key>
+			<string>{13.000000, -69.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{39.000000, 138.000000}, {107.000000, 73.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>164B2339-F612-4AD7-BF1E-50F16FCE1E85</string>
+		</dict>
+		<key>pecoraMostroBrucia_0002</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{415.000000, 624.000000}, {106.000000, 92.000000}}</string>
+			<key>offset</key>
+			<string>{14.500000, -47.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{12.000000, 41.000000}, {92.000000, 106.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>1AAF7BEC-FB35-4B3A-8324-707C286E675E</string>
+		</dict>
+		<key>pecoraMostroBrucia_0003</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{746.000000, 820.000000}, {106.000000, 71.000000}}</string>
+			<key>offset</key>
+			<string>{18.500000, -14.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{45.000000, 84.000000}, {106.000000, 71.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>6D1B807F-1C2B-4D3F-8B4B-FF44F2AB4F42</string>
+		</dict>
+		<key>pecoraMostroBrucia_0004</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{605.000000, 490.000000}, {107.000000, 77.000000}}</string>
+			<key>offset</key>
+			<string>{19.000000, -15.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{52.000000, 45.000000}, {77.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>B6CF44FB-DC5B-4ABF-8E2F-0E6849E37351</string>
+		</dict>
+		<key>pecoraMostroBrucia_0005</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{494.000000, 425.000000}, {106.000000, 91.000000}}</string>
+			<key>offset</key>
+			<string>{18.500000, -11.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{49.000000, 45.000000}, {91.000000, 106.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>B5EFE0A9-9762-4EA5-A951-D46F8EC7D208</string>
+		</dict>
+		<key>pecoraMostroBrucia_0006</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{164.000000, 2.000000}, {146.000000, 129.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, 9.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{50.000000, 6.000000}, {129.000000, 146.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>3D46D664-35E0-4D36-9085-A862F3572315</string>
+		</dict>
+		<key>pecoraMostroBrucia_0007</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{121.000000, 176.000000}, {129.000000, 146.000000}}</string>
+			<key>offset</key>
+			<string>{13.000000, 12.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28.000000, 20.000000}, {129.000000, 146.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>195CC8FB-F84F-41F7-AFBB-7E1BF9B92D12</string>
+		</dict>
+		<key>pecoraMostroBrucia_0008</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 2.000000}, {158.000000, 170.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, 20.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {158.000000, 170.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>46E9FF85-C02C-48AE-AABD-142A3769F5DC</string>
+		</dict>
+		<key>pecoraMostroBrucia_0009</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{1.000000, 670.000000}, {145.000000, 129.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, 8.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{49.000000, 6.000000}, {129.000000, 145.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>3FFC8BDE-7E9A-45DC-90B9-2532669CE7E3</string>
+		</dict>
+		<key>pecoraMostroBrucia_0010</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 520.000000}, {130.000000, 146.000000}}</string>
+			<key>offset</key>
+			<string>{13.500000, 13.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28.000000, 19.000000}, {130.000000, 146.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>40423A01-727A-4514-937C-7FD2EA2EE79B</string>
+		</dict>
+		<key>pecoraMostroBrucia_0011</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{297.000000, 624.000000}, {115.000000, 133.000000}}</string>
+			<key>offset</key>
+			<string>{14.000000, 17.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{36.000000, 22.000000}, {115.000000, 133.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>54F3589D-73C5-4E33-B3FD-747967EDC21B</string>
+		</dict>
+		<key>pecoraMostroBrucia_0012</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{136.000000, 520.000000}, {122.000000, 142.000000}}</string>
+			<key>offset</key>
+			<string>{11.500000, 17.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{30.000000, 17.000000}, {122.000000, 142.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>2B1FE1B0-E29C-4DDE-97FC-43207D027EFB</string>
+		</dict>
+		<key>pecoraMostroBrucia_0013</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{712.000000, 711.000000}, {106.000000, 71.000000}}</string>
+			<key>offset</key>
+			<string>{18.500000, -14.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{56.000000, 45.000000}, {71.000000, 106.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>25BADF40-1AEA-448B-B328-AC72D4EC35A0</string>
+		</dict>
+		<key>pecoraMostroBrucia_0014</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{533.000000, 2.000000}, {107.000000, 94.000000}}</string>
+			<key>offset</key>
+			<string>{18.000000, -23.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{35.000000, 44.000000}, {94.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>E3B80F8E-F83E-4EF0-BB3F-F8C3AFC966BD</string>
+		</dict>
+		<key>pecoraMostroBrucia_0015</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{487.000000, 141.000000}, {95.000000, 127.000000}}</string>
+			<key>offset</key>
+			<string>{26.000000, -42.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{58.000000, 84.000000}, {95.000000, 127.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>BA20B468-E45B-4909-B1FA-98438B0386F8</string>
+		</dict>
+		<key>pecoraMostroBrucia_0016</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{472.000000, 292.000000}, {95.000000, 129.000000}}</string>
+			<key>offset</key>
+			<string>{27.000000, -41.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{59.000000, 82.000000}, {95.000000, 129.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>2C84E37A-D465-46FB-8D88-5011AE76D71A</string>
+		</dict>
+		<key>pecoraMostroBrucia_0017</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{224.000000, 809.000000}, {79.000000, 118.000000}}</string>
+			<key>offset</key>
+			<string>{17.000000, -46.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 57.000000}, {118.000000, 79.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>2E385B1A-F76E-48ED-A216-DCC73565AC29</string>
+		</dict>
+		<key>pecoraMostroBrucia_0018</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{820.000000, 2.000000}, {70.000000, 71.000000}}</string>
+			<key>offset</key>
+			<string>{10.500000, -70.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 55.000000}, {71.000000, 70.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>2380C291-887D-4300-B41B-6D288B6EADAD</string>
+		</dict>
+		<key>pecoraMostroBrucia_0019</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{378.000000, 570.000000}, {83.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{5.000000, -80.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{43.000000, 161.000000}, {83.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>BD14E03C-A585-457F-9931-47D4D6A43FAC</string>
+		</dict>
+		<key>pecoraMostroBrucia_0020</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{787.000000, 702.000000}, {94.000000, 64.000000}}</string>
+			<key>offset</key>
+			<string>{4.500000, -73.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{37.000000, 147.000000}, {94.000000, 64.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>630A149A-9A3A-467D-AF95-C69A5191DE18</string>
+		</dict>
+		<key>pecoraMostroBrucia_0021</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{820.000000, 301.000000}, {98.000000, 70.000000}}</string>
+			<key>offset</key>
+			<string>{2.500000, -70.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 33.000000}, {70.000000, 98.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>6C0B6C1C-3587-470C-A376-F415896B800D</string>
+		</dict>
+		<key>pecoraMostroBrucia_0022</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{748.000000, 302.000000}, {105.000000, 68.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, -71.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 26.000000}, {68.000000, 105.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>9D54309E-C3FA-4330-A5B9-9A90879FCE57</string>
+		</dict>
+		<key>pecoraMostroBrucia_0023</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{825.000000, 478.000000}, {108.000000, 62.000000}}</string>
+			<key>offset</key>
+			<string>{-3.500000, -74.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 22.000000}, {62.000000, 108.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>548B02E5-DDB3-4758-802F-318DE1D9A15D</string>
+		</dict>
+		<key>pecoraMostroBrucia_0024</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{135.000000, 785.000000}, {94.000000, 20.000000}}</string>
+			<key>offset</key>
+			<string>{4.500000, -95.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{37.000000, 191.000000}, {94.000000, 20.000000}}</string>
+			<key>sourceSize</key>
+			<string>{159.000000, 211.000000}</string>
+			<key>uuid</key>
+			<string>BA75EDAB-05F4-409A-94BF-27536B3B1312</string>
+		</dict>
+		<key>pecoraMostro_Salta_01_0001</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{671.000000, 335.000000}, {107.000000, 73.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -17.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 8.000000}, {73.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{132.000000, 105.000000}</string>
+			<key>uuid</key>
+			<string>FF37C3D9-3BA1-4211-ADEE-AB4793544719</string>
+		</dict>
+		<key>pecoraMostro_Salta_01_0002</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{510.000000, 618.000000}, {106.000000, 91.000000}}</string>
+			<key>offset</key>
+			<string>{-4.000000, -8.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 9.000000}, {91.000000, 106.000000}}</string>
+			<key>sourceSize</key>
+			<string>{132.000000, 105.000000}</string>
+			<key>uuid</key>
+			<string>A9EB4785-676E-4E8F-A777-DCADE91CD158</string>
+		</dict>
+		<key>pecoraMostro_Salta_01_0003</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{757.000000, 591.000000}, {107.000000, 66.000000}}</string>
+			<key>offset</key>
+			<string>{-9.500000, -20.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 3.000000}, {66.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{132.000000, 105.000000}</string>
+			<key>uuid</key>
+			<string>100C6091-8DF8-4E74-BACE-BF9512C672A2</string>
+		</dict>
+		<key>pecoraMostro_Salta_02_0001</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{685.000000, 447.000000}, {108.000000, 67.000000}}</string>
+			<key>offset</key>
+			<string>{-8.000000, -19.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 4.000000}, {67.000000, 108.000000}}</string>
+			<key>sourceSize</key>
+			<string>{132.000000, 105.000000}</string>
+			<key>uuid</key>
+			<string>33870C7E-693C-4A1A-8142-40D03B1AD3CF</string>
+		</dict>
+		<key>pecoraMostro_Salta_02_0002</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{466.000000, 733.000000}, {109.000000, 89.000000}}</string>
+			<key>offset</key>
+			<string>{11.500000, -9.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 23.000000}, {89.000000, 109.000000}}</string>
+			<key>sourceSize</key>
+			<string>{132.000000, 105.000000}</string>
+			<key>uuid</key>
+			<string>D96DFB89-F72F-44E2-A850-4BA2A6741797</string>
+		</dict>
+		<key>pecoraMostro_Salta_02_0003</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{756.000000, 479.000000}, {109.000000, 65.000000}}</string>
+			<key>offset</key>
+			<string>{11.500000, -20.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 23.000000}, {65.000000, 109.000000}}</string>
+			<key>sourceSize</key>
+			<string>{132.000000, 105.000000}</string>
+			<key>uuid</key>
+			<string>76964927-1A82-401C-821E-C1303B85D5A9</string>
+		</dict>
+		<key>pecoraMostro_cammina_0001</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{664.000000, 113.000000}, {108.000000, 74.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, -6.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 12.000000}, {108.000000, 74.000000}}</string>
+			<key>sourceSize</key>
+			<string>{109.000000, 85.000000}</string>
+			<key>uuid</key>
+			<string>6448D80E-50B0-4418-8ACA-31F05963CC0D</string>
+		</dict>
+		<key>pecoraMostro_cammina_0002</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{630.000000, 2.000000}, {107.000000, 75.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -6.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 1.000000}, {75.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{109.000000, 85.000000}</string>
+			<key>uuid</key>
+			<string>BF683D57-239E-46D4-A483-E2A4FEB126D1</string>
+		</dict>
+		<key>pecoraMostro_cammina_0003</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{114.000000, 818.000000}, {107.000000, 74.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -5.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 11.000000}, {107.000000, 74.000000}}</string>
+			<key>sourceSize</key>
+			<string>{109.000000, 85.000000}</string>
+			<key>uuid</key>
+			<string>965E3DA7-8FEA-439B-90E4-B5FF814FAF2C</string>
+		</dict>
+		<key>pecoraMostro_cammina_0004</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{775.000000, 79.000000}, {107.000000, 73.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, -7.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 0.000000}, {73.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{109.000000, 85.000000}</string>
+			<key>uuid</key>
+			<string>3C532560-8655-4EB8-AA28-F447C6298FF2</string>
+		</dict>
+		<key>pecoraMostro_cammina_0005</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{660.000000, 224.000000}, {108.000000, 74.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, -6.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 0.000000}, {74.000000, 108.000000}}</string>
+			<key>sourceSize</key>
+			<string>{109.000000, 85.000000}</string>
+			<key>uuid</key>
+			<string>CE235861-E361-4FF4-B0D1-20BD694A7BEA</string>
+		</dict>
+		<key>pecoraMostro_cammina_0006</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{585.000000, 113.000000}, {107.000000, 75.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -6.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 1.000000}, {75.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{109.000000, 85.000000}</string>
+			<key>uuid</key>
+			<string>66672033-96B5-492B-9A24-CC6BB0BB08E5</string>
+		</dict>
+		<key>pecoraMostro_cammina_0007</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{3.000000, 818.000000}, {107.000000, 74.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, -5.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 11.000000}, {107.000000, 74.000000}}</string>
+			<key>sourceSize</key>
+			<string>{109.000000, 85.000000}</string>
+			<key>uuid</key>
+			<string>CDD04E7C-91EA-4E20-8990-B96F433968F0</string>
+		</dict>
+		<key>pecoraMostro_cammina_0008</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{737.000000, 190.000000}, {107.000000, 73.000000}}</string>
+			<key>offset</key>
+			<string>{-1.000000, -7.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{-1.000000, 0.000000}, {73.000000, 107.000000}}</string>
+			<key>sourceSize</key>
+			<string>{109.000000, 85.000000}</string>
+			<key>uuid</key>
+			<string>EAF09600-0342-4F4F-A9E7-2E3D640D77F4</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{893.000000, 894.000000}</string>
+		<key>textureFileName</key>
+		<string>Monster_spritesheets.png</string>
+	</dict>
+</dict>
+</plist>

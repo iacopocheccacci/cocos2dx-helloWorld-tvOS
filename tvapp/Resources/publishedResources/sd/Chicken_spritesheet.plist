@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>pollo_end_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{199.000000, 110.000000}, {56.000000, 46.000000}}</string>
+			<key>offset</key>
+			<string>{-7.000000, -3.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 3.000000}, {46.000000, 56.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>D33774B4-0FE4-4C78-8983-FB6CF056ECEC</string>
+		</dict>
+		<key>pollo_end_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{107.000000, 261.000000}, {50.000000, 47.000000}}</string>
+			<key>offset</key>
+			<string>{-9.000000, -1.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4.000000, 4.000000}, {50.000000, 47.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>FF761E07-A9B7-4CBD-8F47-000D2FCFF58B</string>
+		</dict>
+		<key>pollo_end_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{126.000000, 161.000000}, {53.000000, 46.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, -1.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 4.000000}, {53.000000, 46.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>4F5A3608-EE91-4F71-AE5C-04C5E5BBD225</string>
+		</dict>
+		<key>pollo_end_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 222.000000}, {50.000000, 46.000000}}</string>
+			<key>offset</key>
+			<string>{-7.000000, -1.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{2.000000, 6.000000}, {46.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>EF43D55E-8A41-417C-ACB2-1263A0BEAEFC</string>
+		</dict>
+		<key>pollo_end_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{200.000000, 58.000000}, {54.000000, 48.000000}}</string>
+			<key>offset</key>
+			<string>{-6.000000, -2.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 4.000000}, {54.000000, 48.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>07212F58-F9F2-4618-9235-12FF03DC52D1</string>
+		</dict>
+		<key>pollo_end_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{53.000000, 216.000000}, {50.000000, 47.000000}}</string>
+			<key>offset</key>
+			<string>{-9.000000, -1.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4.000000, 4.000000}, {50.000000, 47.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>C8404BE4-760C-4518-BFCB-5FA93E0DF99D</string>
+		</dict>
+		<key>pollo_end_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{126.000000, 112.000000}, {53.000000, 46.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, -1.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 4.000000}, {53.000000, 46.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>DCCC6C6B-62DC-4BFB-8175-3128180D5F1C</string>
+		</dict>
+		<key>pollo_end_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{161.000000, 271.000000}, {50.000000, 46.000000}}</string>
+			<key>offset</key>
+			<string>{-7.000000, -1.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{6.000000, 4.000000}, {50.000000, 46.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>BC0300D5-A906-418E-B646-C821DF97894D</string>
+		</dict>
+		<key>pollo_idle_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{257.000000, 58.000000}, {51.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, -0.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 6.000000}, {51.000000, 51.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>66B2D0C6-D205-4416-B7A2-3AD25436E993</string>
+		</dict>
+		<key>pollo_idle_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{70.000000, 112.000000}, {50.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{-8.000000, -0.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 5.000000}, {51.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>CD3ABA96-92EE-4311-B318-01BF36C4ABAE</string>
+		</dict>
+		<key>pollo_idle_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{136.000000, 57.000000}, {61.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 1.000000}, {61.000000, 51.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>889B0D6F-32AC-4A1B-98DF-32C2CB0CEB69</string>
+		</dict>
+		<key>pollo_idle_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{71.000000, 57.000000}, {61.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 1.000000}, {61.000000, 51.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>FFD8B5E6-ADB7-4EBC-B393-F1528162F12E</string>
+		</dict>
+		<key>pollo_idle_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{249.000000, 166.000000}, {50.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{-8.000000, -0.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 5.000000}, {51.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>42919F1F-6C99-4700-9E15-19AF3CDA135A</string>
+		</dict>
+		<key>pollo_idle_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{249.000000, 112.000000}, {50.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{-8.000000, -0.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 5.000000}, {51.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>DEB09D9D-3B04-4CC8-8D3A-27B52AAF4188</string>
+		</dict>
+		<key>pollo_idle_0007.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{152.000000, 3.000000}, {67.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{0.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 1.000000}, {67.000000, 51.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>029160AF-E6E6-445D-BE92-B8D0E53DCE5C</string>
+		</dict>
+		<key>pollo_idle_0008.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 113.000000}, {50.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-8.000000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 5.000000}, {50.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>03B0B7DE-27AB-4259-BC3F-8AFA3E6EBA2C</string>
+		</dict>
+		<key>pollo_idle_0009.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 58.000000}, {65.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, -1.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 1.000000}, {65.000000, 52.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>463F618B-A5D6-4A34-B60D-DF3532CB32D8</string>
+		</dict>
+		<key>pollo_idle_0010.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{223.000000, 3.000000}, {65.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, -1.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 1.000000}, {65.000000, 52.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>E6395726-7BF3-4BBF-B823-F5E8F021F617</string>
+		</dict>
+		<key>pollo_idle_0011.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{77.000000, 3.000000}, {71.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{2.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 1.000000}, {71.000000, 51.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>4FE2E717-33EA-4451-8A2A-A2BFFA8547E5</string>
+		</dict>
+		<key>pollo_idle_0012.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 3.000000}, {71.000000, 51.000000}}</string>
+			<key>offset</key>
+			<string>{2.500000, -0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{5.000000, 1.000000}, {71.000000, 51.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>ED6ACCB2-19D1-4912-9357-4901F7086148</string>
+		</dict>
+		<key>pollo_idle_0013.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 166.000000}, {47.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 0.000000}, {47.000000, 52.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>EF87D978-F40E-45DE-B67A-5761B02143E2</string>
+		</dict>
+		<key>pollo_idle_0014.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{223.000000, 270.000000}, {47.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8.000000, 0.000000}, {47.000000, 52.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>9ABF0BA2-3DA0-4306-9BE6-B556B737AC4C</string>
+		</dict>
+		<key>pollo_idle_0015.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{167.000000, 221.000000}, {47.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 8.000000}, {52.000000, 47.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>DD49D777-3B55-4195-92C5-804E3F82D447</string>
+		</dict>
+		<key>pollo_idle_0016.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{111.000000, 211.000000}, {47.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 8.000000}, {52.000000, 47.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>183CB7FD-ECEC-4063-9780-7C15E8C45A18</string>
+		</dict>
+		<key>pollo_idle_0017.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{56.000000, 166.000000}, {47.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 8.000000}, {52.000000, 47.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>ACB3CC3D-FE39-47AC-92DD-7729A2FE9419</string>
+		</dict>
+		<key>pollo_idle_0018.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{238.000000, 220.000000}, {47.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 8.000000}, {52.000000, 47.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>6E166189-65DE-446D-9ED1-C1CD1151A159</string>
+		</dict>
+		<key>pollo_idle_0019.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{182.000000, 170.000000}, {47.000000, 52.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, 0.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 8.000000}, {52.000000, 47.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>477322DD-4DA2-4CC0-802F-2DFDF80BBEE5</string>
+		</dict>
+		<key>pollo_start_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 275.000000}, {50.000000, 41.000000}}</string>
+			<key>offset</key>
+			<string>{-10.000000, -5.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 3.000000}, {41.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>26B1EE36-494C-47B7-9BC8-E572C561B011</string>
+		</dict>
+		<key>pollo_start_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{52.000000, 267.000000}, {50.000000, 41.000000}}</string>
+			<key>offset</key>
+			<string>{-10.000000, -5.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3.000000, 11.000000}, {50.000000, 41.000000}}</string>
+			<key>sourceSize</key>
+			<string>{76.000000, 52.000000}</string>
+			<key>uuid</key>
+			<string>391F926A-E608-4144-BE20-838E33FD839A</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{310.000000, 327.000000}</string>
+		<key>textureFileName</key>
+		<string>Chicken_spritesheet.png</string>
+	</dict>
+</dict>
+</plist>

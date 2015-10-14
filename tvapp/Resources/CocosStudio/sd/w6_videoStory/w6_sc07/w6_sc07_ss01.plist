@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w6_videoStory/w6_sc07/eros.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,730},{243,659}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{243,659}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc07/montagnanera.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{482,511}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{482,511}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc07/nuvola nera OL.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,517},{840,209}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{840,209}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc07/nuvolarosaback01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{846,2},{498,158}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{498,158}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc07/nuvolarossasc07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{846,504},{480,144}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{480,144}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc07/pangambe.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{488,2},{344,456}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{344,456}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w6_sc07_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w6_sc07_ss01.png</string>
+			<key>size</key>
+			<string>{1006,986}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1006</integer>
+			<key>height</key>
+			<integer>986</integer>
+		</dict>
+	</dict>
+</plist>

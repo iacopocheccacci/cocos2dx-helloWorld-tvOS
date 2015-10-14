@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>Otre_Verticale_Shape.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<true/>
+				<key>gravityScale</key>
+				<integer>10</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>4</integer>
+						<key>categoryName</key>
+						<string>Category_03</string>
+						<key>density</key>
+						<real>0.10000000000000001</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>CentralRect</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-53.759481854873094, -32.464660657211667}</string>
+								<string>{53.744715162151621, -32.536387670737824}</string>
+								<string>{53.68787183560282, 32.620375471968615}</string>
+								<string>{-53.558222802732061, 32.551582679665557}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>category</key>
+						<integer>4</integer>
+						<key>categoryName</key>
+						<string>Category_03</string>
+						<key>center</key>
+						<string>{-54.000000, -22.500000}</string>
+						<key>density</key>
+						<real>0.050000000000000003</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65503</integer>
+						<key>maskName</key>
+						<string>EoloZoneMask</string>
+						<key>name</key>
+						<string>TopLeftCircle</string>
+						<key>radius</key>
+						<real>10.75</real>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>category</key>
+						<integer>4</integer>
+						<key>categoryName</key>
+						<string>Category_03</string>
+						<key>center</key>
+						<string>{54.000000, -22.500000}</string>
+						<key>density</key>
+						<real>0.050000000000000003</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65503</integer>
+						<key>maskName</key>
+						<string>EoloZoneMask</string>
+						<key>name</key>
+						<string>TopRIghtCircle</string>
+						<key>radius</key>
+						<real>10.75</real>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>category</key>
+						<integer>4</integer>
+						<key>categoryName</key>
+						<string>Category_03</string>
+						<key>center</key>
+						<string>{-54.000000, 22.500000}</string>
+						<key>density</key>
+						<real>0.050000000000000003</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65503</integer>
+						<key>maskName</key>
+						<string>EoloZoneMask</string>
+						<key>name</key>
+						<string>BottomLeftCircle</string>
+						<key>radius</key>
+						<real>10.75</real>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>category</key>
+						<integer>4</integer>
+						<key>categoryName</key>
+						<string>Category_03</string>
+						<key>center</key>
+						<string>{54.000000, 22.500000}</string>
+						<key>density</key>
+						<real>0.050000000000000003</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65503</integer>
+						<key>maskName</key>
+						<string>EoloZoneMask</string>
+						<key>name</key>
+						<string>BottomRIghtCircle</string>
+						<key>radius</key>
+						<real>10.75</real>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{519.000000, 663.000000}, {128.000000, 64.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 0.000000}, {128.000000, 64.000000}}</string>
+			<key>sourceSize</key>
+			<string>{128.000000, 64.000000}</string>
+			<key>uuid</key>
+			<string>D2660B49-C35B-46AA-87CD-C4EEC9D99025</string>
+		</dict>
+		<key>Otre_verticale_01_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{247.000000, 0.000000}, {125.000000, 177.000000}}</string>
+			<key>offset</key>
+			<string>{-34.500000, -173.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 27.000000}, {177.000000, 125.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>F8FA9B64-BA2B-49E7-BEB5-1291735DB044</string>
+		</dict>
+		<key>Otre_verticale_01_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{248.000000, 125.000000}, {135.000000, 157.000000}}</string>
+			<key>offset</key>
+			<string>{-34.500000, -182.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 22.000000}, {157.000000, 135.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>F7C12D4B-B9AD-4CE6-A04D-48DCEF2C578E</string>
+		</dict>
+		<key>Otre_verticale_01_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{647.000000, 664.000000}, {136.000000, 182.000000}}</string>
+			<key>offset</key>
+			<string>{-34.000000, -171.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{22.000000, 342.000000}, {136.000000, 182.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>A9B92BBE-1D70-42E5-B265-BA7BF44E31D0</string>
+		</dict>
+		<key>Otre_verticale_02_0000.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{784.000000, 663.000000}, {135.000000, 168.000000}}</string>
+			<key>offset</key>
+			<string>{-33.500000, -177.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{23.000000, 355.000000}, {135.000000, 168.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>65D8B034-86BA-490A-921C-2D00AF447B9A</string>
+		</dict>
+		<key>Otre_verticale_02_0001.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{520.000000, 524.000000}, {140.000000, 410.000000}}</string>
+			<key>offset</key>
+			<string>{-31.000000, -56.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 23.000000}, {410.000000, 140.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>2C014809-0371-4C4E-A9B1-FF4FE5D9B2CC</string>
+		</dict>
+		<key>Otre_verticale_02_0002.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 753.000000}, {167.000000, 523.000000}}</string>
+			<key>offset</key>
+			<string>{-17.500000, 0.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 23.000000}, {523.000000, 167.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>1EE4C1B6-15C6-427B-B5FD-B17D6FD3B7E5</string>
+		</dict>
+		<key>Otre_verticale_02_0003.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{738.000000, 0.000000}, {188.000000, 523.000000}}</string>
+			<key>offset</key>
+			<string>{-8.000000, 0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{22.000000, 0.000000}, {188.000000, 523.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>CF5F1AD8-D51F-4897-A87B-81A58D359D5B</string>
+		</dict>
+		<key>Otre_verticale_02_0004.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{520.000000, 0.000000}, {219.000000, 523.000000}}</string>
+			<key>offset</key>
+			<string>{-2.500000, 0.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{12.000000, 0.000000}, {219.000000, 523.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>00409A21-044A-4099-89B7-1469F5000CBF</string>
+		</dict>
+		<key>Otre_verticale_02_0005.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 520.000000}, {233.000000, 519.000000}}</string>
+			<key>offset</key>
+			<string>{-3.500000, -1.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1.000000, 4.000000}, {519.000000, 233.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>6644466D-130A-4CBA-8426-08D57C7A9C37</string>
+		</dict>
+		<key>Otre_verticale_02_0006.png</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 0.000000}, {247.000000, 520.000000}}</string>
+			<key>offset</key>
+			<string>{-0.500000, -2.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 4.000000}, {247.000000, 520.000000}}</string>
+			<key>sourceSize</key>
+			<string>{248.000000, 524.000000}</string>
+			<key>uuid</key>
+			<string>E1E56101-7976-4F8E-AD99-3E94434FD2E4</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{929.000000, 919.000000}</string>
+		<key>textureFileName</key>
+		<string>Otri_3_spritesheets.png</string>
+	</dict>
+</dict>
+</plist>

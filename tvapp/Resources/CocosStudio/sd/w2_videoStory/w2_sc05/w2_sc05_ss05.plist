@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w2_videoStory/w2_sc05/bg_sc05_parte2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{646,2},{647,315}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{647,315}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc05/sc05_fxlampo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{640,360}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,360}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc05/eolo testa.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{278,642},{143,205}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{143,205}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc05/eolo vestito.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{324,366},{127,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,186}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc05/pecora_pose0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,653},{318,272}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{318,272}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc05/pecora_pose0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,366},{318,272}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{318,272}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w2_sc05_ss05.png</string>
+			<key>realTextureFileName</key>
+			<string>w2_sc05_ss05.png</string>
+			<key>size</key>
+			<string>{963,973}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>963</integer>
+			<key>height</key>
+			<integer>973</integer>
+		</dict>
+	</dict>
+</plist>

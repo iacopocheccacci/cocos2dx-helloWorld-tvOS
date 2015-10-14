@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w1_videoStory/w1_sc02/sc02bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{712,313}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{712,313}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc02/nuvolanera1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{718,2},{700,181}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{700,181}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc02/nuvolenereback.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,706},{722,131}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{722,131}</string>
+			</dict>
+			<key>w1_videoStory/w1_sc02/pecoravolante.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{903,2},{119,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,96}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w1_sc02_ss02.png</string>
+			<key>realTextureFileName</key>
+			<string>w1_sc02_ss02.png</string>
+			<key>size</key>
+			<string>{1024,839}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>839</integer>
+		</dict>
+	</dict>
+</plist>

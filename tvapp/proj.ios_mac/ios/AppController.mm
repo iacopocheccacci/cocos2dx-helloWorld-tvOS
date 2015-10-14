@@ -32,6 +32,8 @@
 #import "AppDelegate.h"
 #import "RootViewController.h"
 
+#import "SoundManager.h"
+
 @implementation AppController
 
 #pragma mark -
@@ -64,8 +66,7 @@ static AppDelegate s_sharedApplication;
 #if CC_TARGET_PLATFORM != CC_PLATFORM_TVOS
     [eaglView setMultipleTouchEnabled:NO];
 #endif
-
-    // Use RootViewController manage CCEAGLView 
+    // Use RootViewController manage CCEAGLView
     _viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
 #if CC_TARGET_PLATFORM != CC_PLATFORM_TVOS
     _viewController.wantsFullScreenLayout = YES;
@@ -89,7 +90,7 @@ static AppDelegate s_sharedApplication;
 #if CC_TARGET_PLATFORM != CC_PLATFORM_TVOS
     [[UIApplication sharedApplication] setStatusBarHidden:true];
 #endif
-
+    
     // IMPORTANT: Setting the GLView should be done after creating the RootViewController
     cocos2d::GLView *glview = cocos2d::GLViewImpl::createWithEAGLView(eaglView);
     cocos2d::Director::getInstance()->setOpenGLView(glview);
@@ -107,6 +108,8 @@ static AppDelegate s_sharedApplication;
      */
      //We don't need to call this method any more. It will interupt user defined game pause&resume logic
     /* cocos2d::Director::getInstance()->pause(); */
+    
+    SoundManager::getInstance()->pauseSoundManager();
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
@@ -115,6 +118,8 @@ static AppDelegate s_sharedApplication;
      */
      //We don't need to call this method any more. It will interupt user defined game pause&resume logic
     /* cocos2d::Director::getInstance()->resume(); */
+    
+    SoundManager::getInstance()->resumeSoundManager();
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {

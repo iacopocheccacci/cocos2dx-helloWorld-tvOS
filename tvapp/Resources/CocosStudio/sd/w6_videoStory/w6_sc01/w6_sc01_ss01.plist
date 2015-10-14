@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w6_videoStory/w6_sc01/bg_sc01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{708,721}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{708,721}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc01/nuvola rossa.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,727},{691,261}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{691,261}</string>
+			</dict>
+			<key>w6_videoStory/w6_sc01/Pansc01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{697,727},{135,293}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{135,293}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w6_sc01_ss01.png</string>
+			<key>realTextureFileName</key>
+			<string>w6_sc01_ss01.png</string>
+			<key>size</key>
+			<string>{834,1022}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>834</integer>
+			<key>height</key>
+			<integer>1022</integer>
+		</dict>
+	</dict>
+</plist>

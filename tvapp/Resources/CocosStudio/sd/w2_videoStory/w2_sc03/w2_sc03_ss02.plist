@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>w2_videoStory/w2_sc03/eolo_sc03_0006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{456,390}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{456,390}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc03/eolo_sc03_0007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{462,2},{456,390}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{456,390}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc03/eolo_sc03_0009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,396},{456,390}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{456,390}</string>
+			</dict>
+			<key>w2_videoStory/w2_sc03/eolo_sc03_0010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{396,396},{456,390}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{456,390}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>w2_sc03_ss02.png</string>
+			<key>realTextureFileName</key>
+			<string>w2_sc03_ss02.png</string>
+			<key>size</key>
+			<string>{920,854}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>920</integer>
+			<key>height</key>
+			<integer>854</integer>
+		</dict>
+	</dict>
+</plist>

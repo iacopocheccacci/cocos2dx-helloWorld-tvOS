@@ -291,20 +291,21 @@ void Controller::registerListeners()
 #if CC_TARGET_PLATFORM == CC_PLATFORM_TVOS
     else if (_impl->_gcController.microGamepad != nil)
     {
+        _impl->_gcController.microGamepad.reportsAbsoluteDpadValues = FALSE;
         _impl->_gcController.microGamepad.dpad.up.valueChangedHandler = ^(GCControllerButtonInput *button, float value, BOOL pressed){
-            onButtonEvent(Key::BUTTON_DPAD_UP, pressed, value, button.isAnalog);
+            onButtonEvent(Key::BUTTON_DPAD_UP, pressed, value, true);
         };
         
         _impl->_gcController.microGamepad.dpad.down.valueChangedHandler = ^(GCControllerButtonInput *button, float value, BOOL pressed){
-            onButtonEvent(Key::BUTTON_DPAD_DOWN, pressed, value, button.isAnalog);
+            onButtonEvent(Key::BUTTON_DPAD_DOWN, pressed, value, true);
         };
         
         _impl->_gcController.microGamepad.dpad.left.valueChangedHandler = ^(GCControllerButtonInput *button, float value, BOOL pressed){
-            onButtonEvent(Key::BUTTON_DPAD_LEFT, pressed, value, button.isAnalog);
+            onButtonEvent(Key::BUTTON_DPAD_LEFT, pressed, value, true);
         };
         
         _impl->_gcController.microGamepad.dpad.right.valueChangedHandler = ^(GCControllerButtonInput *button, float value, BOOL pressed){
-            onButtonEvent(Key::BUTTON_DPAD_RIGHT, pressed, value, button.isAnalog);
+            onButtonEvent(Key::BUTTON_DPAD_RIGHT, pressed, value, true);
         };
         
         _impl->_gcController.microGamepad.valueChangedHandler = ^(GCMicroGamepad *gamepad, GCControllerElement *element){

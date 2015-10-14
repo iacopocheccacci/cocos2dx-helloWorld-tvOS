@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alpha</key>
+	<real>255</real>
+	<key>anchor</key>
+	<string>{0.500000, 0.500000}</string>
+	<key>assetUUID</key>
+	<string>EE6C93EE-9A07-48D4-BCF7-E4766CCDE6CB</string>
+	<key>children</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.000000, -0.240625}</string>
+			<key>name</key>
+			<string>CameraAttractor</string>
+			<key>nodeType</key>
+			<string>LHNode</string>
+			<key>parentUUID</key>
+			<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{840.000000, 568.000000}</string>
+			<key>tags</key>
+			<array>
+				<string>CAMERA_ATTRACTOR</string>
+			</array>
+			<key>userPropertyInfo</key>
+			<dict>
+				<key>fitMode</key>
+				<string>both</string>
+				<key>innerRadius</key>
+				<integer>350</integer>
+				<key>outerRadius</key>
+				<integer>450</integer>
+			</dict>
+			<key>userPropertyName</key>
+			<string>CameraAttractor</string>
+			<key>uuid</key>
+			<string>7031FA7E-6D31-4C0B-A2BB-3044E0EA2DA5</string>
+			<key>zOrder</key>
+			<integer>-100</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.000000, 0.000000}</string>
+					<key>name</key>
+					<string>VideoArea</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>73AE856C-9007-4F34-BA6D-51DFBE50601A</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{840.000000, 360.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>767D6CDC-559B-43E4-940C-E537323BCCE6</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.000000, 0.406250}</string>
+					<key>name</key>
+					<string>SubtitlesArea</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>73AE856C-9007-4F34-BA6D-51DFBE50601A</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{664.000000, 92.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>3090C708-453E-4277-9348-4974AA162C2F</string>
+					<key>zOrder</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>alpha</key>
+					<real>255</real>
+					<key>anchor</key>
+					<string>{0.500000, 0.500000}</string>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{-0.037500, 0.000000}</string>
+							<key>imageFileName</key>
+							<string>Objects_spritesheet.png</string>
+							<key>name</key>
+							<string>ScoreSprite</string>
+							<key>nodeType</key>
+							<string>LHSprite</string>
+							<key>parentUUID</key>
+							<string>AD2AFDD5-81DF-4CCB-A4E9-9D6D1195A5BC</string>
+							<key>relativeImagePath</key>
+							<string>publishedResources/</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{44.000000, 36.000000}</string>
+							<key>spriteName</key>
+							<string>sheepActive</string>
+							<key>spriteUUID</key>
+							<string>E0CF02CA-44B4-4CFB-A88E-B6B4B81A5531</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>F04F7DDB-E48E-4EB0-B0C1-CB923D6E3BFB</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+						<dict>
+							<key>alpha</key>
+							<real>255</real>
+							<key>anchor</key>
+							<string>{0.500000, 0.500000}</string>
+							<key>colorOverlay</key>
+							<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+							<key>generalPosition</key>
+							<string>{0.020833, 0.000000}</string>
+							<key>name</key>
+							<string>ScoreLabelNode</string>
+							<key>nodeType</key>
+							<string>LHNode</string>
+							<key>parentUUID</key>
+							<string>AD2AFDD5-81DF-4CCB-A4E9-9D6D1195A5BC</string>
+							<key>rotation</key>
+							<real>0.0</real>
+							<key>scale</key>
+							<string>{1.000000, 1.000000}</string>
+							<key>size</key>
+							<string>{20.000000, 20.000000}</string>
+							<key>tags</key>
+							<array>
+								<string>DEFAULT</string>
+							</array>
+							<key>uuid</key>
+							<string>E6106613-15F0-4FF9-86A9-6564F173D978</string>
+							<key>zOrder</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+					<key>colorOverlay</key>
+					<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+					<key>generalPosition</key>
+					<string>{0.000000, 0.000000}</string>
+					<key>name</key>
+					<string>SheepCounter</string>
+					<key>nodeType</key>
+					<string>LHNode</string>
+					<key>parentUUID</key>
+					<string>73AE856C-9007-4F34-BA6D-51DFBE50601A</string>
+					<key>rotation</key>
+					<real>0.0</real>
+					<key>scale</key>
+					<string>{1.000000, 1.000000}</string>
+					<key>size</key>
+					<string>{30.000000, 30.000000}</string>
+					<key>tags</key>
+					<array>
+						<string>DEFAULT</string>
+					</array>
+					<key>uuid</key>
+					<string>AD2AFDD5-81DF-4CCB-A4E9-9D6D1195A5BC</string>
+					<key>zOrder</key>
+					<integer>4</integer>
+				</dict>
+			</array>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{-0.000000, -0.295312}</string>
+			<key>name</key>
+			<string>VideoNode</string>
+			<key>nodeType</key>
+			<string>LHNode</string>
+			<key>parentUUID</key>
+			<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.000000, 1.000000}</string>
+			<key>size</key>
+			<string>{640.000000, 360.000000}</string>
+			<key>subclassNodeType</key>
+			<string>VideoStory</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>73AE856C-9007-4F34-BA6D-51DFBE50601A</string>
+			<key>zOrder</key>
+			<integer>-4</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{-0.345833, -0.298438}</string>
+			<key>imageFileName</key>
+			<string>Level_Selection_BG.png</string>
+			<key>name</key>
+			<string>colonna</string>
+			<key>nodeType</key>
+			<string>LHSprite</string>
+			<key>parentUUID</key>
+			<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+			<key>relativeImagePath</key>
+			<string>publishedResources/</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{1.500000, 1.500000}</string>
+			<key>size</key>
+			<string>{73.000000, 257.000000}</string>
+			<key>spriteName</key>
+			<string>colonna</string>
+			<key>spriteUUID</key>
+			<string>B88D41E7-AAF0-4426-8236-6FB5349A3B1D</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>DEC60DAB-171F-4C36-9EE3-732AE4EDF704</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>255</real>
+			<key>anchor</key>
+			<string>{0.500000, 0.500000}</string>
+			<key>colorOverlay</key>
+			<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+			<key>generalPosition</key>
+			<string>{0.345834, -0.298438}</string>
+			<key>imageFileName</key>
+			<string>Level_Selection_BG.png</string>
+			<key>name</key>
+			<string>colonna1</string>
+			<key>nodeType</key>
+			<string>LHSprite</string>
+			<key>parentUUID</key>
+			<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+			<key>relativeImagePath</key>
+			<string>publishedResources/</string>
+			<key>rotation</key>
+			<real>0.0</real>
+			<key>scale</key>
+			<string>{-1.500000, 1.500000}</string>
+			<key>size</key>
+			<string>{73.000000, 257.000000}</string>
+			<key>spriteName</key>
+			<string>colonna</string>
+			<key>spriteUUID</key>
+			<string>B88D41E7-AAF0-4426-8236-6FB5349A3B1D</string>
+			<key>tags</key>
+			<array>
+				<string>DEFAULT</string>
+			</array>
+			<key>uuid</key>
+			<string>F60EB00A-1589-4C02-8617-B6FFFA330D86</string>
+			<key>zOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>colorOverlay</key>
+	<string>{{1.000000, 1.000000}, {1.000000, 1.000000}}</string>
+	<key>generalPosition</key>
+	<string>{0.066667, 0.100000}</string>
+	<key>name</key>
+	<string>Untitled</string>
+	<key>nodeType</key>
+	<string>LHAsset</string>
+	<key>parentUUID</key>
+	<string>2B7DC3ED-E1CD-4DCF-9992-55A8438ADB2E</string>
+	<key>rotation</key>
+	<real>0.0</real>
+	<key>scale</key>
+	<string>{1.000000, 1.000000}</string>
+	<key>size</key>
+	<string>{128.000000, 128.000000}</string>
+	<key>tags</key>
+	<array>
+		<string>DEFAULT</string>
+	</array>
+	<key>uuid</key>
+	<string>35F151D4-944D-41DC-8B3C-FD0B17C67AFF</string>
+	<key>zOrder</key>
+	<integer>0</integer>
+</dict>
+</plist>

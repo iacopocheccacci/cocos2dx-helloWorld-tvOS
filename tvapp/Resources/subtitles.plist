@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>world_1</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>A sacred task, young Pan was charged,</string>
+			<key>time</key>
+			<real>0.15</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>A sacred task, young Pan was charged,
+To keep the sheep of Zeus free from harm.</string>
+			<key>time</key>
+			<real>3.081</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Heedless he ignored his calling,</string>
+			<key>time</key>
+			<real>6.037</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Heedless he ignored his calling,
+playing music to pass his time,</string>
+			<key>time</key>
+			<real>8.426</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Until a thundering storm came howling,</string>
+			<key>time</key>
+			<real>10.513</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Until a thundering storm came howling,
+which flung the unwatched flock far and wide.</string>
+			<key>time</key>
+			<real>12.759</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Angry Zeus didst punish Pan,</string>
+			<key>time</key>
+			<real>16.844</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Angry Zeus didst punish Pan,
+sundering his beloved flute,</string>
+			<key>time</key>
+			<real>20.805</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>&quot;You will return my sheep, as I command,</string>
+			<key>time</key>
+			<real>24.696</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>&quot;You will return my sheep, as I command,
+by learning to play anew.&quot;</string>
+			<key>time</key>
+			<real>27.072</real>
+		</dict>
+	</array>
+	<key>world_2</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>Envious was Aeolus,</string>
+			<key>time</key>
+			<real>0.114</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Envious was Aeolus,
+god of gust and gale upon the air,</string>
+			<key>time</key>
+			<real>1.779</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>For Pan&apos;s talent for music was beyond compare.</string>
+			<key>time</key>
+			<real>4.106</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Although he could blow 
+a gentle breeze amidst the reeds,</string>
+			<key>time</key>
+			<real>7.504</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Even at his best he could not contest</string>
+			<key>time</key>
+			<real>10.675</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Even at his best he could not contest
+Pan&apos;s gift for melodies.</string>
+			<key>time</key>
+			<real>12.911</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>One day he appeared suddenly</string>
+			<key>time</key>
+			<real>15.146</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>One day he appeared suddenly
+while Pan played music idly,</string>
+			<key>time</key>
+			<real>16.971</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>And with a tempest&apos;s might</string>
+			<key>time</key>
+			<real>19.047</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>And with a tempest&apos;s might
+he put to flight all of Zeus&apos;s sheep.</string>
+			<key>time</key>
+			<real>20.895</real>
+		</dict>
+	</array>
+	<key>world_3</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>Being chastised by the god of sky</string>
+			<key>time</key>
+			<real>1.761</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Being chastised by the god of sky
+had left Pan furious,</string>
+			<key>time</key>
+			<real>4.403</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>For Aeolus he tried to blame</string>
+			<key>time</key>
+			<real>6.667</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>For Aeolus he tried to blame
+for his shameful experience.</string>
+			<key>time</key>
+			<real>8.728</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Whence in his journey he came</string>
+			<key>time</key>
+			<real>11.196</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Whence in his journey he came
+to a village burning and ravaged by war,</string>
+			<key>time</key>
+			<real>13.228</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>He saw a reflection of the rage in his heart caged</string>
+			<key>time</key>
+			<real>16.102</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>He saw a reflection of the rage in his heart caged
+that he could not ignore.</string>
+			<key>time</key>
+			<real>19.266</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Soon Pan began to understand</string>
+			<key>time</key>
+			<real>21.559</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Soon Pan began to understand
+the purpose of his quest:</string>
+			<key>time</key>
+			<real>24.201</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>He had to reject his former life of neglect</string>
+			<key>time</key>
+			<real>26.494</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>He had to reject his former life of neglect
+to pass this test.</string>
+			<key>time</key>
+			<real>29.659</real>
+		</dict>
+	</array>
+	<key>world_4</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>Danger lies in the dark of night,</string>
+			<key>time</key>
+			<real>0.125</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Danger lies in the dark of night,
+and in the shadows creeps,</string>
+			<key>time</key>
+			<real>2.236</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>For hungry eyes cold as ice</string>
+			<key>time</key>
+			<real>4.17</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>For hungry eyes cold as ice
+are fixed upon helpless sheep.</string>
+			<key>time</key>
+			<real>6.457</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Villainous Hades who hath sought daily</string>
+			<key>time</key>
+			<real>9.095000000000001</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Villainous Hades who hath sought daily
+for chaos to be unleashed,</string>
+			<key>time</key>
+			<real>11.507</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Thinks maybe sheep will be tasty</string>
+			<key>time</key>
+			<real>13.392</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Thinks maybe sheep will be tasty
+to his wolves who seek to feast.</string>
+			<key>time</key>
+			<real>15.351</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>From atop a mountain high does he spy</string>
+			<key>time</key>
+			<real>17.889</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>From atop a mountain high does he spy
+Pan&apos;s fateful course,</string>
+			<key>time</key>
+			<real>20.151</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>While his beasts stare from their lairs</string>
+			<key>time</key>
+			<real>21.859</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>While his beasts stare from their lairs
+without remorse.</string>
+			<key>time</key>
+			<real>24.095</real>
+		</dict>
+	</array>
+	<key>world_5</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>However clever Hades considered Pan might be,</string>
+			<key>time</key>
+			<real>0.097</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>However clever Hades considered Pan might be,
+&quot;He is still a child,&quot; he thought with an evil smile,</string>
+			<key>time</key>
+			<real>3.27</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>&quot;and thus easily deceived.&quot;</string>
+			<key>time</key>
+			<real>6.004</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>With magic most foul</string>
+			<key>time</key>
+			<real>8.298</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>With magic most foul
+he conjured monsters to prowl in disguise,</string>
+			<key>time</key>
+			<real>9.664999999999999</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>A cunning ruse meant to confuse
+those hasty or unwise.</string>
+			<key>time</key>
+			<real>12.668</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>For their resemblance to sheep was only skin deep.</string>
+			<key>time</key>
+			<real>17.11</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>If allowed within a flock&apos;s safe haven</string>
+			<key>time</key>
+			<real>20.796</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>If allowed within a flock&apos;s safe haven
+Pan would get a fiery surprise.</string>
+			<key>time</key>
+			<real>23.09</real>
+		</dict>
+	</array>
+	<key>world_6</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>So at last it came to past</string>
+			<key>time</key>
+			<real>3.66</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>So at last it came to past
+that Pan&apos;s quest was complete,</string>
+			<key>time</key>
+			<real>5.607</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>With a new flute as a reward</string>
+			<key>time</key>
+			<real>7.875</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>With a new flute as a reward
+so he could once more play sweet melodies.</string>
+			<key>time</key>
+			<real>9.689</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Zeus was proud that Pan had found</string>
+			<key>time</key>
+			<real>12.544</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Zeus was proud that Pan had found
+a new sense of responsibility.</string>
+			<key>time</key>
+			<real>14.758</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>In time making Pan divine</string>
+			<key>time</key>
+			<real>17.399</real>
+		</dict>
+		<dict>
+			<key>text</key>
+            <string>In time making Pan divine
+was certainly a possibility.</string>
+			<key>time</key>
+			<real>19.507</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Until then Pan&apos;s tale would prevail,</string>
+			<key>time</key>
+			<real>21.908</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Until then Pan&apos;s tale would prevail,
+a story for everyone to keep,</string>
+			<key>time</key>
+			<real>24.335</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Forever to be remembered</string>
+			<key>time</key>
+			<real>26.656</real>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Forever to be remembered
+as the master of music and sheep.</string>
+			<key>time</key>
+			<real>28.551</real>
+		</dict>
+	</array>
+</dict>
+</plist>
