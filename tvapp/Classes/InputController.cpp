@@ -1,16 +1,15 @@
 //
-//  Controller.cpp
+//  InputController.cpp
 //  SOP_Proto
 //
 //  Created by Iacopo Checcacci on 31/10/14.
 //
 //
-
-#include "Controller.h"
+#include "InputController.h"
 #include "VisibleRect.h"
 #include "Tutorial.h"
 
-Controller::Controller()
+InputController::InputController()
 {
     _controllerTutorial = nullptr;
     _rightPressed = false;
@@ -21,7 +20,7 @@ Controller::Controller()
     _pausePressed = false;
 }
 
-void Controller::setTouchInput(Vec2 location, Event* event, bool isTouchBegan, bool isVerticalJump)
+void InputController::setTouchInput(Vec2 location, Event* event, bool isTouchBegan, bool isVerticalJump)
 {
     switch (_inputType)
     {
@@ -35,7 +34,7 @@ void Controller::setTouchInput(Vec2 location, Event* event, bool isTouchBegan, b
     }
 }
 
-void Controller::setKeyboardInput(EventKeyboard::KeyCode keyCode, bool pressed)
+void InputController::setKeyboardInput(EventKeyboard::KeyCode keyCode, bool pressed)
 {
     switch (keyCode)
     {
@@ -69,7 +68,7 @@ void Controller::setKeyboardInput(EventKeyboard::KeyCode keyCode, bool pressed)
     }
 }
 
-void Controller::setButtonInput(std::string buttonName, bool selected)
+void InputController::setButtonInput(std::string buttonName, bool selected)
 {
     if (strcmp(buttonName.c_str(), appParams::LEFT_BUTTON_NAME) == 0)
     {
@@ -85,7 +84,7 @@ void Controller::setButtonInput(std::string buttonName, bool selected)
     }
 }
 
-void Controller::resolveTouchMoveInput(Touch *touch, Event* event)
+void InputController::resolveTouchMoveInput(Touch *touch, Event* event)
 {
     switch (_inputType)
     {
@@ -98,7 +97,7 @@ void Controller::resolveTouchMoveInput(Touch *touch, Event* event)
     }
 }
 
-void Controller::processInput_SplitScreen(Vec2 location, Event* event, bool isTouchBegan, bool isVerticalJump)
+void InputController::processInput_SplitScreen(Vec2 location, Event* event, bool isTouchBegan, bool isVerticalJump)
 {
     Rect rect = VisibleRect::getVisibleRect();
     
@@ -187,14 +186,14 @@ void Controller::processInput_SplitScreen(Vec2 location, Event* event, bool isTo
     }
 }
 
-void Controller::resetAllCommand()
+void InputController::resetAllCommand()
 {
     _leftPressed = false;
     _rightPressed = false;
     _jumpPressed = false;
 }
 
-void Controller::resolveTouchMoveInput_SplitScreen(Touch *touch)
+void InputController::resolveTouchMoveInput_SplitScreen(Touch *touch)
 {
     Rect rect = VisibleRect::getVisibleRect();
     
@@ -223,7 +222,7 @@ void Controller::resolveTouchMoveInput_SplitScreen(Touch *touch)
     }
 }
 
-void Controller::handleJumpBegan_SplitScreen(bool isVerticalJump)
+void InputController::handleJumpBegan_SplitScreen(bool isVerticalJump)
 {
     _jumpPressed = true;
     

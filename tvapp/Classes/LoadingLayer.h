@@ -10,7 +10,7 @@
 #define __SongOfPan__LoadingLayer__
 
 #include "cocos2d.h"
-#include "Controller.h"
+#include "InputController.h"
 #include "GameContext.h"
 
 USING_NS_CC;

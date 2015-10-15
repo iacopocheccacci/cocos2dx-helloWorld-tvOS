@@ -7,7 +7,7 @@
 //
 
 #include "SettingsManager.h"
-#include "Controller.h"
+#include "InputController.h"
 
 namespace SettingsContants
 {
@@ -95,10 +95,12 @@ eInputType SettingsManager::loadUserInput()
     eInputType inputType;
 #if (CC_TARGET_PLATFORM==CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM== CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_WP8 || CC_TARGET_PLATFORM == CC_PLATFORM_WINRT)
     inputType = static_cast<eInputType>(UserDefault::getInstance()->getIntegerForKey(SettingsContants::INPUT_TYPE, 1));
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_TVOS)
+    inputType = eInputType::GAMEPAD;
 #else
     inputType = eInputType::KEYBOARD;
 #endif
-    
+
 #ifdef WINDOWS_STORE
     inputType = eInputType::KEYBOARD;
 #endif

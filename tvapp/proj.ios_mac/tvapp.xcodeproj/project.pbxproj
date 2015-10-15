@@ -11,8 +11,6 @@
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		204F34BB1BC3245A005CF428 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204F34BA1BC3245A005CF428 /* GameController.framework */; };
-		204F34BD1BC3289C005CF428 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204F34BC1BC3289C005CF428 /* GameController.framework */; };
 		208A70631BC94EB100D56479 /* blankPixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 208A70531BC94EB100D56479 /* blankPixel.png */; };
 		208A70641BC94EB100D56479 /* blankPixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 208A70531BC94EB100D56479 /* blankPixel.png */; };
 		208A70651BC94EB100D56479 /* blankPixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 208A70531BC94EB100D56479 /* blankPixel.png */; };
@@ -82,9 +80,9 @@
 		208A71551BC94EC200D56479 /* ConfirmInputPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */; };
 		208A71561BC94EC200D56479 /* ConfirmInputPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */; };
 		208A71571BC94EC200D56479 /* ConfirmInputPopUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */; };
-		208A71581BC94EC200D56479 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A11BC94EC100D56479 /* Controller.cpp */; };
-		208A71591BC94EC200D56479 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A11BC94EC100D56479 /* Controller.cpp */; };
-		208A715A1BC94EC200D56479 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A11BC94EC100D56479 /* Controller.cpp */; };
+		208A71581BC94EC200D56479 /* InputController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A11BC94EC100D56479 /* InputController.cpp */; };
+		208A71591BC94EC200D56479 /* InputController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A11BC94EC100D56479 /* InputController.cpp */; };
+		208A715A1BC94EC200D56479 /* InputController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A11BC94EC100D56479 /* InputController.cpp */; };
 		208A715B1BC94EC200D56479 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A41BC94EC100D56479 /* Door.cpp */; };
 		208A715C1BC94EC200D56479 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A41BC94EC100D56479 /* Door.cpp */; };
 		208A715D1BC94EC200D56479 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A70A41BC94EC100D56479 /* Door.cpp */; };
@@ -317,6 +315,7 @@
 		208A72401BC94EC200D56479 /* WorldLevelName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71411BC94EC200D56479 /* WorldLevelName.cpp */; };
 		208A72411BC94EC200D56479 /* WorldLevelName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71411BC94EC200D56479 /* WorldLevelName.cpp */; };
 		208A72A71BC9653900D56479 /* libLevelHelper2-API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A72A41BC963AA00D56479 /* libLevelHelper2-API.a */; };
+		20E9961D1BCF140500C0D5BA /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E9961C1BCF140500C0D5BA /* GameController.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
@@ -473,8 +472,6 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* tvapp-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvapp-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		204F34BA1BC3245A005CF428 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
-		204F34BC1BC3289C005CF428 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		208A70531BC94EB100D56479 /* blankPixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankPixel.png; sourceTree = "<group>"; };
 		208A70541BC94EB100D56479 /* CocosStudio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CocosStudio; sourceTree = "<group>"; };
 		208A70551BC94EB100D56479 /* extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = extension; sourceTree = "<group>"; };
@@ -505,8 +502,8 @@
 		208A709E1BC94EC100D56479 /* CollisionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionManager.h; sourceTree = "<group>"; };
 		208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConfirmInputPopUp.cpp; sourceTree = "<group>"; };
 		208A70A01BC94EC100D56479 /* ConfirmInputPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmInputPopUp.h; sourceTree = "<group>"; };
-		208A70A11BC94EC100D56479 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
-		208A70A21BC94EC100D56479 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		208A70A11BC94EC100D56479 /* InputController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputController.cpp; sourceTree = "<group>"; };
+		208A70A21BC94EC100D56479 /* InputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputController.h; sourceTree = "<group>"; };
 		208A70A31BC94EC100D56479 /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
 		208A70A41BC94EC100D56479 /* Door.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Door.cpp; sourceTree = "<group>"; };
 		208A70A51BC94EC100D56479 /* Door.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
@@ -668,6 +665,7 @@
 		208A71411BC94EC200D56479 /* WorldLevelName.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorldLevelName.cpp; sourceTree = "<group>"; };
 		208A71421BC94EC200D56479 /* WorldLevelName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldLevelName.h; sourceTree = "<group>"; };
 		208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LevelHelper2-API.xcodeproj"; path = "../LevelHelper2-API/LevelHelper2-API.xcodeproj"; sourceTree = "<group>"; };
+		20E9961C1BCF140500C0D5BA /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -741,7 +739,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204F34BB1BC3245A005CF428 /* GameController.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
@@ -781,8 +778,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E9961D1BCF140500C0D5BA /* GameController.framework in Frameworks */,
 				208A72A71BC9653900D56479 /* libLevelHelper2-API.a in Frameworks */,
-				204F34BD1BC3289C005CF428 /* GameController.framework in Frameworks */,
 				9ED42A821BA8C57B00C25D7A /* TVMLKit.framework in Frameworks */,
 				9ED42A831BA8C57B00C25D7A /* TVServices.framework in Frameworks */,
 				9EF9A8E71BA89A8200102D0A /* libcocos2d tvOS.a in Frameworks */,
@@ -868,8 +865,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				204F34BC1BC3289C005CF428 /* GameController.framework */,
-				204F34BA1BC3245A005CF428 /* GameController.framework */,
+				20E9961C1BCF140500C0D5BA /* GameController.framework */,
 				9ED42A801BA8C57B00C25D7A /* TVMLKit.framework */,
 				9ED42A811BA8C57B00C25D7A /* TVServices.framework */,
 				9EF9A8E51BA89A7700102D0A /* libiconv.tbd */,
@@ -947,8 +943,8 @@
 				208A709E1BC94EC100D56479 /* CollisionManager.h */,
 				208A709F1BC94EC100D56479 /* ConfirmInputPopUp.cpp */,
 				208A70A01BC94EC100D56479 /* ConfirmInputPopUp.h */,
-				208A70A11BC94EC100D56479 /* Controller.cpp */,
-				208A70A21BC94EC100D56479 /* Controller.h */,
+				208A70A11BC94EC100D56479 /* InputController.cpp */,
+				208A70A21BC94EC100D56479 /* InputController.h */,
 				208A70A31BC94EC100D56479 /* Definitions.h */,
 				208A70A41BC94EC100D56479 /* Door.cpp */,
 				208A70A51BC94EC100D56479 /* Door.h */,
@@ -1244,6 +1240,11 @@
 					9EF9A8B91BA898F000102D0A = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = G6RAKRKZPR;
+						SystemCapabilities = {
+							com.apple.GameControllers.appletvos = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -1490,7 +1491,7 @@
 				208A71AF1BC94EC200D56479 /* MonousePlatform.cpp in Sources */,
 				208A722A1BC94EC200D56479 /* VideoStory.cpp in Sources */,
 				208A71911BC94EC200D56479 /* InputMenuItem.cpp in Sources */,
-				208A71581BC94EC200D56479 /* Controller.cpp in Sources */,
+				208A71581BC94EC200D56479 /* InputController.cpp in Sources */,
 				208A71611BC94EC200D56479 /* EditorMenuItem.cpp in Sources */,
 				208A72121BC94EC200D56479 /* SheepStandingState.cpp in Sources */,
 				208A71971BC94EC200D56479 /* Inspiration.cpp in Sources */,
@@ -1596,7 +1597,7 @@
 				208A714A1BC94EC200D56479 /* AudioOptions.cpp in Sources */,
 				208A716B1BC94EC200D56479 /* EffectsManager.cpp in Sources */,
 				208A71E01BC94EC200D56479 /* PlayerStandingState.cpp in Sources */,
-				208A71591BC94EC200D56479 /* Controller.cpp in Sources */,
+				208A71591BC94EC200D56479 /* InputController.cpp in Sources */,
 				208A72251BC94EC200D56479 /* Tutorial.cpp in Sources */,
 				208A71B91BC94EC200D56479 /* NavigationMenu.cpp in Sources */,
 				208A72191BC94EC200D56479 /* SoundComponent.cpp in Sources */,
@@ -1682,7 +1683,7 @@
 				208A71B11BC94EC200D56479 /* MonousePlatform.cpp in Sources */,
 				208A722C1BC94EC200D56479 /* VideoStory.cpp in Sources */,
 				208A71931BC94EC200D56479 /* InputMenuItem.cpp in Sources */,
-				208A715A1BC94EC200D56479 /* Controller.cpp in Sources */,
+				208A715A1BC94EC200D56479 /* InputController.cpp in Sources */,
 				208A71631BC94EC200D56479 /* EditorMenuItem.cpp in Sources */,
 				208A72141BC94EC200D56479 /* SheepStandingState.cpp in Sources */,
 				208A71991BC94EC200D56479 /* Inspiration.cpp in Sources */,

@@ -1,13 +1,13 @@
 //
-//  Controller.h
+//  InputController.h
 //  SOP_Proto
 //
 //  Created by Iacopo Checcacci on 31/10/14.
 //
 //
 
-#ifndef __SOP_CONTROLLER__
-#define __SOP_CONTROLLER__
+#ifndef __SOP_INPUTCONTROLLER__
+#define __SOP_INPUTCONTROLLER__
 
 #include <cocos2d.h>
 
@@ -18,15 +18,16 @@ enum class eInputType : int
     BUTTONS = 0,
     SPLIT_SCREEN,
     KEYBOARD,
+    GAMEPAD,
 };
 
 class Tutorial;
 
-class Controller
+class InputController
 {
 public:
-    Controller();
-    virtual ~Controller() {};
+    InputController();
+    virtual ~InputController() {};
     
     void setInputType(eInputType inputType) { _inputType = inputType; }
     eInputType getInputType()               { return _inputType; }
@@ -66,4 +67,4 @@ private:
     bool _pausePressed;
 };
 
-#endif // __SOP_CONTROLLER__
+#endif // __SOP_INPUTCONTROLLER__

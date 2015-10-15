@@ -11,10 +11,14 @@
 
 #include "cocos2d.h"
 #include "LevelHelper2API.h"
-#include "Controller.h"
+#include "InputController.h"
 #include "CollisionManager.h"
 #include "Player.h"
 #include "GameContext.h"
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_TVOS)
+#include "base/CCGameController.h"
+#endif
 
 namespace sceneChilds
 {
@@ -68,6 +72,14 @@ public:
     virtual void onKeyPressed(EventKeyboard::KeyCode keyCode, Event* unused_event);
     virtual void onKeyReleased(EventKeyboard::KeyCode keyCode, Event* unused_event);
     
+    //using GamePad
+    void onConnectController(cocos2d::Controller* controller, Event* event);
+    void onDisconnectedController(cocos2d::Controller* controller, Event* event);
+    void onKeyDown(cocos2d::Controller* controller, int keyCode, cocos2d::Event* event);
+    void onKeyUp(cocos2d::Controller* controller, int keyCode, cocos2d::Event* event);
+    void onAxisEvent(cocos2d::Controller* controller, int keyCode, cocos2d::Event* event);
+    void onKeyRepeat(cocos2d::Controller* controller, int keyCode, Event* event);
+    
     virtual void didBeginContactBetweenNodes(Node* nodeA, Node* nodeB, Point contactPoint, float impulse);
     virtual void didEndContactBetweenNodes(Node* nodeA, Node* nodeB);
     virtual bool shouldDisableContactBetweenNodes(Node* nodeA, Node* nodeB);
@@ -105,6 +117,7 @@ private:
     void setupKeyboardInput();
     void setupSplitScreenInput();
     void setupButtonsInput();
+    void setupGamePadInput();
     void updateInput();
     void buttonInputCallback(Ref* sender);
     void setInputEnabled(bool enabled);
@@ -170,6 +183,9 @@ private:
     void goToMainMenu(eEndLevelMode endMode, std::string afterFeedbackLevel);
     void transitionToScene(GameContext nextLevelContext);
     void handleEndLevel(eEndLevelMode endMode, GameContext& nextLevelContext);
+    
+    // tvOs
+    void showButtonState(cocos2d::Controller *controller, int keyCode, bool isPressed);
     
     void initParallax();
     
@@ -258,7 +274,7 @@ private:
     
     void losePopUpSchedule();
     
-    Controller _inputController;
+    InputController _inputController;
     int _initialSheepQuantity;
     int _sheepCounter;
     int _enteringSheepCounter;                  // pecore che stanno entrando contemporaneamente nella capanna
@@ -285,6 +301,7 @@ private:
     GameContext _context;
     
     EventListenerTouchAllAtOnce * _splitEventListener;
+//    EventListenerController* _gamePadListener;
     
     SoundComponent * _soundAmbience;
     SoundComponent * _soundMusic;

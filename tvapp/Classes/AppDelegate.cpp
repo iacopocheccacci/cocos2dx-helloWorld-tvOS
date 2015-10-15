@@ -5,6 +5,7 @@
 #include <string>
 #include "AnalyticsManager.h"
 #include "ScoreManager.h"
+#include "HelloWorldScene.h"
 
 using namespace std;
 
