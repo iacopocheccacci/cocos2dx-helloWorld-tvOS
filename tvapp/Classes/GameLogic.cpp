@@ -108,8 +108,8 @@ GameLogic* GameLogic::create(GameContext context)
 
 void GameLogic::onEnter()
 {
-    Scene::onEnter();
-    
+    LHScene::onEnter();
+
     if (!_isCinematicScene)
     {
         this->setupInput();
@@ -120,14 +120,14 @@ void GameLogic::onEnter()
 
 void GameLogic::onEnterTransitionDidFinish()
 {
-    Scene::onEnterTransitionDidFinish();
+    LHScene::onEnterTransitionDidFinish();
     
     _customEventLock = false;
 }
 
 void GameLogic::onExit()
 {
-    Scene::onExit();
+    LHScene::onExit();
 }
 
 GameLogic::~GameLogic()
