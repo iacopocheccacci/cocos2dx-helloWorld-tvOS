@@ -80,6 +80,7 @@ void InputController::setGamePadInput(cocos2d::Controller *controller, int keyCo
             break;
         case cocos2d::Controller::Key::BUTTON_X:
             _stopNotePressed = isPressed;
+            _pausePressed = isPressed;
             break;
         case cocos2d::Controller::Key::BUTTON_Y:
             CCLOG("Button Y Pressed");

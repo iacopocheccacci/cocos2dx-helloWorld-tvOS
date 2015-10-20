@@ -3246,6 +3246,7 @@ void GameLogic::update(float dt)
     {
         this->timerEnded();
         _inputController.resetStopNotePressed();
+        _inputController.resetPausePressed();
     }
     
     if (_inputController.isZoomPressed())
