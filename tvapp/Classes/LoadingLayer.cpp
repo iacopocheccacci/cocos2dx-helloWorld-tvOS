@@ -10,7 +10,7 @@
 #include "GameLogic.h"
 #include "Utility.h"
 #include "SoundManager.h"
-#include "SoundComponent.h";
+#include "SoundComponent.h"
 
 LoadingLayer::LoadingLayer(){}
 

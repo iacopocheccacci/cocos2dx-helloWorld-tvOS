@@ -450,15 +450,23 @@ void SoundComponent::preloadAudioForLevelName(std::string levelName)
     if (1 <= world && world <= appParams::NUMBER_OF_WORLDS)
     {
         std::stringstream ss;
+        
         ss << "world_" << world;
-        SoundManager::getInstance()->preloadAudio({ss.str()});
+        std::string general = ss.str();
+        ss.str(std::string());
+        
+        ss << "music_" << world;
+        std::string music = ss.str();
+        ss.str(std::string());
+        
+        SoundManager::getInstance()->preloadAudio({general, music});
     }
     else if (world == appParams::BONUS_WORLD)
     {
-        SoundManager::getInstance()->preloadAudio({"bonus_level"});
+        SoundManager::getInstance()->preloadAudio({"bonus_level", "bonus_music"});
     }
     else
     {
-        SoundManager::getInstance()->preloadAudio({"Common", "Common_2"});
+        SoundManager::getInstance()->preloadAudio({"Common", "menu_music"});
     }
 }
