@@ -272,6 +272,7 @@ void NavigationMenu::updateStopNoteButtonInputType(eInputType inputType)
     {
         case eInputType::KEYBOARD:
         case eInputType::SPLIT_SCREEN:
+        case eInputType::GAMEPAD:
         case eInputType::BUTTONS:
         {
             if (_menuItemStopPlayer)
