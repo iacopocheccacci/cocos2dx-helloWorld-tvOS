@@ -40,7 +40,7 @@ class Door : public LHSprite, public Observer
 {
 public:
     NODEWITHDICT_FUNC(Door);
-    virtual bool initWithDictionary(LHDictionary* dict, Node* prnt);
+    virtual bool initWithDictionary(LHDictionary* dict, Node* prnt) override;
     
     void updateSwitchCounter();
     eDoorStatus getStatus()                 { return _status; }

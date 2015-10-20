@@ -87,6 +87,8 @@ private:
     SoundManager();
     static SoundManager* m_soundManager;
     
+    void* loadAudioGroup(std::string audioGroup);
+
     void updateMusicVolume(float dt);
     void updateFXVolume(float dt);
     

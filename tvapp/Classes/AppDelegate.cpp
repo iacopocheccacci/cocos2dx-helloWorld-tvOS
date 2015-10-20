@@ -7,6 +7,9 @@
 #include "ScoreManager.h"
 #include "GameContext.h"
 #include "GameLogic.h"
+#include "SettingsManager.h"
+#include "SoundManager.h"
+#include "SoundComponent.h"
 
 using namespace std;
 
@@ -108,6 +111,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     // Inizializzo lo ScoreManager (calcolo totale delle pecore nel gioco...)
     ScoreManager::getInstance();
     
+    this->initAudio();
+    
 #ifdef EDITOR_MODE
     Scene *scene = Scene::create();
     EditorTableView *layer = EditorTableView::create();
@@ -142,4 +147,28 @@ void AppDelegate::applicationWillEnterForeground() {
 
     // if you use SimpleAudioEngine, it must resume here
     // SimpleAudioEngine::getInstance()->resumeBackgroundMusic();
+}
+
+void AppDelegate::initAudio()
+{
+    // Inizializzo il SoundManager
+    if (SettingsManager::getInstance()->loadUserActiveMusic())
+    {
+        SoundManager::getInstance()->setUserVolumeMusic(SettingsManager::getInstance()->loadUserVolumeMusic(), false);
+    }
+    else
+    {
+        SoundManager::getInstance()->setUserVolumeMusic(0.0f, false);
+    }
+    
+    if (SettingsManager::getInstance()->loadUserActiveFX())
+    {
+        SoundManager::getInstance()->setUserVolumeFX(SettingsManager::getInstance()->loadUserVolumeFX(), false);
+    }
+    else
+    {
+        SoundManager::getInstance()->setUserVolumeFX(0.0f, false);
+    }
+    
+    SoundComponent::preloadAudioForLevelName(appParams::PUBLISHED_MAIN_MENU_LEVEL_NAME);
 }

@@ -9,7 +9,7 @@
 
 #include "SoundManager.h"
 
-#if (CC_TARGET_PLATFORM==CC_PLATFORM_MAC || CC_TARGET_PLATFORM==CC_PLATFORM_IOS || CC_TARGET_PLATFORM==CC_PLATFORM_WINRT || CC_TARGET_PLATFORM==CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM == CC_PLATFORM_TVOS)
+#if (CC_TARGET_PLATFORM==CC_PLATFORM_MAC || CC_TARGET_PLATFORM==CC_PLATFORM_IOS || CC_TARGET_PLATFORM==CC_PLATFORM_WINRT || CC_TARGET_PLATFORM==CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM==CC_PLATFORM_TVOS)
 #define FMOD_ACTIVE
 #endif
 
@@ -165,6 +165,7 @@ SoundManager::SoundManager()
 //    _masterBank = NULL;
 //    ERRCHECK(_system->loadBankFile(getMediaPath(FILE_BANK_MASTER_DATA_NAME), FMOD_STUDIO_LOAD_BANK_NORMAL, &_masterBank));
     
+    //_stringsBank = static_cast<FMOD::Studio::Bank*>(this->loadAudioGroup(FILE_BANK_MASTER_META_NAME));
     _stringsBank = NULL;
     ERRCHECK(_system->loadBankFile(getMediaPath(FILE_BANK_MASTER_META_NAME), FMOD_STUDIO_LOAD_BANK_NORMAL, &_stringsBank));
     
@@ -212,7 +213,7 @@ void SoundManager::preloadAudio(std::vector<std::string> audioGroups)
         
         if (!bankPreloaded)
         {
-            ERRCHECK(_system->loadBankFile(getMediaPath(audioBankName.c_str()), FMOD_STUDIO_LOAD_BANK_NORMAL, &bank));
+        	bank = static_cast<FMOD::Studio::Bank*>(this->loadAudioGroup(audioBankName));
             if (bank)
             {
                 ERRCHECK(bank->loadSampleData());
@@ -222,6 +223,30 @@ void SoundManager::preloadAudio(std::vector<std::string> audioGroups)
         }
     }
 #endif
+}
+
+void* SoundManager::loadAudioGroup(std::string audioGroup)
+{
+	void * audioGroupHandle = nullptr;
+#ifdef FMOD_ACTIVE
+	FMOD::Studio::Bank * bank = nullptr;
+	#if (CC_TARGET_PLATFORM==CC_PLATFORM_ANDROID)
+		FileUtilsAndroid * androidUtils = static_cast<FileUtilsAndroid *>(FileUtils::getInstance());
+		Data bankData = androidUtils->getDataFromFile("Media/" + audioGroup);
+
+		const char * buffer = (const char *)bankData.getBytes();
+		int size = (int)bankData.getSize();
+
+		ERRCHECK(_system->loadBankMemory(buffer, size, FMOD_STUDIO_LOAD_MEMORY, FMOD_STUDIO_LOAD_BANK_NORMAL, &bank));
+	#else
+		ERRCHECK(_system->loadBankFile(getMediaPath(audioGroup.c_str()), FMOD_STUDIO_LOAD_BANK_NORMAL, &bank));
+	#endif
+	if (bank)
+	{
+		audioGroupHandle = (void*)bank;
+	}
+#endif
+	return audioGroupHandle;
 }
 
 bool SoundManager::isAudioPreloaded()
@@ -525,7 +550,7 @@ std::vector<std::string> SoundManager::getSoundEventsForVideo(int videoNumber)
     std::vector<std::string> list;
 #ifdef FMOD_ACTIVE
     static const char * fileTemplate = "event:/sndVideo%d/sndVideo%d_";
-    static int nameMaxSize = 200;
+    static const int nameMaxSize = 200;
     
     int eventCount = 0;
     for (FMOD::Studio::Bank * bank : _banks)
