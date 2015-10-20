@@ -55,17 +55,17 @@ public:
     static GameLogic* create(GameContext context);
     
     virtual ~GameLogic();
-    void onEnter();
-    void onEnterTransitionDidFinish();
-    void onExit();
-    virtual bool initWithContentOfFile(GameContext context);
+    virtual void onEnter() override;
+    virtual void onEnterTransitionDidFinish() override;
+    virtual void onExit() override;
+    bool initWithContentOfFile(GameContext context);
     
     // using touch screen
     void touchesEvent(const std::vector<Touch*>& touches, Event* event, bool isTouchBegan);
-    void onTouchesBegan(const std::vector<Touch*>& touches, Event  *event);
-    void onTouchesMoved(const std::vector<Touch*>& touches, Event  *event);
-    void onTouchesEnded(const std::vector<Touch*>& touches, Event  *event);
-    void onTouchesCancelled(const std::vector<Touch*>& touches, Event *event);
+    void onTouchesBegan(const std::vector<Touch*>& touches, Event  *event) override;
+    void onTouchesMoved(const std::vector<Touch*>& touches, Event  *event) override;
+    void onTouchesEnded(const std::vector<Touch*>& touches, Event  *event) override;
+    void onTouchesCancelled(const std::vector<Touch*>& touches, Event *event) override;
     
     // using keyboard
     virtual void keyboardEvent(EventKeyboard::KeyCode keyCode, bool pressed);
@@ -79,12 +79,13 @@ public:
     void onKeyUp(cocos2d::Controller* controller, int keyCode, cocos2d::Event* event);
     void onAxisEvent(cocos2d::Controller* controller, int keyCode, cocos2d::Event* event);
     void onKeyRepeat(cocos2d::Controller* controller, int keyCode, Event* event);
+    void gamePadEvent(cocos2d::Controller *controller, int keyCode, bool isPressed);
     
-    virtual void didBeginContactBetweenNodes(Node* nodeA, Node* nodeB, Point contactPoint, float impulse);
-    virtual void didEndContactBetweenNodes(Node* nodeA, Node* nodeB);
-    virtual bool shouldDisableContactBetweenNodes(Node* nodeA, Node* nodeB);
+    virtual void didBeginContactBetweenNodes(Node* nodeA, Node* nodeB, Point contactPoint, float impulse) override;
+    virtual void didEndContactBetweenNodes(Node* nodeA, Node* nodeB) override;
+    virtual bool shouldDisableContactBetweenNodes(Node* nodeA, Node* nodeB) override;
     
-    virtual void didFinishedPlayingAnimation(LHAnimation* anim);
+    virtual void didFinishedPlayingAnimation(LHAnimation* anim) override;
     
     eInputType getInputType();
     std::string getLevelName()                  { return _levelName; }
@@ -111,7 +112,7 @@ private:
     HUD* getHUDInstance();
     
     void updateStatus();
-    LevelHelperNodeTypeSubclass createNodeObjectForSubclassWithName(const std::string subclassTypeName, const std::string lhTypeName);
+    LevelHelperNodeTypeSubclass createNodeObjectForSubclassWithName(const std::string subclassTypeName, const std::string lhTypeName) override;
     
     void setupInput();
     void setupKeyboardInput();
@@ -184,9 +185,6 @@ private:
     void transitionToScene(GameContext nextLevelContext);
     void handleEndLevel(eEndLevelMode endMode, GameContext& nextLevelContext);
     
-    // tvOs
-    void showButtonState(cocos2d::Controller *controller, int keyCode, bool isPressed);
-    
     void initParallax();
     
     void initCameraManager();
@@ -245,7 +243,7 @@ private:
     void setPauseStoryVideos(bool paused);
     
     // Update
-    void update(float dt);
+    void update(float dt) override;
     void updateAudio(float dt);
     void updateAudioAmbience(float dt);
     void updateAudioMusic(float dt);
@@ -301,7 +299,7 @@ private:
     GameContext _context;
     
     EventListenerTouchAllAtOnce * _splitEventListener;
-//    EventListenerController* _gamePadListener;
+    EventListenerController* _gamePadListener;
     
     SoundComponent * _soundAmbience;
     SoundComponent * _soundMusic;

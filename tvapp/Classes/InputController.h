@@ -10,6 +10,7 @@
 #define __SOP_INPUTCONTROLLER__
 
 #include <cocos2d.h>
+#include "base/CCGameController.h"
 
 USING_NS_CC;
 
@@ -34,6 +35,7 @@ public:
     
     void setTouchInput(Vec2 location, Event* event, bool isTouchBegan, bool isVerticalJump);         // touch screen input
     void setKeyboardInput(EventKeyboard::KeyCode keyCode, bool pressed);   // keyboard input
+    void setGamePadInput(Controller *controller, int keyCode, bool isPressed);
     void setButtonInput(std::string buttonName, bool selected);
     void resolveTouchMoveInput(Touch* touch, Event *event);
     

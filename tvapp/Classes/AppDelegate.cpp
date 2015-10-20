@@ -5,7 +5,8 @@
 #include <string>
 #include "AnalyticsManager.h"
 #include "ScoreManager.h"
-#include "HelloWorldScene.h"
+#include "GameContext.h"
+#include "GameLogic.h"
 
 using namespace std;
 
@@ -112,7 +113,11 @@ bool AppDelegate::applicationDidFinishLaunching()
     EditorTableView *layer = EditorTableView::create();
     scene->addChild(layer);
 #else
-    auto scene = FakeLoading::scene();
+//    auto scene = FakeLoading::scene();
+    
+    GameContext context(appParams::PUBLISHED_MAIN_MENU_LEVEL_NAME, "");
+    
+    auto scene = GameLogic::create(context);
 #endif
     
     director->setDisplayStats(false);

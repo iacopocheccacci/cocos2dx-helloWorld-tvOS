@@ -68,6 +68,55 @@ void InputController::setKeyboardInput(EventKeyboard::KeyCode keyCode, bool pres
     }
 }
 
+void InputController::setGamePadInput(cocos2d::Controller *controller, int keyCode, bool isPressed)
+{
+    switch (keyCode)
+    {
+        case cocos2d::Controller::Key::BUTTON_A:
+            _jumpPressed = isPressed;
+            break;
+        case cocos2d::Controller::Key::BUTTON_B:
+            CCLOG("Button B Pressed");
+            break;
+        case cocos2d::Controller::Key::BUTTON_X:
+            CCLOG("Button X Pressed");
+            break;
+        case cocos2d::Controller::Key::BUTTON_Y:
+            CCLOG("Button Y Pressed");
+            break;
+        case cocos2d::Controller::Key::BUTTON_DPAD_UP:
+            CCLOG("Button DPAD_UP Pressed");
+            break;
+        case cocos2d::Controller::Key::BUTTON_DPAD_DOWN:
+            CCLOG("Button DPAD_Down Pressed");
+            break;
+        case cocos2d::Controller::Key::BUTTON_DPAD_LEFT:
+            _leftPressed = isPressed;
+            break;
+        case cocos2d::Controller::Key::BUTTON_DPAD_RIGHT:
+            _rightPressed = isPressed;
+            break;
+        case cocos2d::Controller::Key::BUTTON_LEFT_SHOULDER:
+            CCLOG("Button Left Shoulder Pressed");
+            break;
+        case cocos2d::Controller::Key::BUTTON_RIGHT_SHOULDER:
+            CCLOG("Button Right Shoulder Pressed");
+            break;
+        case cocos2d::Controller::Key::BUTTON_LEFT_THUMBSTICK:
+            CCLOG("Button Left ThumbStick Pressed");
+            break;
+        case cocos2d::Controller::Key::BUTTON_RIGHT_THUMBSTICK:
+            CCLOG("Button Right Shoulder Pressed");
+            break;
+        default:
+        {
+            char ketStatus[30];
+            sprintf(ketStatus,"Key Down:%d",keyCode);
+            break;
+        }
+    }
+}
+
 void InputController::setButtonInput(std::string buttonName, bool selected)
 {
     if (strcmp(buttonName.c_str(), appParams::LEFT_BUTTON_NAME) == 0)

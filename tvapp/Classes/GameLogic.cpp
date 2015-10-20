@@ -32,7 +32,6 @@
 #include "ScoreManager.h"
 #include "AnimationComponent.h"
 #include "LoadingLayer.h"
-#include "SettingsPopUp.h"
 #include "SettingsManager.h"
 #include "ConfirmInputPopUp.h"
 #include "NotificationPop.h"
@@ -393,7 +392,7 @@ void GameLogic::setupSplitScreenInput()
 
 void GameLogic::setupGamePadInput()
 {
-    auto _gamePadListener = EventListenerController::create();
+    _gamePadListener = EventListenerController::create();
     
     //bind onConneected event call function
     _gamePadListener->onConnected = CC_CALLBACK_2(GameLogic::onConnectController,this);
@@ -419,22 +418,32 @@ void GameLogic::setupGamePadInput()
     Controller::startDiscoveryController();
 }
 
+void GameLogic::onConnectController(cocos2d::Controller* controller, Event* event)
+{
+    CCLOG("Game controller connected");
+}
+
+void GameLogic::onDisconnectedController(cocos2d::Controller* controller, Event* event)
+{
+    CCLOG("Game controller disconnected");
+}
+
 //Controller is the obejects of the Controller，keyCode means the keycode of the controller you click down
 void GameLogic::onKeyDown(cocos2d::Controller *controller, int keyCode, cocos2d::Event *event)
 {
     //    CCLOG("KeyDown:%d", keyCode);
-    showButtonState(controller, keyCode, true);
+    gamePadEvent(controller, keyCode, true);
 }
 
 void GameLogic::onKeyUp(cocos2d::Controller *controller, int keyCode, cocos2d::Event *event)
 {
     //You can get the controller by tag, deviceId or devicename if there are multiple controllers
     //    CCLOG("KeyUp:%d", keyCode);
-    showButtonState(controller, keyCode, false);
+    gamePadEvent(controller, keyCode, false);
 }
 
 void GameLogic::onKeyRepeat(cocos2d::Controller *controller, int keyCode, cocos2d::Event *event){
-    showButtonState(controller, keyCode, true);
+//    gamePadEvent(controller, keyCode, true);
 }
 
 //The axis includes X-axis and Y-axis and its range is from -1 to 1. X-axis is start from left to right and Y-axis is bottom to top.
@@ -444,107 +453,10 @@ void GameLogic::onAxisEvent(cocos2d::Controller* controller, int keyCode, cocos2
     CCLOG("Axis KeyCode:%d Axis Value:%f", keyCode, keyStatus.value);
 }
 
-void GameLogic::showButtonState(cocos2d::Controller *controller, int keyCode, bool isPressed)
+void GameLogic::gamePadEvent(cocos2d::Controller *controller, int keyCode, bool isPressed)
 {
-    //    onConnectController(controller,nullptr);
-    
-    if (isPressed)
-    {
-        switch (keyCode)
-        {
-            case cocos2d::Controller::Key::BUTTON_A:
-                CCLOG("Button A Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_B:
-                CCLOG("Button B Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_X:
-                CCLOG("Button X Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_Y:
-                CCLOG("Button Y Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_DPAD_UP:
-                CCLOG("Button DPAD_UP Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_DPAD_DOWN:
-                CCLOG("Button DPAD_Down Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_DPAD_LEFT:
-                CCLOG("Button DPAD_Left Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_DPAD_RIGHT:
-                CCLOG("Button DPAD_Right Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_LEFT_SHOULDER:
-                CCLOG("Button Left Shoulder Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_RIGHT_SHOULDER:
-                CCLOG("Button Right Shoulder Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_LEFT_THUMBSTICK:
-                CCLOG("Button Left ThumbStick Pressed");
-                break;
-            case cocos2d::Controller::Key::BUTTON_RIGHT_THUMBSTICK:
-                CCLOG("Button Right Shoulder Pressed");
-                break;
-            default:
-            {
-                char ketStatus[30];
-                sprintf(ketStatus,"Key Down:%d",keyCode);
-                break;
-            }
-        }
-    }
-    else
-    {
-        switch (keyCode)
-        {
-            case cocos2d::Controller::Key::BUTTON_A:
-                CCLOG("Button A");
-                break;
-            case cocos2d::Controller::Key::BUTTON_B:
-                CCLOG("Button B");
-                break;
-            case cocos2d::Controller::Key::BUTTON_X:
-                CCLOG("Button X");
-                break;
-            case cocos2d::Controller::Key::BUTTON_Y:
-                CCLOG("Button Y");
-                break;
-            case cocos2d::Controller::Key::BUTTON_DPAD_UP:
-                CCLOG("Button DPAD_UP");
-                break;
-            case cocos2d::Controller::Key::BUTTON_DPAD_DOWN:
-                CCLOG("Button DPAD_Down");
-                break;
-            case cocos2d::Controller::Key::BUTTON_DPAD_LEFT:
-                CCLOG("Button DPAD_Left");
-                break;
-            case cocos2d::Controller::Key::BUTTON_DPAD_RIGHT:
-                CCLOG("Button DPAD_Right");
-                break;
-            case cocos2d::Controller::Key::BUTTON_LEFT_SHOULDER:
-                CCLOG("Button Left Shoulder");
-                break;
-            case cocos2d::Controller::Key::BUTTON_RIGHT_SHOULDER:
-                CCLOG("Button Right Shoulder");
-                break;
-            case cocos2d::Controller::Key::BUTTON_LEFT_THUMBSTICK:
-                CCLOG("Button Left ThumbStick");
-                break;
-            case cocos2d::Controller::Key::BUTTON_RIGHT_THUMBSTICK:
-                CCLOG("Button Right Shoulder");
-                break;
-            default:
-            {
-                char ketStatus[30];
-                sprintf(ketStatus,"Key Down:%d",keyCode);
-                break;
-                
-            }
-        }
-    }
+    _inputController.setGamePadInput(controller, keyCode, isPressed);
+    this->updateStatus();
 }
 
 void GameLogic::setupButtonsInput()
@@ -795,16 +707,6 @@ void GameLogic::onKeyReleased(EventKeyboard::KeyCode keyCode, cocos2d::Event *un
 //        _inputController.setTouchInput(location, nullptr, false, player->isVerticalOnlyJump());
 //        this->updateStatus();
 //    }
-}
-
-void GameLogic::onConnectController(cocos2d::Controller* controller, Event* event)
-{
-    CCLOG("Game controller connected");
-}
-
-void GameLogic::onDisconnectedController(cocos2d::Controller* controller, Event* event)
-{
-    CCLOG("Game controller disconnected");
 }
 
 void GameLogic::updateStatus()
