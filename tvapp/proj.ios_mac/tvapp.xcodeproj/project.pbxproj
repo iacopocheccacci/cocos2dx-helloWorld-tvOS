@@ -315,6 +315,11 @@
 		208A72401BC94EC200D56479 /* WorldLevelName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71411BC94EC200D56479 /* WorldLevelName.cpp */; };
 		208A72411BC94EC200D56479 /* WorldLevelName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71411BC94EC200D56479 /* WorldLevelName.cpp */; };
 		208A72A71BC9653900D56479 /* libLevelHelper2-API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A72A41BC963AA00D56479 /* libLevelHelper2-API.a */; };
+		20D97DD51BD6990E00C7CFB8 /* UtilityPlatform.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20D97DD41BD6990E00C7CFB8 /* UtilityPlatform.mm */; };
+		20D97DD81BD69D4E00C7CFB8 /* libfmod_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D97DD61BD69D4D00C7CFB8 /* libfmod_iphoneos.a */; };
+		20D97DD91BD69D4E00C7CFB8 /* libfmodL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D97DD71BD69D4D00C7CFB8 /* libfmodL_iphoneos.a */; };
+		20D97DDC1BD69D6A00C7CFB8 /* libfmodstudio_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D97DDA1BD69D6A00C7CFB8 /* libfmodstudio_iphoneos.a */; };
+		20D97DDD1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D97DDB1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a */; };
 		20E9961D1BCF140500C0D5BA /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E9961C1BCF140500C0D5BA /* GameController.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
@@ -665,6 +670,12 @@
 		208A71411BC94EC200D56479 /* WorldLevelName.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorldLevelName.cpp; sourceTree = "<group>"; };
 		208A71421BC94EC200D56479 /* WorldLevelName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldLevelName.h; sourceTree = "<group>"; };
 		208A72421BC94EDB00D56479 /* LevelHelper2-API.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LevelHelper2-API.xcodeproj"; path = "../LevelHelper2-API/LevelHelper2-API.xcodeproj"; sourceTree = "<group>"; };
+		20D97DD31BD6990E00C7CFB8 /* UtilityPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtilityPlatform.h; path = tv/UtilityPlatform.h; sourceTree = SOURCE_ROOT; };
+		20D97DD41BD6990E00C7CFB8 /* UtilityPlatform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UtilityPlatform.mm; path = tv/UtilityPlatform.mm; sourceTree = SOURCE_ROOT; };
+		20D97DD61BD69D4D00C7CFB8 /* libfmod_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmod_iphoneos.a; path = tv/FMOD_API_TVOS/api/lowlevel/lib/libfmod_iphoneos.a; sourceTree = "<group>"; };
+		20D97DD71BD69D4D00C7CFB8 /* libfmodL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmodL_iphoneos.a; path = tv/FMOD_API_TVOS/api/lowlevel/lib/libfmodL_iphoneos.a; sourceTree = "<group>"; };
+		20D97DDA1BD69D6A00C7CFB8 /* libfmodstudio_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmodstudio_iphoneos.a; path = tv/FMOD_API_TVOS/api/studio/lib/libfmodstudio_iphoneos.a; sourceTree = "<group>"; };
+		20D97DDB1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmodstudioL_iphoneos.a; path = tv/FMOD_API_TVOS/api/studio/lib/libfmodstudioL_iphoneos.a; sourceTree = "<group>"; };
 		20E9961C1BCF140500C0D5BA /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
@@ -778,6 +789,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D97DDC1BD69D6A00C7CFB8 /* libfmodstudio_iphoneos.a in Frameworks */,
+				20D97DDD1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a in Frameworks */,
+				20D97DD81BD69D4E00C7CFB8 /* libfmod_iphoneos.a in Frameworks */,
+				20D97DD91BD69D4E00C7CFB8 /* libfmodL_iphoneos.a in Frameworks */,
 				20E9961D1BCF140500C0D5BA /* GameController.framework in Frameworks */,
 				208A72A71BC9653900D56479 /* libLevelHelper2-API.a in Frameworks */,
 				9ED42A821BA8C57B00C25D7A /* TVMLKit.framework in Frameworks */,
@@ -865,6 +880,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20D97DDA1BD69D6A00C7CFB8 /* libfmodstudio_iphoneos.a */,
+				20D97DDB1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a */,
+				20D97DD61BD69D4D00C7CFB8 /* libfmod_iphoneos.a */,
+				20D97DD71BD69D4D00C7CFB8 /* libfmodL_iphoneos.a */,
 				20E9961C1BCF140500C0D5BA /* GameController.framework */,
 				9ED42A801BA8C57B00C25D7A /* TVMLKit.framework */,
 				9ED42A811BA8C57B00C25D7A /* TVServices.framework */,
@@ -1164,6 +1183,8 @@
 		9EF9A8BB1BA898F000102D0A /* tv */ = {
 			isa = PBXGroup;
 			children = (
+				20D97DD31BD6990E00C7CFB8 /* UtilityPlatform.h */,
+				20D97DD41BD6990E00C7CFB8 /* UtilityPlatform.mm */,
 				9EE108791BA8A72800078FAA /* Assets.xcassets */,
 				9EE1087A1BA8A72800078FAA /* Info.plist */,
 			);
@@ -1641,6 +1662,7 @@
 				208A71F01BC94EC200D56479 /* SettingsManager.cpp in Sources */,
 				208A71B71BC94EC200D56479 /* MyMenuItemToggle.cpp in Sources */,
 				208A717E1BC94EC200D56479 /* GameCamera.cpp in Sources */,
+				20D97DD51BD6990E00C7CFB8 /* UtilityPlatform.mm in Sources */,
 				208A716F1BC94EC200D56479 /* Eolo.cpp in Sources */,
 				208A71FC1BC94EC200D56479 /* SheepCounterGlobal.cpp in Sources */,
 				208A723E1BC94EC200D56479 /* WolfWithPlayerState.cpp in Sources */,
@@ -1921,11 +1943,20 @@
 					"$(SRCROOT)/../cocos2d/cocos/platform/tvos",
 					"$(SRCROOT)/../cocos2d/cocos/platform/tvos/Simulation",
 					"$(SRCROOT)/../LevelHelper2-API/LevelHelper2-API/**",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/studio/inc",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/lowlevel/inc",
 				);
 				INFOPLIST_FILE = tv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/tv/FMOD_API_TVOS/api/studio/lib",
+					"$(PROJECT_DIR)/tv/FMOD_API_TVOS/api/lowlevel/lib",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/lowlevel/lib/libfmodL_iphoneos.a",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/studio/lib/libfmodstudioL_iphoneos.a",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = eu.balzo.org.cocos.tvapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1979,11 +2010,20 @@
 					"$(SRCROOT)/../cocos2d/cocos/platform/tvos",
 					"$(SRCROOT)/../cocos2d/cocos/platform/tvos/Simulation",
 					"$(SRCROOT)/../LevelHelper2-API/LevelHelper2-API/**",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/studio/inc",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/lowlevel/inc",
 				);
 				INFOPLIST_FILE = tv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/tv/FMOD_API_TVOS/api/studio/lib",
+					"$(PROJECT_DIR)/tv/FMOD_API_TVOS/api/lowlevel/lib",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/lowlevel/lib/libfmod_iphoneos.a",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/studio/lib/libfmodstudio_iphoneos.a",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = eu.balzo.org.cocos.tvapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
