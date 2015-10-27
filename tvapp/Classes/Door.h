@@ -59,7 +59,7 @@ private:
     void initBounds();
     
     // scheduler
-    void update(float dt);
+    void update(float dt) override;
     
     eDoorType checkDoorType();
     void updateActiveSwitch(bool increment);

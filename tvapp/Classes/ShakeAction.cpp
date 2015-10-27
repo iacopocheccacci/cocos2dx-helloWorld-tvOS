@@ -59,7 +59,7 @@ void ShakeAction::update(float time)
 
 void ShakeAction::startWithTarget(Node *pTarget)
 {
-    CCActionInterval::startWithTarget( pTarget );
+    ActionInterval::startWithTarget( pTarget );
     
     // save the initial position
     _initial_x = pTarget->getPosition().x;
@@ -71,5 +71,5 @@ void ShakeAction::stop(void)
     // Action is done, reset clip position
     _target->setPosition( Point( _initial_x, _initial_y ) );
     
-    CCActionInterval::stop();
+    ActionInterval::stop();
 }

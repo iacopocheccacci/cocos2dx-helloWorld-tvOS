@@ -18,6 +18,11 @@
 #include "Flute.h"
 #include "Utility.h"
 
+#if (CC_TARGET_PLATFORM != CC_PLATFORM_TVOS)
+    #define MOBILE
+#endif
+
+
 enum class eHudChild
 {
     NAVIGATION_MENU = 0,
@@ -52,8 +57,10 @@ bool HUD::init(eLevelType levelType, Node * player)
     
     if (Layer::init())
     {
+#ifdef MOBILE
         auto navigationMenu = NavigationMenu::create(levelType, player);
         this->addChild(navigationMenu, 1, static_cast<int>(eHudChild::NAVIGATION_MENU));
+#endif
         
         auto sheepCounter = SheepCounterView::create();
         this->addChild(sheepCounter, 1, static_cast<int>(eHudChild::SHEEP_COUNTER));
@@ -93,6 +100,7 @@ bool HUD::init(eLevelType levelType, Node * player)
 
 void HUD::pauseNavigationMenuListener()
 {
+#ifdef MOBILE
     auto nav = dynamic_cast<NavigationMenu*>(this->getChildByTag(static_cast<int>(eHudChild::NAVIGATION_MENU)));
     
     if (nav)
@@ -106,6 +114,7 @@ void HUD::pauseNavigationMenuListener()
         }
         */
     }
+#endif
 }
 
 void HUD::resumeNavigationMenuListenser()

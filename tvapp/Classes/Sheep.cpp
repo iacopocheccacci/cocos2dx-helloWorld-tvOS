@@ -13,6 +13,10 @@
 #include "SoundComponent.h"
 #include "AnimationComponent.h"
 
+#if (CC_TARGET_PLATFORM != CC_PLATFORM_TVOS)
+    #define MOBILE
+#endif
+
 using namespace gameObjectsParams;
 
 Sheep::~Sheep()
@@ -545,6 +549,10 @@ void Sheep::loadSheepData()
     
     value = Utility::loadDataFromFile(SHEEP_GROUP,SHEEP_VER_IMP_NAME, SHEEP_VER_IMP_VAL);
     _verticalImpulse = atof(value->getCString());
+    
+#ifndef MOBILE
+    _verticalImpulse += .5f;
+#endif
     
     value = Utility::loadDataFromFile(SHEEP_GROUP, SHEEP_HOR_LIMIT_NAME, SHEEP_HOR_LIMIT_VAL);
     _horizontalVelLimit = atof(value->getCString());

@@ -32,7 +32,7 @@ public:
     NODEWITHDICT_FUNC(Sheep);
     virtual ~Sheep();
     
-    virtual bool initWithDictionary(LHDictionary* dict, Node* prnt);
+    virtual bool initWithDictionary(LHDictionary* dict, Node* prnt) override;
     
     void initAudio(LHNode * listenerNode);
     void initAnimation();
@@ -100,9 +100,9 @@ public:
     bool getIsPlayerOver()                                                      { return _isPlayerOver; }
     
     void updateAudio(float dt);
-    void setUnderEoloWind(LHNode* node, bool begin);
-    void updateUnderEoloWind(LHNode* node);
-    void exitUnderEoloWind();
+    void setUnderEoloWind(LHNode* node, bool begin) override;
+    void updateUnderEoloWind(LHNode* node) override;
+    void exitUnderEoloWind() override;
     
     void setIsOnGoalRight(bool isOnGoalRight)                                   { _isOnGoalRight = isOnGoalRight; }
     
@@ -113,7 +113,7 @@ public:
     void onExit() override;
     
 private:
-    virtual void update(float dt);
+    virtual void update(float dt) override;
     
     bool isPossibleToJump();
     void loadSheepData();

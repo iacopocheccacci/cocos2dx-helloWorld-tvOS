@@ -24,7 +24,7 @@ public:
     static MyMenuItemToggle* createWithCallback(const ccMenuCallback& callback, MenuItem* item, ...) ;
 #endif
     
-    virtual bool init();
+    virtual bool init() override;
     virtual void unselected() override;
 };
 

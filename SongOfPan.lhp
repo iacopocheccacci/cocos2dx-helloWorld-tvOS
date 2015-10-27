@@ -3,23 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>designResolutionDeviceIdx</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>devices</key>
 	<array>
-		<dict>
-			<key>DeviceName</key>
-			<string>sd</string>
-			<key>ScaleRatio</key>
-			<real>1</real>
-			<key>ScreenHeight</key>
-			<integer>640</integer>
-			<key>ScreenWidth</key>
-			<integer>960</integer>
-			<key>SuffixName</key>
-			<string>sd</string>
-			<key>color</key>
-			<string>{{0.039420325309038162, 0}, {0.040748715400695801, 1}}</string>
-		</dict>
 		<dict>
 			<key>DeviceName</key>
 			<string>hd</string>
@@ -33,6 +19,20 @@
 			<string>hd</string>
 			<key>color</key>
 			<string>{{1, 1}, {0.078244850039482117, 1}}</string>
+		</dict>
+		<dict>
+			<key>DeviceName</key>
+			<string>sd</string>
+			<key>ScaleRatio</key>
+			<real>1</real>
+			<key>ScreenHeight</key>
+			<integer>640</integer>
+			<key>ScreenWidth</key>
+			<integer>960</integer>
+			<key>SuffixName</key>
+			<string>sd</string>
+			<key>color</key>
+			<string>{{0.73797768354415894, 0.16586887836456299}, {0.67999500036239624, 1}}</string>
 		</dict>
 	</array>
 	<key>engine</key>
@@ -318,7 +318,7 @@
 			<key>publisherPluginName</key>
 			<string>Cocos2d-X</string>
 			<key>relativePublishLocation</key>
-			<string>SongOfPan/Resources/publishedResources</string>
+			<string>tvapp/Resources/publishedResources</string>
 			<key>selectedPublishTypeName</key>
 			<string>All Selected Scenes</string>
 		</dict>

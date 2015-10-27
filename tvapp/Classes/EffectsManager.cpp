@@ -15,7 +15,7 @@
 #include "LightningBranch.h"
 #include "SoundComponent.h"
 
-//#define BLUR_PARALLAX_ENABLED
+#define BLUR_PARALLAX_ENABLED
 
 #if CC_TARGET_PLATFORM!=CC_PLATFORM_ANDROID
 	#define MAIN_MENU_FOG_ENABLED
@@ -249,7 +249,7 @@ void EffectsManager::initParallaxBlurOnRoot(LHNodeProtocol * root, bool alphaBor
                 blurredSprite->setFlippedY(true);
                 
                 GLchar * vertSource = (GLchar*) ccPositionTextureColor_noMVP_vert;
-                GLchar * fragSource = (GLchar*) String::createWithContentsOfFile(FileUtils::getInstance()->fullPathForFilename("Shaders/parallaxBlur.fsh").c_str())->getCString();
+                GLchar * fragSource = (GLchar*) __String::createWithContentsOfFile(FileUtils::getInstance()->fullPathForFilename("Shaders/parallaxBlur.fsh").c_str())->getCString();
                 auto program = GLProgram::createWithByteArrays(vertSource, fragSource);
                 auto glProgramState = GLProgramState::getOrCreateWithGLProgram(program);
                 blurredSprite->setGLProgramState(glProgramState);

@@ -17,7 +17,7 @@ class MyMenuItemSprite : public MenuItemSprite
 {
 public:
     static MyMenuItemSprite * create(Node* normalSprite, Node* selectedSprite, Node* disabledSprite, const ccMenuCallback& callback);
-    virtual bool init();
+    virtual bool init() override;
     
     virtual void selected() override;
     virtual void unselected() override;

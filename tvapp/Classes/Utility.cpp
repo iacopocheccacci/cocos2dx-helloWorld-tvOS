@@ -36,7 +36,7 @@ __String* Utility::loadDataFromFile(std::string group, std::string key, std::str
     
     CC_SAFE_DELETE(loadDict);
     
-    return String::create(defaultValue);
+    return __String::create(defaultValue);
 }
 
 __Array* Utility::loadLevelsFromFile()

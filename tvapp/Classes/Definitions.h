@@ -156,9 +156,9 @@ namespace scriptNodeNameDefs
 #define DESIGN_RES_V 640.0f
 #define PTM_RATIO 32
 
-#define DEBUG_UNLOCK_ALL_LEVELS
+//#define DEBUG_UNLOCK_ALL_LEVELS
 
-#define DEBUG_UNLOCK_ALL_FLUTES
+//#define DEBUG_UNLOCK_ALL_FLUTES
 
 //#define TEST_PLAYER_INIT_POSITION // se definita, Pan apparirà nel MainMenu sempre in basso a sinistra.
 
