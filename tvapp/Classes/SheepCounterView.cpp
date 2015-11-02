@@ -89,15 +89,29 @@ void SheepCounterView::alignItemsWithPadding(float padding)
     
     currentPosition = Vec2(VisibleRect::rightTop().x, VisibleRect::rightTop().y - 100);
     
+#elif CC_TARGET_PLATFORM==CC_PLATFORM_TVOS
+    currentPosition = Vec2(VisibleRect::rightTop().x - 50, VisibleRect::rightTop().y - 10);
 #else
-    
     currentPosition = Vec2(VisibleRect::center().x, VisibleRect::rightTop().y - 10);
+#endif
+    
     this->setPosition(currentPosition);
     
     float width = -padding;
     for(const auto &child : _children)
         width += child->getContentSize().width * child->getScaleX() + padding;
+
+#if CC_TARGET_PLATFORM==CC_PLATFORM_TVOS
+    float x = -width;
     
+    for(const auto &child : _children)
+    {
+        child->setPosition(x + child->getContentSize().width * child->getScaleX(), 0);
+        child->setAnchorPoint(Point::ANCHOR_MIDDLE_TOP);
+        x += child->getContentSize().width * child->getScaleX() + padding;
+    }
+
+#else
     float x = -width / 2.0f;
     
     for(const auto &child : _children)
@@ -106,6 +120,8 @@ void SheepCounterView::alignItemsWithPadding(float padding)
         child->setAnchorPoint(Point::ANCHOR_MIDDLE_TOP);
         x += child->getContentSize().width * child->getScaleX() + padding;
     }
+
 #endif
+    
 }
 

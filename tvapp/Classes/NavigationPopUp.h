@@ -15,13 +15,21 @@
 
 USING_NS_CC;
 
+#if (CC_TARGET_PLATFORM==CC_PLATFORM_TVOS)
+    #define APPLETV
+#endif
+
+class MyMenu;
+
 enum class ePopUpItem
 {
     BUTTON_ITEM_HOME = 0,
     BUTTON_ITEM_RESTART,
     BUTTON_ITEM_IAP,
     BUTTON_ITEM_OPTIONS,
-    BUTTON_ITEM_RESUME
+    BUTTON_ITEM_RESUME,
+    BUTTON_ITEM_BACK,
+    BUTTON_ITEM_RESET
 };
 
 class NavigationPopUp : public PopUp
@@ -51,11 +59,18 @@ protected:
     
     virtual void resumePressed(Ref* sender);
     virtual void backPressed(Ref* sender);
+    virtual void resetPressed(Ref* sender);
     
 private:
     
     ui::PageView * _pageView;
+    
+#ifdef APPLETV
+    MyMenu * _menu;
+#else
     Menu * _menu;
+#endif
+    
     Menu * _resumeButton;
     Menu * _backButton;
     
@@ -75,7 +90,8 @@ private:
     MenuItem* setupHomeButton();
     MenuItem* setupIAPButton();
     MenuItem* setupOptionsButton();
-    void setupResumeButton();
+    MenuItem* setupResumeButton();
+    MenuItem* setupResetButton();
     void setupBackButton();
     
     void disableInteractionForNotSelectedPages();

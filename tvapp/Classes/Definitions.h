@@ -196,7 +196,8 @@ enum class eLevelType
 {
     NORMAL = 0,
     MAIN_MENU,
-    LEVEL_SELECTION
+    LEVEL_SELECTION,
+    LOADING
 };
 
 /**

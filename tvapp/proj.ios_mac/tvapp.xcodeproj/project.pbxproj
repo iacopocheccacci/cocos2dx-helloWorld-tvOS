@@ -316,12 +316,18 @@
 		208A72411BC94EC200D56479 /* WorldLevelName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 208A71411BC94EC200D56479 /* WorldLevelName.cpp */; };
 		208A72A71BC9653900D56479 /* libLevelHelper2-API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A72A41BC963AA00D56479 /* libLevelHelper2-API.a */; };
 		20D97DD51BD6990E00C7CFB8 /* UtilityPlatform.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20D97DD41BD6990E00C7CFB8 /* UtilityPlatform.mm */; };
-		20D97DD81BD69D4E00C7CFB8 /* libfmod_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D97DD61BD69D4D00C7CFB8 /* libfmod_iphoneos.a */; };
-		20D97DD91BD69D4E00C7CFB8 /* libfmodL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D97DD71BD69D4D00C7CFB8 /* libfmodL_iphoneos.a */; };
-		20D97DDC1BD69D6A00C7CFB8 /* libfmodstudio_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D97DDA1BD69D6A00C7CFB8 /* libfmodstudio_iphoneos.a */; };
-		20D97DDD1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D97DDB1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a */; };
-		20E9961D1BCF140500C0D5BA /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E9961C1BCF140500C0D5BA /* GameController.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		39837A701BE3C9F700620AF7 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E9961C1BCF140500C0D5BA /* GameController.framework */; };
+		39AE36FE1BE0C5DC004C691E /* libfmod_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE36FC1BE0C5DC004C691E /* libfmod_appletvos.a */; };
+		39AE36FF1BE0C5DC004C691E /* libfmodL_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE36FD1BE0C5DC004C691E /* libfmodL_appletvos.a */; };
+		39AE37021BE0C5EE004C691E /* libfmodstudio_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE37001BE0C5EE004C691E /* libfmodstudio_appletvos.a */; };
+		39AE37031BE0C5EE004C691E /* libfmodstudioL_appletvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE37011BE0C5EE004C691E /* libfmodstudioL_appletvos.a */; };
+		39AE37101BE10EC4004C691E /* MyMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39AE370E1BE10EC4004C691E /* MyMenu.cpp */; };
+		39AE37111BE10EC4004C691E /* MyMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39AE370E1BE10EC4004C691E /* MyMenu.cpp */; };
+		39AE37121BE10EC4004C691E /* MyMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39AE370E1BE10EC4004C691E /* MyMenu.cpp */; };
+		39AE758C1BE253C600BA395F /* FakeSplash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39AE758A1BE253C600BA395F /* FakeSplash.cpp */; };
+		39AE758D1BE253C600BA395F /* FakeSplash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39AE758A1BE253C600BA395F /* FakeSplash.cpp */; };
+		39AE758E1BE253C600BA395F /* FakeSplash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39AE758A1BE253C600BA395F /* FakeSplash.cpp */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
@@ -678,6 +684,14 @@
 		20D97DDB1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmodstudioL_iphoneos.a; path = tv/FMOD_API_TVOS/api/studio/lib/libfmodstudioL_iphoneos.a; sourceTree = "<group>"; };
 		20E9961C1BCF140500C0D5BA /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39AE36FC1BE0C5DC004C691E /* libfmod_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmod_appletvos.a; path = tv/FMOD_API_TVOS/api/lowlevel/lib/libfmod_appletvos.a; sourceTree = "<group>"; };
+		39AE36FD1BE0C5DC004C691E /* libfmodL_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmodL_appletvos.a; path = tv/FMOD_API_TVOS/api/lowlevel/lib/libfmodL_appletvos.a; sourceTree = "<group>"; };
+		39AE37001BE0C5EE004C691E /* libfmodstudio_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmodstudio_appletvos.a; path = tv/FMOD_API_TVOS/api/studio/lib/libfmodstudio_appletvos.a; sourceTree = "<group>"; };
+		39AE37011BE0C5EE004C691E /* libfmodstudioL_appletvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmodstudioL_appletvos.a; path = tv/FMOD_API_TVOS/api/studio/lib/libfmodstudioL_appletvos.a; sourceTree = "<group>"; };
+		39AE370E1BE10EC4004C691E /* MyMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyMenu.cpp; sourceTree = "<group>"; };
+		39AE370F1BE10EC4004C691E /* MyMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyMenu.hpp; sourceTree = "<group>"; };
+		39AE758A1BE253C600BA395F /* FakeSplash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FakeSplash.cpp; sourceTree = "<group>"; };
+		39AE758B1BE253C600BA395F /* FakeSplash.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FakeSplash.hpp; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
@@ -789,11 +803,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D97DDC1BD69D6A00C7CFB8 /* libfmodstudio_iphoneos.a in Frameworks */,
-				20D97DDD1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a in Frameworks */,
-				20D97DD81BD69D4E00C7CFB8 /* libfmod_iphoneos.a in Frameworks */,
-				20D97DD91BD69D4E00C7CFB8 /* libfmodL_iphoneos.a in Frameworks */,
-				20E9961D1BCF140500C0D5BA /* GameController.framework in Frameworks */,
+				39AE37021BE0C5EE004C691E /* libfmodstudio_appletvos.a in Frameworks */,
+				39AE37031BE0C5EE004C691E /* libfmodstudioL_appletvos.a in Frameworks */,
+				39837A701BE3C9F700620AF7 /* GameController.framework in Frameworks */,
+				39AE36FE1BE0C5DC004C691E /* libfmod_appletvos.a in Frameworks */,
+				39AE36FF1BE0C5DC004C691E /* libfmodL_appletvos.a in Frameworks */,
 				208A72A71BC9653900D56479 /* libLevelHelper2-API.a in Frameworks */,
 				9ED42A821BA8C57B00C25D7A /* TVMLKit.framework in Frameworks */,
 				9ED42A831BA8C57B00C25D7A /* TVServices.framework in Frameworks */,
@@ -880,6 +894,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				39AE37001BE0C5EE004C691E /* libfmodstudio_appletvos.a */,
+				39AE37011BE0C5EE004C691E /* libfmodstudioL_appletvos.a */,
+				39AE36FC1BE0C5DC004C691E /* libfmod_appletvos.a */,
+				39AE36FD1BE0C5DC004C691E /* libfmodL_appletvos.a */,
 				20D97DDA1BD69D6A00C7CFB8 /* libfmodstudio_iphoneos.a */,
 				20D97DDB1BD69D6A00C7CFB8 /* libfmodstudioL_iphoneos.a */,
 				20D97DD61BD69D4D00C7CFB8 /* libfmod_iphoneos.a */,
@@ -952,6 +970,8 @@
 				208A70941BC94EC100D56479 /* AnalyticsManager.h */,
 				208A70951BC94EC100D56479 /* AnimationComponent.cpp */,
 				208A70961BC94EC100D56479 /* AnimationComponent.h */,
+				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
+				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				208A70971BC94EC100D56479 /* AudioOptions.cpp */,
 				208A70981BC94EC100D56479 /* AudioOptions.h */,
 				208A70991BC94EC100D56479 /* Brazier.cpp */,
@@ -985,6 +1005,8 @@
 				208A70B51BC94EC200D56479 /* FaithJumpBrick.h */,
 				208A70B61BC94EC200D56479 /* FakeLoading.cpp */,
 				208A70B71BC94EC200D56479 /* FakeLoading.h */,
+				39AE758A1BE253C600BA395F /* FakeSplash.cpp */,
+				39AE758B1BE253C600BA395F /* FakeSplash.hpp */,
 				208A70B81BC94EC200D56479 /* Flute.cpp */,
 				208A70B91BC94EC200D56479 /* Flute.h */,
 				208A70BA1BC94EC200D56479 /* GameCamera.cpp */,
@@ -1023,6 +1045,8 @@
 				208A70DB1BC94EC200D56479 /* LosePopUp.h */,
 				208A70DC1BC94EC200D56479 /* MonousePlatform.cpp */,
 				208A70DD1BC94EC200D56479 /* MonousePlatform.h */,
+				39AE370E1BE10EC4004C691E /* MyMenu.cpp */,
+				39AE370F1BE10EC4004C691E /* MyMenu.hpp */,
 				208A70DE1BC94EC200D56479 /* MyMenuItemSprite.cpp */,
 				208A70DF1BC94EC200D56479 /* MyMenuItemSprite.h */,
 				208A70E01BC94EC200D56479 /* MyMenuItemToggle.cpp */,
@@ -1124,8 +1148,6 @@
 				208A71401BC94EC200D56479 /* WolfWithPlayerState.h */,
 				208A71411BC94EC200D56479 /* WorldLevelName.cpp */,
 				208A71421BC94EC200D56479 /* WorldLevelName.h */,
-				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
-				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
 				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
 			);
@@ -1263,7 +1285,7 @@
 						DevelopmentTeam = G6RAKRKZPR;
 						SystemCapabilities = {
 							com.apple.GameControllers.appletvos = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -1523,6 +1545,8 @@
 				208A716A1BC94EC200D56479 /* EffectsManager.cpp in Sources */,
 				208A722D1BC94EC200D56479 /* VisibleRect.cpp in Sources */,
 				208A72301BC94EC200D56479 /* Wolf.cpp in Sources */,
+				39AE758C1BE253C600BA395F /* FakeSplash.cpp in Sources */,
+				39AE37101BE10EC4004C691E /* MyMenu.cpp in Sources */,
 				208A717F1BC94EC200D56479 /* GameContext.cpp in Sources */,
 				208A71701BC94EC200D56479 /* EoloZone.cpp in Sources */,
 				208A72391BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp in Sources */,
@@ -1570,6 +1594,7 @@
 				208A71BF1BC94EC200D56479 /* Note.cpp in Sources */,
 				208A721C1BC94EC200D56479 /* SoundManager.cpp in Sources */,
 				208A71441BC94EC200D56479 /* AnalyticsManager.cpp in Sources */,
+				39AE37111BE10EC4004C691E /* MyMenu.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				208A717D1BC94EC200D56479 /* GameCamera.cpp in Sources */,
 				208A72101BC94EC200D56479 /* SheepShow.cpp in Sources */,
@@ -1589,6 +1614,7 @@
 				208A71981BC94EC200D56479 /* Inspiration.cpp in Sources */,
 				208A71741BC94EC200D56479 /* FaithJumpBrick.cpp in Sources */,
 				208A723D1BC94EC200D56479 /* WolfWithPlayerState.cpp in Sources */,
+				39AE758D1BE253C600BA395F /* FakeSplash.cpp in Sources */,
 				208A71C21BC94EC200D56479 /* NoteMenuItem.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				208A71C81BC94EC200D56479 /* NotificationPop.cpp in Sources */,
@@ -1691,6 +1717,7 @@
 				208A71E71BC94EC200D56479 /* PopUp.cpp in Sources */,
 				208A71CC1BC94EC200D56479 /* PausePopUp.cpp in Sources */,
 				208A71D81BC94EC200D56479 /* PlayerFallingState.cpp in Sources */,
+				39AE758E1BE253C600BA395F /* FakeSplash.cpp in Sources */,
 				208A71511BC94EC200D56479 /* CameraManager.cpp in Sources */,
 				208A71481BC94EC200D56479 /* AnimationComponent.cpp in Sources */,
 				208A72081BC94EC200D56479 /* SheepFlyingState.cpp in Sources */,
@@ -1720,6 +1747,7 @@
 				208A71721BC94EC200D56479 /* EoloZone.cpp in Sources */,
 				208A723B1BC94EC200D56479 /* WolfWithPlayerAndBrazierState.cpp in Sources */,
 				208A71C61BC94EC200D56479 /* NoteProgressBar.cpp in Sources */,
+				39AE37121BE10EC4004C691E /* MyMenu.cpp in Sources */,
 				208A72171BC94EC200D56479 /* SheepWalkingState.cpp in Sources */,
 				208A721D1BC94EC200D56479 /* SoundManager.cpp in Sources */,
 				208A71781BC94EC200D56479 /* FakeLoading.cpp in Sources */,
@@ -1954,10 +1982,10 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = (
-					"$(SRCROOT)/tv/FMOD_API_TVOS/api/lowlevel/lib/libfmodL_iphoneos.a",
-					"$(SRCROOT)/tv/FMOD_API_TVOS/api/studio/lib/libfmodstudioL_iphoneos.a",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/lowlevel/lib/libfmodL_appletvos.a",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/studio/lib/libfmodstudioL_appletvos.a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.balzo.org.cocos.tvapp;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.balzo.songofpan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -2021,10 +2049,10 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
-					"$(SRCROOT)/tv/FMOD_API_TVOS/api/lowlevel/lib/libfmod_iphoneos.a",
-					"$(SRCROOT)/tv/FMOD_API_TVOS/api/studio/lib/libfmodstudio_iphoneos.a",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/lowlevel/lib/libfmod_appletvos.a",
+					"$(SRCROOT)/tv/FMOD_API_TVOS/api/studio/lib/libfmodstudio_appletvos.a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.balzo.org.cocos.tvapp;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.balzo.songofpan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;

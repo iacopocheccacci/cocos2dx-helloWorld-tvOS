@@ -1168,20 +1168,23 @@ void CameraManager::cameraEventFocus(CameraFocus * cameraFocus)
 
 void CameraManager::update(float dt)
 {
-    this->updateFactors(dt);
-    
-    // Update Camera
-    if (_gameCamera)
+    if (_player)
     {
-        _gameCamera->update(dt);
-    }
-    
-    // Update Draw Debug
-    if (DEBUG_CAMERA_MODE_ON)
-    {
-        this->updateDebugDrawTrap();
-        this->updateDebugDrawLevelCenter();
-        this->updateDebugDrawCameraThresholds();
+        this->updateFactors(dt);
+        
+        // Update Camera
+        if (_gameCamera)
+        {
+            _gameCamera->update(dt);
+        }
+        
+        // Update Draw Debug
+        if (DEBUG_CAMERA_MODE_ON)
+        {
+            this->updateDebugDrawTrap();
+            this->updateDebugDrawLevelCenter();
+            this->updateDebugDrawCameraThresholds();
+        }
     }
 }
 
@@ -1326,49 +1329,49 @@ bool CameraManager::updateCurrentCameraThreshold()
 {
     bool hasThresholdParamsChanged = false;
     
-    Point playerOnWorld = _player->getParent()->convertToWorldSpace(_player->getPosition());
-    Point playerOnTarget = _gameCamera->getTarget()->convertToNodeSpace(playerOnWorld);
-    
-    LHNode * newCameraThreshold = nullptr;
-    auto iter = _cameraThresholds.begin();
-    while (iter != _cameraThresholds.end() && nullptr == newCameraThreshold)
-    {
-        if (playerOnTarget.x > (*iter)->getPosition().x && playerOnTarget.y > (*iter)->getPosition().y)
+        Point playerOnWorld = _player->getParent()->convertToWorldSpace(_player->getPosition());
+        Point playerOnTarget = _gameCamera->getTarget()->convertToNodeSpace(playerOnWorld);
+        
+        LHNode * newCameraThreshold = nullptr;
+        auto iter = _cameraThresholds.begin();
+        while (iter != _cameraThresholds.end() && nullptr == newCameraThreshold)
         {
-            newCameraThreshold = (*iter);
-        }
-        iter++;
-    }
-    
-    if (_currentCameraThreshold != newCameraThreshold)
-    {
-        if (_currentCameraThreshold && newCameraThreshold)
-        {
-            CameraThreshold * infoOld = dynamic_cast<CameraThreshold *>(_currentCameraThreshold->getUserProperty());
-            CameraThreshold * infoNew = dynamic_cast<CameraThreshold *>(newCameraThreshold->getUserProperty());
-            if (infoOld && infoNew && _gameCamera)
+            if (playerOnTarget.x > (*iter)->getPosition().x && playerOnTarget.y > (*iter)->getPosition().y)
             {
-                if (infoOld->getZoomLowerDeltaY() != infoNew->getZoomLowerDeltaY() ||
-                    infoOld->getZoomUpperDeltaY() != infoNew->getZoomUpperDeltaY() ||
-                    infoOld->getFollowOffsetLowerDeltaY() != infoNew->getFollowOffsetLowerDeltaY() ||
-                    infoOld->getFollowOffsetUpperDeltaY() != infoNew->getFollowOffsetUpperDeltaY())
+                newCameraThreshold = (*iter);
+            }
+            iter++;
+        }
+        
+        if (_currentCameraThreshold != newCameraThreshold)
+        {
+            if (_currentCameraThreshold && newCameraThreshold)
+            {
+                CameraThreshold * infoOld = dynamic_cast<CameraThreshold *>(_currentCameraThreshold->getUserProperty());
+                CameraThreshold * infoNew = dynamic_cast<CameraThreshold *>(newCameraThreshold->getUserProperty());
+                if (infoOld && infoNew && _gameCamera)
                 {
-                    hasThresholdParamsChanged = true;
+                    if (infoOld->getZoomLowerDeltaY() != infoNew->getZoomLowerDeltaY() ||
+                        infoOld->getZoomUpperDeltaY() != infoNew->getZoomUpperDeltaY() ||
+                        infoOld->getFollowOffsetLowerDeltaY() != infoNew->getFollowOffsetLowerDeltaY() ||
+                        infoOld->getFollowOffsetUpperDeltaY() != infoNew->getFollowOffsetUpperDeltaY())
+                    {
+                        hasThresholdParamsChanged = true;
+                    }
                 }
             }
+            else
+            {
+                hasThresholdParamsChanged = true;
+            }
+            
+            _currentCameraThreshold = newCameraThreshold;
+            
+            if (DEBUG_CAMERA_MODE_ON)
+            {
+                CCLOG("Cambio di THRESHOLD");
+            }
         }
-        else
-        {
-            hasThresholdParamsChanged = true;
-        }
-        
-        _currentCameraThreshold = newCameraThreshold;
-        
-        if (DEBUG_CAMERA_MODE_ON)
-        {
-            CCLOG("Cambio di THRESHOLD");
-        }
-    }
     return hasThresholdParamsChanged;
 }
 

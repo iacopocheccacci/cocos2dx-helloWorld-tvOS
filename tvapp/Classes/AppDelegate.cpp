@@ -118,11 +118,14 @@ bool AppDelegate::applicationDidFinishLaunching()
     EditorTableView *layer = EditorTableView::create();
     scene->addChild(layer);
 #else
-//    auto scene = FakeLoading::scene();
     
-    GameContext context(appParams::PUBLISHED_MAIN_MENU_LEVEL_NAME, "");
-    
+#if CC_TARGET_PLATFORM == CC_PLATFORM_TVOS
+    GameContext context("Splash.lhplist", "");
     auto scene = GameLogic::create(context);
+#else
+    auto scene = FakeLoading::scene();
+#endif
+    
 #endif
     
     director->setDisplayStats(false);

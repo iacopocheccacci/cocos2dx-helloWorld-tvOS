@@ -235,6 +235,10 @@ eLevelType Utility::getLevelType(std::string levelFullName)
     {
         return eLevelType::LEVEL_SELECTION;
     }
+    else if (levelFullName.compare("Splash.lhplist") == 0)
+    {
+        return eLevelType::LOADING;
+    }
     else
     {
         return eLevelType::NORMAL;

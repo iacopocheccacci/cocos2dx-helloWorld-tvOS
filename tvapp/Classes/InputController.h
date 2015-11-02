@@ -67,6 +67,7 @@ private:
     bool _stopNotePressed;
     bool _zoomPressed;
     bool _pausePressed;
+    static int _numberOfCall;
 };
 
 #endif // __SOP_INPUTCONTROLLER__

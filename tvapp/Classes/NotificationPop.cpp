@@ -58,7 +58,10 @@ bool NotificationPopUp::init()
         this->initPanel();
         this->initTitle();
         this->initContent();
+        
+#if (CC_TARGET_PLATFORM!=CC_PLATFORM_TVOS)
         this->initDismissButton();
+#endif
         
         if (NotificationPopUpDefs::AUTO_DISMISS_ACTIVE)
         {

@@ -13,6 +13,11 @@
 #include "SettingsManager.h"
 #include "VisibleRect.h"
 #include "Definitions.h"
+#include "MyMenu.hpp"
+
+#if (CC_TARGET_PLATFORM==CC_PLATFORM_TVOS)
+    #define APPLETV
+#endif
 
 namespace SettingsPopUpDefs
 {
@@ -149,7 +154,12 @@ void SettingsPopUp::initAudioMusicOnOff(eInputType inputType)
                                                                 nullptr);
     
     // Menu Audio On/Off
+#ifdef APPLETV
+    MyMenu * menu = MyMenu::create(_audioMusicOnOffToggle, NULL);
+#else
     Menu * menu = Menu::create(_audioMusicOnOffToggle, NULL);
+#endif
+    
     menu->setPosition(Point(offsetX, offsetY));
     menu->setAnchorPoint(Vec2::ANCHOR_MIDDLE_LEFT);
     _panelSprite->addChild(menu);
@@ -217,7 +227,12 @@ void SettingsPopUp::initCloseButton()
                                             CC_CALLBACK_1(SettingsPopUp::handleClose, this));
     
     // Menu Pulsante Close
+#ifdef APPLETV
+    MyMenu * menu = MyMenu::create(_itemImageClose, NULL);
+#else
     Menu * menu = Menu::create(_itemImageClose, NULL);
+#endif
+
     Point position = Point(_panelSprite->getContentSize().width - 20.0f, _panelSprite->getContentSize().height - 20.0f);
     menu->setPosition(position);
     _panelSprite->addChild(menu);

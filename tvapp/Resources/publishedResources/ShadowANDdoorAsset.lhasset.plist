@@ -143,7 +143,7 @@
 			<key>nodeType</key>
 			<string>LHTexturedShape</string>
 			<key>parentUUID</key>
-			<string>0135E4AA-8386-4D0A-A80C-11D2A7199F01</string>
+			<string>84E03FAC-4070-499A-940D-EFC76FC30D4B</string>
 			<key>points</key>
 			<array>
 				<dict>
@@ -396,7 +396,7 @@
 	<key>nodeType</key>
 	<string>LHAsset</string>
 	<key>parentUUID</key>
-	<string>2B7DC3ED-E1CD-4DCF-9992-55A8438ADB2E</string>
+	<string>6C01886B-898C-49E1-9B7C-48FF077DBD79</string>
 	<key>rotation</key>
 	<real>0.0</real>
 	<key>scale</key>
@@ -408,7 +408,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>0135E4AA-8386-4D0A-A80C-11D2A7199F01</string>
+	<string>84E03FAC-4070-499A-940D-EFC76FC30D4B</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>

@@ -25,9 +25,13 @@
 
 #import <UIKit/UIKit.h>
 
-
+#if TARGET_OS_TV
+#import <GameController/GameController.h>
+@interface RootViewController : GCEventViewController {
+#else
 @interface RootViewController : UIViewController {
-
+#endif
+    
 }
 - (BOOL) prefersStatusBarHidden;
 

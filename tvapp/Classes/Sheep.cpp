@@ -13,8 +13,8 @@
 #include "SoundComponent.h"
 #include "AnimationComponent.h"
 
-#if (CC_TARGET_PLATFORM != CC_PLATFORM_TVOS)
-    #define MOBILE
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_TVOS)
+    #define APPLETV
 #endif
 
 using namespace gameObjectsParams;
@@ -550,7 +550,7 @@ void Sheep::loadSheepData()
     value = Utility::loadDataFromFile(SHEEP_GROUP,SHEEP_VER_IMP_NAME, SHEEP_VER_IMP_VAL);
     _verticalImpulse = atof(value->getCString());
     
-#ifndef MOBILE
+#ifdef APPLETV
     _verticalImpulse += .5f;
 #endif
     

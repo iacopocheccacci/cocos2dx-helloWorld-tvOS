@@ -48,8 +48,15 @@ bool PausePopUp::init(eLevelType levelType)
             this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_HOME);
         }
         this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_IAP);
-        this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_OPTIONS);
+//        this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_OPTIONS);
         this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_RESUME);
+        
+#if (CC_TARGET_PLATFORM==CC_PLATFORM_TVOS)
+        if (eLevelType::MAIN_MENU == levelType || eLevelType::LEVEL_SELECTION == levelType)
+        {
+            this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_RESET);
+        }
+#endif
         
         initDone = true;
     }

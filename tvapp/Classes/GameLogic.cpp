@@ -43,6 +43,7 @@
 #include "AnalyticsManager.h"
 #include "SoundManager.h"
 #include "FaithJumpBrick.h"
+#include "FakeSplash.hpp"
 
 #ifdef EDITOR_MODE
 #include "EditorTableView.h"
@@ -323,6 +324,10 @@ LevelHelperNodeTypeSubclass GameLogic::createNodeObjectForSubclassWithName(const
     {
         return (LevelHelperNodeTypeSubclass)&FaithJumpBrick::nodeWithDictionary;
     }
+    else if (subclassTypeName == "FakeSplash")
+    {
+        return (LevelHelperNodeTypeSubclass)&FakeSplash::nodeWithDictionary;
+    }
     
     return nullptr;
 }
@@ -442,8 +447,14 @@ void GameLogic::onKeyUp(cocos2d::Controller *controller, int keyCode, cocos2d::E
     gamePadEvent(controller, keyCode, false);
 }
 
-void GameLogic::onKeyRepeat(cocos2d::Controller *controller, int keyCode, cocos2d::Event *event){
-//    gamePadEvent(controller, keyCode, true);
+void GameLogic::onKeyRepeat(cocos2d::Controller *controller, int keyCode, cocos2d::Event *event)
+{
+    if (_inputEnabled)
+    {
+        _cameraManager->zoomResume();
+    }
+    
+    gamePadEvent(controller, keyCode, true);
 }
 
 //The axis includes X-axis and Y-axis and its range is from -1 to 1. X-axis is start from left to right and Y-axis is bottom to top.
@@ -3242,7 +3253,7 @@ void GameLogic::update(float dt)
     
     auto player = this->getPlayerInstance();
     
-    if (player->getIsPlaying() && (_inputController.isStopNotePressed() || player->isUnderEoloEffect()))
+    if (player && player->getIsPlaying() && (_inputController.isStopNotePressed() || player->isUnderEoloEffect()))
     {
         this->timerEnded();
         _inputController.resetStopNotePressed();

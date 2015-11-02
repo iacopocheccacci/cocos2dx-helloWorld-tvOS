@@ -26,7 +26,7 @@ bool LosePopUp::init()
         this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_RESTART);
         this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_HOME);
         this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_IAP);
-        this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_OPTIONS);
+//        this->addPredefinedItemToMenu(ePopUpItem::BUTTON_ITEM_OPTIONS);
         
         initDone = true;
     }

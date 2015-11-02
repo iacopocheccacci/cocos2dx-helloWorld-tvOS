@@ -12,10 +12,17 @@
 #include "Utility.h"
 #include "AudioOptions.h"
 #include "InputSelection.h"
+#include "ScoreManager.h"
+#include "SettingsManager.h"
+#include "MyMenu.hpp"
 
 namespace navigationPopUpDefs
 {
+#if CC_TARGET_PLATFORM==CC_PLATFORM_TVOS
+    static const float DEFAULT_ALIGN_PADDING = 0.5f;
+#else
     static const float DEFAULT_ALIGN_PADDING = 8.0f;
+#endif
     
     static const float DEFAULT_PRESENTATION_TIME = 0.5f;
     static const char* DEFAULT_BTN_NORMAL_SPRITE_NAME = "UI/popupBtn.png";
@@ -141,7 +148,12 @@ void NavigationPopUp::initDefaultMenu()
 
 Node * NavigationPopUp::setupMenuPanel(Size panelSize)
 {
+#ifdef APPLETV
+    _menu = MyMenu::create();
+#else
     _menu = Menu::create();
+#endif
+    
     _menu->setPosition(Point(panelSize / 2.0f));
     return _menu;
 }
@@ -154,10 +166,12 @@ Node * NavigationPopUp::setupOptionsPanel(Size panelSize)
     Node * audioNode = AudioOptions::create();
     audioNode->setPosition(0.0f, panelSize.height * 1.0f / 4.0f);
     rootNode->addChild(audioNode);
-    
+
+#ifndef APPLETV
     Node * inputNode = InputSelection::create();
     inputNode->setPosition(0.0f, - panelSize.height * 1.0f / 4.0f);
     rootNode->addChild(inputNode);
+#endif
     
     return rootNode;
 }
@@ -180,7 +194,10 @@ void NavigationPopUp::addPredefinedItemToMenu(ePopUpItem predefinedItem)
             item = this->setupOptionsButton();
             break;
         case ePopUpItem::BUTTON_ITEM_RESUME:
-            this->setupResumeButton();
+            item = this->setupResumeButton();
+            break;
+        case ePopUpItem::BUTTON_ITEM_RESET:
+            item = this->setupResetButton();
             break;
         default:
             break;
@@ -327,8 +344,11 @@ MenuItem* NavigationPopUp::setupOptionsButton()
     return item;
 }
 
-void NavigationPopUp::setupResumeButton()
+MenuItem* NavigationPopUp::setupResumeButton()
 {
+    MenuItem* item = nullptr;
+    
+#ifndef APPLETV
     // Pulsante Close
     auto resumeItem = MenuItemImage::create(navigationPopUpDefs::DEFAULT_BTN_CLOSE_NORMAL_SPRITE_NAME,
                                             navigationPopUpDefs::DEFAULT_BTN_CLOSE_PRESSED_SPRITE_NAME,
@@ -339,6 +359,47 @@ void NavigationPopUp::setupResumeButton()
     Point position = Point(_middleGround->getContentSize().width - 96.0f, _middleGround->getContentSize().height - 43.0f);
     _resumeButton->setPosition(position);
     _middleGround->addChild(_resumeButton);
+#else
+    Label* label = nullptr;
+    std::string text = "RESUME";
+    
+    Sprite* normalSprite = Sprite::create(navigationPopUpDefs::DEFAULT_BTN_NORMAL_SPRITE_NAME);
+    label = Label::createWithBMFont(appParams::CHAPTERS_FONT_PATH, text);
+    label->setPosition(Point(normalSprite->getContentSize() / 2.0f) + Point(0.0f, 3.0f));
+    label->setScale(0.5f);
+    normalSprite->addChild(label);
+    
+    Sprite* pressedSprite = Sprite::create(navigationPopUpDefs::DEFAULT_BTN_PRESSED_SPRITE_NAME);
+    label = Label::createWithBMFont(appParams::CHAPTERS_FONT_PATH, text);
+    label->setPosition(Point(pressedSprite->getContentSize() / 2.0f) + Point(0.0f, 3.0f));
+    label->setScale(0.5f);
+    pressedSprite->addChild(label);
+    
+    item = MenuItemSprite::create(normalSprite, pressedSprite, CC_CALLBACK_1(NavigationPopUp::resumePressed, this));
+#endif
+    
+    return item;
+}
+
+MenuItem* NavigationPopUp::setupResetButton()
+{
+    Label* label = nullptr;
+    std::string text = "RESET";
+    
+    Sprite* normalSprite = Sprite::create(navigationPopUpDefs::DEFAULT_BTN_NORMAL_SPRITE_NAME);
+    label = Label::createWithBMFont(appParams::CHAPTERS_FONT_PATH, text);
+    label->setPosition(Point(normalSprite->getContentSize() / 2.0f) + Point(0.0f, 3.0f));
+    label->setScale(0.5f);
+    normalSprite->addChild(label);
+    
+    Sprite* pressedSprite = Sprite::create(navigationPopUpDefs::DEFAULT_BTN_PRESSED_SPRITE_NAME);
+    label = Label::createWithBMFont(appParams::CHAPTERS_FONT_PATH, text);
+    label->setPosition(Point(pressedSprite->getContentSize() / 2.0f) + Point(0.0f, 3.0f));
+    label->setScale(0.5f);
+    pressedSprite->addChild(label);
+    
+    auto item = MenuItemSprite::create(normalSprite, pressedSprite, CC_CALLBACK_1(NavigationPopUp::resetPressed, this));
+    return item;
 }
 
 void NavigationPopUp::setupBackButton()
@@ -434,6 +495,14 @@ void NavigationPopUp::resumePressed(Ref* sender)
     node->setName(callbackDefs::RESUME);
     
     this->showOut(node);
+}
+
+void NavigationPopUp::resetPressed(Ref* sender)
+{
+    ScoreManager::getInstance()->resetScoreForAllWorlds();
+    SettingsManager::getInstance()->saveMoveTutorialDone(false);
+    ScoreManager::getInstance()->resetBestCompletedLevel();
+    ScoreManager::getInstance()->resetTakenFlutes();
 }
 
 #pragma mark - Page View Stuff

@@ -81,7 +81,7 @@ bool HUD::init(eLevelType levelType, Node * player)
         if (eLevelType::MAIN_MENU == levelType)
         {
 #if COCOS2D_DEBUG == 1
-            this->initResetGlobal();
+//            this->initResetGlobal();
 //            this->initResetButton();
 //            this->initResetTutorialMoveButton();
 //            this->initResetLevelsButton();

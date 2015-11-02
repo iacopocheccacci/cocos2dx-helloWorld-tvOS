@@ -24,7 +24,7 @@
 			<key>nodeType</key>
 			<string>LHWeldJoint</string>
 			<key>parentUUID</key>
-			<string>E571093E-B6B3-42E0-9B29-E0A9B5CFC144</string>
+			<string>DF82CAA1-E918-4CBA-B4B6-68CC05E55097</string>
 			<key>relativePosA</key>
 			<string>{-0.000205, 4.000016}</string>
 			<key>spriteAUUID</key>
@@ -264,7 +264,7 @@
 			<key>nodeType</key>
 			<string>LHTexturedShape</string>
 			<key>parentUUID</key>
-			<string>E571093E-B6B3-42E0-9B29-E0A9B5CFC144</string>
+			<string>DF82CAA1-E918-4CBA-B4B6-68CC05E55097</string>
 			<key>points</key>
 			<array>
 				<dict>
@@ -384,7 +384,7 @@
 			<key>nodeType</key>
 			<string>LHWeldJoint</string>
 			<key>parentUUID</key>
-			<string>E571093E-B6B3-42E0-9B29-E0A9B5CFC144</string>
+			<string>DF82CAA1-E918-4CBA-B4B6-68CC05E55097</string>
 			<key>relativePosA</key>
 			<string>{0.000320, -32.000000}</string>
 			<key>spriteAUUID</key>
@@ -478,7 +478,7 @@
 			<key>nodeType</key>
 			<string>LHSprite</string>
 			<key>parentUUID</key>
-			<string>E571093E-B6B3-42E0-9B29-E0A9B5CFC144</string>
+			<string>DF82CAA1-E918-4CBA-B4B6-68CC05E55097</string>
 			<key>relativeImagePath</key>
 			<string>publishedResources/</string>
 			<key>rotation</key>
@@ -514,7 +514,7 @@
 	<key>nodeType</key>
 	<string>LHAsset</string>
 	<key>parentUUID</key>
-	<string>2B7DC3ED-E1CD-4DCF-9992-55A8438ADB2E</string>
+	<string>6C01886B-898C-49E1-9B7C-48FF077DBD79</string>
 	<key>rotation</key>
 	<real>0.0</real>
 	<key>scale</key>
@@ -526,7 +526,7 @@
 		<string>DEFAULT</string>
 	</array>
 	<key>uuid</key>
-	<string>E571093E-B6B3-42E0-9B29-E0A9B5CFC144</string>
+	<string>DF82CAA1-E918-4CBA-B4B6-68CC05E55097</string>
 	<key>zOrder</key>
 	<integer>0</integer>
 </dict>

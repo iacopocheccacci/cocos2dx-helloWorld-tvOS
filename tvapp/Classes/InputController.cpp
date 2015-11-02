@@ -9,6 +9,8 @@
 #include "VisibleRect.h"
 #include "Tutorial.h"
 
+int InputController::_numberOfCall;
+
 InputController::InputController()
 {
     _controllerTutorial = nullptr;
@@ -18,6 +20,7 @@ InputController::InputController()
     _stopNotePressed = false;
     _zoomPressed = false;
     _pausePressed = false;
+    _numberOfCall = 0;
 }
 
 void InputController::setTouchInput(Vec2 location, Event* event, bool isTouchBegan, bool isVerticalJump)
@@ -80,7 +83,6 @@ void InputController::setGamePadInput(cocos2d::Controller *controller, int keyCo
             break;
         case cocos2d::Controller::Key::BUTTON_X:
             _stopNotePressed = isPressed;
-            _pausePressed = isPressed;
             break;
         case cocos2d::Controller::Key::BUTTON_Y:
             CCLOG("Button Y Pressed");
@@ -108,6 +110,16 @@ void InputController::setGamePadInput(cocos2d::Controller *controller, int keyCo
             break;
         case cocos2d::Controller::Key::BUTTON_RIGHT_THUMBSTICK:
             CCLOG("Button Right Shoulder Pressed");
+            break;
+        case cocos2d::Controller::Key::BUTTON_PAUSE:
+        {
+            _numberOfCall++;
+            if (_numberOfCall % 2 == 0)
+            {
+                _pausePressed = !_pausePressed;
+                _numberOfCall = 0;
+            }
+        }
             break;
         default:
         {
