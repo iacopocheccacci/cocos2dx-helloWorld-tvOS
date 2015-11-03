@@ -33,6 +33,13 @@
 #include "CCEventListenerController.h"
 #include "CCDirector.h"
 #include "CCLabel.h"
+#include "../../../proj.ios_mac/ios/RootViewController.h"
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_TVOS)
+#include "CCEAGLView-tvos.h"
+#else
+#include "CCEAGLView-ios.h"
+#endif
 
 #import <GameController/GameController.h>
 
@@ -344,6 +351,14 @@ bool Controller::isConnected() const
 
 void Controller::receiveExternalKeyEvent(int externalKeyCode,bool receive)
 {
+}
+
+void Controller::setControllerUserInteractionEnabled(bool value)
+{
+    auto view = cocos2d::Director::getInstance()->getOpenGLView();
+    auto eaglview = (CCEAGLView *) view->getEAGLView();
+    
+    [[[eaglview window] rootViewController]];
 }
 
 NS_CC_END
