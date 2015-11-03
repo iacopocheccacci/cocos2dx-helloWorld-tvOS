@@ -179,6 +179,8 @@ public:
      * @return An integer that identifies the controller.
      */
     int getTag() const { return _controllerTag;}
+    
+    static void setControllerUserInteractionEnabled(bool value);
 
 private:
     static std::vector<Controller*> s_allController;

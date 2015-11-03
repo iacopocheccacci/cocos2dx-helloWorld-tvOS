@@ -421,6 +421,19 @@ void GameLogic::setupGamePadInput()
     
     //This function should be called for iOS platform
     Controller::startDiscoveryController();
+    
+    
+#if (CC_TARGET_PLATFORM==CC_PLATFORM_TVOS)
+    eLevelType levelType = Utility::getLevelType(_context.getLevelName());
+    if (levelType == eLevelType::MAIN_MENU)
+    {
+        Controller::setControllerUserInteractionEnabled(true);
+    }
+    else
+    {
+        Controller::setControllerUserInteractionEnabled(false);
+    }
+#endif
 }
 
 void GameLogic::onConnectController(cocos2d::Controller* controller, Event* event)
@@ -1947,7 +1960,15 @@ void GameLogic::backToMenu()
 
 void GameLogic::pauseLevel()
 {
+#if(CC_TARGET_PLATFORM==CC_PLATFORM_TVOS)
+    eLevelType levelType = Utility::getLevelType(_context.getLevelName());
+    if (levelType == eLevelType::LEVEL_SELECTION || levelType == eLevelType::NORMAL)
+    {
+        this->pauseLevelWithPopUp(ePopUps::PAUSE_POP_UP);
+    }
+#else
     this->pauseLevelWithPopUp(ePopUps::PAUSE_POP_UP);
+#endif
 }
 
 void GameLogic::pauseLevelWithPopUp(ePopUps popUpType)

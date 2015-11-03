@@ -358,7 +358,7 @@ void Controller::setControllerUserInteractionEnabled(bool value)
     auto view = cocos2d::Director::getInstance()->getOpenGLView();
     auto eaglview = (CCEAGLView *) view->getEAGLView();
     
-    [[[eaglview window] rootViewController]];
+    [(RootViewController *)[[eaglview window] rootViewController] setControllerUserInteractionEnabled : value];
 }
 
 NS_CC_END
